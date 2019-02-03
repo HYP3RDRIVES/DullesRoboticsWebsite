@@ -9,13 +9,16 @@
     //Display Flyer
     position("relative");
     return img({
-      src: "imgs/RoboticsFlyer.png",
-      width: 2 * (window.innerWidth - 30) / 3,
+      src: "imgs/sitebg.png",
+      width: window.innerWidth,
       height: window.innerHeight
     }, function() {
+      background_size("cover");
       display("block");
-      margin_left("auto");
-      return margin_right("auto");
+      top("0");
+      overflow("hidden");
+      margin_left("0");
+      return margin_right("0");
     });
   };
 
