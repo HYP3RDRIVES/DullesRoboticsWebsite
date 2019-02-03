@@ -7,18 +7,16 @@
 
   ui.home = function() {
     //Display Flyer
-    position("relative");
     return img({
-      src: "imgs/sitebg.png",
-      width: window.innerWidth,
-      height: window.innerHeight
+      src: "imgs/RoboticsFlyer.png",
+      width: (window.innerWidth - 30) / 3,
+      height: 2 * window.innerHeight / 3
     }, function() {
-      background_size("cover");
+      position("relative");
+      top("50px");
       display("block");
-      top("0");
-      overflow("hidden");
-      margin_left("0");
-      return margin_right("0");
+      margin_left("auto");
+      return margin_right("auto");
     });
   };
 

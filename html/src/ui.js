@@ -211,8 +211,24 @@
   
   //Main UI Function
   ui.main = function() {
+    //Background image
+    img({
+      src: "imgs/sitebg.png",
+      width: window.innerWidth,
+      height: window.innerHeight
+    }, function() {
+      position("absolute");
+      background_size("100% 100%");
+      display("block");
+      top("0");
+      return overflow("hidden");
+    });
+    //margin_left "0"
+    //margin_right "0"
     //Main Div
     div(function() {
+      position("relative");
+      width(window.innerWidth);
       height(window.innerHeight);
       overflow_y("auto");
       ui.nav();

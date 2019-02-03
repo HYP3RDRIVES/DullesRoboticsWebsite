@@ -169,8 +169,19 @@ ui.nav = ->
 
 #Main UI Function
 ui.main = ->
+    #Background image
+    img src: "imgs/sitebg.png", width: window.innerWidth, height: window.innerHeight, ->
+        position "absolute"
+        background_size "100% 100%"
+        display "block"
+        top "0"
+        overflow "hidden"
+        #margin_left "0"
+        #margin_right "0"
     #Main Div
     div ->
+        position "relative"
+        width window.innerWidth
         height window.innerHeight
         overflow_y "auto"
         ui.nav()

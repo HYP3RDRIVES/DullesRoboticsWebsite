@@ -83,7 +83,6 @@ ui.makePost = (blogPost) ->
     div ".blogPost", ->
         position "relative"
         top "100px"
-        height "750px"
         width "500px"
         margin "auto"
         overflow_y "scroll"
