@@ -93,8 +93,6 @@
     return splicedText;
   };
 
-  
-  //Makes a nav bar button
   ui.navButton = function(menu, name, x, y) {
     return div(".navButton", function() {
       left(x);
@@ -134,26 +132,91 @@
         return font_size("24px");
       });
       //HOME BUTTON
-      ui.navButton(false, "HOME", window.innerWidth - 445, 40);
+      ui.navButton(false, "HOME", window.innerWidth - 25, 25);
       //ABOUT Button
-      ui.navButton(false, "ABOUT", window.innerWidth - 325, 40);
+      div(".navButton", function() {
+        left((0.50695 * window.innerWidth - 84.4479 + 25) / 3);
+        if (ui.state === "ABOUT") {
+          box_shadow("0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)");
+          text_shadow("0 0 10px #FF0000;");
+        }
+        onclick(function() {
+          onecup.goto("ABOUT.html");
+          return ui.state = "ABOUT";
+        });
+        return text("ABOUT");
+      });
       //BLOG BUTTON
-      ui.navButton(false, "BLOG", window.innerWidth - 205, 40);
+      div(".navButton", function() {
+        left(2 * (0.50695 * window.innerWidth - 84.4479 + 25) / 3);
+        if (ui.state === "BLOG") {
+          box_shadow("0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)");
+          text_shadow("0 0 10px #FF0000;");
+        }
+        onclick(function() {
+          onecup.goto("BLOG.html");
+          return ui.state = "BLOG";
+        });
+        return text("BLOG");
+      });
       //MEDIA BUTTON
-      ui.navButton(false, "MEDIA", window.innerWidth - 510, 78);
+      div(".navButton", function() {
+        left(0.50695 * window.innerWidth - 84.4479);
+        if (ui.state === "MEDIA") {
+          box_shadow("0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)");
+          text_shadow("0 0 10px #FF0000;");
+        }
+        onclick(function() {
+          onecup.goto("MEDIA.html");
+          return ui.state = "MEDIA";
+        });
+        return text("MEDIA");
+      });
       //DOCUMENTS BUTTON
-      ui.navButton(false, "DOCUMENTS", window.innerWidth - 390, 78);
+      div(".navButton", function() {
+        left((window.innerWidth - 170 - (0.50695 * window.innerWidth - 84.4479)) / 3 + 0.50695 * window.innerWidth - 84.4479);
+        if (ui.state === "DOCUMENTS") {
+          box_shadow("0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)");
+          text_shadow("0 0 10px #FF0000;");
+        }
+        onclick(function() {
+          onecup.goto("DOCUMENTS.html");
+          return ui.state = "DOCUEMENTS";
+        });
+        return text("DOCUMENTS");
+      });
       //CONTACT BUTTON
-      ui.navButton(false, "CONTACT", window.innerWidth - 270, 78);
+      div(".navButton", function() {
+        left(2 * (window.innerWidth - 170 - (0.50695 * window.innerWidth - 84.4479)) / 3 + 0.50695 * window.innerWidth - 84.4479);
+        if (ui.state === "CONTACT") {
+          box_shadow("0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)");
+          text_shadow("0 0 10px #FF0000;");
+        }
+        onclick(function() {
+          onecup.goto("CONTACT.html");
+          return ui.state = "CONTACT";
+        });
+        return text("CONTACT");
+      });
       //MORE Button
-      return ui.navButton(true, "MORE", window.innerWidth - 150, 78);
+      return div(".navButton", function() {
+        left(window.innerWidth - 170);
+        if (ui.state === "MORE") {
+          box_shadow("0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)");
+          text_shadow("0 0 10px #FF0000;");
+        }
+        onclick(function() {
+          onecup.goto("MORE.html");
+          return ui.state = "MORE";
+        });
+        return text("MORE");
+      });
     });
   };
 
   
   //Main UI Function
-  //Use window.body so we don't see page flickering - Onecup.refresh flickers
-  window.body = function() {
+  ui.main = function() {
     //Background image
     img({
       src: "imgs/sitebg.png",
@@ -169,7 +232,7 @@
     //margin_left "0"
     //margin_right "0"
     //Main Div
-    return div(function() {
+    div(function() {
       position("relative");
       width(window.innerWidth);
       height(window.innerHeight);
@@ -187,6 +250,7 @@
           break;
       }
     });
+    return onecup.refresh();
   };
 
 }).call(this);

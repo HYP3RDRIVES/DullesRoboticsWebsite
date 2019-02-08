@@ -1,4 +1,4 @@
 ﻿# CoffeeScript - Run
 
 #Run important stuff
-setInterval(ui.main,100)
+#setInterval(ui.main,100)

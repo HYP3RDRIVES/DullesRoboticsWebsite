@@ -8,24 +8,25 @@
   //CSS - See onecup for more
   css(".navBar", function() {
     border_radius("10px");
-    border("4px solid #FF0000");
+    //border "4px solid #FF0000"
+    border_bottom("4px solid #ffffff");
     padding("10px");
-    box_shadow("0 0 0 8px #f9f9eb, 0 0 0 12px hsl(0, 100%, 50%)");
+    //box_shadow "0 0 0 8px #f9f9eb, 0 0 0 12px hsl(0, 100%, 50%)"
     font_family("Impress BT");
-    background_color("#f5f5dc");
+    //background_color "#f5f5dc"
     return color("#FF0000");
   });
 
   css(".navButton", function() {
-    border_radius("25px");
-    border("2px solid #FF0000");
-    padding("10px");
-    box_shadow("0 0 0 4px #ffcccc, 0 0 0 6px hsl(0, 100%, 50%)");
+    //border_radius "25px"
+    //border "2px solid #FF0000"
+    //padding "10px"
+    //box_shadow "0 0 0 4px #ffcccc, 0 0 0 6px hsl(0, 100%, 50%)"
     font_family("Impress BT");
-    background_color("#ffb3b3");
+    //background_color "#ffb3b3"
     top("50px");
     width("110px");
-    height("45px");
+    height("25px");
     color("#FF0000");
     position("absolute");
     display("inline-block");
@@ -34,17 +35,17 @@
   });
 
   css(".navButton:hover", function() {
-    border_radius("25px");
-    border("2px solid #FF0000");
-    padding("10px");
+    //border_radius "25px"
+    //border "2px solid #FF0000"
+    //padding "10px"
     box_shadow("0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)");
-    font_family("Impress BT");
-    background_color("#ffb3b3");
-    top("50px");
-    width("110px");
-    height("45px");
-    color("#FF0000");
-    text_align("center");
+    //font_family "Impress BT"
+    //background_color "#ffb3b3"
+    //top "50px"
+    //width "110px"
+    //height "45px"
+    //color "#FF0000"
+    //text_align "center"
     return text_shadow("0 0 10px #FF0000;");
   });
 
@@ -57,7 +58,7 @@
     background_color("#ffb3b3");
     width("110px");
     height("45px");
-    color("#FF0000");
+    //color "#FF0000"
     position("absolute");
     display("inline-block");
     margin("auto");
@@ -73,7 +74,7 @@
     background_color("#ffb3b3");
     width("110px");
     height("45px");
-    color("#FF0000");
+    //color "#FF0000"
     text_align("center");
     return text_shadow("0 0 10px #FF0000;");
   });

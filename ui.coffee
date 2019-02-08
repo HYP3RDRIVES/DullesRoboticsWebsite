@@ -75,7 +75,6 @@ ui.spliceText = (text) ->
     #console.log(splicedText)
     return splicedText
     
-#Makes a nav bar button
 ui.navButton = (menu, name, x, y) ->
    return div ".navButton", ->
         left x
@@ -107,32 +106,74 @@ ui.nav = ->
             text_align "center"
             text "DULLES ROBOTICS"
             font_size "24px"
-
         #HOME BUTTON
-        ui.navButton(false,"HOME",window.innerWidth-445, 40)
+        ui.navButton(false,"HOME",window.innerWidth-25,25)
 
         #ABOUT Button
-        ui.navButton(false,"ABOUT",window.innerWidth-325, 40)
-
+        div ".navButton" , ->
+            left (0.50695*window.innerWidth-84.4479+25)/3
+            if ui.state == "ABOUT"
+                box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
+                text_shadow "0 0 10px #FF0000;"
+            onclick ->
+                onecup.goto("ABOUT.html")
+                ui.state = "ABOUT"
+            text "ABOUT"
         #BLOG BUTTON
-        ui.navButton(false,"BLOG",window.innerWidth-205, 40)
+        div ".navButton" , ->
+            left 2*(0.50695*window.innerWidth-84.4479+25)/3
+            if ui.state == "BLOG"
+                box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
+                text_shadow "0 0 10px #FF0000;"
+            onclick ->
+                onecup.goto("BLOG.html")
+                ui.state = "BLOG"
+            text "BLOG"
 
         #MEDIA BUTTON
-        ui.navButton(false,"MEDIA",window.innerWidth-510, 78)
-
+        div ".navButton" , ->
+            left 0.50695*window.innerWidth-84.4479
+            if ui.state == "MEDIA"
+                box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
+                text_shadow "0 0 10px #FF0000;"
+            onclick ->
+                onecup.goto("MEDIA.html")
+                ui.state = "MEDIA"
+            text "MEDIA"
         #DOCUMENTS BUTTON
-        ui.navButton(false,"DOCUMENTS",window.innerWidth-390, 78)
-
+        div ".navButton" , ->
+            left (window.innerWidth-170-(0.50695*window.innerWidth-84.4479))/3+0.50695*window.innerWidth-84.4479
+            if ui.state == "DOCUMENTS"
+                box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
+                text_shadow "0 0 10px #FF0000;"
+            onclick ->
+                onecup.goto("DOCUMENTS.html")
+                ui.state = "DOCUEMENTS"
+            text "DOCUMENTS"
         #CONTACT BUTTON
-        ui.navButton(false,"CONTACT",window.innerWidth-270, 78)
-
+        div ".navButton" , ->
+            left 2*(window.innerWidth-170-(0.50695*window.innerWidth-84.4479))/3+0.50695*window.innerWidth-84.4479
+            if ui.state == "CONTACT"
+                box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
+                text_shadow "0 0 10px #FF0000;"
+            onclick ->
+                onecup.goto("CONTACT.html")
+                ui.state = "CONTACT"
+            text "CONTACT"
         #MORE Button
-        ui.navButton(true,"MORE",window.innerWidth-150, 78)
+        div ".navButton" , ->
+            left window.innerWidth-170
+            if ui.state == "MORE"
+                box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
+                text_shadow "0 0 10px #FF0000;"
+            onclick ->
+                onecup.goto("MORE.html")
+                ui.state = "MORE"
+            text "MORE"
             
 
 #Main UI Function
-#Use window.body so we don't see page flickering - Onecup.refresh flickers
-window.body = ->
+ui.main = ->
     #Background image
     img src: "imgs/sitebg.png", width: window.innerWidth, height: window.innerHeight, ->
         position "absolute"
@@ -159,3 +200,4 @@ window.body = ->
             when "BLOG"
                 ui.blogging()
                 break
+    onecup.refresh()

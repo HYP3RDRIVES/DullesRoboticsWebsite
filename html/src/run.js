@@ -2,7 +2,8 @@
 (function() {
   // CoffeeScript - Run
 
-  //Run important stuff
-  setInterval(ui.main, 100);
+//Run important stuff
+//setInterval(ui.main,100)
+
 
 }).call(this);
