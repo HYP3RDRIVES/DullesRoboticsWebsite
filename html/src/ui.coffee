@@ -1,6 +1,7 @@
 ﻿# CoffeeScript - UI
 
 #File for universal UI
+
 window.ui = {}
 ui.state = "HOME"
 
@@ -11,17 +12,17 @@ eval(onecup.import())
 class window.SpecialText
     @type = "Raw"
     @text = "Text"
-    
+
     #Constructor for controlled text
     constructor: (type, text) ->
         @type = type
         @text = text
-    
-#Convert raw text into special text  
-#Special Characters: 
-#<!Break>[Text]<!>  --> Creates new line  
+
+#Convert raw text into special text
+#Special Characters:
+#<!Break>[Text]<!>  --> Creates new line
 ui.spliceText = (text) ->
-    
+
     textArray = []
     tempArray = []
     stack = []
@@ -43,7 +44,7 @@ ui.spliceText = (text) ->
                 #Since we are cutting out a string, change the indices in the stack to match the new string
                 for k in [i-1..0]
                     stack[k] -= index-j+2
-               
+
 
                 tempArray.push(text.substring(j+2,index-1))
                 text = text.substring(0,j)+text.substring(index+2,text.length)
@@ -60,12 +61,12 @@ ui.spliceText = (text) ->
         textArray.push(text.substring(lastIndex,index))
         textArray.push(tempArray[i])
         lastIndex = breakPoints[i]
-    
+
     if (text != "")
         textArray.push(text.substring(lastIndex,text.length))
     splicedText = []
 
-    
+
     for text,textRef in textArray
         if text.indexOf("Break>") != -1
             text = text.substring(6,text.length)
@@ -74,7 +75,7 @@ ui.spliceText = (text) ->
             splicedText.push(new SpecialText("Raw",text))
     #console.log(splicedText)
     return splicedText
-    
+
 #Makes a nav bar button
 ui.navButton = (menu, name, x, y) ->
    return div ".navButton", ->
@@ -89,7 +90,7 @@ ui.navButton = (menu, name, x, y) ->
                 ui.state = name
         text name
 
-#UI Navigation Function 
+#UI Navigation Function
 ui.nav = ->
     navWidth = window.innerWidth-30
     navBorderLength = 12
@@ -97,7 +98,7 @@ ui.nav = ->
         width navWidth
         position "relative"
         top "10px"
-        margin "auto" 
+        margin "auto"
         height "120px"
         #Website Title
         div ->
@@ -128,11 +129,12 @@ ui.nav = ->
 
         #MORE Button
         ui.navButton(true,"MORE",window.innerWidth-150, 78)
-            
+
 
 #Main UI Function
 #Use window.body so we don't see page flickering - Onecup.refresh flickers
 window.body = ->
+
     #Background image
     img src: "imgs/sitebg.png", width: window.innerWidth, height: window.innerHeight, ->
         position "absolute"
@@ -142,6 +144,7 @@ window.body = ->
         overflow "hidden"
         #margin_left "0"
         #margin_right "0"
+
     #Main Div
     div ->
         position "relative"
