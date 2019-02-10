@@ -21,14 +21,11 @@ ui.aboutButton = (txt, state, w, h, l, t) ->
 
 ui.about = ->
     #Button Format : Text, State, Width, Height, Left, Top
-    ui.aboutButton "Mission Statement" , "Mission Statement" , 220 , 45 , 50, 200
-    ui.aboutButton "What Do We Do?" , "What Do We Do?" , 220 , 45 , 50, 400
-    ui.aboutButton "Who Can Join?" , "Who Can Join?" , 220 , 45 , 50, 600
-    ui.aboutButton "Brief History" , "Brief History" , 220 , 45 , window.innerWidth-250, 300
-    ui.aboutButton "Departments" , "Departments" , 220 , 45 , window.innerWidth-250, 500
+    ui.stateMenu("About", "About Navigation", ["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"], ["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"], 35, 150)
     div ".about" , ->
         top "100px"
         width "600px"
+        left "50px"
         margin "auto"
         position "relative"
         div ->
@@ -38,7 +35,7 @@ ui.about = ->
             text_decoration "underline"
             text_align "center"
             text ui.aboutState
-        switch ui.aboutState
+        switch ui.menuStates.get("About")
             when "Mission Statement"
                 div ->
                     text "We hope to foster an interest in STEM to allow our students to become the leaders and problem solvers of tomorrow."

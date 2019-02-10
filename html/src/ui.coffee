@@ -4,7 +4,8 @@
 
 window.ui = {}
 ui.state = "HOME"
-
+ui.menuStates = new Map()
+ui.menuShows = new Map()
 #Load onecup files
 eval(onecup.import())
 
@@ -76,14 +77,97 @@ ui.spliceText = (text) ->
     #console.log(splicedText)
     return splicedText
 
+#Changes a UI state
+ui.stateButton = (txt, type, state, w, h, l, t) ->
+    div ".dullesButton" , ->
+        position "fixed"
+        width w
+        height h
+        left l
+        top t
+        if ui.menuStates.get(type) == state
+            box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
+            text_shadow "0 0 10px #ccffff;"
+        onclick ->
+            ui.menuStates.set(type,state)
+        text txt
+
+#Makes a state menu that can change a state of the ui
+#states and stateNames should be the same length
+ui.stateMenu = (type, txt, states, stateNames, x, y) ->
+    #Make sure our menuStates has our state first
+    #If it doesn't then add it
+    if !ui.menuStates.has(type)
+        ui.menuStates.set(type,states[0])
+    if !ui.menuShows.has(type)
+        ui.menuShows.set(type,true)
+    div ".navMenu" , ->
+        #Make a ui state for each state parameter
+        if ui.menuShows.get(type) != false
+            for state,index in states
+                ui.stateButton(stateNames[index], type, state, 220, 45, x + 15, y + 58 + index * 58)
+        left x
+        top y
+        width 250
+        position "fixed"
+        text_align "center"
+        div ".navTitle", ->
+            text txt
+            height "inherit"
+            #Toggle menu on click
+            onclick ->
+                if ui.menuShows.get(type) != false
+                    ui.menuShows.set(type,false)
+                else
+                    ui.menuShows.set(type,true)                   
+    
+#Downloads a file
+ui.downloadButton = (txt, type, state, w, h, l, t) ->
+    div ".dullesButton" , ->
+        position "fixed"
+        width w
+        height h
+        left l
+        top t
+        onclick ->
+            onecup.newTab(state)
+        text txt
+
+    
+#Makes a download menu that can download files
+#fileNames and buttonNames should be the same length
+ui.downloadMenu = (type, txt, fileNames, buttonNames, x, y) ->
+    if !ui.menuShows.has(type)
+        ui.menuShows.set(type,true)
+    div ".navMenu" , ->
+        #Make a ui state for each state parameter
+        if ui.menuShows.get(type) != false
+            for file,index in fileNames
+                ui.downloadButton(buttonNames[index], type, file, 220, 45, x + 15, y + 58 + index * 58)
+        left x
+        top y
+        width 250
+        position "fixed"
+        text_align "center"
+        div ".navTitle", ->
+            text txt
+            height "inherit"
+            #Toggle menu on click
+            onclick ->
+                if ui.menuShows.get(type) != false
+                    ui.menuShows.set(type,false)
+                else
+                    ui.menuShows.set(type,true)          
+
+
 #Makes a nav bar button
 ui.navButton = (menu, name, x, y) ->
    return div ".navButton", ->
         left x
         top y
         if ui.state == name
-            box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
-            text_shadow "0 0 10px #FF0000;"
+            box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
+            text_shadow "0 0 10px #ccffff;"
         onclick ->
             if menu == false
                 onecup.goto(name+".html")
@@ -103,7 +187,7 @@ ui.nav = ->
         #Website Title
         div ->
             position "relative"
-            font_family "Impact"
+            font_family "Quango"
             margin "auto"
             text_align "center"
             text "DULLES ROBOTICS"
@@ -136,15 +220,17 @@ ui.nav = ->
 window.body = ->
 
     #Background image
-    img src: "imgs/sitebg.png", width: window.innerWidth, height: window.innerHeight, ->
+    ###img src: "imgs/sitebg.png", width: window.innerWidth, height: window.innerHeight, ->
         position "absolute"
         background_size "100% 100%"
         display "block"
         top "0"
         overflow "hidden"
         #margin_left "0"
-        #margin_right "0"
+        #margin_right "0"###
 
+    if !ui.onecup?
+        ui.onecup = onecup.body
     #Main Div
     div ->
         position "relative"
@@ -162,3 +248,34 @@ window.body = ->
             when "BLOG"
                 ui.blogging()
                 break
+            when "MEDIA"
+                ui.media()
+                break
+            when "DOCUMENTS"
+                ui.documents()
+                break
+
+#Reappend an element to onecup
+ui.putOnOnecup = (div) ->
+    ui.onecup.appendChild(div)
+
+#Make sure widgets aren't on unless we are in the correct state
+checker = ->
+    ui.twitterDiv = document.getElementById("twitter-widget-0") if !ui.twitterDiv?
+    ui.facebookDiv = document.getElementById("facebook") if !ui.facebookDiv?
+    ui.instagramDiv = document.getElementById("instagram") if !ui.instagramDiv?
+    ui.remindDiv = document.getElementById("remind101-widget-0") if !ui.remindDiv?
+    if ui.state != "MEDIA"
+        ui.twitterDiv.style.visibility = "hidden" if ui.twitterDiv
+        ui.facebookDiv.style.visibility = "hidden" if ui.facebookDiv
+        ui.instagramDiv.style.visibility = "hidden" if ui.instagramDiv
+        ui.remindDiv.style.visibility = "hidden" if ui.remindDiv
+    #Add stuff to onecup if not added
+    ui.onecup.appendChild(ui.twitterDiv) if ui.twitterDiv and ui.twitterDiv.parentNode != ui.onecup and ui.state != "MEDIA"
+    ui.onecup.appendChild(ui.facebookDiv) if ui.facebookDiv and ui.facebookDiv.parentNode != ui.onecup and ui.state != "MEDIA"
+    ui.onecup.appendChild(ui.instagramDiv) if ui.instagramDiv and ui.instagramDiv.parentNode != ui.onecup and ui.state != "MEDIA"
+    ui.onecup.appendChild(ui.remindDiv) if ui.remindDiv and ui.remindDiv.parentNode != ui.onecup and ui.state != "MEDIA"
+    ui.mediaCheck() if ui.mediaCheck?
+
+#Check every 30 ms
+setInterval(checker, 30)
