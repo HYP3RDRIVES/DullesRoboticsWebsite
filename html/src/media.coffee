@@ -6,7 +6,7 @@ eval(onecup.import())
 #Make a menu
 #Add twitter widget, facebook widget, instagram widget, discord widget, and remind widget
 ui.media = ->
-    ui.stateMenu("Media", "Media Navigation", ["Twitter","Facebook","Instagram","Remind"], ["Twitter","Facebook","Instagram","Remind"], 35, 150)
+    ui.stateMenu("Media", "Media Navigation", ["Remind","Instagram","Facebook","Twitter"], ["Remind","Instagram","Facebook","Twitter"], 35, 150)
     div ".about" , ->
         top "50px"
         width "600px"
