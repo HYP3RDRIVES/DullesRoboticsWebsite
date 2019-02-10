@@ -6,87 +6,66 @@ eval(onecup.import())
 #CSS - See onecup for more
 css ".navBar", ->
     border_radius "10px"
-    #border "4px solid #FF0000"
     border_bottom "4px solid #ffffff"
     padding "10px"
-    #box_shadow "0 0 0 8px #f9f9eb, 0 0 0 12px hsl(0, 100%, 50%)"
-    font_family "Impress BT"
-    #background_color "#f5f5dc"
-    color "#FF0000"
+    font_family "Quango"
+    color "#008080"
+
+css ".navMenu", ->
+    border_radius "10px"
+    border_bottom "4px solid #ffffff"
+    border_top "4px solid #ffffff"
+    padding "10px"
+    font_family "Quango"
+    color "#008080"
+
+css ".navTitle:hover", ->
+    text_shadow "0 0 10px #ccffff;"
+
 
 css ".navButton", ->
-    #border_radius "25px"
-    #border "2px solid #FF0000"
-    #padding "10px"
-    #box_shadow "0 0 0 4px #ffcccc, 0 0 0 6px hsl(0, 100%, 50%)"
-    font_family "Impress BT"
-    #background_color "#ffb3b3"
+    font_family "Quango"
     top "50px"
     width "110px"
     height "25px"
-    color "#FF0000"
+    color "#008080"
     position "absolute"
     display "inline-block"
     margin "auto"
     text_align "center"
 
 css ".navButton:hover", ->
-    #border_radius "25px"
-    #border "2px solid #FF0000"
-    #padding "10px"
-    box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
-    #font_family "Impress BT"
-    #background_color "#ffb3b3"
-    #top "50px"
-    #width "110px"
-    #height "45px"
-    #color "#FF0000"
-    #text_align "center"
-    text_shadow "0 0 10px #FF0000;"
+    box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
+    text_shadow "0 0 10px #ccffff;"
 
 css ".dullesButton", ->
-    border_radius "25px"
-    border "2px solid #FF0000"
-    padding "10px"
-    box_shadow "0 0 0 4px #ffcccc, 0 0 0 6px hsl(0, 100%, 50%)"
-    font_family "Impress BT"
-    background_color "#ffb3b3"
+    font_family "Quango"
+    top "50px"
     width "110px"
     height "45px"
-    #color "#FF0000"
+    color "#008080"
     position "absolute"
     display "inline-block"
     margin "auto"
     text_align "center"
 
 css ".dullesButton:hover", ->
-    border_radius "25px"
-    border "2px solid #FF0000"
-    padding "10px"
-    box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
-    font_family "Impress BT"
-    background_color "#ffb3b3"
-    width "110px"
-    height "45px"
-    #color "#FF0000"
-    text_align "center"
-    text_shadow "0 0 10px #FF0000;"
+    box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
+    text_shadow "0 0 10px #ccffff;"
 
 css ".blogPost", ->
-    border_radius "25px"
-    border "4px solid #FF0000"
+    border "4px solid #008080"
     padding "10px"
-    box_shadow "0 0 0 8px #f9f9eb, 0 0 0 12px hsl(0, 100%, 50%)"
-    font_family "Impress BT"
-    background_color "#f5f5dc"
+    box_shadow "0 0 0 8px #ccffff, 0 0 0 12px #006666"
+    font_family "Quango"
+    background_color "#F0F0F0"
 
 css ".about", ->
-    border_radius "25px"
-    border "4px solid #FF0000"
+    border "4px solid #008080"
     padding "10px"
-    box_shadow "0 0 0 8px #f9f9eb, 0 0 0 12px hsl(0, 100%, 50%)"
-    font_family "Impress BT"
-    background_color "#f5f5dc"
+    box_shadow "0 0 0 8px #ccffff, 0 0 0 12px #006666"
+    font_family "Quango"
+    background_color "#F0F0F0"
 
 
 

@@ -1,0 +1,7 @@
+# Created by https://www.gitignore.io/api/coffeescript
+# Edit at https://www.gitignore.io/?templates=coffeescript
+
+### CoffeeScript ###
+*.js
+
+# End of https://www.gitignore.io/api/coffeescript

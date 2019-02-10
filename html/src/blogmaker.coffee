@@ -71,7 +71,7 @@ We learned a variety of things like
 <!Break>-Try to minimize having parts outside of the bumper frame<!>
 
 Overall, we really enjoyed the experience!"
-        @addBlog("STRAIT JESUIT FRC WORKSHOP", new window.Date(12,17,2018), [new CustomImage("imgs/roboticsstraitjesuit2018-2_d600.png",460,283)], data, "Jacob Enerio")
+        @addBlog("STRAIT JESUIT FRC WORKSHOP", new window.Date(12,17,2018), [new CustomImage("imgs/roboticsstraitjesuit2018-2_d600.jpeg",460,283)], data, "Jacob Enerio")
         #@makePosts()
 
 #---UI RELATED FUNCTIONS---
