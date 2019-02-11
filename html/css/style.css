@@ -28,6 +28,10 @@ body {
 
 }
 
+.secondfont {
+  font-family: 'Quango';
+}
+
 /*Make all media stuff invisible first*/
 #twitter-widget-0 {
     visibility: hidden
@@ -38,6 +42,14 @@ font-family: 'Impress BT';
 font-style: normal;
 font-weight: normal;
 src: local('Impress BT'), url('impress-bt-58d9dc6098a03.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NavButtonFont';
+  font-style: normal;
+  font-weight: normal;
+  src: local('redrocket'), url('redrocket.woff') format('woff');
+
 }
 
 @font-face {
