@@ -10,7 +10,7 @@
     return img({
       src: "imgs/RoboticsFlyer.jpeg",
       width: (window.innerWidth - 30) / 3,
-      height: 2 * window.innerHeight / 3
+      height: 2.5 * window.innerHeight / 3
     }, function() {
       position("relative");
       top("50px");
