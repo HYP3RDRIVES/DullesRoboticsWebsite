@@ -13,7 +13,7 @@ body {
   /*width: 100%;
   height: 100vh;
   margin: 0;*/
-     
+
 /* margin: 0;
  padding: 0;
  height: 100vh;*/
@@ -25,7 +25,7 @@ body {
     background: black;
     position: absolute;
     z-index: -1
-        
+
 }
 
 /*Make all media stuff invisible first*/
@@ -44,7 +44,7 @@ src: local('Impress BT'), url('impress-bt-58d9dc6098a03.woff') format('woff');
 font-family: 'Quango';
 font-style: normal;
 font-weight: normal;
-src: local('Quango'), url('Quango.woff') format('woff');
+src: local('raidercrusader'), url('raidercrusader.woff') format('woff');
 }
 
 body {
