@@ -119,11 +119,11 @@ ui.stateMenu = (type, txt, states, stateNames, x, y) ->
                 if ui.menuShows.get(type) != false
                     ui.menuShows.set(type,false)
                 else
-                    ui.menuShows.set(type,true)                   
-    
+                    ui.menuShows.set(type,true)
+
 #Downloads a file
 ui.downloadButton = (txt, type, state, w, h, l, t) ->
-    div ".dullesButton" , ->
+    div ".dullesButton .secondfont", ->
         position "fixed"
         width w
         height h
@@ -133,7 +133,7 @@ ui.downloadButton = (txt, type, state, w, h, l, t) ->
             onecup.newTab(state)
         text txt
 
-    
+
 #Makes a download menu that can download files
 #fileNames and buttonNames should be the same length
 ui.downloadMenu = (type, txt, fileNames, buttonNames, x, y) ->
@@ -157,7 +157,7 @@ ui.downloadMenu = (type, txt, fileNames, buttonNames, x, y) ->
                 if ui.menuShows.get(type) != false
                     ui.menuShows.set(type,false)
                 else
-                    ui.menuShows.set(type,true)          
+                    ui.menuShows.set(type,true)
 
 
 #Makes a nav bar button
@@ -181,13 +181,14 @@ ui.nav = ->
     div ".navBar", ->
         width navWidth
         position "relative"
+        font_family "NavButtonFont"
         top "10px"
         margin "auto"
         height "120px"
         #Website Title
         div ->
             position "relative"
-            font_family "Quango"
+            font_family "NavButtonFont"
             margin "auto"
             text_align "center"
             text "DULLES ROBOTICS"

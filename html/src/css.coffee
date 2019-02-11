@@ -20,7 +20,7 @@ css ".navMenu", ->
     color "#008080"
 
 css ".navTitle:hover", ->
-    text_shadow "0 0 10px #ccffff;"
+    text_shadow "0 0 10px #1a3a47;"
 
 
 css ".navButton", ->
