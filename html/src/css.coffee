@@ -20,7 +20,7 @@ css ".navMenu", ->
     color "#008080"
 
 css ".navTitle:hover", ->
-    text_shadow "0 0 10px #1a3a47;"
+    text_shadow "0 0 10px #3333ff;"
 
 
 css ".navButton", ->
@@ -36,7 +36,7 @@ css ".navButton", ->
 
 css ".navButton:hover", ->
     box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
-    text_shadow "0 0 10px #ccffff;"
+    text_shadow "0 0 10px #3333ff"
 
 css ".dullesButton", ->
     font_family "Quango"
@@ -51,7 +51,7 @@ css ".dullesButton", ->
 
 css ".dullesButton:hover", ->
     box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
-    text_shadow "0 0 10px #ccffff;"
+    text_shadow "0 0 10px #3333ff"
 
 css ".blogPost", ->
     border "4px solid #008080"

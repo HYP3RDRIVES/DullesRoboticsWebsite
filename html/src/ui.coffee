@@ -77,6 +77,10 @@ ui.spliceText = (text) ->
     #console.log(splicedText)
     return splicedText
 
+#Vertically Centers Text within div
+ui.vertCentTXT = (txt) ->
+
+
 #Changes a UI state
 ui.stateButton = (txt, type, state, w, h, l, t) ->
     div ".dullesButton" , ->
@@ -87,7 +91,7 @@ ui.stateButton = (txt, type, state, w, h, l, t) ->
         top t
         if ui.menuStates.get(type) == state
             box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
-            text_shadow "0 0 10px #ccffff;"
+            text_shadow "0 0 10px #3333ff"
         onclick ->
             ui.menuStates.set(type,state)
         text txt
@@ -167,7 +171,7 @@ ui.navButton = (menu, name, x, y) ->
         top y
         if ui.state == name
             box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
-            text_shadow "0 0 10px #ccffff;"
+            text_shadow "0 0 10px #3333ff"
         onclick ->
             if menu == false
                 onecup.goto(name+".html")
@@ -192,7 +196,7 @@ ui.nav = ->
             margin "auto"
             text_align "center"
             text "DULLES ROBOTICS"
-            font_size "24px"
+            font_size "60px"
 
         #HOME BUTTON
         ui.navButton(false,"HOME",window.innerWidth-445, 40)
@@ -255,6 +259,9 @@ window.body = ->
             when "DOCUMENTS"
                 ui.documents()
                 break
+            when "CONTACT"
+                ui.contact()
+                break
 
 #Reappend an element to onecup
 ui.putOnOnecup = (div) ->
@@ -272,10 +279,10 @@ checker = ->
         ui.instagramDiv.style.visibility = "hidden" if ui.instagramDiv
         ui.remindDiv.style.visibility = "hidden" if ui.remindDiv
     #Add stuff to onecup if not added
-    ui.onecup.appendChild(ui.twitterDiv) if ui.twitterDiv and ui.twitterDiv.parentNode != ui.onecup and ui.state != "MEDIA"
-    ui.onecup.appendChild(ui.facebookDiv) if ui.facebookDiv and ui.facebookDiv.parentNode != ui.onecup and ui.state != "MEDIA"
-    ui.onecup.appendChild(ui.instagramDiv) if ui.instagramDiv and ui.instagramDiv.parentNode != ui.onecup and ui.state != "MEDIA"
-    ui.onecup.appendChild(ui.remindDiv) if ui.remindDiv and ui.remindDiv.parentNode != ui.onecup and ui.state != "MEDIA"
+    ui.onecup.appendChild(ui.twitterDiv) if ui.twitterDiv? and ui.twitterDiv.parentNode != ui.onecup and ui.state != "MEDIA"
+    ui.onecup.appendChild(ui.facebookDiv) if ui.facebookDiv? and ui.facebookDiv.parentNode != ui.onecup and ui.state != "MEDIA"
+    ui.onecup.appendChild(ui.instagramDiv) if ui.instagramDiv? and ui.instagramDiv.parentNode != ui.onecup and ui.state != "MEDIA"
+    ui.onecup.appendChild(ui.remindDiv) if ui.remindDiv? and ui.remindDiv.parentNode != ui.onecup and ui.state != "MEDIA"
     ui.mediaCheck() if ui.mediaCheck?
 
 #Check every 30 ms
