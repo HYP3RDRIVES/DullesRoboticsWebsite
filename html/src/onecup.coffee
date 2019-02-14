@@ -164,6 +164,7 @@ CSS_PROPS = """
     transform
     transition
     user_select
+    value
     vertical_align
     visibility
     white_space

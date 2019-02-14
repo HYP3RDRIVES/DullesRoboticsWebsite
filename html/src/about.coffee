@@ -5,19 +5,6 @@ eval(onecup.import())
 
 ui.aboutState = "Mission Statement"
 
-#Template for About Buttons
-ui.aboutButton = (txt, state, w, h, l, t) ->
-    div ".dullesButton" , ->
-        width w
-        height h
-        left l
-        top t
-        if ui.aboutState == state
-            box_shadow "0 0 0 4px #ffb3b3, 0 0 0 6px hsl(0, 100%, 50%)"
-            text_shadow "0 0 10px #FF0000;"
-        onclick ->
-            ui.aboutState = state
-        text txt
 
 ui.about = ->
     #Button Format : Text, State, Width, Height, Left, Top
