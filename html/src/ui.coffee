@@ -6,6 +6,7 @@ window.ui = {}
 ui.state = "HOME"
 ui.menuStates = new Map()
 ui.menuShows = new Map()
+ui.enlargeables = new Map()
 #Load onecup files
 eval(onecup.import())
 
@@ -77,9 +78,24 @@ ui.spliceText = (text) ->
     #console.log(splicedText)
     return splicedText
 
-#Vertically Centers Text within div
+#Vertically Centers Text within div - To be implemented
 ui.vertCentTXT = (txt) ->
 
+#Makes div enlargeable by mousing over and shrinks on leaving
+ui.enlargeable = (divName) ->
+    div = document.getElementById(divName)
+    return if div == undefined or !div?
+    return if ui.enlargeables.has(divName)
+    div.style.transition = "all 0.5s ease-out"
+    div.addEventListener "mouseenter",->
+        div.style.transform = "scale(1.5,1.5)"
+
+    div.addEventListener "mouseleave", ->
+        div.style.transform = "scale(1,1)"
+
+    ui.enlargeables.set(divName,true)
+    
+        
 
 #Changes a UI state
 ui.stateButton = (txt, type, state, w, h, l, t) ->
@@ -174,7 +190,7 @@ ui.navButton = (menu, name, x, y) ->
             text_shadow "0 0 10px #3333ff"
         onclick ->
             if menu == false
-                onecup.goto(name+".html")
+                window.location.assign(name+".html")
                 ui.state = name
         text name
 
@@ -191,13 +207,22 @@ ui.nav = ->
         height "120px"
         #Website Title
         div ->
-            position "relative"
+            position "absolute"
             font_family "NavButtonFont"
+            top 0
+            left 0
+            right 0
+            bottom 0
             margin "auto"
             text_align "center"
             text "DULLES ROBOTICS"
             font_size "60px"
-
+        img "#FRCLogo", width: "60px", height: "60px", src:"imgs/FRCTeamLogo.jpeg", ->
+            position "relative"
+        img "#BigRedLogo", width: "60px", height: "60px", src:"imgs/BigRedTeamLogo.jpeg", ->
+            position "relative"
+        img "#RoboVikesLogo", width: "60px", height: "60px", src:"imgs/RoboVikesTeamLogo.jpeg", ->
+            position "relative"
         #HOME BUTTON
         ui.navButton(false,"HOME",window.innerWidth-445, 40)
 
@@ -218,7 +243,6 @@ ui.nav = ->
 
         #MORE Button
         ui.navButton(true,"MORE",window.innerWidth-150, 78)
-
 
 #Main UI Function
 #Use window.body so we don't see page flickering - Onecup.refresh flickers
@@ -260,7 +284,7 @@ window.body = ->
                 ui.documents()
                 break
             when "CONTACT"
-                ui.contact()
+                ui.contact() if ui.contact? 
                 break
 
 #Reappend an element to onecup
@@ -269,15 +293,19 @@ ui.putOnOnecup = (div) ->
 
 #Make sure widgets aren't on unless we are in the correct state
 checker = ->
+    #Enlarge everything we want to enlarge
+    ui.enlargeable("FRCLogo")
+    ui.enlargeable("BigRedLogo")
+    ui.enlargeable("RoboVikesLogo")
     ui.twitterDiv = document.getElementById("twitter-widget-0") if !ui.twitterDiv?
     ui.facebookDiv = document.getElementById("facebook") if !ui.facebookDiv?
     ui.instagramDiv = document.getElementById("instagram") if !ui.instagramDiv?
     ui.remindDiv = document.getElementById("remind101-widget-0") if !ui.remindDiv?
     if ui.state != "MEDIA"
-        ui.twitterDiv.style.visibility = "hidden" if ui.twitterDiv
-        ui.facebookDiv.style.visibility = "hidden" if ui.facebookDiv
-        ui.instagramDiv.style.visibility = "hidden" if ui.instagramDiv
-        ui.remindDiv.style.visibility = "hidden" if ui.remindDiv
+        ui.twitterDiv.style.visibility = "hidden" if ui.twitterDiv?
+        ui.facebookDiv.style.visibility = "hidden" if ui.facebookDiv?
+        ui.instagramDiv.style.visibility = "hidden" if ui.instagramDiv?
+        ui.remindDiv.style.visibility = "hidden" if ui.remindDiv?
     #Add stuff to onecup if not added
     ui.onecup.appendChild(ui.twitterDiv) if ui.twitterDiv? and ui.twitterDiv.parentNode != ui.onecup and ui.state != "MEDIA"
     ui.onecup.appendChild(ui.facebookDiv) if ui.facebookDiv? and ui.facebookDiv.parentNode != ui.onecup and ui.state != "MEDIA"

@@ -11,7 +11,8 @@
     border_bottom("4px solid #ffffff");
     padding("10px");
     font_family("Quango");
-    return color("#008080");
+    color("#008080");
+    return position("relative");
   });
 
   css(".navMenu", function() {

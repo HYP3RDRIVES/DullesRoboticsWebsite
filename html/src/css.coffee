@@ -10,6 +10,7 @@ css ".navBar", ->
     padding "10px"
     font_family "Quango"
     color "#008080"
+    position "relative"
 
 css ".navMenu", ->
     border_radius "10px"

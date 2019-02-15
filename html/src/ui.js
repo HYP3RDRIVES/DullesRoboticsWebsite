@@ -13,6 +13,8 @@
 
   ui.menuShows = new Map();
 
+  ui.enlargeables = new Map();
+
   //Load onecup files
   eval(onecup.import());
 
@@ -97,9 +99,30 @@
     return splicedText;
   };
 
-  //Vertically Centers Text within div
+  //Vertically Centers Text within div - To be implemented
   ui.vertCentTXT = function(txt) {};
 
+  //Makes div enlargeable by mousing over and shrinks on leaving
+  ui.enlargeable = function(divName) {
+    var div;
+    div = document.getElementById(divName);
+    if (div === void 0 || (div == null)) {
+      return;
+    }
+    if (ui.enlargeables.has(divName)) {
+      return;
+    }
+    div.style.transition = "all 0.5s ease-out";
+    div.addEventListener("mouseenter", function() {
+      return div.style.transform = "scale(1.5,1.5)";
+    });
+    div.addEventListener("mouseleave", function() {
+      return div.style.transform = "scale(1,1)";
+    });
+    return ui.enlargeables.set(divName, true);
+  };
+
+  
   //Changes a UI state
   ui.stateButton = function(txt, type, state, w, h, l, t) {
     return div(".dullesButton", function() {
@@ -218,7 +241,7 @@
       }
       onclick(function() {
         if (menu === false) {
-          onecup.goto(name + ".html");
+          window.location.assign(name + ".html");
           return ui.state = name;
         }
       });
@@ -240,12 +263,37 @@
       height("120px");
       //Website Title
       div(function() {
-        position("relative");
+        position("absolute");
         font_family("NavButtonFont");
+        top(0);
+        left(0);
+        right(0);
+        bottom(0);
         margin("auto");
         text_align("center");
         text("DULLES ROBOTICS");
         return font_size("60px");
+      });
+      img("#FRCLogo", {
+        width: "60px",
+        height: "60px",
+        src: "imgs/FRCTeamLogo.jpeg"
+      }, function() {
+        return position("relative");
+      });
+      img("#BigRedLogo", {
+        width: "60px",
+        height: "60px",
+        src: "imgs/BigRedTeamLogo.jpeg"
+      }, function() {
+        return position("relative");
+      });
+      img("#RoboVikesLogo", {
+        width: "60px",
+        height: "60px",
+        src: "imgs/RoboVikesTeamLogo.jpeg"
+      }, function() {
+        return position("relative");
       });
       //HOME BUTTON
       ui.navButton(false, "HOME", window.innerWidth - 445, 40);
@@ -294,7 +342,9 @@
           ui.documents();
           break;
         case "CONTACT":
-          ui.contact();
+          if (ui.contact != null) {
+            ui.contact();
+          }
           break;
       }
     });
@@ -307,6 +357,10 @@
 
   //Make sure widgets aren't on unless we are in the correct state
   checker = function() {
+    //Enlarge everything we want to enlarge
+    ui.enlargeable("FRCLogo");
+    ui.enlargeable("BigRedLogo");
+    ui.enlargeable("RoboVikesLogo");
     if (ui.twitterDiv == null) {
       ui.twitterDiv = document.getElementById("twitter-widget-0");
     }
@@ -320,16 +374,16 @@
       ui.remindDiv = document.getElementById("remind101-widget-0");
     }
     if (ui.state !== "MEDIA") {
-      if (ui.twitterDiv) {
+      if (ui.twitterDiv != null) {
         ui.twitterDiv.style.visibility = "hidden";
       }
-      if (ui.facebookDiv) {
+      if (ui.facebookDiv != null) {
         ui.facebookDiv.style.visibility = "hidden";
       }
-      if (ui.instagramDiv) {
+      if (ui.instagramDiv != null) {
         ui.instagramDiv.style.visibility = "hidden";
       }
-      if (ui.remindDiv) {
+      if (ui.remindDiv != null) {
         ui.remindDiv.style.visibility = "hidden";
       }
     }
