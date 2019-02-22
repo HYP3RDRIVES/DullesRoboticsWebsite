@@ -3,17 +3,21 @@
   // CoffeeScript - UI
 
   //File for universal UI
-  var checker;
+  var checker, makeLoginScreen;
 
   window.ui = {};
 
   ui.state = "HOME";
+
+  ui.logging = false;
 
   ui.menuStates = new Map();
 
   ui.menuShows = new Map();
 
   ui.enlargeables = new Map();
+
+  ui.shiftables = new Map();
 
   //Load onecup files
   eval(onecup.import());
@@ -112,25 +116,50 @@
     if (ui.enlargeables.has(divName)) {
       return;
     }
-    div.style.transition = "all 0.5s ease-out";
     div.addEventListener("mouseenter", function() {
+      div.style.transition = "all 0.5s ease-out";
       return div.style.transform = "scale(1.5,1.5)";
     });
     div.addEventListener("mouseleave", function() {
+      div.style.transition = "all 0.5s ease-out";
       return div.style.transform = "scale(1,1)";
     });
     return ui.enlargeables.set(divName, true);
   };
 
   
+  //Makes div moveable by mousing over and shifts back on leaving
+  ui.shiftable = function(divName, leftShift, topShift) {
+    var div;
+    div = document.getElementById(divName);
+    if (div === void 0 || (div == null)) {
+      return;
+    }
+    if (ui.shiftables.has(divName)) {
+      return;
+    }
+    div.addEventListener("mouseenter", function() {
+      div.style.transition = "all 0.5s ease-out";
+      div.style.left = (div.offsetLeft + leftShift) + "px";
+      return div.style.top = (div.offsetTop + topShift) + "px";
+    });
+    div.addEventListener("mouseleave", function() {
+      div.style.transition = "all 0.5s ease-out";
+      div.style.left = (div.offsetLeft - leftShift) + "px";
+      return div.style.top = (div.offsetTop - topShift) + "px";
+    });
+    return ui.shiftables.set(divName, true);
+  };
+
   //Changes a UI state
-  ui.stateButton = function(txt, type, state, w, h, l, t) {
+  ui.stateButton = function(txt, type, state, w, h, l, t, z) {
     return div(".dullesButton", function() {
       position("fixed");
       width(w);
       height(h);
       left(l);
       top(t);
+      z_index(z);
       if (ui.menuStates.get(type) === state) {
         box_shadow("0 0 0 4px #ccffff, 0 0 0 6px #006666");
         text_shadow("0 0 10px #3333ff");
@@ -144,24 +173,25 @@
 
   //Makes a state menu that can change a state of the ui
   //states and stateNames should be the same length
-  ui.stateMenu = function(type, txt, states, stateNames, x, y) {
+  ui.stateMenu = function(type, txt, states, stateNames, x, y, z) {
     if (!ui.menuStates.has(type)) {
       ui.menuStates.set(type, states[0]);
     }
     if (!ui.menuShows.has(type)) {
       ui.menuShows.set(type, true);
     }
-    return div(".navMenu", function() {
+    return div(`#${type}.navMenu`, function() {
       var index, len, m, state;
       //Make a ui state for each state parameter
       if (ui.menuShows.get(type) !== false) {
         for (index = m = 0, len = states.length; m < len; index = ++m) {
           state = states[index];
-          ui.stateButton(stateNames[index], type, state, 220, 45, x + 15, y + 58 + index * 58);
+          ui.stateButton(stateNames[index], type, state, 220, 45, x + 15, y + 58 + index * 58, z);
         }
       }
       left(x);
       top(y);
+      z_index(z);
       width(250);
       position("fixed");
       text_align("center");
@@ -230,6 +260,10 @@
     });
   };
 
+  //LoginScreen
+  makeLoginScreen = function() {};
+
+  
   //Makes a nav bar button
   ui.navButton = function(menu, name, x, y) {
     return div(".navButton", function() {
@@ -308,48 +342,84 @@
       //CONTACT BUTTON
       ui.navButton(false, "CONTACT", window.innerWidth - 270, 78);
       //MORE Button
-      return ui.navButton(true, "MORE", window.innerWidth - 150, 78);
+      ui.navButton(true, "MORE", window.innerWidth - 150, 78);
+      
+      //LOGIN Button
+      div("#LoginButtonContainer", function() {
+        position("absolute");
+        top("10px");
+        right("25px");
+        width("20px");
+        height("20px");
+        z_index("2");
+        return i("#LoginButton.fas fa-rocket", function() {
+          font_size("30px");
+          return onmousedown(function() {
+            return ui.logging = true;
+          });
+        });
+      });
+      return makeLoginScreen();
     });
   };
 
+  
   //Main UI Function
   //Use window.body so we don't see page flickering - Onecup.refresh flickers
   window.body = function() {
     if (ui.onecup == null) {
       ui.onecup = onecup.body;
     }
-    //Main Div
-    return div(function() {
-      position("relative");
+    //Main Container Div
+    div("#MainContainer", function() {
+      //Main Div - Holds all main divs
+      return div("#MainDiv", function() {
+        position("relative");
+        width(window.innerWidth);
+        height(window.innerHeight);
+        overflow_y("auto");
+        ui.nav();
+        switch (ui.state) {
+          case "HOME":
+            ui.home();
+            break;
+          case "ABOUT":
+            ui.about();
+            break;
+          case "BLOG":
+            ui.blogging();
+            break;
+          case "MEDIA":
+            ui.media();
+            break;
+          case "DOCUMENTS":
+            ui.documents();
+            break;
+          case "CONTACT":
+            if (ui.contact != null) {
+              ui.contact();
+            }
+            break;
+        }
+      });
+    });
+    if (ui.logging === true) {
+      div(function() {
+        //console.log("Editing div")
+        return ui.login();
+      });
+      position("-webkit-fixed");
+      position("fixed");
+      left(0);
+      top(0);
       width(window.innerWidth);
       height(window.innerHeight);
-      overflow_y("auto");
-      ui.nav();
-      switch (ui.state) {
-        case "HOME":
-          ui.home();
-          break;
-        case "ABOUT":
-          ui.about();
-          break;
-        case "BLOG":
-          ui.blogging();
-          break;
-        case "MEDIA":
-          ui.media();
-          break;
-        case "DOCUMENTS":
-          ui.documents();
-          break;
-        case "CONTACT":
-          if (ui.contact != null) {
-            ui.contact();
-          }
-          break;
-      }
-    });
+      z_index("4");
+      return background_color("rgba(0, 13, 26,0.5)");
+    }
   };
 
+  
   //Reappend an element to onecup
   ui.putOnOnecup = function(div) {
     return ui.onecup.appendChild(div);
@@ -361,6 +431,7 @@
     ui.enlargeable("FRCLogo");
     ui.enlargeable("BigRedLogo");
     ui.enlargeable("RoboVikesLogo");
+    ui.shiftable("LoginButtonContainer", -10, 0);
     if (ui.twitterDiv == null) {
       ui.twitterDiv = document.getElementById("twitter-widget-0");
     }
