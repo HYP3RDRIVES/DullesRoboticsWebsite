@@ -78,6 +78,11 @@
     return background_color("#F0F0F0");
   });
 
+  css("#LoginButton:hover", function() {
+    transition("all 0s ease-out");
+    return text_shadow("0 0 10px #99ffff");
+  });
+
   css(".hover-black", function() {
     return background_color("rgba(0,0,0,0)");
   });

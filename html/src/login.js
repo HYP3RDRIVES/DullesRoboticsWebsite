@@ -6,7 +6,7 @@
   eval(onecup.import());
 
   ui.login = function() {
-    return ui.stateMenu("Login", "Login Navigation", ["Login", "Register", "Forgot Password"], ["Login", "Register", "Forgot Password"], 35, 150, 3);
+    return ui.stateMenu("Login", "Login Navigation", ["Login", "Register", "Forgot Password"], ["Login", "Register", "Forgot Password"], 35, 150);
   };
 
 }).call(this);

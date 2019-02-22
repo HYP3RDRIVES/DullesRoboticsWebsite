@@ -334,7 +334,7 @@ window.body = ->
 
         div ->
             #console.log("Editing div")
-             ui.login()
+            ui.login()
             position "-webkit-fixed"
             position "fixed"
             left 0
@@ -342,7 +342,7 @@ window.body = ->
             width window.innerWidth
             height window.innerHeight
             z_index "4"
-            background_color "rgba(0, 13, 26,0.5)"       
+            background_color "rgba(0, 13, 26,0.8)"       
             
 
 #Reappend an element to onecup

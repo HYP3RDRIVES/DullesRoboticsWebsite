@@ -68,7 +68,9 @@ css ".about", ->
     font_family "Quango"
     background_color "#F0F0F0"
 
-
+css "#LoginButton:hover", ->
+    transition "all 0s ease-out"
+    text_shadow "0 0 10px #99ffff"
 
 css ".hover-black", ->
     background_color "rgba(0,0,0,0)"

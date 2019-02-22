@@ -404,18 +404,18 @@
       });
     });
     if (ui.logging === true) {
-      div(function() {
+      return div(function() {
         //console.log("Editing div")
-        return ui.login();
+        ui.login();
+        position("-webkit-fixed");
+        position("fixed");
+        left(0);
+        top(0);
+        width(window.innerWidth);
+        height(window.innerHeight);
+        z_index("4");
+        return background_color("rgba(0, 13, 26,0.8)");
       });
-      position("-webkit-fixed");
-      position("fixed");
-      left(0);
-      top(0);
-      width(window.innerWidth);
-      height(window.innerHeight);
-      z_index("4");
-      return background_color("rgba(0, 13, 26,0.5)");
     }
   };
 
