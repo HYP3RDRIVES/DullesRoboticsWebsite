@@ -336,6 +336,8 @@ make_tag = (tag_name) ->
         current_tag = tag_chain[tag_chain.length-1]
 
         tags.push(this_tag)
+        #Give us the tag back plz
+        return this_tag
 
 # css stuff
 make_css = (css_name) ->
@@ -544,6 +546,7 @@ tag_add = (parent, elm) ->
 
 # builds a tag
 tag_build = (elm) ->
+    dom = undefined
     if elm.special == "raw"
         # 'raw' text node
         dom = document.createElement("span")
@@ -577,7 +580,7 @@ tag_build = (elm) ->
         if elm.children
             dom_build(dom, elm.children)
 
-    return
+    return dom
 
 # scan the dom for diffs
 dom_scan = (parent, as, bs) ->

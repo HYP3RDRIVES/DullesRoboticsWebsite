@@ -3,8 +3,6 @@
 #Load onecup files
 eval(onecup.import())
 
-ui.aboutState = "Mission Statement"
-
 
 ui.about = ->
     #Button Format : Text, State, Width, Height, Left, Top
@@ -21,7 +19,7 @@ ui.about = ->
             font_weight "bold"
             text_decoration "underline"
             text_align "center"
-            text ui.aboutState
+            text ui.menuStates.get("About")
         switch ui.menuStates.get("About")
             when "Mission Statement"
                 div ->

@@ -5,8 +5,6 @@
   //Load onecup files
   eval(onecup.import());
 
-  ui.aboutState = "Mission Statement";
-
   ui.about = function() {
     //Button Format : Text, State, Width, Height, Left, Top
     ui.stateMenu("About", "About Navigation", ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], 35, 150);
@@ -22,7 +20,7 @@
         font_weight("bold");
         text_decoration("underline");
         text_align("center");
-        return text(ui.aboutState);
+        return text(ui.menuStates.get("About"));
       });
       switch (ui.menuStates.get("About")) {
         case "Mission Statement":

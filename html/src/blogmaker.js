@@ -23,15 +23,15 @@
       static generateTempBlogPost() {
         var data;
         data = "Hey guys! This is our first blogpost! :D So yesterday at 12/16/18 from 9AM-4PM we went to Strait Jesuit for a FRC workshop since it's our first time doing FRC. We learned a variety of things like <!Break>-Try to make the robot specialize in one task rather than many tasks<!> <!Break>-Reduce the degrees of freedom (Ways the robot can move)<!> <!Break>-Don't try to make the robot move sideways<!> <!Break>-Use a tank drive system<!> <!Break>-Try to minimize having parts outside of the bumper frame<!> Overall, we really enjoyed the experience!";
-        return this.addBlog("STRAIT JESUIT FRC WORKSHOP", new window.Date(12, 17, 2018), [new CustomImage("imgs/roboticsstraitjesuit2018-2_d600.jpeg", 460, 283)], data, "Jacob Enerio");
+        return this.addBlog("STRAIT JESUIT FRC WORKSHOP", new window.BlogDate(12, 17, 2018), [new CustomImage("imgs/roboticsstraitjesuit2018-2_d600.jpeg", 460, 283)], data, "Jacob Enerio");
       }
 
     };
 
-    window.Date = (function() {
+    window.BlogDate = (function() {
       
       //Class to store dates
-      class Date {
+      class BlogDate {
         //Parameter constructor for controlled dates
         constructor(m, d, y) {
           this.year = y;
@@ -45,13 +45,13 @@
 
       };
 
-      Date.year = 2019;
+      BlogDate.year = 2019;
 
-      Date.month = 2;
+      BlogDate.month = 2;
 
-      Date.day = 1;
+      BlogDate.day = 1;
 
-      return Date;
+      return BlogDate;
 
     }).call(this);
 
@@ -93,7 +93,7 @@
 
       BlogPost.title = "Blog Number 1";
 
-      BlogPost.date = new Date();
+      BlogPost.date = new BlogDate();
 
       //All image sources for images in the blog post
       BlogPost.imgs = [];

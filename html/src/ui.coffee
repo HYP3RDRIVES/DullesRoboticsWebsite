@@ -7,8 +7,17 @@ ui.state = "HOME"
 ui.logging = false
 ui.menuStates = new Map()
 ui.menuShows = new Map()
+
+# --- Move UI Stuff ---
 ui.enlargeables = new Map()
 ui.shiftables = new Map()
+
+# --- Custom Stuff ---
+ui.customizables = new Map()
+ui.customEvents = new Map()
+
+#No conflict plz
+#jQuery.noConflict()
 
 #Load onecup files
 eval(onecup.import())
@@ -84,6 +93,13 @@ ui.spliceText = (text) ->
 #Vertically Centers Text within div - To be implemented
 ui.vertCentTXT = (txt) ->
 
+#Dispatches events to multiple divs
+ui.dispatchEvents = (divs,eventName) ->
+    for i,index in divs
+        div = document.getElementById(i)
+        console.log(i)
+        div.dispatchEvent(ui.customEvents.get(eventName)) if div
+
 #Makes div enlargeable by mousing over and shrinks on leaving
 ui.enlargeable = (divName) ->
     div = document.getElementById(divName)
@@ -98,6 +114,8 @@ ui.enlargeable = (divName) ->
         div.style.transform = "scale(1,1)"
 
     ui.enlargeables.set(divName,true)
+
+    return true
     
         
 #Makes div moveable by mousing over and shifts back on leaving
@@ -116,36 +134,97 @@ ui.shiftable = (divName, leftShift, topShift) ->
     
     ui.shiftables.set(divName,true)
 
+    return true
+
+#Makes a ui div have a customizable function
+ui.customizableByEvent = (divName, eventName, func) ->
+     div = document.getElementById(divName)
+     return if div == undefined or !div?
+     return if continous == false and ui.customizables.has(divName)
+     console.log("#{divName}, #{eventName}, #{func}")
+     div.addEventListener eventName, ->
+        console.log(eventName + " dispatched!")
+        func(div)
+     ui.customizables.set(divName,true)
+     return true
+
+ui.customizable = ->
 #Changes a UI state
-ui.stateButton = (txt, type, state, w, h, l, t, z) ->
-    div ".dullesButton" , ->
+ui.stateButton = (txt, type, state, w, h, l, t, z, background) ->
+    button = div "##{type}#{state}.dullesButton" , ->
         position "fixed"
         width w
         height h
         left l
         top t
         z_index z
+        transition "all 0.2s ease-out"
+        #if background == true
+            ### Deprecated -> Don't Use
+            ui.customizable(type+state, type, true, func = (mDiv) ->
+                bg = document.getElementById("#{type}Background")
+                if bg? and bg != undefined and mDiv? and mDiv != undefined
+                    console.log("Border Found!")
+                    bgBorder = bg.getBoundingClientRect()
+                    ourBorder = mDiv.getBoundingClientRect()
+                    console.log(ourBorder)
+                    console.log(bgBorder)
+                    console.log(bgBorder.bottom-ourBorder.bottom)
+                    if bgBorder.bottom-ourBorder.bottom <= 0
+                        mDiv.style.opacity = "0"
+                    else
+                        mDiv.style.opacity = "1")
+                                                ###
+        if ui.menuShows.get(type) != false
+            opacity "1"
+        else 
+            opacity "0"
         if ui.menuStates.get(type) == state
             box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
             text_shadow "0 0 10px #3333ff"
         onclick ->
             ui.menuStates.set(type,state)
         text txt
+    return button
 
 #Makes a state menu that can change a state of the ui
 #states and stateNames should be the same length
-ui.stateMenu = (type, txt, states, stateNames, x, y, z) ->
+ui.stateMenu = (type, txt, states, stateNames, x, y, z, background) ->
     #Make sure our menuStates has our state first
     #If it doesn't then add it
     if !ui.menuStates.has(type)
         ui.menuStates.set(type,states[0])
     if !ui.menuShows.has(type)
         ui.menuShows.set(type,true)
+    if !ui.customEvents.has(type)
+        event = new Event(type)
+        ui.customEvents.set(type,event)
+    buttons = []
+    if background == true
+        div "##{type}Background.menu", ->
+            #console.log("Making Background")
+            left x-5
+            top y-5
+            width 260
+            height if ui.menuShows.get(type) == true then (60+states.length*59) else 60
+            position "absolute"
+        ### Deprecated
+        div "##{type}Cover.menu" , ->
+            left x-5
+            top if ui.menuShows.get(type) == true then y-55+states.length*59 else y+55
+            width 260
+            height if ui.menuShows.get(type) == true then 0 else states.length*59
+            z_index "#{z+1}"
+            position "absolute"
+            border "hidden"
+            background_color "rgba(0,0,0,0.8)"
+                                                ###
     div "##{type}.navMenu" , ->
         #Make a ui state for each state parameter
-        if ui.menuShows.get(type) != false
-            for state,index in states
-                ui.stateButton(stateNames[index], type, state, 220, 45, x + 15, y + 58 + index * 58, z)
+        for state,index in states
+            ui.stateButton(stateNames[index], type, state, 220, 45, x + 15, y + 58 + index * 58, z, background)
+            if buttons.length != states.length
+                buttons.push(type+state)
         left x
         top y
         z_index z
@@ -161,6 +240,7 @@ ui.stateMenu = (type, txt, states, stateNames, x, y, z) ->
                     ui.menuShows.set(type,false)
                 else
                     ui.menuShows.set(type,true)
+                    #ui.dispatchEvents(buttons,type)
 
 #Downloads a file
 ui.downloadButton = (txt, type, state, w, h, l, t) ->

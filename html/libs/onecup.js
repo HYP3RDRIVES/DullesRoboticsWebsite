@@ -173,7 +173,9 @@
       tag_chain.pop();
       css_chain = css_chain_prev;
       current_tag = tag_chain[tag_chain.length - 1];
-      return tags.push(this_tag);
+      tags.push(this_tag);
+      //Give us the tag back plz
+      return this_tag;
     };
   };
 
@@ -471,6 +473,7 @@
   // builds a tag
   tag_build = function(elm) {
     var child, dom, k, len3, p, ref, ref1, ref2, v;
+    dom = void 0;
     if (elm.special === "raw") {
       // 'raw' text node
       dom = document.createElement("span");
@@ -516,6 +519,7 @@
         dom_build(dom, elm.children);
       }
     }
+    return dom;
   };
 
   // scan the dom for diffs

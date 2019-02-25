@@ -12,7 +12,7 @@ window.blog.blogPosts = []
 #Class to manipulate blogs
 class window.BlogMaker 
     #Class to store dates
-    class window.Date
+    class window.BlogDate
         @year = 2019
         @month = 2
         @day = 1
@@ -39,7 +39,7 @@ class window.BlogMaker
     #Class to store blogposts
     class window.BlogPost 
         @title = "Blog Number 1"
-        @date = new Date()
+        @date = new BlogDate()
         #All image sources for images in the blog post
         @imgs = []
         @text = "This is a blog post"
@@ -71,7 +71,7 @@ We learned a variety of things like
 <!Break>-Try to minimize having parts outside of the bumper frame<!>
 
 Overall, we really enjoyed the experience!"
-        @addBlog("STRAIT JESUIT FRC WORKSHOP", new window.Date(12,17,2018), [new CustomImage("imgs/roboticsstraitjesuit2018-2_d600.jpeg",460,283)], data, "Jacob Enerio")
+        @addBlog("STRAIT JESUIT FRC WORKSHOP", new window.BlogDate(12,17,2018), [new CustomImage("imgs/roboticsstraitjesuit2018-2_d600.jpeg",460,283)], data, "Jacob Enerio")
         #@makePosts()
 
 #---UI RELATED FUNCTIONS---

@@ -54,12 +54,28 @@ css ".dullesButton:hover", ->
     box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
     text_shadow "0 0 10px #3333ff"
 
+css ".dullesButton2", ->
+    font_family "Quango"
+    color "#008080"
+    text_align "center"
+
+css ".dullesButton2:hover", ->
+    box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
+    text_shadow "0 0 10px #3333ff"
+
 css ".blogPost", ->
     border "4px solid #008080"
     padding "10px"
     box_shadow "0 0 0 8px #ccffff, 0 0 0 12px #006666"
     font_family "Quango"
     background_color "#F0F0F0"
+
+css ".menu", ->
+    border "4px solid #008080"
+    border_style "inset"
+    padding "10px"
+    background_color "rgba(0,0,0,1)"
+    transition "all 0.5s ease-out"
 
 css ".about", ->
     border "4px solid #008080"

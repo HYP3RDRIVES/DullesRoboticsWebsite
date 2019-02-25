@@ -15,9 +15,18 @@
 
   ui.menuShows = new Map();
 
+  // --- Move UI Stuff ---
   ui.enlargeables = new Map();
 
   ui.shiftables = new Map();
+
+  // --- Custom Stuff ---
+  ui.customizables = new Map();
+
+  ui.customEvents = new Map();
+
+  //No conflict plz
+  //jQuery.noConflict()
 
   //Load onecup files
   eval(onecup.import());
@@ -106,6 +115,23 @@
   //Vertically Centers Text within div - To be implemented
   ui.vertCentTXT = function(txt) {};
 
+  //Dispatches events to multiple divs
+  ui.dispatchEvents = function(divs, eventName) {
+    var div, i, index, len, m, results;
+    results = [];
+    for (index = m = 0, len = divs.length; m < len; index = ++m) {
+      i = divs[index];
+      div = document.getElementById(i);
+      console.log(i);
+      if (div) {
+        results.push(div.dispatchEvent(ui.customEvents.get(eventName)));
+      } else {
+        results.push(void 0);
+      }
+    }
+    return results;
+  };
+
   //Makes div enlargeable by mousing over and shrinks on leaving
   ui.enlargeable = function(divName) {
     var div;
@@ -124,7 +150,8 @@
       div.style.transition = "all 0.5s ease-out";
       return div.style.transform = "scale(1,1)";
     });
-    return ui.enlargeables.set(divName, true);
+    ui.enlargeables.set(divName, true);
+    return true;
   };
 
   
@@ -148,18 +175,63 @@
       div.style.left = (div.offsetLeft - leftShift) + "px";
       return div.style.top = (div.offsetTop - topShift) + "px";
     });
-    return ui.shiftables.set(divName, true);
+    ui.shiftables.set(divName, true);
+    return true;
   };
 
+  //Makes a ui div have a customizable function
+  ui.customizableByEvent = function(divName, eventName, func) {
+    var div;
+    div = document.getElementById(divName);
+    if (div === void 0 || (div == null)) {
+      return;
+    }
+    if (continous === false && ui.customizables.has(divName)) {
+      return;
+    }
+    console.log(`${divName}, ${eventName}, ${func}`);
+    div.addEventListener(eventName, function() {
+      console.log(eventName + " dispatched!");
+      return func(div);
+    });
+    ui.customizables.set(divName, true);
+    return true;
+  };
+
+  ui.customizable = function() {};
+
   //Changes a UI state
-  ui.stateButton = function(txt, type, state, w, h, l, t, z) {
-    return div(".dullesButton", function() {
+  ui.stateButton = function(txt, type, state, w, h, l, t, z, background) {
+    var button;
+    button = div(`#${type}${state}.dullesButton`, function() {
       position("fixed");
       width(w);
       height(h);
       left(l);
       top(t);
       z_index(z);
+      transition("all 0.2s ease-out");
+      //if background == true
+      /* Deprecated -> Don't Use
+          ui.customizable(type+state, type, true, func = (mDiv) ->
+              bg = document.getElementById("#{type}Background")
+              if bg? and bg != undefined and mDiv? and mDiv != undefined
+                  console.log("Border Found!")
+                  bgBorder = bg.getBoundingClientRect()
+                  ourBorder = mDiv.getBoundingClientRect()
+                  console.log(ourBorder)
+                  console.log(bgBorder)
+                  console.log(bgBorder.bottom-ourBorder.bottom)
+                  if bgBorder.bottom-ourBorder.bottom <= 0
+                      mDiv.style.opacity = "0"
+                  else
+                      mDiv.style.opacity = "1")
+      */
+      if (ui.menuShows.get(type) !== false) {
+        opacity("1");
+      } else {
+        opacity("0");
+      }
       if (ui.menuStates.get(type) === state) {
         box_shadow("0 0 0 4px #ccffff, 0 0 0 6px #006666");
         text_shadow("0 0 10px #3333ff");
@@ -169,24 +241,53 @@
       });
       return text(txt);
     });
+    return button;
   };
 
   //Makes a state menu that can change a state of the ui
   //states and stateNames should be the same length
-  ui.stateMenu = function(type, txt, states, stateNames, x, y, z) {
+  ui.stateMenu = function(type, txt, states, stateNames, x, y, z, background) {
+    var buttons, event;
     if (!ui.menuStates.has(type)) {
       ui.menuStates.set(type, states[0]);
     }
     if (!ui.menuShows.has(type)) {
       ui.menuShows.set(type, true);
     }
+    if (!ui.customEvents.has(type)) {
+      event = new Event(type);
+      ui.customEvents.set(type, event);
+    }
+    buttons = [];
+    if (background === true) {
+      div(`#${type}Background.menu`, function() {
+        //console.log("Making Background")
+        left(x - 5);
+        top(y - 5);
+        width(260);
+        height(ui.menuShows.get(type) === true ? 60 + states.length * 59 : 60);
+        return position("absolute");
+      });
+    }
+    /* Deprecated
+            div "##{type}Cover.menu" , ->
+    left x-5
+    top if ui.menuShows.get(type) == true then y-55+states.length*59 else y+55
+    width 260
+    height if ui.menuShows.get(type) == true then 0 else states.length*59
+    z_index "#{z+1}"
+    position "absolute"
+    border "hidden"
+    background_color "rgba(0,0,0,0.8)"
+    */
     return div(`#${type}.navMenu`, function() {
       var index, len, m, state;
-      //Make a ui state for each state parameter
-      if (ui.menuShows.get(type) !== false) {
-        for (index = m = 0, len = states.length; m < len; index = ++m) {
-          state = states[index];
-          ui.stateButton(stateNames[index], type, state, 220, 45, x + 15, y + 58 + index * 58, z);
+//Make a ui state for each state parameter
+      for (index = m = 0, len = states.length; m < len; index = ++m) {
+        state = states[index];
+        ui.stateButton(stateNames[index], type, state, 220, 45, x + 15, y + 58 + index * 58, z, background);
+        if (buttons.length !== states.length) {
+          buttons.push(type + state);
         }
       }
       left(x);
@@ -209,6 +310,8 @@
       });
     });
   };
+
+  //ui.dispatchEvents(buttons,type)
 
   //Downloads a file
   ui.downloadButton = function(txt, type, state, w, h, l, t) {
