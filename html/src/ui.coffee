@@ -116,8 +116,8 @@ ui.enlargeable = (divName) ->
     ui.enlargeables.set(divName,true)
 
     return true
-    
-        
+
+
 #Makes div moveable by mousing over and shifts back on leaving
 ui.shiftable = (divName, leftShift, topShift) ->
     div = document.getElementById(divName)
@@ -131,7 +131,7 @@ ui.shiftable = (divName, leftShift, topShift) ->
         div.style.transition = "all 0.5s ease-out"
         div.style.left = (div.offsetLeft - leftShift) + "px"
         div.style.top = (div.offsetTop - topShift) + "px"
-    
+
     ui.shiftables.set(divName,true)
 
     return true
@@ -160,7 +160,7 @@ ui.stateButton = (txt, type, state, w, h, l, t, z, background) ->
         z_index z
         transition "all 0.2s ease-out"
         #if background == true
-            ### Deprecated -> Don't Use
+        ### Deprecated -> Don't Use
             ui.customizable(type+state, type, true, func = (mDiv) ->
                 bg = document.getElementById("#{type}Background")
                 if bg? and bg != undefined and mDiv? and mDiv != undefined
@@ -177,7 +177,7 @@ ui.stateButton = (txt, type, state, w, h, l, t, z, background) ->
                                                 ###
         if ui.menuShows.get(type) != false
             opacity "1"
-        else 
+        else
             opacity "0"
         if ui.menuStates.get(type) == state
             box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
@@ -283,13 +283,25 @@ ui.downloadMenu = (type, txt, fileNames, buttonNames, x, y) ->
 
 #LoginScreen
 makeLoginScreen = ->
-    
+
 
 #Makes a nav bar button
 ui.navButton = (menu, name, x, y) ->
    return div ".navButton", ->
         left x
         top y
+        if ui.state == name
+            box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
+            text_shadow "0 0 10px #3333ff"
+        onclick ->
+            if menu == false
+                window.location.assign(name+".html")
+                ui.state = name
+        text name
+
+#Buttons for logos
+ui.LogoButton = (name, link, width, height, src, position) ->
+    return div ".navButton", ->
         if ui.state == name
             box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
             text_shadow "0 0 10px #3333ff"
@@ -326,8 +338,10 @@ ui.nav = ->
             position "relative"
         img "#BigRedLogo", width: "60px", height: "60px", src:"imgs/BigRedTeamLogo.jpeg", ->
             position "relative"
-        img "#RoboVikesLogo", width: "60px", height: "60px", src:"imgs/RoboVikesTeamLogo.jpeg", ->
-            position "relative"
+        ui.LogoButton(img "#RoboVikesLogo", "robovikes", width: "60px", height: "60px", src:"imgs/RoboVikesTeamLogo.jpeg", ->
+            position "relative")
+        #img "#RoboVikesLogo", width: "60px", height: "60px", src:"imgs/RoboVikesTeamLogo.jpeg", ->
+        #    position "relative"
         #HOME BUTTON
         ui.navButton(false,"HOME",window.innerWidth-445, 40)
 
@@ -348,7 +362,7 @@ ui.nav = ->
 
         #MORE Button
         ui.navButton(true,"MORE",window.innerWidth-150, 78)
-    
+
         #LOGIN Button
         div "#LoginButtonContainer", ->
             position "absolute"
@@ -363,7 +377,7 @@ ui.nav = ->
                     ui.logging  = true
 
         makeLoginScreen()
-                    
+
 
 
 #Main UI Function
@@ -408,8 +422,12 @@ window.body = ->
                     ui.documents()
                     break
                 when "CONTACT"
-                    ui.contact() if ui.contact? 
+                    ui.contact() if ui.contact?
                     break
+                when "CB"
+                    ui.cb()
+                    break
+
      if ui.logging == true
 
         div ->
@@ -422,8 +440,8 @@ window.body = ->
             width window.innerWidth
             height window.innerHeight
             z_index "4"
-            background_color "rgba(0, 13, 26,0.8)"       
-            
+            background_color "rgba(0, 13, 26,0.8)"
+
 
 #Reappend an element to onecup
 ui.putOnOnecup = (div) ->
