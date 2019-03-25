@@ -7,7 +7,7 @@
 
   ui.about = function() {
     //Button Format : Text, State, Width, Height, Left, Top
-    ui.stateMenu("About", "About Navigation", ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], 35, 150);
+    ui.stateMenu("About", "About Navigation", ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], 35, 235);
     return div(".about", function() {
       top("100px");
       width("600px");

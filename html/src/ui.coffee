@@ -309,7 +309,7 @@ ui.nav = ->
         font_family "NavButtonFont"
         top "10px"
         margin "auto"
-        height "120px"
+        height "220px"
         #Website Title
         div ->
             position "absolute"
@@ -329,25 +329,32 @@ ui.nav = ->
         img "#RoboVikesLogo", width: "60px", height: "60px", src:"imgs/RoboVikesTeamLogo.jpeg", ->
             position "relative"
         #HOME BUTTON
-        ui.navButton(false,"HOME",window.innerWidth-445, 40)
+        div "#navButtonContainer", ->
+            margin "auto"
+            width 840
+            position "relative"
+            #position "absolute"
 
-        #ABOUT Button
-        ui.navButton(false,"ABOUT",window.innerWidth-325, 40)
+            
+            ui.navButton(false,"HOME",0, 78)
 
-        #BLOG BUTTON
-        ui.navButton(false,"BLOG",window.innerWidth-205, 40)
+            #ABOUT Button
+            ui.navButton(false,"ABOUT",10, 78)
 
-        #MEDIA BUTTON
-        ui.navButton(false,"MEDIA",window.innerWidth-510, 78)
+            #BLOG BUTTON
+            ui.navButton(false,"BLOG",20, 78)
 
-        #DOCUMENTS BUTTON
-        ui.navButton(false,"DOCUMENTS",window.innerWidth-390, 78)
+            #MEDIA BUTTON
+            ui.navButton(false,"MEDIA",30, 78)
 
-        #CONTACT BUTTON
-        ui.navButton(false,"CONTACT",window.innerWidth-270, 78)
+            #DOCUMENTS BUTTON
+            ui.navButton(false,"DOCUMENTS",40, 78)
 
-        #MORE Button
-        ui.navButton(true,"MORE",window.innerWidth-150, 78)
+            #CONTACT BUTTON
+            ui.navButton(false,"CONTACT",50, 78)
+
+            #MORE Button
+            ui.navButton(true,"MORE",60, 78)
     
         #LOGIN Button
         div "#LoginButtonContainer", ->

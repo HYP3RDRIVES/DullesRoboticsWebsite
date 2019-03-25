@@ -5,7 +5,7 @@ eval(onecup.import())
 
 ui.home = ->
     #Display Flyer
-    img src: "imgs/RoboticsFlyer.jpeg", width: (window.innerWidth-30)/3, height: 2.4*window.innerHeight/3, ->
+    img src: "imgs/RoboticsFlyer.jpeg", width: 600, height: 736, ->
         position "relative"
         top "50px"
         display "block"

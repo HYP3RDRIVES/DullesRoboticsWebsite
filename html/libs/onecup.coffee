@@ -134,6 +134,7 @@ CSS_PROPS = """
     max_width
     min_height
     min_width
+    onsubmit
     opacity
     outline
     overflow

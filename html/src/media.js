@@ -8,7 +8,7 @@
   //Make a menu
   //Add twitter widget, facebook widget, instagram widget, discord widget, and remind widget
   ui.media = function() {
-    ui.stateMenu("Media", "Media Navigation", ["Remind", "Instagram", "Facebook", "Twitter"], ["Remind", "Instagram", "Facebook", "Twitter"], 35, 150);
+    ui.stateMenu("Media", "Media Navigation", ["Remind", "Instagram", "Facebook", "Twitter"], ["Remind", "Instagram", "Facebook", "Twitter"], 35, 235);
     return div(".about", function() {
       top("50px");
       width("600px");
