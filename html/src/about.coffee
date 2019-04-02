@@ -36,17 +36,17 @@ ui.about = ->
                 break
             when "Brief History"
                 div ->
-                    img src: "imgs/DullesRobotics-AboutRobot.jpeg", width: 415, height: 242, ->
+                    img src: "imgs/DullesRobotics-AboutRobot.jpeg", width: 415, height: 205, ->
                         position "relative"
                         display "block"
                         margin_left "auto"
                         margin_right "auto"
                 div ->
-                    data  = "<!Break>-Founded in August 2016 by Kenneth Mitra, Karim Karim, and Austin Joseph<!>
+                    data  = "<!Break>-Founded in August 2016 by Kenneth Mitra, Karim Karim, and Austin Joseph<!> 
 <!Break>-Brian Sonnier is the club sponsor<!>
 <!Break>-Won 3rd over at our first competition, USTEM BEST<!>
 <!Break>-Made it to the FTC (First Tech Challenge) UIL State Competition in Austin and won a UIL award<!>
-"
+"                   
                     splicedText = ui.spliceText(data)
                     for textData,textDataRef in splicedText
                         div ->
@@ -61,3 +61,4 @@ ui.about = ->
                         margin_left "auto"
                         margin_right "auto"
                 break
+    

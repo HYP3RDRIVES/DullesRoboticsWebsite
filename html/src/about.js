@@ -43,7 +43,7 @@
             return img({
               src: "imgs/DullesRobotics-AboutRobot.jpeg",
               width: 415,
-              height: 242
+              height: 205
             }, function() {
               position("relative");
               display("block");
