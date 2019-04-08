@@ -5,7 +5,7 @@
   ui.home = function() {
     return img({
       src: "imgs/RoboticsFlyer.jpeg",
-      width: (window.innerHeight + 150) / 2,
+      width: (window.innerHeight + 250) / 2,
       height: 2.4 * window.innerHeight / 3
     }, function() {
       position("relative");
