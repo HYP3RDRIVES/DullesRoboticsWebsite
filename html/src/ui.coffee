@@ -7,6 +7,7 @@ ui.state = "HOME"
 ui.logging = false
 ui.menuStates = new Map()
 ui.menuShows = new Map()
+ui.dropDowns = new Map()
 
 # --- Move UI Stuff ---
 ui.enlargeables = new Map()
@@ -117,6 +118,16 @@ ui.enlargeable = (divName) ->
 
     return true
     
+ui.redirectFunction = (page) ->
+    return redirect = ->
+        window.location.assign(page)
+        
+#Returns a function that redirects to a certain section of a page when called
+ui.redirectTPS = (page,type,section) ->
+    return redirect = ->
+        window.location.assign(page)
+        ui.menuStates.set(type,section)
+
         
 #Makes div moveable by mousing over and shifts back on leaving
 ui.shiftable = (divName, leftShift, topShift) ->
@@ -280,7 +291,43 @@ ui.downloadMenu = (type, txt, fileNames, buttonNames, x, y) ->
                 else
                     ui.menuShows.set(type,true)
 
+#Downloads a file
+ui.dropDownButton = (txt, type, func, w, h, l, t) ->
+    div ".dullesButton .secondfont", ->
+        position "fixed"
+        width w
+        height h
+        left l
+        top t
+        onclick ->
+            func()
+        text txt
 
+#Makes a drop down menu
+ui.dropDownMenu = (type, txt, functions, buttonNames, x, y, mainFunc) ->
+    if !ui.dropDowns.has(type)
+        ui.dropDowns.set(type,true)
+    div ".navButton" , ->
+        #Make a ui state for each state parameter
+        if ui.menuShows.get(type) != false
+            for func,index in functions
+                ui.dropDownButton(buttonNames[index], type, func, 110, 25, x + 15, y + 58 + index * 58)
+        left x
+        top y
+        #width 250
+        #position "fixed"
+        #text_align "center"
+        div ".navTitle", ->
+            text txt
+            height "inherit"
+            #Toggle menu on hover
+            onmouseover ->
+                ui.dropDowns.set(type,true)
+            onmouseout ->
+                ui.dropDowns.set(type,false)
+            #Do main function if main button clicked
+            onclick ->
+                mainFunc()
 #LoginScreen
 makeLoginScreen = ->
     
@@ -334,12 +381,18 @@ ui.nav = ->
             width 840
             position "relative"
             #position "absolute"
-
             
+            #Temporary variable
+            temp = []
+
             ui.navButton(false,"HOME",0, 78)
 
+
+
             #ABOUT Button
-            ui.navButton(false,"ABOUT",10, 78)
+            #ui.navButton(false,"ABOUT",10, 78)
+            temp = [ui.redirectTPS("ABOUT.html","ABOUT","Mission Statement")]
+            ui.dropDownMenu("ABOUT","ABOUT",temp,["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"],10,78,ui.redirectFunction("ABOUT.html"))
 
             #BLOG BUTTON
             ui.navButton(false,"BLOG",20, 78)
