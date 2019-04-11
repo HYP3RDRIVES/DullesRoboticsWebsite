@@ -356,7 +356,7 @@ ui.nav = ->
         font_family "NavButtonFont"
         top "10px"
         margin "auto"
-        height "220px"
+        height "120px"
         #Website Title
         div ->
             position "absolute"
@@ -395,19 +395,19 @@ ui.nav = ->
             ui.dropDownMenu("ABOUT","ABOUT",temp,["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"],10,78,ui.redirectFunction("ABOUT.html"))
 
             #BLOG BUTTON
-            ui.navButton(false,"BLOG",20, 78)
+            ui.navButton(false,"BLOG",window.innerWidth-205, 40)
 
             #MEDIA BUTTON
-            ui.navButton(false,"MEDIA",30, 78)
+            ui.navButton(false,"MEDIA",window.innerWidth-510, 78)
 
             #DOCUMENTS BUTTON
-            ui.navButton(false,"DOCUMENTS",40, 78)
+            ui.navButton(false,"DOCUMENTS",window.innerWidth-390, 78)
 
             #CONTACT BUTTON
-            ui.navButton(false,"CONTACT",50, 78)
+            ui.navButton(false,"CONTACT",window.innerWidth-270, 78)
 
             #MORE Button
-            ui.navButton(true,"MORE",60, 78)
+            ui.navButton(true,"MORE",window.innerWidth-150, 78)
     
         #LOGIN Button
         div "#LoginButtonContainer", ->
