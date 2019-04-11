@@ -6,7 +6,7 @@ eval(onecup.import())
 
 ui.about = ->
     #Button Format : Text, State, Width, Height, Left, Top
-    ui.stateMenu("About", "About Navigation", ["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"], ["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"], 35, 150)
+    ui.stateMenu("About", "About Navigation", ["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"], ["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"], 35, 235)
     div ".about" , ->
         top "100px"
         width "600px"

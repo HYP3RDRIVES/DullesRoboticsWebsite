@@ -3,7 +3,7 @@
   eval(onecup["import"]());
 
   ui.media = function() {
-    ui.stateMenu("Media", "Media Navigation", ["Remind", "Instagram", "Facebook", "Twitter"], ["Remind", "Instagram", "Facebook", "Twitter"], 35, 150);
+    ui.stateMenu("Media", "Media Navigation", ["Remind", "Instagram", "Facebook", "Twitter"], ["Remind", "Instagram", "Facebook", "Twitter"], 35, 235);
     return div(".about", function() {
       top("50px");
       width("600px");

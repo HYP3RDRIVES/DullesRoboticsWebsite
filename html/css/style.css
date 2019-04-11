@@ -45,6 +45,7 @@ font-weight: normal;
 src: local('Impress BT'), url('impress-bt-58d9dc6098a03.woff') format('woff');
 }
 
+/*This is for the font title*/
 @font-face {
   font-family: 'NavButtonFont';
   font-style: normal;
@@ -54,10 +55,10 @@ src: local('Impress BT'), url('impress-bt-58d9dc6098a03.woff') format('woff');
 }
 
 @font-face {
-font-family: 'Quango';
-font-style: normal;
-font-weight: normal;
-src: local('raidercrusader'), url('raidercrusader.woff') format('woff');
+    font-family: 'Quango';
+    font-style: normal;
+    font-weight: normal;
+    src: local('raidercrusader'), url('Montserrat-Regular.otf') format('opentype');
 }
 
 body {

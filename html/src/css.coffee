@@ -18,10 +18,10 @@ css ".navMenu", ->
     border_top "4px solid #ffffff"
     padding "10px"
     font_family "Quango"
-    color "#008080"
+    color "#ffffff"
 
 css ".navTitle:hover", ->
-    text_shadow "0 0 10px #3333ff;"
+    text_shadow "0 0 10px #ffffff;"
 
 
 css ".navButton", ->
@@ -30,7 +30,8 @@ css ".navButton", ->
     width "110px"
     height "25px"
     color "#008080"
-    position "absolute"
+    #margin_right "100px"
+    position "relative"
     display "inline-block"
     margin "auto"
     text_align "center"
@@ -44,7 +45,7 @@ css ".dullesButton", ->
     top "50px"
     width "110px"
     height "45px"
-    color "#008080"
+    color "#ffffff"
     position "absolute"
     display "inline-block"
     margin "auto"
@@ -52,7 +53,7 @@ css ".dullesButton", ->
 
 css ".dullesButton:hover", ->
     box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
-    text_shadow "0 0 10px #3333ff"
+    text_shadow "0 0 10px #ffffff"
 
 css ".dullesButton2", ->
     font_family "Quango"

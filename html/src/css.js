@@ -17,11 +17,11 @@
     border_top("4px solid #ffffff");
     padding("10px");
     font_family("Quango");
-    return color("#008080");
+    return color("#ffffff");
   });
 
   css(".navTitle:hover", function() {
-    return text_shadow("0 0 10px #3333ff;");
+    return text_shadow("0 0 10px #ffffff;");
   });
 
   css(".navButton", function() {
@@ -30,7 +30,8 @@
     width("110px");
     height("25px");
     color("#008080");
-    position("absolute");
+    //margin_right "100px"
+    position("relative");
     display("inline-block");
     margin("auto");
     return text_align("center");
@@ -46,7 +47,7 @@
     top("50px");
     width("110px");
     height("45px");
-    color("#008080");
+    color("#ffffff");
     position("absolute");
     display("inline-block");
     margin("auto");
@@ -55,7 +56,7 @@
 
   css(".dullesButton:hover", function() {
     box_shadow("0 0 0 4px #ccffff, 0 0 0 6px #006666");
-    return text_shadow("0 0 10px #3333ff");
+    return text_shadow("0 0 10px #ffffff");
   });
 
   css(".dullesButton2", function() {

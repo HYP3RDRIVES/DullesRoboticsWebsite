@@ -32,7 +32,8 @@
         case "Login":
           return form("#LoginForm", {
             action: "/html/php/authenticate.php",
-            method: "POST"
+            method: "POST",
+            onsubmit: "return false;"
           }, function() {
             margin_left("auto");
             margin_right("auto");

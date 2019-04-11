@@ -1,13 +1,16 @@
 <?php
 #echo "<script>console.log( 'script loaded' );</script>";
 session_start();
+error_reporting(E_ALL); 
+ini_set('display_errors', 1);
 // Change this to your connection info.
-$DB_HOST = '98.200.141.31';
+$DB_HOST = '104.27.168.171';
 $DB_USER = 'phpmyadmin';
 $DB_PASS = 'some_pass';
 $DB_NAME = 'RoboticsUsers';
+$DB_PORT = '3306';
 // Try and connect using the info above.
-$con = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
+$con = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME, $DB_PORT);
 if ( mysqli_connect_error() ) {
 	// If there is an error with the connection, stop the script and display the error.
 	die ('Failed to connect to MySQL: ' . mysqli_connect_error());

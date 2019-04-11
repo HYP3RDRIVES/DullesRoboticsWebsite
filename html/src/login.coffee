@@ -31,7 +31,7 @@ ui.login = ->
             text ui.menuStates.get("Login")
         switch ui.menuStates.get("Login")
             when "Login"
-                form "#LoginForm", action:"/html/php/authenticate.php", method:"POST", ->
+                form "#LoginForm", action:"/html/php/authenticate.php", method:"POST", onsubmit: "return false;", ->
                     margin_left "auto"
                     margin_right "auto"
                     display "grid" 
