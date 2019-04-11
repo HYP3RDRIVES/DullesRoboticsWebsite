@@ -8,6 +8,7 @@ ui.logging = false
 ui.menuStates = new Map()
 ui.menuShows = new Map()
 ui.dropDowns = new Map()
+ui.dropDetects = new Map()
 
 # --- Move UI Stuff ---
 ui.enlargeables = new Map()
@@ -126,6 +127,7 @@ ui.redirectFunction = (page) ->
 ui.redirectTPS = (page,type,section) ->
     return redirect = ->
         window.location.assign(page)
+        
         ui.menuStates.set(type,section)
 
         
@@ -294,11 +296,14 @@ ui.downloadMenu = (type, txt, fileNames, buttonNames, x, y) ->
 #Downloads a file
 ui.dropDownButton = (txt, type, func, w, h, l, t) ->
     div ".dullesButton .secondfont", ->
-        position "fixed"
+        #position "absolute"
+        display "default"
+        margin "default"
         width w
         height h
         left l
         top t
+        z_index "2"
         onclick ->
             func()
         text txt
@@ -306,12 +311,12 @@ ui.dropDownButton = (txt, type, func, w, h, l, t) ->
 #Makes a drop down menu
 ui.dropDownMenu = (type, txt, functions, buttonNames, x, y, mainFunc) ->
     if !ui.dropDowns.has(type)
-        ui.dropDowns.set(type,true)
+        ui.dropDowns.set(type,false)
     div ".navButton" , ->
         #Make a ui state for each state parameter
-        if ui.menuShows.get(type) != false
+        if ui.dropDowns.get(type) != false
             for func,index in functions
-                ui.dropDownButton(buttonNames[index], type, func, 110, 25, x + 15, y + 58 + index * 58)
+                ui.dropDownButton(buttonNames[index], type, func, 110, 25, x - 10, y - 45 + index * 45)
         left x
         top y
         #width 250
@@ -319,10 +324,10 @@ ui.dropDownMenu = (type, txt, functions, buttonNames, x, y, mainFunc) ->
         #text_align "center"
         div ".navTitle", ->
             text txt
-            height "inherit"
             #Toggle menu on hover
             onmouseover ->
                 ui.dropDowns.set(type,true)
+                
             onmouseout ->
                 ui.dropDowns.set(type,false)
             #Do main function if main button clicked
@@ -356,7 +361,7 @@ ui.nav = ->
         font_family "NavButtonFont"
         top "10px"
         margin "auto"
-        height "120px"
+        height "220px"
         #Website Title
         div ->
             position "absolute"
@@ -391,23 +396,24 @@ ui.nav = ->
 
             #ABOUT Button
             #ui.navButton(false,"ABOUT",10, 78)
-            temp = [ui.redirectTPS("ABOUT.html","ABOUT","Mission Statement")]
+            temp = [ui.redirectTPS("ABOUT.html","About","Mission Statement"),ui.redirectTPS("ABOUT.html","About","What Do We Do?"),ui.redirectTPS("ABOUT.html","About","Who Can Join?"),
+            ui.redirectTPS("ABOUT.html","About","Brief History"),ui.redirectTPS("ABOUT.html","ABOUT","Departments")]
             ui.dropDownMenu("ABOUT","ABOUT",temp,["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"],10,78,ui.redirectFunction("ABOUT.html"))
 
             #BLOG BUTTON
-            ui.navButton(false,"BLOG",window.innerWidth-205, 40)
+            ui.navButton(false,"BLOG",20, 78)
 
             #MEDIA BUTTON
-            ui.navButton(false,"MEDIA",window.innerWidth-510, 78)
+            ui.navButton(false,"MEDIA",30, 78)
 
             #DOCUMENTS BUTTON
-            ui.navButton(false,"DOCUMENTS",window.innerWidth-390, 78)
+            ui.navButton(false,"DOCUMENTS",40, 78)
 
             #CONTACT BUTTON
-            ui.navButton(false,"CONTACT",window.innerWidth-270, 78)
+            ui.navButton(false,"CONTACT",50, 78)
 
             #MORE Button
-            ui.navButton(true,"MORE",window.innerWidth-150, 78)
+            ui.navButton(true,"MORE",60, 78)
     
         #LOGIN Button
         div "#LoginButtonContainer", ->

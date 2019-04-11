@@ -17,6 +17,8 @@
 
   ui.dropDowns = new Map();
 
+  ui.dropDetects = new Map();
+
   // --- Move UI Stuff ---
   ui.enlargeables = new Map();
 
@@ -385,11 +387,14 @@
   //Downloads a file
   ui.dropDownButton = function(txt, type, func, w, h, l, t) {
     return div(".dullesButton .secondfont", function() {
-      position("fixed");
+      //position "absolute"
+      display("default");
+      margin("default");
       width(w);
       height(h);
       left(l);
       top(t);
+      z_index("2");
       onclick(function() {
         return func();
       });
@@ -400,15 +405,15 @@
   //Makes a drop down menu
   ui.dropDownMenu = function(type, txt, functions, buttonNames, x, y, mainFunc) {
     if (!ui.dropDowns.has(type)) {
-      ui.dropDowns.set(type, true);
+      ui.dropDowns.set(type, false);
     }
     return div(".navButton", function() {
       var func, index, len, m;
       //Make a ui state for each state parameter
-      if (ui.menuShows.get(type) !== false) {
+      if (ui.dropDowns.get(type) !== false) {
         for (index = m = 0, len = functions.length; m < len; index = ++m) {
           func = functions[index];
-          ui.dropDownButton(buttonNames[index], type, func, 110, 25, x + 15, y + 58 + index * 58);
+          ui.dropDownButton(buttonNames[index], type, func, 110, 25, x - 10, y - 45 + index * 45);
         }
       }
       left(x);
@@ -418,7 +423,6 @@
       //text_align "center"
       return div(".navTitle", function() {
         text(txt);
-        height("inherit");
         //Toggle menu on hover
         onmouseover(function() {
           return ui.dropDowns.set(type, true);
@@ -468,7 +472,7 @@
       font_family("NavButtonFont");
       top("10px");
       margin("auto");
-      height("120px");
+      height("220px");
       //Website Title
       div(function() {
         position("absolute");
@@ -516,18 +520,18 @@
         ui.navButton(false, "HOME", 0, 78);
         //ABOUT Button
         //ui.navButton(false,"ABOUT",10, 78)
-        temp = [ui.redirectTPS("ABOUT.html", "ABOUT", "Mission Statement")];
+        temp = [ui.redirectTPS("ABOUT.html", "About", "Mission Statement"), ui.redirectTPS("ABOUT.html", "About", "What Do We Do?"), ui.redirectTPS("ABOUT.html", "About", "Who Can Join?"), ui.redirectTPS("ABOUT.html", "About", "Brief History"), ui.redirectTPS("ABOUT.html", "ABOUT", "Departments")];
         ui.dropDownMenu("ABOUT", "ABOUT", temp, ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], 10, 78, ui.redirectFunction("ABOUT.html"));
         //BLOG BUTTON
-        ui.navButton(false, "BLOG", window.innerWidth - 205, 40);
+        ui.navButton(false, "BLOG", 20, 78);
         //MEDIA BUTTON
-        ui.navButton(false, "MEDIA", window.innerWidth - 510, 78);
+        ui.navButton(false, "MEDIA", 30, 78);
         //DOCUMENTS BUTTON
-        ui.navButton(false, "DOCUMENTS", window.innerWidth - 390, 78);
+        ui.navButton(false, "DOCUMENTS", 40, 78);
         //CONTACT BUTTON
-        ui.navButton(false, "CONTACT", window.innerWidth - 270, 78);
+        ui.navButton(false, "CONTACT", 50, 78);
         //MORE Button
-        return ui.navButton(true, "MORE", window.innerWidth - 150, 78);
+        return ui.navButton(true, "MORE", 60, 78);
       });
       
       //LOGIN Button
