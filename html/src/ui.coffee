@@ -8,7 +8,6 @@ ui.logging = false
 ui.menuStates = new Map()
 ui.menuShows = new Map()
 ui.dropDowns = new Map()
-ui.dropDetects = new Map()
 
 # --- Move UI Stuff ---
 ui.enlargeables = new Map()
@@ -126,9 +125,10 @@ ui.redirectFunction = (page) ->
 #Returns a function that redirects to a certain section of a page when called
 ui.redirectTPS = (page,type,section) ->
     return redirect = ->
-        window.location.assign(page)
-        
-        ui.menuStates.set(type,section)
+        console.log("Redirecting")
+        window.location.assign(page+"?window.default#{type}=#{section}")
+        console.log("TEST")
+        #ui.menuStates.set(type,section)
 
         
 #Makes div moveable by mousing over and shifts back on leaving
@@ -300,10 +300,10 @@ ui.dropDownButton = (txt, type, func, w, h, l, t) ->
         display "default"
         margin "default"
         width w
-        height h
+        height h*2
         left l
         top t
-        z_index "2"
+        z_index "100"
         onclick ->
             func()
         text txt
@@ -312,27 +312,29 @@ ui.dropDownButton = (txt, type, func, w, h, l, t) ->
 ui.dropDownMenu = (type, txt, functions, buttonNames, x, y, mainFunc) ->
     if !ui.dropDowns.has(type)
         ui.dropDowns.set(type,false)
-    div ".navButton" , ->
+    div ".navBG" , ->
         #Make a ui state for each state parameter
         if ui.dropDowns.get(type) != false
             for func,index in functions
-                ui.dropDownButton(buttonNames[index], type, func, 110, 25, x - 10, y - 45 + index * 45)
+                ui.dropDownButton(buttonNames[index], type, func, 110, 25, x - 10, y - 45 + index * 55)
         left x
         top y
+        height functions.length*55+30
         #width 250
         #position "fixed"
         #text_align "center"
         div ".navTitle", ->
             text txt
-            #Toggle menu on hover
-            onmouseover ->
-                ui.dropDowns.set(type,true)
-                
-            onmouseout ->
-                ui.dropDowns.set(type,false)
+
             #Do main function if main button clicked
             onclick ->
                 mainFunc()
+                    #Toggle menu on hover
+        onmouseover ->
+            ui.dropDowns.set(type,true)
+                
+        onmouseout ->
+            ui.dropDowns.set(type,false)
 #LoginScreen
 makeLoginScreen = ->
     
@@ -397,7 +399,7 @@ ui.nav = ->
             #ABOUT Button
             #ui.navButton(false,"ABOUT",10, 78)
             temp = [ui.redirectTPS("ABOUT.html","About","Mission Statement"),ui.redirectTPS("ABOUT.html","About","What Do We Do?"),ui.redirectTPS("ABOUT.html","About","Who Can Join?"),
-            ui.redirectTPS("ABOUT.html","About","Brief History"),ui.redirectTPS("ABOUT.html","ABOUT","Departments")]
+            ui.redirectTPS("ABOUT.html","About","Brief History"),ui.redirectTPS("ABOUT.html","About","Departments")]
             ui.dropDownMenu("ABOUT","ABOUT",temp,["Mission Statement","What Do We Do?","Who Can Join?","Brief History","Departments"],10,78,ui.redirectFunction("ABOUT.html"))
 
             #BLOG BUTTON

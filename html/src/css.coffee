@@ -40,6 +40,27 @@ css ".navButton:hover", ->
     box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
     text_shadow "0 0 10px #3333ff"
 
+css ".navBG", ->
+    font_family "Quango"
+    top "50px"
+    width "110px"
+    height "25px"
+    color "#008080"
+    #margin_right "100px"
+    position "relative"
+    display "inline-block"
+    margin "auto"
+    text_align "center"
+    z_index "100"
+ 
+
+css ".navBG:hover", ->
+    box_shadow "0 0 0 4px #ccffff, 0 0 0 6px #006666"
+    text_shadow "0 0 10px #3333ff"
+    background_color "black"
+
+
+
 css ".dullesButton", ->
     font_family "Quango"
     top "50px"

@@ -17,8 +17,6 @@
 
   ui.dropDowns = new Map();
 
-  ui.dropDetects = new Map();
-
   // --- Move UI Stuff ---
   ui.enlargeables = new Map();
 
@@ -170,12 +168,14 @@
   ui.redirectTPS = function(page, type, section) {
     var redirect;
     return redirect = function() {
-      window.location.assign(page);
-      return ui.menuStates.set(type, section);
+      console.log("Redirecting");
+      window.location.assign(page + `?window.default${type}=${section}`);
+      return console.log("TEST");
     };
   };
 
-  
+  //ui.menuStates.set(type,section)
+
   //Makes div moveable by mousing over and shifts back on leaving
   ui.shiftable = function(divName, leftShift, topShift) {
     var div;
@@ -391,10 +391,10 @@
       display("default");
       margin("default");
       width(w);
-      height(h);
+      height(h * 2);
       left(l);
       top(t);
-      z_index("2");
+      z_index("100");
       onclick(function() {
         return func();
       });
@@ -407,33 +407,34 @@
     if (!ui.dropDowns.has(type)) {
       ui.dropDowns.set(type, false);
     }
-    return div(".navButton", function() {
+    return div(".navBG", function() {
       var func, index, len, m;
       //Make a ui state for each state parameter
       if (ui.dropDowns.get(type) !== false) {
         for (index = m = 0, len = functions.length; m < len; index = ++m) {
           func = functions[index];
-          ui.dropDownButton(buttonNames[index], type, func, 110, 25, x - 10, y - 45 + index * 45);
+          ui.dropDownButton(buttonNames[index], type, func, 110, 25, x - 10, y - 45 + index * 55);
         }
       }
       left(x);
       top(y);
+      height(functions.length * 55 + 30);
       //width 250
       //position "fixed"
       //text_align "center"
-      return div(".navTitle", function() {
+      div(".navTitle", function() {
         text(txt);
-        //Toggle menu on hover
-        onmouseover(function() {
-          return ui.dropDowns.set(type, true);
-        });
-        onmouseout(function() {
-          return ui.dropDowns.set(type, false);
-        });
         //Do main function if main button clicked
         return onclick(function() {
           return mainFunc();
         });
+      });
+      //Toggle menu on hover
+      onmouseover(function() {
+        return ui.dropDowns.set(type, true);
+      });
+      return onmouseout(function() {
+        return ui.dropDowns.set(type, false);
       });
     });
   };
@@ -520,7 +521,7 @@
         ui.navButton(false, "HOME", 0, 78);
         //ABOUT Button
         //ui.navButton(false,"ABOUT",10, 78)
-        temp = [ui.redirectTPS("ABOUT.html", "About", "Mission Statement"), ui.redirectTPS("ABOUT.html", "About", "What Do We Do?"), ui.redirectTPS("ABOUT.html", "About", "Who Can Join?"), ui.redirectTPS("ABOUT.html", "About", "Brief History"), ui.redirectTPS("ABOUT.html", "ABOUT", "Departments")];
+        temp = [ui.redirectTPS("ABOUT.html", "About", "Mission Statement"), ui.redirectTPS("ABOUT.html", "About", "What Do We Do?"), ui.redirectTPS("ABOUT.html", "About", "Who Can Join?"), ui.redirectTPS("ABOUT.html", "About", "Brief History"), ui.redirectTPS("ABOUT.html", "About", "Departments")];
         ui.dropDownMenu("ABOUT", "ABOUT", temp, ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], 10, 78, ui.redirectFunction("ABOUT.html"));
         //BLOG BUTTON
         ui.navButton(false, "BLOG", 20, 78);

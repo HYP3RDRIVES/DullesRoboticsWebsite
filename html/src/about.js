@@ -6,14 +6,22 @@
   eval(onecup.import());
 
   ui.about = function() {
+    console.log(window.defaultAbout);
+    if (window.defaultAbout == null) {
+      window.defaultAbout = void 0;
+    }
     //Button Format : Text, State, Width, Height, Left, Top
     ui.stateMenu("About", "About Navigation", ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], ["Mission Statement", "What Do We Do?", "Who Can Join?", "Brief History", "Departments"], 35, 235);
+    if (window.defaultAbout != null) {
+      ui.menuStates.set("About", window.defaultAbout);
+    }
     return div(".about", function() {
       top("100px");
       width("600px");
       left("50px");
       margin("auto");
       position("relative");
+      z_index("2");
       div(function() {
         position("relative");
         font_style("italic");
@@ -43,7 +51,7 @@
             return img({
               src: "imgs/DullesRobotics-AboutRobot.jpeg",
               width: 415,
-              height: 242
+              height: 205
             }, function() {
               position("relative");
               display("block");
