@@ -22,20 +22,73 @@
 	<!-- Main Page -->
 	<div class="container" style="height:100%;">
 		<div class="row"></div>
-		<h1 class="display-3">2018-2019 Officers</h1>
+		<h1 class="display-3">2019-2020 Officers</h1>
 		<hr class="style14">
+<!-- Officer BLock -->
+    <div class="container">
+      <!-- Title -->
+
+
+
+      <!-- Logo and Welcome -->
+      <div id="logo-and-welcome" class="row well border-0 border-secondary">
+        <!-- Logo -->
+        <div class="col">
+          <img src="img/officers/akshay.png" class="img-fluid" alt="Logo">
+         </div>
+        <!-- Welcome Message -->
+        <div class="col">
+          <div class="row">
+            <h4 class="display-3">Akshay Kokkula</h4>
+            <hr>
+            <p class="lead text-justify">Technical Coordinator</p>
+
+
+          </div>
+         </div>
+       </div>
+      <hr/>
+
 	</div>
+  <!-- oFfficer lbock ends -->
+
+  <!-- Officer BLock -->
+      <div class="container">
+
+        <hr class="style14" />
+
+        <!-- Logo and Welcome -->
+        <div id="logo-and-welcome" class="row well border-0 border-secondary">
+          <!-- Logo -->
+          <div class="col">
+            <img src="img/w.png" class="img-fluid" alt="Logo">
+           </div>
+          <!-- Welcome Message -->
+          <div class="col">
+            <div class="row">
+              <h4 class="display-3">​Christian Anhaiser </h4>
+              <hr>
+              <p class="lead text-justify">Technical Coordinator</p>
+<!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
+
+            </div>
+           </div>
+         </div>
+        <hr/>
+
+  	</div>
+    <!-- oFfficer lbock ends -->
 
 	<!-- Footer -->
-	<?php 
+	<?php
 		include 'res/footer.php';
 	 ?>
 
 	<!-- Scripts -->
-	
+
 	<!-- Bootstrap CDN -->
-	<?php 
-		include 'res/cdn.php'; 
+	<?php
+		include 'res/cdn.php';
 	 ?>
 </body>
 </html>
