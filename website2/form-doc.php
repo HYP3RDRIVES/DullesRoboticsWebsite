@@ -87,7 +87,5 @@
 	</script>
 
 	<!-- Bootstrap CDN -->
-	<?php include 'res/cdn.php';
-	 ?>
 </body>
 </html>
