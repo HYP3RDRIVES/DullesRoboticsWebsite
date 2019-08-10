@@ -8,7 +8,7 @@
 <html>
 <head>
     <title>Announcements</title>
-    <?php 
+    <?php
     	include 'res/head.php';
      ?>
 </head>
@@ -29,7 +29,7 @@
 					<div id="list-announ" class="list-group">
 					  <a class="list-group-item list-group-item-action" href="#list-item-1">General Announcements</a>
 					  <a class="list-group-item list-group-item-action" href="#list-item-2">Remind Feed</a>
-					  
+
 					</div>
 				</div>
 			</div>
@@ -59,16 +59,16 @@
 						<hr class="style3">
 				  	<hr class="style18">
 
-					<h4 id="list-item-2" class="display-4">Remind Feed</h4> 
-					  	<script src="https://widgets.remind.com/iframe.js?token=b3fde2a05b5801359cab0242ac110005&height=600&join=true"></script>
+					<h4 id="list-item-2" class="display-4">Remind Feed</h4>
+					  	<script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=600&join=true"></script>
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 
 	<!-- Footer -->
-	<?php 
+	<?php
 		include 'res/footer.php';
 	 ?>
 
