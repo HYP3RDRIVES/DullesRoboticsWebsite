@@ -6,17 +6,17 @@
 <!-- Last Project Edit: 31 July 2018 by Adil Rasiyani -->
 <!DOCTYPE html>
 <html>
-    
+
 <head>
     <title>Home</title>
-    <?php 
+    <?php
     	include 'res/head.php';
      ?>
 </head>
 
 <body style="">
 	<!-- Navigation Bar -->
-	<?php 
+	<?php
 		include 'res/nav.php';
 	 ?>
 
@@ -44,8 +44,8 @@
 				<div class="row">
 					<h4 class="display-3">Welcome!</h4>
 					<hr>
-					<p class="lead text-justify">Aman's birthday is on June 8th, 2019. Are you going to get him anything?</p>
-					<a href="#" class="btn btn-primary">You better get him something! Btw, this button doesn't work lol</a>
+					<p class="lead text-justify">We are a robotics club based out of Dulles HS in Sugar Land, TX. We have two FTC teams as well as one FRC Team.</p>
+					<a href="about.php" class="btn btn-primary">About Us</a>
 
 				</div>
 			 </div>
@@ -74,17 +74,17 @@
 			<div id="stay-in-touch-title" class="row justify-content-center">
 				<h1 class="display-4 text-uppercase">Stay In Touch</h1>
 			 </div>
-			
+
 			<div id="stay-in-touch-text" class="row">
 				<p class="lead" style="padding-left: 0.5rem;">
-					By the way, I stole this website from comp sci club, if the comment headers weren't obvious enough. Frontend isn't my forte, but whatever. <a href="officers.php" class="badge badge-secondary">officers</a>. <a class="badge badge-info text-light" id="remind-link" data-toggle="tooltip" data-placement="top" title="Text @dhscs to 81010">Remind code</a>, newsletter signup and more contact info is provided <a href="contact.php" class="badge badge-secondary">here</a>.
+					View our current club <a href="officers.php" class="badge badge-secondary">officers</a>. <a class="badge badge-info text-light" id="remind-link" data-toggle="tooltip" data-placement="top" title="Text @dhscs to 81010">Remind code</a>, newsletter signup and more contact info is provided <a href="contact.php" class="badge badge-secondary">here</a>.
 				</p>
 			</div>
  		</div>
  		<hr>
 
  		<div class="row justify-content-center" style="margin-bottom: 2%; margin-top: 2%;">
- 			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Computer Science Club, contact us at <a href="dullescomputerscience@gmail.com">dullescomputerscience@gmail.com</a></p>
+ 			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Dulles Robotics Club, contact us at <a href="mailto:dullesrobotics@gmail.com">dullesrobotics@gmail.com</a></p>
 			<p class="small lead">Any question or comments can also be addressed directly to any of the officers.﻿﻿</p>
  		</div>
 	</div>
@@ -100,7 +100,7 @@
 	  			$('[data-toggle="tooltip"]').tooltip()
 			})
 		</script>
-	
+
 </body>
 
 </html>
