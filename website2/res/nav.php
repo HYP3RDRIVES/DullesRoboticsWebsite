@@ -30,6 +30,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                           <a id="nav-bar-about" class="dropdown-item" href="about.php">About Us</a>
                           <a id="nav-bar-contact" class="dropdown-item" href="contact.php">Contact Us</a>
+                          <a id="nav-bar-forms" class="dropdown-item" href="form-doc.php">Forms and Documents</a>
                           <a id="nav-bar-officers" class="dropdown-item" href="officers.php">Officers</a>
                         </div>
                     </li>
