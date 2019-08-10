@@ -50,7 +50,7 @@
       <hr/>
 
 	</div>
-  <!-- oFfficer lbock ends -->
+  <!-- oFfficer block ends -->
 
   <!-- Officer BLock -->
       <div class="container">
@@ -77,7 +77,85 @@
         <hr/>
 
   	</div>
-    <!-- oFfficer lbock ends -->
+    <!-- oFfficer block ends -->
+    <!-- Officer BLock -->
+        <div class="container">
+
+          <hr class="style14" />
+
+          <!-- Logo and Welcome -->
+          <div id="logo-and-welcome" class="row well border-0 border-secondary">
+            <!-- Logo -->
+            <div class="col">
+              <img src="img/officers/ella.png" class="img-fluid" alt="Logo">
+             </div>
+            <!-- Welcome Message -->
+            <div class="col">
+              <div class="row">
+                <h4 class="display-3">​​Ella Quiambao</h4>
+                <hr>
+                <p class="lead text-justify">Non-Technical Coordinator</p>
+  <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
+
+              </div>
+             </div>
+           </div>
+          <hr/>
+
+    	</div>
+      <!-- oFfficer block ends -->
+      <!-- Officer BLock -->
+          <div class="container">
+
+            <hr class="style14" />
+
+            <!-- Logo and Welcome -->
+            <div id="logo-and-welcome" class="row well border-0 border-secondary">
+              <!-- Logo -->
+              <div class="col">
+                <img src="img/w.png" class="img-fluid" alt="Logo">
+               </div>
+              <!-- Welcome Message -->
+              <div class="col">
+                <div class="row">
+                  <h4 class="display-3">​​Bill Nguyen</h4>
+                  <hr>
+                  <p class="lead text-justify">Non-Technical Coordinator</p>
+    <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
+
+                </div>
+               </div>
+             </div>
+            <hr/>
+
+        </div>
+        <!-- oFfficer block ends -->
+        <!-- Officer BLock -->
+            <div class="container">
+
+              <hr class="style14" />
+
+              <!-- Logo and Welcome -->
+              <div id="logo-and-welcome" class="row well border-0 border-secondary">
+                <!-- Logo -->
+                <div class="col">
+                  <img src="img/w.png" class="img-fluid" alt="Logo">
+                 </div>
+                <!-- Welcome Message -->
+                <div class="col">
+                  <div class="row">
+                    <h4 class="display-3">​Abigail Rajagopal</h4>
+                    <hr>
+                    <p class="lead text-justify">Communications Coordinator</p>
+      <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
+
+                  </div>
+                 </div>
+               </div>
+              <hr/>
+
+          </div>
+          <!-- oFfficer block ends -->
 
 	<!-- Footer -->
 	<?php
