@@ -116,7 +116,7 @@
             <div id="logo-and-welcome" class="row well border-0 border-secondary">
               <!-- Logo -->
               <div class="col">
-                <img src="img/Bill.png" class="img-fluid" alt="Logo">
+                <img src="img/oFfficers/Bill.png" class="img-fluid" alt="Logo">
                </div>
               <!-- Welcome Message -->
               <div class="col">
