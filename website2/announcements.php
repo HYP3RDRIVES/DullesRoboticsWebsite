@@ -37,21 +37,21 @@
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">General Announcements</h4>
 					<br>
-						<h3>Aman's Birthday</h3>
+						<h3>School will open soon</h3>
 							<hr class="style2">
-							<p class="small lead">4 May 2019</p>
+							<p class="small lead">10 May 2019</p>
 							<hr class="style12">
 							<p class="lead">
-								Hey guys! Did you know Aman's birthday is coming up? It's on the 8th of May! Are you going to wish him a happy birthday?
+								School begins on Aug 14th!
 							</p>
 						<hr class="style3">
 						<br>
-					  	<h3>WANTED: Dead or Alive!</h3>
+					  	<h3>New Website!</h3>
 					  		<hr class="style2">
-							<p class="small lead">69 Lewdatic Wuz Here 2069</p>
+							<p class="small lead">9 May 2019</p>
 							<hr class="style12">
 							<p class="lead">
-								I'm looking for a blog post template. The reward is 69 jellybeans! Who's up for it! Also we have bounties on this kid:
+							 As you can probably tell, we have complelty overhauled our site, including switching from JS to PHP, as well as changing the look and feel. This should allow for a better user experience, and is also more efficient.
 								<ul class="list-group-flush">
 									<li class="list-group-item-text lead"><em>Loonatic:</em> Erica Miller</li>
 								</ul>
