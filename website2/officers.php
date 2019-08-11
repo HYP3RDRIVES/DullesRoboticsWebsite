@@ -99,7 +99,7 @@
                   <div class="row">
 					<p class="lead text-justify">Non-Technical Coordinator</p>
   <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
-				
+
               </div>
              </div>
            </div>
