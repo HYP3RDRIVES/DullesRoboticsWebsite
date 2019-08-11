@@ -40,7 +40,8 @@
         <div class="col">
           <div class="row">
             <h4 class="display-3">Akshay Kokkula</h4>
-            <hr>
+            </div>
+                  <div class="row">
             <p class="lead text-justify">Technical Coordinator</p>
 
 
@@ -67,7 +68,8 @@
           <div class="col">
             <div class="row">
               <h4 class="display-3">​Christian Anhaiser </h4>
-              <hr>
+              </div>
+                  <div class="row">
               <p class="lead text-justify">Technical Coordinator</p>
 <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
 
@@ -93,10 +95,11 @@
             <div class="col">
               <div class="row">
                 <h4 class="display-3">​​Ella Quiambao</h4>
-                <hr>
-                <p class="lead text-justify">Non-Technical Coordinator</p>
+				</div>
+                  <div class="row">
+					<p class="lead text-justify">Non-Technical Coordinator</p>
   <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
-
+				
               </div>
              </div>
            </div>
@@ -119,8 +122,9 @@
               <div class="col">
                 <div class="row">
                   <h4 class="display-3">​​Bill Nguyen</h4>
-                  <hr>
-                  <p class="lead text-justify">Non-Technical Coordinator</p>
+				  </div>
+                  <div class="row">
+					<p class="lead text-justify">Non-Technical Coordinator</p>
     <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
 
                 </div>
@@ -145,7 +149,8 @@
                 <div class="col">
                   <div class="row">
                     <h4 class="display-3">​Abigail Rajagopal</h4>
-                    <hr>
+                    </div>
+                  <div class="row">
                     <p class="lead text-justify">Communications Coordinator</p>
       <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
 
