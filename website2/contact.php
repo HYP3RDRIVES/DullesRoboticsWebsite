@@ -68,7 +68,8 @@
 				  	<hr class="style18">
 
 					<h4 id="list-item-5" class="display-4">Discord</h4>
-											<iframe src="https://discordapp.com/widget?id=243589990536314891&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+											<!--<iframe src="https://discordapp.com/widget?id=243589990536314891&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>-->
+											<a href="./officers.php">Contact an officer to visit our discord server!</a>
 					<hr class="style3">
 				  	<hr class="style18">
 
