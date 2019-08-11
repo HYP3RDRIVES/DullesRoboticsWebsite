@@ -16,7 +16,7 @@
 	?>
 	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
 	<script type="text/javascript">
-		document.getElementById('nav-bar-officers').setAttribute('class', 'active dropdown-item');
+		document.getElementById('nav-bar-forms').setAttribute('class', 'active dropdown-item');
 	</script>
 
 	<!-- Main Page -->
@@ -49,7 +49,7 @@
     </div>
   <!--  Scribd Embed  -->
       <p class="lead">
-<a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit?usp=sharing" target="_blank" class="btn btn-primary">View in G Docs</a> 
+<a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit?usp=sharing" target="_blank" class="btn btn-primary">View in G Docs</a>
       </p>
     </div>
   </div>
