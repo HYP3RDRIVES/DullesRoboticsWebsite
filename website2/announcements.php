@@ -48,16 +48,12 @@
 						<br>
 					  	<h3>New Website!</h3>
 					  		<hr class="style2">
-<<<<<<< HEAD
 							<p class="small lead">9 May 2019</p>
-=======
-							<p class="small lead">8/9/2019</p>
->>>>>>> cc0d17e20a8dff2e9ac3143caa1eb44a569e6532
 							<hr class="style12">
 							<p class="lead">
 							 As you can probably tell, we have complelty overhauled our site, including switching from JS to PHP, as well as changing the look and feel. This should allow for a better user experience, and is also more efficient.
 								<ul class="list-group-flush">
-									<li class="list-group-item-text lead"><em>Loonatic:</em> Erica Miller</li>
+
 								</ul>
 							</p>
 						<hr class="style3">
