@@ -46,12 +46,12 @@
 							</p>
 						<hr class="style3">
 						<br>
-					  	<h3>WANTED: Dead or Alive!</h3>
+					  	<h3>New Website!</h3>
 					  		<hr class="style2">
-							<p class="small lead">69 Lewdatic Wuz Here 2069</p>
+							<p class="small lead">8/9/2019</p>
 							<hr class="style12">
 							<p class="lead">
-								I'm looking for a blog post template. The reward is 69 jellybeans! Who's up for it! Also we have bounties on this kid:
+							 As you can probably tell, we have complelty overhauled our site, including switching from JS to PHP, as well as changing the look and feel. This should allow for a better user experience, and is also more efficient.
 								<ul class="list-group-flush">
 									<li class="list-group-item-text lead"><em>Loonatic:</em> Erica Miller</li>
 								</ul>
