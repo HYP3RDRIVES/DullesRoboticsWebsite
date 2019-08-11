@@ -39,7 +39,7 @@
 					<br>
 						<h3>School will open soon</h3>
 							<hr class="style2">
-							<p class="small lead">10 May 2019</p>
+							<p class="small lead">10 Aug 2019</p>
 							<hr class="style12">
 							<p class="lead">
 								School begins on Aug 14th!
@@ -48,7 +48,7 @@
 						<br>
 					  	<h3>New Website!</h3>
 					  		<hr class="style2">
-							<p class="small lead">9 May 2019</p>
+							<p class="small lead">9 Aug 2019</p>
 							<hr class="style12">
 							<p class="lead">
 							 As you can probably tell, we have complelty overhauled our site, including switching from JS to PHP, as well as changing the look and feel. This should allow for a better user experience, and is also more efficient.
