@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html style="height: 100%;">
 <head>
-    <title>About Us</title>
+    <title>About - Dulles Robotics</title>
     <?php
     	include 'res/head.php';
      ?>

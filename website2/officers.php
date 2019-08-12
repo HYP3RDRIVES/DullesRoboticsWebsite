@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html style="height:100%;">
 <head>
-    <title>Officers</title>
+    <title>Officers - Dulles Robotics</title>
     <?php include 'res/head.php'; ?>
 </head>
 <body style="height:100%;">

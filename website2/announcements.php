@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Announcements</title>
+    <title>Announcements - Dulles Robotics</title>
     <?php
     	include 'res/head.php';
      ?>

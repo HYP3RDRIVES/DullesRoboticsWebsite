@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html style="height:100%;">
 <head>
-    <title>Forms and Documents - Dullesrobotics.com</title>
+    <title>Forms and Documents - Dulles Robotics</title>
     <?php include 'res/head.php'; ?>
 </head>
 <body style="height:100%;">

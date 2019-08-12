@@ -7,8 +7,8 @@
 <!DOCTYPE html>
 <html style="height: 100%;">
 <head>
-    <title>Contact Us</title>
-    <?php 
+    <title>Contact - Dulles Robotics</title>
+    <?php
     	include 'res/head.php';
      ?>
 </head>
@@ -75,7 +75,7 @@
 
 					<h4 id="list-item-6" class="display-4">Github</h4>
 						<a href="https://github.com/DullesRobotics">Go to our Github page!</a>
-						
+
 						<hr class="style3">
 				  	<hr class="style18">
 
@@ -87,13 +87,13 @@
 
 	</div>
 	<!-- Footer -->
-	<?php 
+	<?php
 		include 'res/footer.php';
 	 ?>
 
 	<!-- Scripts -->
 	<!-- Bootstrap Scripts -->
-	<?php 
+	<?php
 		include 'res/cdn.php';
 	 ?>
 </body>

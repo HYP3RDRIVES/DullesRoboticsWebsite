@@ -8,8 +8,8 @@
 
 <html>
 <head>
-    <title>Resources</title>
-    <?php 
+    <title>Resources - Dulles Robotics</title>
+    <?php
     	include 'res/head.php';
      ?>
 </head>
@@ -85,7 +85,7 @@
 								</li>
 						  	</ul>
 						  </p>
-					<h4 id="list-item-2" class="display-4">Java Materials</h4> 
+					<h4 id="list-item-2" class="display-4">Java Materials</h4>
 					  	<p></p>
 					  	<h3>Things needed to Code</h3>
 						  	<p class="lead">
@@ -140,20 +140,20 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 
 	<!-- Footer -->
-	<?php 
+	<?php
 		include 'res/footer.php';
 	 ?>
 
 	<!-- Scripts -->
 	<script>
-		
+
 	</script>
 	<!-- Bootstrap Scripts -->
-	<?php 
+	<?php
 		include 'res/cdn.php';
 	 ?>
 </body>

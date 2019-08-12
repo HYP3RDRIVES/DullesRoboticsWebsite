@@ -8,7 +8,7 @@
 <html>
 
 <head>
-    <title>Home</title>
+    <title>Home - Dulles Robotics</title>
     <?php
     	include 'res/head.php';
      ?>
