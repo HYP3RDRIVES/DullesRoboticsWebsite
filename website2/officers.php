@@ -34,7 +34,7 @@
       <div id="logo-and-welcome" class="row well border-0 border-secondary">
         <!-- Logo -->
         <div class="col">
-          <img src="img/officers/akshay.png" class="img-fluid" alt="Logo">
+          <img src="img/officers/akshay.png" class="img-fluid" alt="AkshayKK">
          </div>
         <!-- Welcome Message -->
         <div class="col">
@@ -62,7 +62,7 @@
         <div id="logo-and-welcome" class="row well border-0 border-secondary">
           <!-- Logo -->
           <div class="col">
-            <img src="img/w.png" class="img-fluid" alt="Logo">
+            <img src="img/w.png" class="img-fluid" alt="Christian">
            </div>
           <!-- Welcome Message -->
           <div class="col">
@@ -89,7 +89,7 @@
           <div id="logo-and-welcome" class="row well border-0 border-secondary">
             <!-- Logo -->
             <div class="col">
-              <img src="img/officers/ella.png" class="img-fluid" alt="Logo">
+              <img src="img/officers/ella.png" class="img-fluid" alt="ella">
              </div>
             <!-- Welcome Message -->
             <div class="col">
@@ -116,7 +116,7 @@
             <div id="logo-and-welcome" class="row well border-0 border-secondary">
               <!-- Logo -->
               <div class="col">
-                <img src="img/oFficers/Bill.png" class="img-fluid" alt="Logo">
+                <img src="/img/officers/Bill.png" class="img-fluid" alt="bill">
                </div>
               <!-- Welcome Message -->
               <div class="col">
@@ -143,7 +143,7 @@
               <div id="logo-and-welcome" class="row well border-0 border-secondary">
                 <!-- Logo -->
                 <div class="col">
-                  <img src="img/w.png" class="img-fluid" alt="Logo">
+                  <img src="img/w.png" class="img-fluid" alt="abby">
                  </div>
                 <!-- Welcome Message -->
                 <div class="col">

@@ -62,8 +62,8 @@
 				  	<hr class="style18">
 
 					<h4 id="list-item-4" class="display-4">Instagram</h4>
-					      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe id="instagram" src="//lightwidget.com/widgets/918f731dc4c05207b43af513b1553f2d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-
+					 <!-- Widget is broken     <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe id="instagram" src="//lightwidget.com/widgets/918f731dc4c05207b43af513b1553f2d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> -->
+            	<a href="https://www.instagram.com/dulles_robotics/">View our instagram!</a>
 					<hr class="style3">
 				  	<hr class="style18">
 
