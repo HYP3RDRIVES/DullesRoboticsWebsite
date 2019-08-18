@@ -57,7 +57,7 @@
 			<!-- Slide Show -->
 			<div class="col">
                 <div class="slides">
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQc5bzPiqXskOKwXqDc_P5Rcpp2_pvFrOptn8Ds6UvrybJMgZYmVPAVdKU7W3zLxureySLAlzICS4wq/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQc5bzPiqXskOKwXqDc_P5Rcpp2_pvFrOptn8Ds6UvrybJMgZYmVPAVdKU7W3zLxureySLAlzICS4wq/embed?start=true&loop=true&delayms=3000&rm=minimal&loop=true&autoStart=true" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div></div>
 			<!-- Mission Statement -->
 			<div class="col">
@@ -74,13 +74,14 @@
 			<div id="stay-in-touch-title" class="row justify-content-center">
 				<h1 class="display-4 text-uppercase">Stay In Touch</h1>
 			 </div>
-
+	<div class="row justify-content-center" style="margin-bottom: 2%; margin-top: 2%;">
 			<div id="stay-in-touch-text" class="row">
 				<p class="lead" style="padding-left: 0.5rem;">
 					View our current club <a href="officers.php" class="badge badge-secondary">officers</a>. <a class="badge badge-info text-light" id="remind-link" data-toggle="tooltip" data-placement="top" title="Text @dullesrobo to 81010">Remind code</a>, newsletter signup and more contact info is provided <a href="contact.php" class="badge badge-secondary">here</a>.
 				</p>
 			</div>
  		</div>
+  </div>
  		<hr>
 
  		<div class="row justify-content-center" style="margin-bottom: 2%; margin-top: 2%;">

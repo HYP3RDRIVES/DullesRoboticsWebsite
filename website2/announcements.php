@@ -37,12 +37,12 @@
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">General Announcements</h4>
 					<br>
-						<h3>School will open soon</h3>
+						<h3>School has opened</h3>
 							<hr class="style2">
-							<p class="small lead">10 Aug 2019</p>
+							<p class="small lead">14 Aug 2019</p>
 							<hr class="style12">
 							<p class="lead">
-								School begins on Aug 14th!
+								Great start to the year!
 							</p>
 						<hr class="style3">
 						<br>
@@ -51,7 +51,7 @@
 							<p class="small lead">9 Aug 2019</p>
 							<hr class="style12">
 							<p class="lead">
-							 As you can probably tell, we have complelty overhauled our site, including switching from JS to PHP, as well as changing the look and feel. This should allow for a better user experience, and is also more efficient.
+							 As you can probably tell, we have completely overhauled our site, including switching from JS to PHP, as well as changing the look and feel. This should allow for a better user experience, and is also more efficient.
 								<ul class="list-group-flush">
 
 								</ul>

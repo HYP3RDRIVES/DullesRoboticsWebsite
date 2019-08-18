@@ -71,7 +71,7 @@
               </div>
                   <div class="row">
               <p class="lead text-justify">Technical Coordinator</p>
-<!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
+    <!--              <a href="mailto:" class="btn btn-primary">Contact via E-Mail</a> -->
 
             </div>
            </div>
@@ -98,7 +98,7 @@
 				</div>
                   <div class="row">
 					<p class="lead text-justify">Non-Technical Coordinator</p>
-  <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
+    <!--              <a href="mailto:" class="btn btn-primary">Contact via E-Mail</a> -->
 
               </div>
              </div>
@@ -125,7 +125,7 @@
 				  </div>
                   <div class="row">
 					<p class="lead text-justify">Non-Technical Coordinator</p>
-    <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
+    <!--              <a href="mailto:" class="btn btn-primary">Contact via E-Mail</a> -->
 
                 </div>
                </div>
@@ -152,7 +152,7 @@
                     </div>
                   <div class="row">
                     <p class="lead text-justify">Communications Coordinator</p>
-      <!--              <a href="mailto:" class="btn btn-primary">E-Mail</a> -->
+    <!--              <a href="mailto:" class="btn btn-primary">Contact via E-Mail</a> -->
 
                   </div>
                  </div>

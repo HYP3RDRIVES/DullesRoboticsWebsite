@@ -11,6 +11,11 @@
     <?php
     	include 'res/head.php';
      ?>
+     <meta property="og:title" content="Dulles Robotics Club">
+     <meta property="og:image" content="/img/w.png">
+     <meta name="description" content="The Dulles High School Robotics Club. We are a robotics club based out of Dulles High School in Sugar Land, TX. We have FRC team #7494 and FTC teams #12456, and #13822">
+     <meta name="keywords" content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
+
 </head>
 <body style="height:100%;">
 
@@ -43,6 +48,9 @@
             <hr>
             <p class="lead text-justify">We are a robotics club based out of Dulles HS in Sugar Land, TX. Our FTC teams are #12456 - Big Red and #13822 - Robovikings. Our FRC team is #7494 - Circuit Bizurkers.
             We also participate in community outreach events and workshops.</p>
+
+
+            <a href="story.php" class="btn btn-primary">View our Story</a>
 
 
           </div>

@@ -35,9 +35,9 @@
 						<a class="list-group-item list-group-item-action" href="#list-item-2">Facebook</a>
 						<a class="list-group-item list-group-item-action" href="#list-item-3">Youtube</a>
 						<a class="list-group-item list-group-item-action" href="#list-item-4">Instagram</a>
-						<a class="list-group-item list-group-item-action" href="#list-item-5">Discord</a>
+			<!--		<a class="list-group-item list-group-item-action" href="#list-item-5">Discord</a> -->
 						<a class="list-group-item list-group-item-action" href="#list-item-6">Github</a>
-						<a class="list-group-item list-group-item-action" href="#list-item-7">Remind Feed</a>
+				<!--		<a class="list-group-item list-group-item-action" href="#list-item-7">Remind Feed</a> -->
 					</div>
 				</div>
 			</div>
@@ -63,24 +63,27 @@
 
 					<h4 id="list-item-4" class="display-4">Instagram</h4>
 					 <!-- Widget is broken     <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe id="instagram" src="//lightwidget.com/widgets/918f731dc4c05207b43af513b1553f2d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> -->
-            	<a href="https://www.instagram.com/dulles_robotics/">View our instagram!</a>
-					<hr class="style3">
+            	<!-- <a href="https://www.instagram.com/dulles_robotics/">View our instagram!</a> -->
+              <iframe src="https://www.instagram.com/p/BzjpcxiA4MF/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	<!---						<hr class="style3">
 				  	<hr class="style18">
 
-					<h4 id="list-item-5" class="display-4">Discord</h4>
-											<!--<iframe src="https://discordapp.com/widget?id=243589990536314891&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>-->
-											<a href="./officers.php">Contact an officer to visit our discord server!</a>
+				        <h4 id="list-item-5" class="display-4">Discord</h4>
+	-								<!--<iframe src="https://discordapp.com/widget?id=243589990536314891&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+										<a href="./officers.php">Contact an officer to visit our discord server!</a>  -->
 					<hr class="style3">
 				  	<hr class="style18">
 
 					<h4 id="list-item-6" class="display-4">Github</h4>
-						<a href="https://github.com/DullesRobotics">Go to our Github page!</a>
+          <div class="github-card" data-user="DullesRobotics" theme="default" target="_blank"></div>
+        <script src="https://lab.lepture.com/github-cards/widget.js"></script>
+					<!--	<a href="https://github.com/DullesRobotics">Go to our Github page!</a> -->
 
 						<hr class="style3">
 				  	<hr class="style18">
 
-					<h4 id="list-item-7" class="display-4">Remind Feed</h4>
-					  	<script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=600&join=true"></script>
+	<!--				<h4 id="list-item-7" class="display-4">Remind Feed</h4>
+					  	<script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=600&join=true"></script> -->
 				</div>
 			</div>
 		</div>
