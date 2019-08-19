@@ -41,7 +41,7 @@
           <div class="row">
 
             <hr>
-            <p class="lead text-justify"><strong>The Story of our club, written by Karim Karim - Co-Founder and Former Club President.</storng></p>
+            <p class="lead text-justify"><strong>The Story of the Club, written by Karim Karim - Co-Founder and Former Club President.</storng></p>
             <p class="lead text-justify">The first ever official year of robotics was when I was in 8th grade, there was this guy named Vishnu Iyer, and at this time he'd have been a junior at Dulles. He started "robotics", and you'll see why I put this in quotations very soon.
               I dont know much about this year but I know coffman used to host the meetings, they were very far apart and they were basically physics 1, physics 2 and physics C lessons, it was all very theoretical
   then I joined Dulles and Vishnu became a Senior, I met him on facebook because I was looking for robotics and he was the person that kept showing up. I asked him to teach me how electronics work and how to use hardware (I only knew how to do software up until this point). He spent a lot of time teaching me and convinced me to buy like $200-$300 worth of components (capacitors, resistors, transistors, etc).

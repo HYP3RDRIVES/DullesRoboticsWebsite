@@ -34,13 +34,11 @@
       <div id="logo-and-welcome" class="row well border-0 border-secondary">
         <!-- Logo -->
         <div class="col">
-          <img src="img/officers/akshay.png" class="img-fluid" alt="AkshayKK">
+          <h4 class="display-3">Akshay Kokkula</h4>
          </div>
         <!-- Welcome Message -->
         <div class="col">
-          <div class="row">
-            <h4 class="display-3">Akshay Kokkula</h4>
-            </div>
+
                   <div class="row">
             <p class="lead text-justify">Technical Coordinator</p>
 
@@ -62,13 +60,11 @@
         <div id="logo-and-welcome" class="row well border-0 border-secondary">
           <!-- Logo -->
           <div class="col">
-            <img src="img/w.png" class="img-fluid" alt="Christian">
+          <h4 class="display-3">​Christian Anhaiser </h4>
            </div>
           <!-- Welcome Message -->
           <div class="col">
-            <div class="row">
-              <h4 class="display-3">​Christian Anhaiser </h4>
-              </div>
+
                   <div class="row">
               <p class="lead text-justify">Technical Coordinator</p>
     <!--              <a href="mailto:" class="btn btn-primary">Contact via E-Mail</a> -->
@@ -89,13 +85,11 @@
           <div id="logo-and-welcome" class="row well border-0 border-secondary">
             <!-- Logo -->
             <div class="col">
-              <img src="img/officers/ella.png" class="img-fluid" alt="ella">
+            <h4 class="display-3">​​Ella Quiambao</h4>
              </div>
             <!-- Welcome Message -->
             <div class="col">
-              <div class="row">
-                <h4 class="display-3">​​Ella Quiambao</h4>
-				</div>
+
                   <div class="row">
 					<p class="lead text-justify">Non-Technical Coordinator</p>
     <!--              <a href="mailto:" class="btn btn-primary">Contact via E-Mail</a> -->
@@ -116,13 +110,11 @@
             <div id="logo-and-welcome" class="row well border-0 border-secondary">
               <!-- Logo -->
               <div class="col">
-                <img src="/img/officers/Bill.png" class="img-fluid" alt="bill">
+                <h4 class="display-3">​​Bill Nguyen</h4>
                </div>
               <!-- Welcome Message -->
               <div class="col">
-                <div class="row">
-                  <h4 class="display-3">​​Bill Nguyen</h4>
-				  </div>
+
                   <div class="row">
 					<p class="lead text-justify">Non-Technical Coordinator</p>
     <!--              <a href="mailto:" class="btn btn-primary">Contact via E-Mail</a> -->
@@ -143,13 +135,11 @@
               <div id="logo-and-welcome" class="row well border-0 border-secondary">
                 <!-- Logo -->
                 <div class="col">
-                  <img src="img/w.png" class="img-fluid" alt="abby">
+                  <h4 class="display-3">​Abigail Rajagopal</h4>
                  </div>
                 <!-- Welcome Message -->
                 <div class="col">
-                  <div class="row">
-                    <h4 class="display-3">​Abigail Rajagopal</h4>
-                    </div>
+
                   <div class="row">
                     <p class="lead text-justify">Communications Coordinator</p>
     <!--              <a href="mailto:" class="btn btn-primary">Contact via E-Mail</a> -->

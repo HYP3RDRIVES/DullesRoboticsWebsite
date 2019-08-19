@@ -37,12 +37,12 @@
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">General Announcements</h4>
 					<br>
-						<h3>School has opened</h3>
+						<h3>Interest Meetings</h3>
 							<hr class="style2">
-							<p class="small lead">14 Aug 2019</p>
+							<p class="small lead">19 Aug 2019</p>
 							<hr class="style12">
 							<p class="lead">
-								Great start to the year!
+								Interest meetings are on Aug 23rd, and Aug 27th in Room G102 (behind the cafeteria) at 3 P.M.
 							</p>
 						<hr class="style3">
 						<br>

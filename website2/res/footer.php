@@ -12,15 +12,20 @@
 	  	<div class="footer-copyright text-center py-3 text-light">
 	    	Dulles Robotics <?php echo date("Y"); ?>-<?php echo (date("Y")+1) ?><br/>
 	  	</div>
-			<div class="row">
+			<div class="col">
 	  	<div class="footer-copyright text-muted text-center small">
 	  		This is a student built, operated, and hosted site. Opinions expressed on this site are not necessarily those held by Fort Bend ISD and shall not be attributed to Fort Bend ISD.
-			</div>
+
 				 <div class="row">
 					 Special Thanks to our sponsors:
 					 <div class="row">
-						 <a href="wm.com"data-toggle="tooltip" data-placement="top">Waste Management<img src="wm.png"></a>
+		<div class="center-div">
+			<div class="row">
+						 <a href="https://wm.com"><img src="img/sponsor/wm.png" alt="wmlogo" width="50" height="25" /></a>
+					 </div>
 				 </div>
 	  	</div>
+		</div>
+	</div>
 	</footer>
 	<!-- Footer -->
