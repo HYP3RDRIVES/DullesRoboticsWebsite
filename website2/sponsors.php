@@ -58,7 +58,7 @@
           <div class="row">
             <hr14>
             <h1>Texas Workforce Commission</h1>
-            <p class="lead text-justify">Write some stuff thanking them here. Put image on left column</p>
+            <p class="lead text-justify">They are really nice people</p>
          </div>
        </div>
       <hr/>
