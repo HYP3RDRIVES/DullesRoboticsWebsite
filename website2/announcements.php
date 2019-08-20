@@ -26,9 +26,7 @@
 		<div class="row" id="all-sections-container">
 			<div class="col-md-4 d-none d-md-block">
 				<div class="sticky-div" style="position:sticky; top:20px;">
-					<div id="list-announ" class="list-group">
-					  <a class="list-group-item list-group-item-action" href="#list-item-1">General Announcements</a>
-					  <a class="list-group-item list-group-item-action" href="#list-item-2">Remind Feed</a>
+			
 
 					</div>
 				</div>
@@ -59,7 +57,7 @@
 						<hr class="style3">
 				  	<hr class="style18">
 
-					
+
 				</div>
 			</div>
 		</div>
