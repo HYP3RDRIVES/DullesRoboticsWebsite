@@ -16,15 +16,10 @@
 	  	<div class="footer-copyright text-muted text-center small">
 	  		This is a student built, operated, and hosted site. Opinions expressed on this site are not necessarily those held by Fort Bend ISD and shall not be attributed to Fort Bend ISD.
 
-				 <div class="row">
+				 <div class="text-center">
 					 Special Thanks to our sponsors:
-					 <div class="row">
-		<div class="center-div">
-			<div class="row">
-						 <a href="https://wm.com"><img src="img/sponsor/wm.png" alt="wmlogo" width="50" height="25" /></a>
+						 <a href="https://wm.com"><img src="img/sponsor/wm.png" alt="wmlogo" width="50" height="25" left=(window.width-width/2)+"px"/></a>
 					 </div>
-				 </div>
-	  	</div>
 		</div>
 	</div>
 	</footer>
