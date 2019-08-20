@@ -59,8 +59,7 @@
 						<hr class="style3">
 				  	<hr class="style18">
 
-					<h4 id="list-item-2" class="display-4">Remind Feed</h4>
-					  	<script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=600&join=true"></script>
+					
 				</div>
 			</div>
 		</div>
