@@ -6,7 +6,7 @@
 -->
 
 <!--Top Navigation Bar-->
-    <nav class="navbar navbar-expand-md" id="navbar" style="background-color: #555;>
+    <nav class="navbar navbar-expand-md" id="navbar" style="background-color: #555">
         <div class="container-fluid">
             <!--Logo on the left-->
             <div class="navbar-header">
@@ -27,7 +27,7 @@
                     <li class="nav-item" id="nav-bar-ourstory"><a class="nav-link"href="story.php">Our Story</a></li>
                     <li class="nav-item" id="nav-bar-sponsor"><a class="nav-link"href="sponsors.php">Sponsors</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="nav-drop-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="nav-drop-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
                             Club Info
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

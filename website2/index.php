@@ -82,7 +82,7 @@
 	<div class="row justify-content-center" style="margin-bottom: 2%; margin-top: 2%;">
 			<div id="stay-in-touch-text" class="row">
 				<p class="lead" style="padding-left: 0.5rem;">
-					View our current club <a href="officers.php" class="badge badge-secondary">officers</a>. <a class="badge badge-info text-light" id="remind-link" data-toggle="tooltip" data-placement="top" title="Text @dullesrobo to 81010">Remind code</a>, newsletter signup and more contact info is provided <a href="contact.php" class="badge badge-secondary">here</a>.
+					View our current club <a href="officers.php" class="badge badge-secondary">officers</a>. <a class="badge badge-info text-light" id="remind-link" data-toggle="tooltip" data-placement="top" title="Text @776d6f to 81010">Remind code</a>, newsletter signup and more contact info is provided <a href="contact.php" class="badge badge-secondary">here</a>.
 				</p>
 			</div>
  		</div>

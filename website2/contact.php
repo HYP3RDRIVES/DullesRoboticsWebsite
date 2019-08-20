@@ -34,7 +34,7 @@
 						<a class="list-group-item list-group-item-action" href="#list-item-1">Twitter</a>
 						<a class="list-group-item list-group-item-action" href="#list-item-2">Facebook</a>
 						<a class="list-group-item list-group-item-action" href="#list-item-3">Youtube</a>
-						<a class="list-group-item list-group-item-action" href="#list-item-4">Instagram</a>
+
 			<!--		<a class="list-group-item list-group-item-action" href="#list-item-5">Discord</a> -->
 						<a class="list-group-item list-group-item-action" href="#list-item-6">Github</a>
 				<!--		<a class="list-group-item list-group-item-action" href="#list-item-7">Remind Feed</a> -->
@@ -58,13 +58,8 @@
 
 					<h4 id="list-item-3" class="display-4">Youtube</h4>
 											<a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg">Go to our Youtube channel!</a>
-					<hr class="style3">
-				  	<hr class="style18">
 
-					<h4 id="list-item-4" class="display-4">Instagram</h4>
-					 <!-- Widget is broken     <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe id="instagram" src="//lightwidget.com/widgets/918f731dc4c05207b43af513b1553f2d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> -->
-            	<!-- <a href="https://www.instagram.com/dulles_robotics/">View our instagram!</a> -->
-              <iframe src="https://www.instagram.com/p/BzjpcxiA4MF/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
 	<!---						<hr class="style3">
 				  	<hr class="style18">
 

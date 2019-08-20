@@ -36,34 +36,89 @@
 
 
 
-      <!-- Logo and Welcome -->
-      <div id="logo-and-welcome" class="row well border-0 border-secondary">
-        <!-- Logo -->
-        <div class="col">
-          <img src="img/sponsor/wm.png" class="img-fluid" alt="Logo">
-         </div>
-        <!-- Welcome Message -->
-        <div class="col">
-          <div class="row">
 
-            <hr14>
-            <h1>Waste Management</h1>
-            <p class="lead text-justify">Our title sponsor, WM, is our biggest supporter and strives to make us the best we could possibly be by providing industry mentors and financial assistance. This company works very effectively by supporting the young generations and helping our team members get the education needed in the real world. Team 7494 would be nothing without the gracious support of WM.</p>
+  <!-- WM Sponsor Block -->
+  <div class="container">
 
 
-      <!-- idk why this is here but ill leave it commented if we may need it      <a href="story.php" class="btn btn-primary">View our Story</a> -->
 
-
-          </div>
-          <div class="row">
-            <hr14>
-            <h1>Texas Workforce Commission</h1>
-            <p class="lead text-justify">They are really nice people</p>
-         </div>
+    <!-- Logo and Welcome -->
+    <div id="logo-and-welcome" class="row well border-0 border-secondary">
+      <!-- Logo -->
+      <div class="col">
+        <img src="/img/sponsor/wm.png" class="img-fluid" alt="wm" width="530" height="900">
        </div>
-      <hr/>
+      <!-- Welcome Message -->
+      <div class="col">
+        <div class="row">
+          <h4 class="display-3">​​Waste Management</h4>
+  </div>
+          <div class="row">
+  <p class="lead text-justify">Our title sponsor, WM, is our biggest supporter and strives to make us the best we could possibly be by providing industry mentors and financial assistance. This company works very effectively by supporting the young generations and helping our team members get the education needed in the real world. Team 7494 would be nothing without the gracious support of WM.</p>
 
-	</div>
+
+        </div>
+       </div>
+     </div>
+    <hr/>
+
+</div>
+<!-- WM Sponsor Block Ends -->
+<!-- TWC Sponsor Block -->
+<div class="container">
+
+  <hr class="style14" />
+
+  <!-- Logo and Welcome -->
+  <div id="logo-and-welcome" class="row well border-0 border-secondary">
+    <!-- Logo -->
+    <div class="col">
+      <img src="/img/sponsor/twc.png" class="img-fluid" alt="twc" width="250" height="250">
+     </div>
+    <!-- Welcome Message -->
+    <div class="col">
+      <div class="row">
+        <h4 class="display-3">Texas Workforce Commission</h4>
+</div>
+        <div class="row">
+<p class="lead text-justify">They are very nice people.</p>
+
+
+      </div>
+     </div>
+   </div>
+  <hr/>
+
+</div>
+<!-- TWC Sponsor Block Ends -->
+
+<!-- NASA Sponsor Block -->
+<div class="container">
+
+  <hr class="style14" />
+
+  <!-- Logo and Welcome -->
+  <div id="logo-and-welcome" class="row well border-0 border-secondary">
+    <!-- Logo -->
+    <div class="col">
+      <img src="/img/sponsor/nasa.png" class="img-fluid" alt="twc" width="300" height="300">
+     </div>
+    <!-- Welcome Message -->
+    <div class="col">
+      <div class="row">
+        <h4 class="display-3">NASA</h4>
+</div>
+        <div class="row">
+<p class="lead text-justify">NASA and their yearly grants have allowed us to continue to pay for registration and participate in FRC. Their continued support through grants is greatly appreciated.</p>
+
+
+      </div>
+     </div>
+   </div>
+  <hr/>
+
+</div>
+<!-- NASA Sponsor Block Ends -->
 
 	<!-- Footer -->
 	<?php
