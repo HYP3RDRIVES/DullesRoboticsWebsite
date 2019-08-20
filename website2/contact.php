@@ -29,17 +29,22 @@
 		<hr class="style14">
 		<div class="row" id="all-sections-container">
 			<div class="col-md-4 d-none d-md-block">
-				<div class="sticky-div" style="position:sticky; top:20px;">
+<!--
+
+Nav Box is currenly useless
+
+      	<div class="sticky-div" style="position:sticky; top:20px;">
 					<div id="list-announ" class="list-group">
 						<a class="list-group-item list-group-item-action" href="#list-item-1">Twitter</a>
 						<a class="list-group-item list-group-item-action" href="#list-item-2">Facebook</a>
 						<a class="list-group-item list-group-item-action" href="#list-item-3">Youtube</a>
 
-			<!--		<a class="list-group-item list-group-item-action" href="#list-item-5">Discord</a> -->
+					<a class="list-group-item list-group-item-action" href="#list-item-5">Discord</a>
 						<a class="list-group-item list-group-item-action" href="#list-item-6">Github</a>
-				<!--		<a class="list-group-item list-group-item-action" href="#list-item-7">Remind Feed</a> -->
-					</div>
+						<a class="list-group-item list-group-item-action" href="#list-item-7">Remind Feed</a>
+			<	</div>
 				</div>
+      -->
 			</div>
 			<div class="col-sm-12 col-md-8" id="scrollspy-info">
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">

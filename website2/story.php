@@ -48,7 +48,7 @@
 </p>
 
 <p class="lead text-justify">
-  Mrs. Nguyen was our sponsor for that year. The "robotics" club wasnt really active until second semester,  I recall the meetings were on Fridays, but we only ended up having 2 meetings the entire year. The first meeting, I walked in and there were literally only asian guys everywhere, Vishnu was standing at the front with Shreyas (he goes to MIT now) and a bunch of other REALLY smart and talented people. The first meeting was the interest meeting and they were talking about how the club is gonna be focused around using arduino and having small contests within the club, FTC and FRC wasn't even in the air at this point nor was it in anyone's mind they mentioned.
+  Mrs. Nguyen was our sponsor for that year. The "robotics" club wasnt really active until second semester,  I recall the meetings were on Fridays, but we only ended up having 2 meetings the entire year. The first meeting, I walked in and Vishnu was standing at the front with Shreyas (he goes to MIT now) and there wera a bunch of other REALLY smart and talented people. The first meeting was the interest meeting and they were talking about how the club is gonna be focused around using arduino and having small contests within the club, FTC and FRC wasn't even in the air at this point nor was it in anyone's mind they mentioned.
 </p>
 <p class="lead text-justify">
   I recall this line very clearly, "we're going to actually use physics to make sure everything we want to design works before building any of it, that means finding the ideal CoG, ideal voltage for the motors, etc". It was basically gonna be a club where you join, theorize about robots, and then build maybe 1 or 2 small robots controlled by arduinos and do small projects within the club, so CS club + hardware to a degree. Then the second meeting I remember Vishnu taught us to use an LED and make it blink and then gave us a "homework" lesson to code a weird LED thingy, but we never had another meeting after that.
@@ -57,8 +57,8 @@
 At the end of that year, I asked him if I could take over the club since he's graduating. He was basically like "Oh yeah, sure, just talk to this guy named Kenneth, he's going to be a Junior and I think you and him will work well together" I met kenneth that summer, and we formulated a plan for the club next year (again, we didn't have FTC nor FRC in mind yet) and somewhere along here Austin joined and the plan was to keep using arduinos and have it in Mrs.Nguyen's room. I remember as we were planning the interest meeting, we kept moving the date further and further since Mrs.Nguyen was busy.
 </p>
 <p class="lead text-justify">
-  At one point we received an email from a teacher named Brian Sonnier emailed us to ask us about the club. So one day afterschool we just met with him and then we started discussing FTC and how cool it would be to do that, and basically the entire plan for the club changed in an hour or two. I remember Mr. Sonnier was very scary at first and he was very strict and firm with us
-  I remember we used to joke about doing FRC and Sonnier was like "pfft yea right! its gonna be years before we do that!" And eventually we ended up with one FRC team as well as two FTC teams.
+  At one point we received an email from a teacher named Brian Sonnier to ask us about the club. So one day afterschool we just met with him and then we started discussing FTC and how cool it would be to do that, and basically the entire plan for the club changed in an hour or two. I remember Mr. Sonnier was very scary at first and he was very strict and firm with us
+  I remember we used to joke about doing FRC and Sonnier was like "pfft yea right! its gonna be years before we do that!"
 
 </p>
 

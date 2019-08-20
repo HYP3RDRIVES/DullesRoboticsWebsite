@@ -13,7 +13,7 @@
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="index.php" class="navbar-brand">Dulles Robotics</a>
+                <a href="index.php" class="navbar-brand">Dulles Robotics <!-- Allows logo instead of text <img src="/img/dr.png" width="50px" height="50px"/> --> </a>
             </div>
 
             <!--Menu Bar-->
