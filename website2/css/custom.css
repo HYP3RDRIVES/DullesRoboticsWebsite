@@ -31,7 +31,11 @@
 
 /* Nav Bar Begins Here*/
 nav .navbar-nav li a{
-  color: white !important;
+  color: white;
+  }
+
+nav .navbar-nav .dropdown-menu a{
+  color: black;
   }
 
 nav .navbar-header a{
