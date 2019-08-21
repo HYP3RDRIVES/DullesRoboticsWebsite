@@ -23,7 +23,7 @@
                     <li class="nav-item" id="nav-bar-announ"><a class="nav-link" href="announcements.php">Announcements</a></li>
                     <!--<li class="nav-item" id="nav-bar-resources"><a class="nav-link"href="resources.php">Resources</a></li>-->
               <!--      <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="archive.php">Archive</a></li> -->
-                    <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="https://media.dullesrobotics.com" target="_blank">Media Archive</a></li>
+              <!--      <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="https://media.dullesrobotics.com" target="_blank">Media Archive</a></li> -->
                     <li class="nav-item" id="nav-bar-ourstory"><a class="nav-link"href="story.php">Our Story</a></li>
                     <li class="nav-item" id="nav-bar-sponsor"><a class="nav-link"href="sponsors.php">Sponsors</a></li>
                     <li class="nav-item dropdown">
