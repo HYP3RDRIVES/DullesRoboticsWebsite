@@ -30,25 +30,9 @@
     <h3>Interest Meeting Form</h3>
       <hr class="style2">
       <hr class="style12">
-  <!-- Scribd Embed -->
-      <div class="wsite-scribd">
-    <div title="Scribd: interest_meeting_application_.docx" id="doc_389168948" style="background-color:#fff"><iframe style="border: 0px none;" src="http://www.scribd.com/embeds/389168948/content?access_key=key-KBZRKI55xhHonnEVw4p6&amp;jsapi=true&amp;xdm_e=http://dhsrobotics.weebly.com&amp;xdm_c=default1&amp;xdm_p=1" id="" width="100%" height="500" frameborder="0"></iframe></div>
-    <script type="text/javascript">
-    if (!window.scribd_js_loaded) {
-      window.scribd_js_loaded = true;
-      document.write("<scr"+"ipt type=\"text/javascript\" src=\"//www.scribd.com/javascripts/scribd_api.js\"></scr"+"ipt>");
-    }
-    </script><script type="text/javascript" src="//www.scribd.com/javascripts/scribd_api.js"></script>
-    <script type="text/javascript">
-    var scribd_doc_389168948 = scribd.Document.getDoc(389168948, "key-KBZRKI55xhHonnEVw4p6");
-    scribd_doc_389168948.addParam("jsapi_version", 2);
-    scribd_doc_389168948.addParam("height", 500);
-    scribd_doc_389168948.addParam("width", "100%");
-    scribd_doc_389168948.write("doc_389168948");
-    </script>
-    </div>
-  <!--  Scribd Embed  -->
+
       <p class="lead">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRMgiO7mYySb2Mal5ULCQRvCL1x0_J59e-5PTngvqQM3PhO2aPirGI9Vx01KIEcNWsR-q9YXd8kexgT/pub?embedded=true" width="1075" height="600"></iframe>
 <a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit?usp=sharing" target="_blank" class="btn btn-primary">View in G Docs</a>
       </p>
     </div>
