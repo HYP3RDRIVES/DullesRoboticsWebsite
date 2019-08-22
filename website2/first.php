@@ -7,11 +7,11 @@
 <!DOCTYPE html>
 <html style="height: 100%;">
 <head>
-    <title>Sponsors - Dulles Robotics</title>
+    <title>FIRST - Dulles Robotics</title>
     <?php
     	include 'res/head.php';
      ?>
-     <meta property="og:title" content="Dulles Robotics Club">
+     <meta property="og:title" content="Dulles Robotics Club - About First">
      <meta property="og:image" content="/img/w.png">
      <meta name="description" content="The Dulles High School Robotics Club. We are a robotics club based out of Dulles High School in Sugar Land, TX. We have FRC team #7494 and FTC teams #12456, and #13822">
      <meta name="keywords" content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
@@ -29,7 +29,7 @@
 
 	<!-- Main Page -->
 	<div class="container" style="height:100%;">
-		<h1 class="display-3">Our Sponsors</h1>
+		<h1 class="display-3">About <i>FIRST</i></h1>
 		<hr class="style14">
     <div class="container">
       <!-- Title -->
@@ -46,16 +46,16 @@
     <div id="logo-and-welcome" class="row well border-0 border-secondary">
       <!-- Logo -->
       <div class="col">
-        <img src="/img/sponsor/wm.png" class="img-fluid" alt="wm" width="530" height="900">
+        <img src="/img/FIRST.png" class="img-fluid" alt="wm" width="530" height="900">
        </div>
       <!-- Welcome Message -->
       <div class="col">
         <div class="row">
-          <h4 class="display-3">​​Waste Management</h4>
+          <h4 class="display-3">​​Mission of <i>FIRST</i></h4>
   </div>
           <div class="row">
-  <p class="lead text-justify">Our title sponsor, WM, is our biggest supporter and strives to make us the best we could possibly be by providing industry mentors and financial assistance. This company works very effectively by supporting the young generations and helping our team members get the education needed in the real world. Team 7494 would be nothing without the gracious support of WM.</p>
-
+  <p class="lead text-justify">The mission of FIRST® is to inspire young people to be science and technology leaders and innovators, by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.</p>
+      <a href="https://www.firstinspires.org/about/vision-and-mission" target="_blank" class="btn btn-primary">Learn more about <i>FIRST</i></a> 
 
         </div>
        </div>
@@ -73,16 +73,16 @@
   <div id="logo-and-welcome" class="row well border-0 border-secondary">
     <!-- Logo -->
     <div class="col">
-      <img src="/img/sponsor/twc.png" class="img-fluid" alt="twc" width="250" height="250">
+      <img src="/img/FTC.png" class="img-fluid" alt="ftc" width="450" height="450">
      </div>
     <!-- Welcome Message -->
     <div class="col">
       <div class="row">
-        <h4 class="display-3">Texas Workforce Commission</h4>
+        <h4 class="display-3"><i>FIRST</i>  Tech Challenge</h4>
 </div>
         <div class="row">
-<p class="lead text-justify">They are very nice people.</p>
-
+<p class="lead text-justify">Teams of middle and high school-aged students are challenged to design, build, and program a robot to play a floor game against other teams’ creations. Team <strong>12456</strong> and Team <strong>13822</strong> have been competing in the FIRST robotics competition since 2016 and 2017 respectively.</p>
+  <a href="https://www.firstinspires.org/robotics/ftc" target="_blank" class="btn btn-primary">Learn more about FTC</a>
 
       </div>
      </div>
@@ -101,16 +101,16 @@
   <div id="logo-and-welcome" class="row well border-0 border-secondary">
     <!-- Logo -->
     <div class="col">
-      <img src="/img/sponsor/nasa.png" class="img-fluid" alt="twc" width="300" height="300">
+      <img src="/img/FRC.png" class="img-fluid" alt="twc" width="450" height="450">
      </div>
     <!-- Welcome Message -->
     <div class="col">
       <div class="row">
-        <h4 class="display-3">NASA</h4>
+        <h4 class="display-3"><i>FIRST</i> Robotics Competition</h4>
 </div>
         <div class="row">
-<p class="lead text-justify">NASA and their yearly grants have allowed us to continue to pay for registration and participate in FRC. Their continued support through grants is greatly appreciated.</p>
-
+<p class="lead text-justify">High school-aged teams compete head to head on a special playing field with robots they have designed, built, and programmed. Team 7494 has been competing in the First Robotics Competition since its rookie year in 2019. </p>
+ <a href="https://www.firstinspires.org/robotics/frc" target="_blank" class="btn btn-primary">Learn more about FRC</a>
 
       </div>
      </div>
