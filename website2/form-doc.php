@@ -33,7 +33,7 @@
 
       <p class="lead">
         <iframe src="https://docs.google.com/document/d/e/2PACX-1vRMgiO7mYySb2Mal5ULCQRvCL1x0_J59e-5PTngvqQM3PhO2aPirGI9Vx01KIEcNWsR-q9YXd8kexgT/pub?embedded=true" width="1075" height="600"></iframe>
-<a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit?usp=sharing" target="_blank" class="btn btn-primary">View in G Docs</a>
+<a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit" target="_blank" class="btn btn-primary">View in G Docs</a>
       </p>
     </div>
   </div>
