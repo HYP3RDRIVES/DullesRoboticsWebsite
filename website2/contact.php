@@ -82,6 +82,14 @@ Nav Box is currenly useless
 						<hr class="style3">
 				  	<hr class="style18">
 
+            <h4 id="list-item-5" class="display-4">E-Mail</h4>
+                  <div class="text-center">
+
+                  <a href="mailto:dullesrobotics@gmail.com" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Email us at: dullesrobotics@gmail.com">Contact us via E-Mail</a>
+                </div>
+                <hr class="style3">
+                <hr class="styleSpace">
+
 	<!--				<h4 id="list-item-7" class="display-4">Remind Feed</h4>
 					  	<script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=600&join=true"></script> -->
 				</div>
