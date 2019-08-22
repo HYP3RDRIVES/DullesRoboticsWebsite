@@ -51,11 +51,14 @@
       <!-- Welcome Message -->
       <div class="col">
         <div class="row">
-          <h4 class="display-3">​​Mission of <i>FIRST</i></h4>
+          <h4 class="display-3"><i>FIRST</i></h4>
   </div>
           <div class="row">
-  <p class="lead text-justify">The mission of FIRST® is to inspire young people to be science and technology leaders and innovators, by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.</p>
-      <a href="https://www.firstinspires.org/about/vision-and-mission" target="_blank" class="btn btn-primary">Learn more about <i>FIRST</i></a> 
+  <p class="lead text-justify"> FIRST (For Inspiration and Recognition of Science and Technology) was founded in 1989 to inspire young people's interest and participation in science and technology. Based in Manchester, NH, the 501(c)(3) not-for-profit public charity designs accessible, innovative programs that motivate young people to pursue education and career opportunities in science, technology, engineering, and math, while building self-confidence, knowledge, and life skills.</p>
+    <h2>Mission of <i>FIRST</i></h2>
+    <p class="lead text-justify">
+    The mission of FIRST® is to inspire young people to be science and technology leaders and innovators, by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.</p>
+      <a href="https://www.firstinspires.org/about/vision-and-mission" target="_blank" class="btn btn-primary">Learn more about <i>FIRST</i></a>
 
         </div>
        </div>
@@ -81,7 +84,7 @@
         <h4 class="display-3"><i>FIRST</i>  Tech Challenge</h4>
 </div>
         <div class="row">
-<p class="lead text-justify">Teams of middle and high school-aged students are challenged to design, build, and program a robot to play a floor game against other teams’ creations. Team <strong>12456</strong> and Team <strong>13822</strong> have been competing in the FIRST robotics competition since 2016 and 2017 respectively.</p>
+<p class="lead text-justify">Teams of middle and high school-aged students are challenged to design, build, and program a robot to play a floor game against other teams’ creations. Team <strong>12456</strong> and Team <strong>13822</strong> have been competing in the FIRST Tech Challenge since 2016 and 2017 respectively.</p>
   <a href="https://www.firstinspires.org/robotics/ftc" target="_blank" class="btn btn-primary">Learn more about FTC</a>
 
       </div>
@@ -116,9 +119,9 @@
      </div>
    </div>
   <hr/>
-
+<hr class="styleSpace"/>
 </div>
-<!-- NASA Sponsor Block Ends -->
+
 
 	<!-- Footer -->
 	<?php
