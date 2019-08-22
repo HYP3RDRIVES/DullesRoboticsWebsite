@@ -151,6 +151,31 @@
 
           </div>
           <!-- oFfficer block ends -->
+          <!-- Officer BLock -->
+              <div class="container">
+
+                <hr class="style14" />
+
+                <!-- Logo and Welcome -->
+                <div id="logo-and-welcome" class="row well border-0 border-secondary">
+                  <!-- Logo -->
+                  <div class="col">
+                    <h4 class="display-3">​Rebecca Liu</h4>
+                   </div>
+                  <!-- Welcome Message -->
+                  <div class="col">
+
+                    <div class="row">
+                      <p class="lead text-justify">Communications Coordinator</p>
+      <!--              <a href="mailto:" class="btn btn-primary">Contact via E-Mail</a> -->
+
+                    </div>
+                   </div>
+                 </div>
+                <hr/>
+
+            </div>
+            <!-- oFfficer block ends -->
 
 	<!-- Footer -->
 	<?php
