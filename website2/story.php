@@ -18,8 +18,9 @@
 		include 'res/nav.php';
 	?>
 	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
-	<script type="text/javascript">
-		document.getElementById('nav-bar-ourstory').setAttribute('class', 'active nav-item');
+
+  <script type="text/javascript">
+		document.getElementById('nav-bar-ourstory').setAttribute('class', 'active dropdown-item');
 	</script>
 
 	<!-- Main Page -->

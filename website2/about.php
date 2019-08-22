@@ -23,9 +23,9 @@
 		include 'res/nav.php';
 	?>
 	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
-	<script type="text/javascript">
-		document.getElementById('nav-bar-about').setAttribute('class', 'active dropdown-item');
-	</script>
+  <script type="text/javascript">
+    document.getElementById('nav-bar-about').setAttribute('class', 'active nav-item');
+  </script>
 
 	<!-- Main Page -->
 	<div class="container" style="height:100%;">

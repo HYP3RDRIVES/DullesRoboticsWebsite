@@ -29,6 +29,11 @@
 	color: #bec9f8;
 }
 
+.display-5 {
+  font-family: 'Helvetica Neue';
+	font-size: 2rem;
+}
+
 /* Nav Bar Begins Here*/
 nav .navbar-nav li a{
   color: white;

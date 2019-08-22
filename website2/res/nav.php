@@ -24,7 +24,7 @@
                     <!--<li class="nav-item" id="nav-bar-resources"><a class="nav-link"href="resources.php">Resources</a></li>-->
               <!--      <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="archive.php">Archive</a></li> -->
               <!--      <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="https://media.dullesrobotics.com" target="_blank">Media Archive</a></li> -->
-                    <li class="nav-item" id="nav-bar-ourstory"><a class="nav-link"href="story.php">Our Story</a></li>
+                    <li class="nav-item" id="nav-bar-about"><a class="nav-link" href="about.php">About Us</a></li>
                     <li class="nav-item" id="nav-bar-first"><a class="nav-link"href="first.php">About <i>FIRST</i></a></li>
                     <li class="nav-item" id="nav-bar-sponsor"><a class="nav-link"href="sponsors.php">Sponsors</a></li>
                     <li class="nav-item dropdown">
@@ -32,7 +32,8 @@
                             Club Info
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a id="nav-bar-about" class="dropdown-item" href="about.php">About Us</a>
+
+                          <a id="nav-bar-ourstory" class="dropdown-item" href="story.php">Our Story</a>
                           <a id="nav-bar-contact" class="dropdown-item" href="contact.php">Contact Us</a>
                           <a id="nav-bar-forms" class="dropdown-item" href="form-doc.php">Forms and Documents</a>
                           <a id="nav-bar-officers" class="dropdown-item" href="officers.php">Officers</a>

@@ -119,9 +119,58 @@
      </div>
    </div>
   <hr/>
-<hr class="styleSpace"/>
-</div>
 
+<hr class="style18">
+<div class="text-center">
+<h1 class="display-3">2019-2020 Season</h1>
+</div>
+<div class="container">
+
+
+
+  <!-- Logo and Welcome -->
+  <div id="logo-and-welcome" class="row well border-0 border-secondary">
+    <!-- Logo -->
+    <div class="col">
+      <div class="text-center">
+      <img src="/img/Skystone.png" class="img-fluid" alt="twc" width="350" height="400">
+    </div>
+     </div>
+    <!-- Welcome Message -->
+    <div class="col">
+      <div class="row">
+        <h4 class="display-5">FTC: Skystone presented by Qualcomm</h4>
+</div>
+        <div class="row">
+          <p class="lead text-justify">More information will be release at the kickoff. SKYSTONE presented by Qualcomm coming at kickoff on September 7, 2019. </p>
+ <a href="https://info.firstinspires.org/skystone" target="_blank" class="btn btn-primary">Learn more</a>
+
+      </div>
+     </div>
+   </div>
+<hr class="style10">
+   <!-- Infinite Recharge -->
+   <div id="logo-and-welcome" class="row well border-0 border-secondary">
+     <!-- Logo -->
+     <div class="col">
+       <div class="text-center">
+       <img src="/img/Infinite.png" class="img-fluid" alt="twc" width="400" height="400">
+      </div>
+    </div>
+     <!-- Welcome Message -->
+     <div class="col">
+       <div class="row">
+         <h4 class="display-5">FRC: Infinite Recharge</h4>
+ </div>
+         <div class="row">
+           <p class="lead text-justify">First will release information about INFINITE RECHARGE during the kickoff in January, 2020. </p>
+  <a href="https://info.firstinspires.org/infinite-recharge" target="_blank" class="btn btn-primary">Learn more</a>
+
+       </div>
+      </div>
+    </div>
+<hr/>
+<hr class="styleSpace"/>
 
 	<!-- Footer -->
 	<?php
