@@ -26,7 +26,7 @@
 		<div class="row" id="all-sections-container">
 			<div class="col-md-4 d-none d-md-block">
 				<div class="sticky-div" style="position:sticky; top:20px;">
-			
+
 
 					</div>
 				</div>
@@ -35,6 +35,13 @@
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">General Announcements</h4>
 					<br>
+          <h3>Parent Meeting</h3>
+            <hr class="style2">
+            <p class="small lead">4 Sept 2019</p>
+            <hr class="style12">
+            <p class="lead">
+              Parent meeting on the 4th of September at 5:30 PM, before open house.
+            </p>
 						<h3>Interest Meetings</h3>
 							<hr class="style2">
 							<p class="small lead">19 Aug 2019</p>
