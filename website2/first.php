@@ -122,8 +122,13 @@
 
 <hr class="style18">
 <div class="text-center">
-<h1 class="display-3">2019-2020 Season</h1>
+<h1 class="display-3">2019-2020 Season: RISE</h1>
+<img src="/img/Rise.jpg" class="img-fluid" alt="twc" width="650" height="500">
 </div>
+<p class="lead text-justify">Throughout history, great civilizations have risen, then fallen. Now it’s our turn to rise—building and bolstering our own planetary metropolis.
+
+This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change, is setting out to inspire citizens of the galaxy to work together, strengthening and protecting the Force that binds us and creating a place where collaboration and collective wisdom can elevate new ideas and foster growth.</p> 
+<hr class="style14">
 <div class="container">
 
 
