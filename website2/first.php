@@ -123,7 +123,8 @@
 <hr class="style18">
 <div class="text-center">
 <h1 class="display-3">2019-2020 Season: RISE</h1>
-<img src="/img/Rise.jpg" class="img-fluid" alt="twc" width="650" height="500">
+<a href="https://info.firstinspires.org/first-rise-2020?utm_source=first-inspires&utm_medium=headline&utm_campaign=fir-registration-020&utm_referrer=https%3A%2F%2Fwww.firstinspires.org%2F" target="_blank">
+<img src="/img/Rise.jpg" class="img-fluid" alt="Rise Lockup" width="650" height="500"></a>
 </div>
 <p class="lead text-justify">Throughout history, great civilizations have risen, then fallen. Now it’s our turn to rise—building and bolstering our own planetary metropolis.
 
