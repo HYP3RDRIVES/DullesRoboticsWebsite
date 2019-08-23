@@ -9,7 +9,7 @@
 
 <head>
     <title>Home - Dulles Robotics</title>
-    <description "This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456. " >
+    <description "This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456.">
     <meta property="og:title" content="Dulles Robotics Club">
     <meta property="og:image" content="/img/w.png">
     <meta name="description" content="This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456. ">
@@ -90,8 +90,8 @@
  		<hr>
 
  		<div class="row justify-content-center" style="margin-bottom: 2%; margin-top: 2%;">
- 			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Dulles Robotics Club, contact us at <a href="mailto:dullesrobotics@gmail.com">dullesrobotics@gmail.com</a></p>
-			<p class="small lead">Any question or comments can also be addressed directly to any of the officers.﻿﻿</p>
+ 			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Dulles Robotics Club, contact us at our <a class="badge badge-info text-light" id="remind-link" href="mailto:dullesrobotics@gmail.com" data-toggle="tooltip" data-placement="top" title="E-Mail us at dullesrobotics@gmail.com">E-Mail</a>‏‏‎ </p>
+			<p class="small lead">     Any question or comments can also be addressed directly to any of the officers.﻿﻿</p>
  		</div>
 	</div>
 
