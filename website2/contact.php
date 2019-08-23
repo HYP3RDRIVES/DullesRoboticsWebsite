@@ -85,11 +85,7 @@ Nav Box is currenly useless
             <h4 id="list-item-5" class="display-4">E-Mail</h4>
                   <div class="text-center">
 
-<<<<<<< HEAD
                   <a href="mailto:dullesrobotics@gmail.com" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Email us at: dullesrobotics@gmail.com">Contact us via E-Mail</a>
-=======
-                  <a href="mailto:dullesrobotics@gmail.com" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="dullesrobotics@gmail.com">Contact us via E-Mail</a>
->>>>>>> e0086efeb9dc1f8a81e2a1068c5b375983930328
                 </div>
                 <hr class="style3">
                 <hr class="styleSpace">
@@ -111,5 +107,11 @@ Nav Box is currenly useless
 	<?php
 		include 'res/cdn.php';
 	 ?>
+
+   <script>
+     $(function () {
+         $('[data-toggle="tooltip"]').tooltip()
+     })
+   </script>
 </body>
 </html>
