@@ -62,9 +62,12 @@ Nav Box is currenly useless
 				  	<hr class="style18">
 
 					<h4 id="list-item-3" class="display-4">Youtube</h4>
-											<a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg">Go to our Youtube channel!</a>
-
-
+										<!--	<a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg">Go to our Youtube channel!</a> -->
+                        <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="YT: Dulles Robotics">View our Youtube Channel</a>
+                        <hr class="style10">
+                      <h3>Our latest video</h3>
+                      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </hr>
 	<!---						<hr class="style3">
 				  	<hr class="style18">
 
