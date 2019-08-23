@@ -127,7 +127,7 @@
 </div>
 <p class="lead text-justify">Throughout history, great civilizations have risen, then fallen. Now it’s our turn to rise—building and bolstering our own planetary metropolis.
 
-This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change, is setting out to inspire citizens of the galaxy to work together, strengthening and protecting the Force that binds us and creating a place where collaboration and collective wisdom can elevate new ideas and foster growth.</p> 
+This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change, is setting out to inspire citizens of the galaxy to work together, strengthening and protecting the Force that binds us and creating a place where collaboration and collective wisdom can elevate new ideas and foster growth.</p>
 <hr class="style14">
 <div class="container">
 
@@ -147,7 +147,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
         <h4 class="display-5">FTC: Skystone presented by Qualcomm</h4>
 </div>
         <div class="row">
-          <p class="lead text-justify">More information will be release at the kickoff. SKYSTONE presented by Qualcomm coming at kickoff on September 7, 2019. </p>
+          <p class="lead text-justify">More information will be released at the kickoff. SKYSTONE presented by Qualcomm is coming at kickoff on September 7, 2019. </p>
  <a href="https://info.firstinspires.org/skystone" target="_blank" class="btn btn-primary">Learn more</a>
 
       </div>
