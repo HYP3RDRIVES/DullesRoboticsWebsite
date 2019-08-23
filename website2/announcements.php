@@ -37,11 +37,19 @@
 					<br>
           <h3>Parent Meeting</h3>
             <hr class="style2">
-            <p class="small lead">4 Sept 2019</p>
+            <p class="small lead">23 Aug 2019</p>
             <hr class="style12">
             <p class="lead">
-              Parent meeting on the 4th of September at 5:30 PM, before open house.
+              Parent meeting on the <strong>4th of September</strong> at 5:30 PM, before open house.
             </p>
+            <h3>First general meeting</h3>
+              <hr class="style2">
+              <p class="small lead">23 Aug 2019</p>
+              <hr class="style12">
+              <p class="lead">
+                First general meeting.
+              </p>
+
 						<h3>Interest Meetings</h3>
 							<hr class="style2">
 							<p class="small lead">19 Aug 2019</p>
