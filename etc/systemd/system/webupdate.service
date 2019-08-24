@@ -1,0 +1,12 @@
+[Unit]
+Description=Dulles Robotics Website Server
+After=network.target
+
+[Service]
+ExecStart=/bin/bash ./website.sh
+WorkingDirectory=/var/www/dullesrobotics.com/
+Restart=no
+User=administrator
+
+[Install]
+WantedBy=multi-user.target
