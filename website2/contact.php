@@ -66,7 +66,8 @@ Nav Box is currenly useless
                         <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="YT: Dulles Robotics">Click to view our Youtube Channel</a>
                         <hr class="style10">
                       <h3>Our latest video</h3>
-                      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!--  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                      <h2>Video Temporarily Unavailable</h2>
                     </hr>
 	<!---						<hr class="style3">
 				  	<hr class="style18">
