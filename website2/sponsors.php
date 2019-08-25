@@ -37,18 +37,18 @@
 
 
 
-  <!-- WM Sponsor Block -->
+  <!-- WM Sponsor Block
   <div class="container">
 
 
 
-    <!-- Logo and Welcome -->
+  Logo and Welcome
     <div id="logo-and-welcome" class="row well border-0 border-secondary">
-      <!-- Logo -->
+       Logo
       <div class="col">
         <img src="/img/sponsor/wm.png" class="img-fluid" alt="wm" width="530" height="900">
        </div>
-      <!-- Welcome Message -->
+       Welcome Message
       <div class="col">
         <div class="row">
           <h4 class="display-3">​​Waste Management</h4>
@@ -63,7 +63,7 @@
     <hr/>
 
 </div>
-<!-- WM Sponsor Block Ends -->
+ WM Sponsor Block Ends
 <!-- TWC Sponsor Block -->
 <div class="container">
 

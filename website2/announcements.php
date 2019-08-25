@@ -42,12 +42,12 @@
             <p class="lead">
               Parent meeting on the <strong>4th of September</strong> at 5:30 PM, before open house.
             </p>
-            <h3>First general meeting</h3>
+            <h3>General meeting</h3>
               <hr class="style2">
               <p class="small lead">23 Aug 2019</p>
               <hr class="style12">
               <p class="lead">
-                First general meeting.
+                First general meeting on 3rd Sept.
               </p>
 
 						<h3>Interest Meetings</h3>
