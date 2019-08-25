@@ -18,7 +18,7 @@
 
 				 <div class="text-center">
 					 Special Thanks to our sponsors:
-						 <a href="https://wm.com" target="_blank"><img src="img/sponsor/wm.png" alt="wmlogo" width="70" height="40" left=(window.width-width/2)+"px"/></a>
+						 <!--<a href="https://wm.com" target="_blank"><img src="img/sponsor/wm.png" alt="wmlogo" width="70" height="40" left=(window.width-width/2)+"px"/></a>-->
 						 <a href="https://nasa.gov" target="_blank"><img src="img/sponsor/nasa.png" alt="wmlogo" width="60" height="50" left=(window.width-width/2)+"px"/></a>
 						 <a href="https://twc.texas.gov" target="_blank"><img src="img/sponsor/twc.png" alt="wmlogo" width="50" height="50" left=(window.width-width/2)+"px"/></a>
 					 </div>
@@ -35,6 +35,7 @@
 			if ($(document).height() <= $(window).height()) { 
 				$("#main-footer").show();
 			} 
+		$("#main-footer").width = $(window).width;
 		});
 	
     $(window).scroll(function() {
