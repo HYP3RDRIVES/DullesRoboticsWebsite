@@ -47,7 +47,7 @@
               <p class="small lead">23 Aug 2019</p>
               <hr class="style12">
               <p class="lead">
-                First general meeting on 3rd Sept.
+                General meeting on 3rd Sept.
               </p>
 
 						<h3>Interest Meetings</h3>
