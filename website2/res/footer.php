@@ -18,7 +18,7 @@
 
 				 <div class="text-center">
 					 Special Thanks to our sponsors:
-						 <!--<a href="https://wm.com" target="_blank"><img src="img/sponsor/wm.png" alt="wmlogo" width="70" height="40" left=(window.width-width/2)+"px"/></a>-->
+						 <a href="https://wm.com" target="_blank"><img src="img/sponsor/wm.png" alt="wmlogo" width="70" height="40" left=(window.width-width/2)+"px"/></a>
 						 <a href="https://nasa.gov" target="_blank"><img src="img/sponsor/nasa.png" alt="wmlogo" width="60" height="50" left=(window.width-width/2)+"px"/></a>
 						 <a href="https://twc.texas.gov" target="_blank"><img src="img/sponsor/twc.png" alt="wmlogo" width="50" height="50" left=(window.width-width/2)+"px"/></a>
 					 </div>
@@ -26,25 +26,25 @@
 	</div>
 	</footer>
 	<!-- Footer -->
-	
+
 	<!-- Footer Script -->
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 	<script>
 	$( document ).ready(function() {
 		$("#main-footer").hide();
-			if ($(document).height() <= $(window).height()) { 
+			if ($(document).height() <= $(window).height()) {
 				$("#main-footer").show();
-			} 
+			}
 		$("#main-footer").width = $(window).width;
 		});
-	
+
     $(window).scroll(function() {
 	if($(window).scrollTop() + $(window).height() > $(document).height() - 10) {
        $("#main-footer").show();
 	   //$("#main-footer").show(1000);
 		}
 	});
-	
-	
+
+
 	</script>
 	<!-- Footer Script -->
