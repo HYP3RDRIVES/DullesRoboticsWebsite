@@ -102,9 +102,7 @@ Nav Box is currenly useless
 
 	</div>
 	<!-- Footer -->
-	<?php
-		include 'res/footer.php';
-	 ?>
+
 
 	<!-- Scripts -->
 	<!-- Bootstrap Scripts -->
@@ -117,5 +115,8 @@ Nav Box is currenly useless
          $('[data-toggle="tooltip"]').tooltip()
      })
    </script>
+   <?php
+ 		include 'res/footer.php';
+ 	 ?>
 </body>
 </html>

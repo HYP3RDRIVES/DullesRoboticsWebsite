@@ -28,7 +28,7 @@
 	</script>
 
 	<!-- Main Page -->
-	<div class="container" style="height:100%;">
+	<div class="container">
 		<h1 class="display-3">Our Sponsors</h1>
 		<hr class="style14">
     <div class="container">
@@ -119,7 +119,8 @@
 
 </div>
 <!-- NASA Sponsor Block Ends -->
-
+</div>
+</div>
 	<!-- Footer -->
 	<?php
 		include 'res/footer.php';

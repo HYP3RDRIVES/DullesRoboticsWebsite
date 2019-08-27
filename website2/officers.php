@@ -20,7 +20,7 @@
 	</script>
 
 	<!-- Main Page -->
-	<div class="container" style="height:100%;">
+	<div class="container" >
 		<div class="row"></div>
 		<h1 class="display-3">2019-2020 Officers</h1>
 		<hr class="style14">
@@ -175,12 +175,10 @@
                 <hr/>
 
             </div>
-            <!-- oFfficer block ends -->
 
+            <!-- oFfficer block ends -->
+</div>
 	<!-- Footer -->
-	<?php
-		include 'res/footer.php';
-	 ?>
 
 	<!-- Scripts -->
 
@@ -188,5 +186,9 @@
 	<?php
 		include 'res/cdn.php';
 	 ?>
+   <?php
+     include 'res/footer.php';
+    ?>
+
 </body>
 </html>

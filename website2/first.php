@@ -28,7 +28,7 @@
 	</script>
 
 	<!-- Main Page -->
-	<div class="container" style="height:100%;">
+	<div class="container" >
 		<h1 class="display-3">About <i>FIRST</i></h1>
 		<hr class="style14">
     <div class="container">
@@ -178,6 +178,10 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 <hr/>
 <hr class="styleSpace"/>
 
+</div>
+</div>
+</div>
+</div>
 	<!-- Footer -->
 	<?php
 		include 'res/footer.php';

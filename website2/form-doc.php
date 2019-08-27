@@ -20,7 +20,7 @@
 	</script>
 
 	<!-- Main Page -->
-	<div class="container" style="height:100%;">
+	<div class="container" style="height:85.6%;">
 		<div class="row"></div>
 		<h1 class="display-3">Forms and Documents</h1>
 		<hr class="style14">
@@ -32,11 +32,12 @@
       <hr class="style12">
 
       <p class="lead">
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ9Qo8rktjxbVdwnaBY8w1MwlgUoexVAtLfbZiwlSyvpmDd4swsY_luhiLGs_1PE91iYeO7hwFBP4e_/pub?embedded=true" width="1075" height="600"></iframe>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ9Qo8rktjxbVdwnaBY8w1MwlgUoexVAtLfbZiwlSyvpmDd4swsY_luhiLGs_1PE91iYeO7hwFBP4e_/pub?embedded=true" width="640 " height="720"></iframe>
 <a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit" target="_blank" class="btn btn-primary">View in G Docs</a>
       </p>
     </div>
   </div>
+</div>
 
 	<!-- Footer -->
 	<?php

@@ -24,7 +24,7 @@
 	</script>
 
 	<!-- Main Page -->
-	<div class="container" style="height:100%;">
+	<div class="container">
 		<h1 class="display-3">Our Story</h1>
 		<hr class="style14">
     <div class="container">
@@ -72,6 +72,7 @@ At the end of that year, I asked him if I could take over the club since he's gr
       <hr/>
 
 	</div>
+</div>
 
 	<!-- Footer -->
 	<?php
