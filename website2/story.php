@@ -31,7 +31,7 @@
       <!-- Title -->
 
 
-      <!-- Logo and Welcome -->
+      <!-- Logo and Welcome no -->
       <div id="logo-and-welcome" class="row well border-0 border-secondary">
         <!-- Logo -->
         <div class="col">
