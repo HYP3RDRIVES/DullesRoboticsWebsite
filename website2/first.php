@@ -148,7 +148,9 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
         <h4 class="display-5">FTC: Skystone presented by Qualcomm</h4>
 </div>
         <div class="row">
-          <p class="lead text-justify">More information will be released at the kickoff. SKYSTONE presented by Qualcomm is coming at kickoff on September 7, 2019. </p>
+      <!--    <p class="lead text-justify">More information will be released at the kickoff. SKYSTONE presented by Qualcomm is coming at kickoff on September 7, 2019. </p> -->
+      <h4> Watch Kickoff Live!</h4>
+      <iframe src="https://player.twitch.tv/?channel=firstinspires" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/firstinspires?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Watch live video from FIRSTinspires on www.twitch.tv</a>
  <a href="https://info.firstinspires.org/skystone" target="_blank" class="btn btn-primary">Learn more</a>
 
       </div>
