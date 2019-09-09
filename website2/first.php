@@ -138,9 +138,11 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
   <div id="logo-and-welcome" class="row well border-0 border-secondary">
     <!-- Logo -->
     <div class="col">
+      <div class="row">
       <div class="text-center">
       <img src="/img/Skystone.png" class="img-fluid" alt="twc" width="350" height="400">
     </div>
+  </div>
      </div>
     <!-- Welcome Message -->
     <div class="col">
@@ -155,7 +157,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 
   </div>
   <hr class="style4">
- <a href="https://info.firstinspires.org/skystone" target="_blank" class="btn btn-primary">Learn more</a>  <a href="https://www.firstinspires.org/resource-library/ftc/game-and-season-infoe" target="_blank" class="btn btn-primary">Game Manual & Materials</a>
+ <a href="https://info.firstinspires.org/skystone" target="_blank" class="btn btn-info">Learn more</a>  <a href="https://www.firstinspires.org/resource-library/ftc/game-and-season-infoe" target="_blank" class="btn btn-secondary">Game Manual & Materials</a>
 </hr>
       </div>
      </div>

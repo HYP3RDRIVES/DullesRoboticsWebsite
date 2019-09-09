@@ -61,9 +61,9 @@
        </svg>
      </div>
      <div class="toast__content">
-       <p class="toast__type">Dues are payable!</p>
-       <p class="toast__message">Don't forget to pay dues for the 2019-2020 school year! Click the button below to pay via Revtrak.</p>
-        <a class="btn btn-primary" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" onclick="toggle_visibility('notibox');">Pay Dues</a>
+       <p class="toast__type">Due payment opens soon!</p>
+       <p class="toast__message">Don't forget to pay dues for the 2019-2020 school year! Payment opens on the 14th of September. Click the button below to pay via Revtrak.</p>
+        <a class="btn btn-secondary" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" onclick="toggle_visibility('notibox');">Pay Dues</a>
      </div>
      <div class="toast__close">
        <a onclick="toggle_visibility('notibox');" >
@@ -131,7 +131,7 @@
 	<div class="row justify-content-center" style="margin-bottom: 2%; margin-top: 2%;">
 			<div id="stay-in-touch-text" class="row">
 				<p class="lead" style="padding-left: 0.5rem;">
-					View our current club <a href="officers.php" class="badge badge-secondary">officers</a>. <a class="badge badge-info text-light" id="remind-link" data-toggle="tooltip" data-placement="top" title="Text @776d6f to 81010">Remind code</a>, newsletter signup and more contact info is provided <a href="contact.php" class="badge badge-secondary">here</a>.
+					View our current club <a href="officers.php" class="badge badge-dark">officers</a>. <a class="badge badge-info text-light" id="remind-link" data-toggle="tooltip" data-placement="top" title="Text @776d6f to 81010">Remind code</a>, newsletter signup and more contact info is provided <a href="contact.php" class="badge badge-dark">here</a>.
 				</p>
 			</div>
  		</div>
@@ -139,7 +139,7 @@
  		<hr>
 
  		<div class="row justify-content-center" style="margin-bottom: 2%; margin-top: 2%;">
- 			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Dulles Robotics Club, contact us at our <a class="badge badge-info text-light" id="remind-link" href="mailto:dullesrobotics@gmail.com" data-toggle="tooltip" data-placement="top" title="E-Mail us at dullesrobotics@gmail.com">E-Mail</a>‏‏‎ </p>
+ 			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Dulles Robotics Club, contact us at our <a class="badge badge-dark text-light" id="remind-link" href="mailto:dullesrobotics@gmail.com" data-toggle="tooltip" data-placement="top" title="E-Mail us at dullesrobotics@gmail.com">E-Mail</a>‏‏‎ </p>
 			<p class="small lead">     Any question or comments can also be addressed directly to any of the officers.﻿﻿</p>
  		</div>
 	</div>

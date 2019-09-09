@@ -63,7 +63,7 @@ Nav Box is currenly useless
 
 					<h4 id="list-item-3" class="display-4">Youtube</h4>
 										<!--	<a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg">Go to our Youtube channel!</a> -->
-                        <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="YT: Dulles Robotics">Click to view our Youtube Channel</a>
+                        <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="YT: Dulles Robotics">Click to view our Youtube Channel</a>
                         <hr class="style10">
                       <h3>Our latest video</h3>
                       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -89,7 +89,7 @@ Nav Box is currenly useless
             <h4 id="list-item-5" class="display-4">E-Mail</h4>
                   <div class="text-center">
 
-                  <a href="mailto:dullesrobotics@gmail.com" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Email us at: dullesrobotics@gmail.com">Contact us via E-Mail</a>
+                  <a href="mailto:dullesrobotics@gmail.com" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="Email us at: dullesrobotics@gmail.com">Contact us via E-Mail</a>
                 </div>
                 <hr class="style3">
                 <hr class="styleSpace">

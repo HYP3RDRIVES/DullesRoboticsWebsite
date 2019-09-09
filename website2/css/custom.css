@@ -296,6 +296,16 @@ hr.styleSpace:after
 .toast--blue:before{
   background-color:#1D72F3;
 }
+
+.toast--red .toast__icon{
+  background-color:#d6271e;
+}
+
+.toast--red:before{
+  background-color:#d6271e;
+}
+
+
 #notibox {
     display: inline;
     float: right;
