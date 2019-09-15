@@ -17,6 +17,12 @@
 
 }
 
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 /* main shit*/
 .display-3 {
 	font-family: 'Bebas';
@@ -309,4 +315,17 @@ hr.styleSpace:after
 #notibox {
     display: inline;
     float: right;
+}
+
+.scrolling-wrapper {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+	width: 100px;
+  height: 300px;
+}
+  .card {
+    display: inline-block;
+		 background:Gray;
+  }
 }
