@@ -44,7 +44,7 @@
               <br/>
               P.S. Pay your dues!  <a class="btn btn-dark" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" id="noticont">Pay Dues</a>
             </p>
-            <h3>Workshops start</h3>
+            <h3>Robotics is now an SNHS approved club!</h3>
               <hr class="style2">
               <p class="small lead">15 Sept 2019</p>
               <hr class="style12">
