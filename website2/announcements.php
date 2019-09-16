@@ -35,6 +35,33 @@
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">General Announcements</h4>
 					<br>
+          <h3>Workshops start</h3>
+            <hr class="style2">
+            <p class="small lead">16 Sept 2019</p>
+            <hr class="style12">
+            <p class="lead">
+              Workshops start tommorow, Sept 16. Signup here: <a class="btn btn-primary"href"https://www.signupgenius.com/go/30E0849AEAA23A0F85-robotics. ">Workshop Signup</a>
+              <br/>
+              P.S. Pay your dues!  <a class="btn btn-dark" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" id="noticont">Pay Dues</a>
+            </p>
+            <h3>Workshops start</h3>
+              <hr class="style2">
+              <p class="small lead">15 Sept 2019</p>
+              <hr class="style12">
+              <p class="lead">
+                Good news! Robotics is now a SNHS-approved Science club! What that means is:
+                <br/>a. We won't be short of volunteers for any events!
+                <br/>b. We will be able to earn SNHS points for running our contests and doing community outreach!
+                <br/>(Excess SNHS points can be transfered to YES hours)
+              </p>
+            <h3>General meeting</h3>
+              <hr class="style2">
+              <p class="small lead">23 Aug 2019</p>
+              <hr class="style12">
+              <p class="lead">
+                General meeting on 3rd Sept.
+              </p>
+
           <h3>Parent Meeting</h3>
             <hr class="style2">
             <p class="small lead">23 Aug 2019</p>
@@ -64,7 +91,7 @@
 							<p class="small lead">9 Aug 2019</p>
 							<hr class="style12">
 							<p class="lead">
-							 As you can probably tell, we have completely overhauled our site, including switching from JS to PHP, as well as changing the look and feel. This should allow for a better user experience, and is also more efficient.
+							 As you can probably tell, we have completely overhauled our site, including switching from HTML & Javascript/CoffeeScript to PHP, as well as changing the look and feel to a more modern one. This should allow for a better user experience, and is also more efficient.
 								<ul class="list-group-flush">
 
 								</ul>
