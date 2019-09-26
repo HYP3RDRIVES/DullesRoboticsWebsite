@@ -35,9 +35,9 @@
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">General Announcements & Blog</h4>
 					<br>
-          <h3>Workshops start</h3>
+          <h3>Forms need to be filled out!</h3>
             <hr class="style2">
-            <p class="small lead">16 Sept 2019</p>
+            <p class="small lead">24 Sept 2019</p>
             <hr class="style12">
             <p class="lead">
               Everyone is required to fill out these forms; complete them and return them to Sonnier ASAP. Leave the team number blank.<br/> If you are unable to print them, Sonnier has plenty printed out already; all you have to do is ask.
