@@ -5,7 +5,7 @@
 -->
 <!-- Last Project Edit: 31 July 2018 by Adil Rasiyani -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Home - Dulles Robotics</title>
@@ -46,10 +46,8 @@
 
 
 
-<div id="notibox">
+<!-- <div id="notibox">
 
-    <div class="toast toast--red add-margin">
-   <!--<div class="toast toast- -blue add-margin">-->
      <div class="toast__icon">
    <svg version="1.1" class="toast__svg" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
    <g>
@@ -64,11 +62,9 @@
        </svg>
      </div>
      <div class="toast__content">
-  <!--     <p class="toast__type">Due Payment is now Open!</p> -->
        <p class="toast__type">Due payment closes soon!</p>
        <p class="toast__message">Don't forget to pay dues for the 2019-2020 school year! Press the button below to pay via Revtrak.</p>
       <a class="btn btn-danger" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" onclick="toggle_visibility('notibox');">Pay Dues</a>
-    <!--   <a class="btn btn-primary" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" onclick="toggle_visibility('notibox');">Pay Dues</a> -->
      </div>
      <div class="toast__close">
        <a onclick="toggle_visibility('notibox');" >
@@ -79,7 +75,7 @@
      </div>
    </div>
 
-</div>
+</div> -->
 
 
 <!-- stuff for notibox ends -->
@@ -137,7 +133,7 @@
 			<div id="stay-in-touch-text" class="row">
 				<p class="lead" style="padding-left: 0.5rem;">
 					View our current club <a href="officers.php" class="badge badge-dark">officers</a>. <a class="badge badge-info text-light" id="remind-link" data-toggle="tooltip" data-placement="top" title="Text @776d6f to 81010">Remind code</a>, newsletter signup and more contact info is provided <a href="contact.php" class="badge badge-dark">here</a>.
-				</p>
+        </p>
 			</div>
  		</div>
   </div>
@@ -151,18 +147,18 @@
 </main>
 
 	<!-- Footer -->
-  <footer>
+<footer>
 	<?php include 'res/footer.php'; ?>
+<?php include 'res/cdn.php'; ?>
+<!-- Scripts -->
+  <!-- activate tooltips -->
+  <script type="text/javascript">
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
 </footer>
-	<!-- Bootstrap CDN -->
-	<?php include 'res/cdn.php'; ?>
-	<!-- Scripts -->
-		<!-- activate tooltips -->
-		<script>
-			$(function () {
-	  			$('[data-toggle="tooltip"]').tooltip()
-			})
-		</script>
 
 </body>
 
