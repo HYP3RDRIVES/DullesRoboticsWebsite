@@ -21,9 +21,11 @@
 
 <body style="">
 	<!-- Navigation Bar -->
+  <nav>
 	<?php
 		include 'res/nav.php';
 	 ?>
+ </nav>
 
 	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
 	<script type="text/javascript">
@@ -81,7 +83,7 @@
 
 
 <!-- stuff for notibox ends -->
-
+<main>
     <!-- Main Page -->
 	<div class="container">
 		<!-- Title -->
@@ -146,9 +148,12 @@
 			<p class="small lead">     Any question or comments can also be addressed directly to any of the officers.﻿﻿</p>
  		</div>
 	</div>
+</main>
 
 	<!-- Footer -->
+  <footer>
 	<?php include 'res/footer.php'; ?>
+</footer>
 	<!-- Bootstrap CDN -->
 	<?php include 'res/cdn.php'; ?>
 	<!-- Scripts -->
