@@ -9,6 +9,7 @@ body {
   background-color: #666;
   display: grid;
   grid-gap: 10px;
+/*
   height: 100%;
   grid-template-columns:1fr;
   grid-template-areas:
@@ -27,6 +28,8 @@ main {
 
 footer {
         grid-area: footer;
+}
+*/
 }
 
 

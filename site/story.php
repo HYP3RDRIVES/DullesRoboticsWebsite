@@ -101,15 +101,6 @@ At the end of that year, I asked him if I could take over the club since he's gr
 	</div>
 </div>
 
-<<<<<<< HEAD
-	<!-- Footer -->
-
-
-	<!-- Scripts -->
-	<!-- Bootstrap CDN -->
-	<?php include 'res/cdn.php';
-	 ?>
-=======
 <!-- Footer -->
 <footer>
 <?php include 'res/footer.php'; ?>
@@ -123,6 +114,5 @@ $(function () {
 </script>
 <script src="bootstrap/js/bootstrap.bundle.js"></script>
 </footer>
->>>>>>> 6c3605b0db181bc8dd80f4e99cf744854de72e45
 </body>
 </html>
