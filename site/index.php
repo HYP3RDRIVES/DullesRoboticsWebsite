@@ -1,3 +1,4 @@
+nes (142 sloc) 6.91 KB
 <!--
 	Dulles High School Computer Science Club 2018-2019
 	Written By Adil Rasiyani, President
@@ -37,7 +38,6 @@
     function toggle_visibility(id) {
        var e = document.getElementById(id);
           e.style.display = 'none';
-
     }
 //-->
 </script>
