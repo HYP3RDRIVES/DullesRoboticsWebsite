@@ -40,15 +40,6 @@
                           <a id="nav-bar-officers" class="dropdown-item" href="officers.php">Officers</a>
                         </div>
                     </li>
-                    <!--dropdown menu
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Link 4</a></li>
-                            <li><a href="#">Link 5</a></li>
-                            <li><a href="#">Link 6</a></li>
-                        </ul>
-                    </li>-->
                 </ul>
                 <!--Right aligned stuff
                 <ul class="nav navbar-nav navbar-right">

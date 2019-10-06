@@ -22,6 +22,7 @@
 	</script>
 
 	<!-- Main Page -->
+  <main>
 	<div class="container">
 		<div class="row" id="resources-title-row">
 			<h1 class="display-3">Contact Us</h1>
@@ -101,23 +102,24 @@ Nav Box is currenly useless
 		</div>
 
 	</div>
+<main>
 	<!-- Footer -->
 
 
 	<!-- Scripts -->
 
-<?php
- include 'res/footer.php';
-?>
-	<!-- Bootstrap Scripts -->
-	<?php
-		include 'res/cdn.php';
-	 ?>
-
-   <script>
-     $(function () {
-         $('[data-toggle="tooltip"]').tooltip()
-     })
+  <!-- Footer -->
+<footer>
+	<?php include 'res/footer.php'; ?>
+<?php include 'res/cdn.php'; ?>
+<!-- Scripts -->
+  <!-- activate tooltips -->
+  <script type="text/javascript">
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
 </script>
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+</footer>
 </body>
 </html>

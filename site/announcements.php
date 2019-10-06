@@ -120,13 +120,18 @@
 		include 'res/footer.php';
 	 ?>
 
-	<!-- Scripts -->
-	<script type="text/javascript">
-		document.getElementById('nav-bar-announ').setAttribute('class', 'active nav-item');
-	</script>
-
-	<!-- Bootstrap CDN -->
-	<?php include 'res/cdn.php';
-	 ?>
+   <!-- Footer -->
+ <footer>
+ 	<?php include 'res/footer.php'; ?>
+ <?php include 'res/cdn.php'; ?>
+ <!-- Scripts -->
+   <!-- activate tooltips -->
+   <script type="text/javascript">
+   $(function () {
+     $('[data-toggle="tooltip"]').tooltip()
+   })
+ </script>
+ <script src="bootstrap/js/bootstrap.bundle.js"></script>
+ </footer>
 </body>
 </html>
