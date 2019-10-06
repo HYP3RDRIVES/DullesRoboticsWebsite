@@ -112,14 +112,6 @@
 				</div>
 			</div>
 		</div>
-
-	</div>
-
-	<!-- Footer -->
-	<?php
-		include 'res/footer.php';
-	 ?>
-
    <!-- Footer -->
  <footer>
  	<?php include 'res/footer.php'; ?>
