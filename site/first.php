@@ -271,7 +271,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
-<script src="bootstrap/js/bootstrap.bundle.js"></script>
+<script src="https://aspencdn.me/bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
 </footer>
 </body>
 </html>
