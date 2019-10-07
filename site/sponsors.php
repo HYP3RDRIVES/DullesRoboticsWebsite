@@ -121,14 +121,18 @@
 <!-- NASA Sponsor Block Ends -->
 </div>
 </div>
-	<!-- Footer -->
-	<?php
-		include 'res/footer.php';
-	 ?>
-
-	<!-- Scripts -->
-	<!-- Bootstrap CDN -->
-	<?php include 'res/cdn.php';
-	 ?>
+<!-- Footer -->
+<footer>
+<?php include 'res/footer.php'; ?>
+<?php include 'res/cdn.php'; ?>
+<!-- Scripts -->
+<!-- activate tooltips -->
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+</footer>
 </body>
 </html>
