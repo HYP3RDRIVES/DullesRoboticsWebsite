@@ -23,13 +23,13 @@
 
 	<!-- Main Page -->
   <main>
+
 	<div class="container">
 		<div class="row" id="resources-title-row">
 			<h1 class="display-3">Contact Us</h1>
 		</div>
 		<hr class="style14">
 		<div class="row" id="all-sections-container">
-			<div class="col-md-4 d-none d-md-block">
 <!--
 
 Nav Box is currenly useless
@@ -46,36 +46,31 @@ Nav Box is currenly useless
 			<	</div>
 				</div>
       -->
-			</div>
+
 			<div class="col-sm-12 col-md-8" id="scrollspy-info">
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">Twitter</h4>
-					<br>
-						<a class="twitter-timeline"   data-width="730" data-height="750" href="https://twitter.com/dulles_robotics?ref_src=twsrc%5Etfw">Tweets by dulles_robotics</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/dulles_robotics" class="btn btn-info button-contact">Follow</a>
+
 					<hr class="style3">
 				  	<hr class="style18">
 
 					<h4 id="list-item-2" class="display-4">Facebook</h4>
-					      <iframe id="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdullesrobotics%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+          <a href="https://www.facebook.com/dullesrobotics/" class="btn btn-primary button-contact">Follow</a>
+          <a href="https://m.me/dullesrobotics" class="btn btn-primary button-contact">Message Us</a>
+					<!-- <iframe id="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdullesrobotics%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> -->
 
 					<hr class="style3">
 				  	<hr class="style18">
 
-					<h4 id="list-item-3" class="display-4">Youtube</h4>
+					<h4 id="list-item-3" class="display-4"><!-- <img src="/img/ytube.png" class="img-fluid" style="height: 10%; width: 10%;"></img>--> Youtube</h4> 
+          <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-danger button-contact" data-toggle="tooltip" data-placement="top" title="YT: Dulles Robotics">View our Youtube Channel</a>
+          <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg/featured?sub_confirmation=1" class="btn btn-danger button-contact">Subscribe</a>
+
 										<!--	<a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg">Go to our Youtube channel!</a> -->
-                        <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="YT: Dulles Robotics">Click to view our Youtube Channel</a>
-                        <hr class="style10">
-                      <h3>Our latest video</h3>
                       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     </hr>
-	<!---						<hr class="style3">
-				  	<hr class="style18">
-
-				        <h4 id="list-item-5" class="display-4">Discord</h4>
-	-								<!--<iframe src="https://discordapp.com/widget?id=243589990536314891&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-										<a href="./officers.php">Contact an officer to visit our discord server!</a>  -->
 					<hr class="style3">
 				  	<hr class="style18">
 
@@ -88,9 +83,7 @@ Nav Box is currenly useless
 				  	<hr class="style18">
 
             <h4 id="list-item-5" class="display-4">E-Mail</h4>
-                  <div class="text-center">
-
-                  <a href="mailto:dullesrobotics@gmail.com" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="Email us at: dullesrobotics@gmail.com">Contact us via E-Mail</a>
+                  <a href="mailto:dullesrobotics@gmail.com" class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Email us at: dullesrobotics@gmail.com">Contact us via E-Mail</a>
                 </div>
                 <hr class="style3">
                 <hr class="styleSpace">

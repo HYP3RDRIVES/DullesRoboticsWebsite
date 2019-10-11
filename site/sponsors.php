@@ -41,22 +41,20 @@
   <div class="container">
 
 
-
   <!-- Logo and Welcome -->
     <div id="logo-and-welcome" class="row well border-0 border-secondary">
        <!-- Logo -->
       <div class="col">
-        <img src="/img/sponsor/wm.png" class="img-fluid" alt="wm" width="530" height="900">
+        <img src="/img/sponsor/wm.png" class="img-fluid img-center" alt="wm" width="530" height="900">
        </div>
        <!-- Welcome Message -->
       <div class="col">
         <div class="row">
           <h4 class="display-3">​​Waste Management</h4>
+
   </div>
           <div class="row">
   <p class="lead text-justify">Our title sponsor, WM, is our biggest supporter and strives to make us the best we could possibly be by providing mentors and financial assistance. This company works very effectively by supporting the young generations and helping our team members get the education needed in the real world. Team 7494 would be nothing without the gracious support of WM.</p>
-
-
         </div>
        </div>
      </div>

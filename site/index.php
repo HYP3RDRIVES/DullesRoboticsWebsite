@@ -97,7 +97,7 @@
 			<!-- Welcome Message -->
 			<div class="col">
 				<div class="row">
-					<h4 class="display-3">Welcome!</h4>
+					<h4 class="display-4">Welcome!</h4>
 					<hr>
 					<p class="lead text-justify">We are a robotics club based out of Dulles HS in Sugar Land, TX. We have two FTC teams as well as one FRC Team.</p>
 					<a href="about.php" class="btn btn-primary">About Us</a>
@@ -118,7 +118,7 @@
 			<div class="col">
 				<div class="row">
 					<h1 class="display-4">Our Mission</h1>
-					<p class="lead text-justify">Our Mission is to foster an interest in STEM to allow out students to become the leaders and problem solvers of tomorrow.</p>
+					<p class="lead text-justify">Our Mission is to foster an interest in STEM to allow our students to become the leaders and problem solvers of tomorrow.</p>
 				</div>
 			 </div>
 		 </div>
@@ -140,8 +140,7 @@
  		<hr>
 
  		<div class="row justify-content-center" style="margin-bottom: 2%; margin-top: 2%;">
- 			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Dulles Robotics Club, contact us at our <a class="badge badge-dark text-light" id="remind-link" href="mailto:dullesrobotics@gmail.com" data-toggle="tooltip" data-placement="top" title="E-Mail us at dullesrobotics@gmail.com">E-Mail</a>‏‏‎ </p>
-			<p class="small lead">     Any question or comments can also be addressed directly to any of the officers.﻿﻿</p>
+ 			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Dulles Robotics Club, contact us at our <a class="badge badge-dark text-light" id="remind-link" href="mailto:dullesrobotics@gmail.com" data-toggle="tooltip" data-placement="top" title="E-Mail us at dullesrobotics@gmail.com">E-Mail</a>‏‏‎. Any question or comments can also be addressed directly to any of the officers.</p>
  		</div>
 	</div>
 </main>
