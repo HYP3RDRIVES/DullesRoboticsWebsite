@@ -20,6 +20,7 @@
 	<script type="text/javascript">
 		document.getElementById('nav-bar-contact').setAttribute('class', 'active dropdown-item');
 	</script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
 
 	<!-- Main Page -->
   <main>
@@ -50,12 +51,15 @@ Nav Box is currenly useless
 			<div class="col-sm-12 col-md-8" id="scrollspy-info">
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">Twitter</h4>
-          <a href="https://twitter.com/dulles_robotics" class="btn btn-info button-contact">Follow</a>
+<a class="twitter-timeline" data-width="600" data-height="700" data-theme="light" href="https://twitter.com/dulles_robotics?ref_src=twsrc%5Etfw">Tweets by dulles_robotics</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 					<hr class="style3">
 				  	<hr class="style18">
 
 					<h4 id="list-item-2" class="display-4">Facebook</h4>
+          <div class="fb-page" data-href="https://www.facebook.com/dullesrobotics/" data-tabs="timeline" data-width="600" data-height="700" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/dullesrobotics/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dullesrobotics/">Dulles Robotics</a></blockquote></div>
+
           <a href="https://www.facebook.com/dullesrobotics/" class="btn btn-primary button-contact">Follow</a>
           <a href="https://m.me/dullesrobotics" class="btn btn-primary button-contact">Message Us</a>
 					<!-- <iframe id="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdullesrobotics%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> -->
@@ -63,7 +67,7 @@ Nav Box is currenly useless
 					<hr class="style3">
 				  	<hr class="style18">
 
-					<h4 id="list-item-3" class="display-4"><!-- <img src="/img/ytube.png" class="img-fluid" style="height: 10%; width: 10%;"></img>--> Youtube</h4> 
+					<h4 id="list-item-3" class="display-4"><!-- <img src="/img/ytube.png" class="img-fluid" style="height: 10%; width: 10%;"></img>--> Youtube</h4>
           <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-danger button-contact" data-toggle="tooltip" data-placement="top" title="YT: Dulles Robotics">View our Youtube Channel</a>
           <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg/featured?sub_confirmation=1" class="btn btn-danger button-contact">Subscribe</a>
 
@@ -113,6 +117,8 @@ Nav Box is currenly useless
   })
 </script>
 <script src="https://aspencdn.me/bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
+<div id="fb-root"></div>
+
 </footer>
 </body>
 </html>
