@@ -97,7 +97,7 @@
 			<!-- Welcome Message -->
 			<div class="col">
 				<div class="row">
-					<h4 class="display-5">Welcome!</h4>
+					<h4 class="display-4">Welcome!</h4>
 					<hr>
 					<p class="lead text-justify">We are a robotics club based out of Dulles HS in Sugar Land, TX. We have two FTC teams as well as one FRC Team.</p>
 					<a href="about.php" class="btn btn-primary">About Us</a>
