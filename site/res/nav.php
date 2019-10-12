@@ -2,7 +2,7 @@
     Dulles High School Computer Science Club 2018-2019
     Written By Adil Rasiyani, President
     Bootstrap v4.1
-    Modified by Erica Miller, Zain Ahmed, and Jacob Enerio for the Dulles Robotics Club 2019-2020.
+    Modified by Erica Miller, Zain Ahmed, Elliot Michlin, and Jacob Enerio for the Dulles Robotics Club 2019-2020.
 -->
 
 <!--Top Navigation Bar-->
@@ -34,21 +34,12 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-                          <a id="nav-bar-ourstory" class="dropdown-item" href="story.php">Our Story</a>
+                  <!--        <a id="nav-bar-ourstory" class="dropdown-item" href="story.php">Our Story</a> -->
                           <a id="nav-bar-contact" class="dropdown-item" href="contact.php">Contact Us</a>
                           <a id="nav-bar-forms" class="dropdown-item" href="form-doc.php">Forms and Documents</a>
                           <a id="nav-bar-officers" class="dropdown-item" href="officers.php">Officers</a>
                         </div>
                     </li>
-                    <!--dropdown menu
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Link 4</a></li>
-                            <li><a href="#">Link 5</a></li>
-                            <li><a href="#">Link 6</a></li>
-                        </ul>
-                    </li>-->
                 </ul>
                 <!--Right aligned stuff
                 <ul class="nav navbar-nav navbar-right">

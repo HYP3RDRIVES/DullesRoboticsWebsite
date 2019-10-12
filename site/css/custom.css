@@ -7,7 +7,8 @@ body {
   color: #ffffff;
   text-align: left;
   background-color: #666;
-
+  display: grid;
+  grid-gap: 10px;
 }
 
 
@@ -43,9 +44,8 @@ body {
 
 .page-footer {
   width: 100%;
-  position: sticky;
-     bottom: 0;
-
+  position:inherit;
+  bottom: 0px;
 }
 
 /* Nav Bar Begins Here*/
@@ -235,7 +235,7 @@ hr.styleSpace:after {
     max-width: 500px;
     top: 0px;
     position:relative;
-    box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.2);
+    box-shadow: 3px 7px 14px -5px rgba(0,0,0,0.4);
 }
 
 
@@ -321,7 +321,7 @@ hr.styleSpace:after {
     display: inline;
     float: right;
 		position: absolute;
-		z-index: 2;
+		z-index: 100;
 		right: 5px;
 }
 
@@ -332,5 +332,20 @@ hr.styleSpace:after {
 
 .container{
 	z-index: 1;
+}
+
+.button-contact{
+  margin-bottom: 3%;
+}
+
+.img-center{
+  padding-top: 10%;
+}
+
+.twitter-timeline{
+  z-index: 2;
+  position: absolute;
+  display: inline;
+  padding: 1%;
 }
 }
