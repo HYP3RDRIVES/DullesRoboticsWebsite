@@ -60,8 +60,8 @@ Nav Box is currenly useless
 					<h4 id="list-item-2" class="display-4">Facebook</h4>
           <div class="fb-page" data-href="https://www.facebook.com/dullesrobotics/" data-tabs="timeline" data-width="600" data-height="700" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/dullesrobotics/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dullesrobotics/">Dulles Robotics</a></blockquote></div>
 
-          <a href="https://www.facebook.com/dullesrobotics/" class="btn btn-primary button-contact">Follow</a>
-          <a href="https://m.me/dullesrobotics" class="btn btn-primary button-contact">Message Us</a>
+    <!--      <a href="https://www.facebook.com/dullesrobotics/" class="btn btn-primary button-contact">Follow</a>
+          <a href="https://m.me/dullesrobotics" class="btn btn-primary button-contact">Message Us</a> -->
 					<!-- <iframe id="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdullesrobotics%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> -->
 
 					<hr class="style3">
