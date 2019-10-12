@@ -17,7 +17,7 @@
      <meta name="keywords" content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
 
 </head>
-<body style="height:100%;">
+<body>
 
 	<?php
 		include 'res/nav.php';

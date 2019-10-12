@@ -105,7 +105,7 @@
   <div id="logo-and-welcome" class="row well border-0 border-secondary">
     <!-- Logo -->
     <div class="col">
-      <img src="/img/FRC.png" class="img-fluid" alt="twc" width="450" height="450">
+      <img src="/img/FRC.png" class="img-fluid" alt="twc" width="450" height="450" style="padding-top:30px;">
      </div>
     <!-- Welcome Message -->
     <div class="col">
@@ -141,7 +141,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
     <div class="col">
       <div class="row">
       <div class="text-center">
-      <img src="/img/Skystone.png" class="img-fluid" alt="twc" width="350" height="400">
+      <img src="/img/Skystone.png" class="img-fluid" alt="ftcsky" width="350" height="400">
     </div>
   </div>
      </div>
@@ -169,7 +169,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
      <!-- Logo -->
      <div class="col">
        <div class="text-center">
-       <img src="/img/Infinite.png" class="img-fluid" alt="twc" width="400" height="400">
+       <img src="/img/Infinite.png" class="img-fluid" alt="frcinf" width="400" height="400">
       </div>
     </div>
      <!-- Welcome Message -->
@@ -208,7 +208,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
     <div class="col">
       <div class="row">
       <div class="text-center">
-      <img src="/img/Skystone.png" class="img-fluid" alt="twc" width="350" height="400">
+      <img src="/img/RRuckus.png" class="img-fluid img-center" alt="twc" width="350" height="400">
     </div>
   </div>
      </div>

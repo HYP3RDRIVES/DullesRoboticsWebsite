@@ -10,14 +10,11 @@
     <title>Officers - Dulles Robotics</title>
     <?php include 'res/head.php'; ?>
 </head>
-<body style="height:100%;">
+<body>
 	<?php
 		include 'res/nav.php';
 	?>
-	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
-	<script type="text/javascript">
-		document.getElementById('nav-bar-officers').setAttribute('class', 'active dropdown-item');
-	</script>
+
 
 	<!-- Main Page -->
 	<div class="container" >
@@ -177,9 +174,14 @@
             </div>
 
             <!-- oFfficer block ends -->
-</div>
+
 <!-- Footer -->
 <footer>
+  	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
+  <script type="text/javascript">
+    document.getElementById('nav-bar-officers').setAttribute('class', 'active dropdown-item');
+  </script>
+
 <?php include 'res/footer.php'; ?>
 <?php include 'res/cdn.php'; ?>
 <!-- Scripts -->
@@ -191,5 +193,7 @@ $(function () {
 </script>
 <script src="https://aspencdn.me/bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
 </footer>
+</div>
 </body>
+
 </html>

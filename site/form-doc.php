@@ -10,7 +10,7 @@
     <title>Forms and Documents - Dulles Robotics</title>
     <?php include 'res/head.php'; ?>
 </head>
-<body style="height:100%;">
+<body>
 	<?php
 		include 'res/nav.php';
 	?>

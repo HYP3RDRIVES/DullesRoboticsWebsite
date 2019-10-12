@@ -54,7 +54,8 @@
             <div class="card">
             <p class="lead text-justify" color="black"><strong>The Story of the Club, written by Karim Karim - Co-Founder and Former Club President.</storng></p>
             </div>
-            	<div class="container" style="overflow-x:scroll" style="display:inline-block; overflow-y:wrap; width:3000px">
+
+            	<div class="container" style="overflow-x:scroll" style="display:inline-block; overflow-y:wrap; width:device-width">
                 <hr class="style14" style="display:inline-block; width:2000px">
             <div class="card" style="display:inline-block; width:2000px;">
             <p class="lead text-justify">The first ever official year of Robotics was when I was in 8th grade. There was a guy named Vishnu Iyer, and at this time he'd have been a junior at Dulles. He started "Robotics", and you'll see why I put this in quotations very soon.
@@ -91,7 +92,6 @@ At the end of that year, I asked him if I could take over the club since he's gr
   include 'res/footer.php';
  ?>
 </div>
-
 
 
          </div>

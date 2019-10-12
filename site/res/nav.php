@@ -34,7 +34,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-                          <a id="nav-bar-ourstory" class="dropdown-item" href="story.php">Our Story</a>
+                  <!--        <a id="nav-bar-ourstory" class="dropdown-item" href="story.php">Our Story</a> -->
                           <a id="nav-bar-contact" class="dropdown-item" href="contact.php">Contact Us</a>
                           <a id="nav-bar-forms" class="dropdown-item" href="form-doc.php">Forms and Documents</a>
                           <a id="nav-bar-officers" class="dropdown-item" href="officers.php">Officers</a>
