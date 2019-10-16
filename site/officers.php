@@ -176,7 +176,8 @@
             <!-- oFfficer block ends -->
 
 <!-- Footer -->
-<footer>
+    </div>
+<footer style="position: absolute: bottom;">
   	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
   <script type="text/javascript">
     document.getElementById('nav-bar-officers').setAttribute('class', 'active dropdown-item');
@@ -193,7 +194,7 @@ $(function () {
 </script>
 <script src="https://aspencdn.me/bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
 </footer>
-</div>
+
 </body>
 
 </html>

@@ -5,37 +5,36 @@
 -->
 
 <!DOCTYPE html>
-<html style="height: 100%;">
 <head>
-    <title>About - Dulles Robotics</title>
+    <title>Media - Dulles Robotics</title>
     <?php
-    	include 'res/head.php';
-     ?>
-     <meta property="og:title" content="Dulles Robotics Club">
-     <meta property="og:image" content="/img/w.png">
-     <meta name="description" content="The Dulles High School Robotics Club. We are a robotics club based out of Dulles High School in Sugar Land, TX. We have FRC team #7494 and FTC teams #12456, and #13822">
-     <meta name="keywords" content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
-     <meta name="viewport" content="height=device-height, initial-scale=1">
+    include 'res/head.php';
+    ?>
+    <meta property="og:title" content="Dulles Robotics Club">
+    <meta property="og:image" content="/img/w.png">
+    <meta name="description" content="The Dulles High School Robotics Club. We are a robotics club based out of Dulles High School in Sugar Land, TX. We have FRC team #7494 and FTC teams #12456, and #13822">
+    <meta name="keywords" content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
+    <meta name="viewport" content="height=device-height, initial-scale=1">
 </head>
 <body style="">
 
-	<?php
-		include 'res/nav.php';
-	?>
-	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
-  <script type="text/javascript">
+<?php
+include 'res/nav.php';
+?>
+<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
+<script type="text/javascript">
     document.getElementById('nav-bar-about').setAttribute('class', 'active nav-item');
-  </script>
+</script>
 
-	<!-- Main Page -->
-	<div class="container" style="height:100%;">
-		<h1 class="display-3">Media</h1>
-		<hr class="style14">
-      <!-- Title -->
+<!-- Main Page -->
+<div class="container" style="height:100%;">
+    <h1 class="display-3">Media</h1>
+    <hr class="style14">
+    <!-- Title -->
 
 
-      <!-- Logo and Welcome -->
-      <div id="logo-and-welcome" class="row well border-0 border-secondary">
+    <!-- Logo and Welcome -->
+
         <!-- Logo -->
 
 
@@ -45,69 +44,93 @@
         <!-- Welcome Message -->
 
         <div class="row">
-            <div class="col">
-                  <img src="img/w.png" class="img-fluid" alt="Logo">
-            </div>
-          <div class="col">
-            <h1 class="display-5">Photo Gallery:</h1>
-            <p class="lead">We are a robotics club based out of Dulles HS in Sugar Land, TX. Our FTC teams are #12456 - Big Red and #13822 - Robovikings. Our FRC team is #7494 - Circuit Bizurkers.
-            We also participate in community outreach events and workshops.</p>
-            <a href="https://media.dullesrobotics.com" class="btn btn-primary">Registered Members: Click Here</a>
-          </div>
-        </div>
-
-          <div class="row" style="padding-top:10px">
-            <div class="col text-right">
-              <img src="img/stateRAS.jpg" class="img-fluid" alt="dcmpphoto" style="width:450px;height:width/1.4516;">
+            <div class="col" style="height: 315;">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; private; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col">
-            <h1 class="display-5">Our Members</h1>
-          <div class="lead">
-            <p>Dulles Robotics is comprised of an extremly diverse group of people, from different backgrounds. Each member posses a unique skillset crucial to the functioning of our teams.</p>
-          </div>
-        </div>
-      </div>
+                <h1 class="display-5">Gallery:</h1>
+                <h2>General Public:</h2>
+                <h4>Feel free to view content on this page!</h4>
+                <h2 style="padding-top: 20px; padding-bottom: 10px;">Registered Club Members:</h2>
+                <a  href="https://media.dullesrobotics.com" class="btn btn-primary"> Click Here</a>
+                <p class="lead" style="padding-top: 10px">Use login credentials provided by Sysadmins</p>
 
-          <div class="row" style="padding-top:10px">
-            <div class="col text-right">
-              <img src="img/mentor.jpg" class="img-fluid" alt="sartartia" style="width:400px;height:260px;">
             </div>
-
-          <div class="col">
-              <h1 class="display-5">Outreach</h1>
-          <div class="lead">
-            <p>Dulles Robotics participates in numerous outreach events, such as hosting teen camps at local libraries, as well as mentoring FTC teams from around our school district</p>
-          </div>
         </div>
+        <hr class="style18"/>
+    <div id="logo-and-welcome" class="row well border-0 border-secondary" style="padding-left: 7%">
+        <div class="row justify-content-center"  style="padding-top:10px; padding-bottom: 20px; display: flex ">
+            <div class="col">
+                <a href="#" style="color:inherit">
+                <div class="card text-center" style="width:300px; height: 350px;">
+                    <h4 class="display-3" style="font-size:40px">FIT Channelview</h4>
+                    <div class="mediacrop">
+                    <img src="https://drc.aspencdn.me/photos/txchadrive.jpg">
+                    </div>
+                    <p style="padding-top: 3%">Content coming soon!</p>
+                </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" style="color:inherit">
+                <div class="card text-center" style="width:300px; height: 350px;">
+                    <h4 class="display-3" style="font-size:40px">FIT Pasadena</h4>
+                    <img src="https://drc.aspencdn.me/photos/txpasdrive.jpg" style="width: 300px; height: 150px;">
+
+                    <p style="padding-top: 3%">Click to view photos and videos from the FIT Pasadena event</p>
+                </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" style="color:inherit">
+                <div class="card text-center" style="width:300px; height: 350px;">
+                    <h4 class="display-3" style="font-size:40px">FIT DCMP</h4>
+                    <img src="img/stateRAS.jpg" style="width: 300px; height: 150px;">
+
+                    <p style="padding-top: 3%">Click to view photos and videos from the First In Texas District Championships</p>
+                </div>
+                </a>
+            </div>
         </div>
-          <div class="row" style="padding-top:10px">
-            <h1 class="display-5">The website</h1>
-            <hr>
-          </div>
-          <div class="lead">
-            <p>Dullesrobotic.com is self-hosted at home, by a few of our members. Originally starting off as a site on weebly, we were able to accuire a domain, and eventually our own servers. In the summer of 2019, the site recived a major overhaul, after transitioning to PHP, and Bootstrap.</p>
-          </div>
+        <div class="row" style="padding-top:10px; padding-bottom: 20px;">
+            <div class="col">
+                <a href="#" style="color:inherit">
 
+                 <div class="card text-center" style="width:300px; height: 350px;">
+                    <h4 class="display-3" style="font-size:40px">Champs Houston</h4>
+                     <p style="padding-top: 3%">Content coming soon!</p>
+                </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" style="color:inherit">
+                <div class="card text-center" style="width:300px; height: 350px;">
+                    <h4 class="display-3" style="font-size:40px">TRI</h4>
+                    <p style="padding-top: 3%">Content coming soon!</p>
+                </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" style="color:inherit">
+                    <div class="card text-center" style="width:300px; height: 350px;">
+                        <h4 class="display-3" style="font-size:40px">FTC</h4>
+                        <p style="padding-top: 3%">Content coming soon!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
 
+    </div>
 
+</div>
 
+<!-- Footer -->
+<?php
+include 'res/footer.php';
+?>
 
-
-
-     </div>
-   </div>
-      <hr/>
-
-	</div>
-
-	<!-- Footer -->
-	<?php
-		include 'res/footer.php';
-	 ?>
-
-	<!-- Scripts -->
-	<!-- Bootstrap CDN -->
-	<?php include 'res/cdn.php';
-	 ?>
+<!-- Scripts -->
+<!-- Bootstrap CDN -->
+<?php include 'res/cdn.php';
+?>
 </body>
-</html>
