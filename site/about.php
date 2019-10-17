@@ -81,6 +81,44 @@
           </div>
         </div>
         </div>
+      </div>
+        	<hr class="style1" />
+          <div class="container" style="display: table; width: 1170px;">
+            <div class="col-md-12">
+              <h3 class="display-3" style="text-align:center;">Departments</h3>
+            </div>
+          <div class="row special-row">
+              <div class="col-md-4">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">
+                  <h4 class="display-2" style="font-size:40px;">Build</h4>
+                  <p class="lead-text text-justify" >The build team is charge of the building of our robots, both for FTC and FRC. They work against deadlines to ensure that the robot is ready for debugging, while also remaining in close communication with the Programming team to ensure the robot is programed to its specific mechanisms.</p>
+              </div>
+              <div class="col-md-4">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">
+                  <h4 class="display-2" style="font-size:40px;">Programming</h4>
+                  <p class="lead-text text-justify" style="text-justify:auto;" >The programming team is in charge of programming the instructions for what the robot is supposed to do. This includes programming the robot to respond with the intended results using a controller, as well as writing code for the robot to perform autonomously.</p>
+              </div>
+              <div class="col-md-4">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">
+                  <h4 class="display-2" style="font-size:40px;">Design</h4>
+                  <p class="lead-text text-justify" >The Design team is responsible for designing the robot chassis and to ensure our ideas are feasable.</p>
+              </div>
+          </div>
+          <div class="row special-row">
+            <div class="col-md-2 bot-sub"></div>
+            <div class="col-md-4">
+              <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/pres.jpg">
+              <h4 class="display-2" style="font-size:40px;">Presentation</h4>
+                <p class="lead-text text-justify" >Presentation is responsible for the image of Dulles Robotics. They make the PIT displays, and other brand releated content including Graphics Design, and Maintaining this Website.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/pres.jpg">
+                <h4 class="display-2" style="font-size:40px;">Marketing</h4>
+                <p class="lead-text text-justify" >The build team is charge of the building of our robots, both for FTC and FRC. They work against deadlines to ensure that the robot is ready for debugging, while also remaining in close communication with the Programming team to ensure the robot is programed to its specific mechanisms.</p>
+            </div>
+            <div class="col-md-2 bot-sub"></div>
+          </div>
+          <hr class="style14" />
           <div class="row" style="padding-top:10px; margin-left:0%;">
             <h1 class="display-4">The website</h1>
             <hr>
@@ -97,9 +135,8 @@
 
      </div>
    </div>
-      <hr/>
 
-	</div>
+
 
   <!-- Footer -->
 <footer>

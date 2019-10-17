@@ -14,16 +14,16 @@
               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <a href="index.php" class="navbar-brand">Dulles Robotics</a>
+              <a href="/" class="navbar-brand">Dulles Robotics</a>
           </div>
 
             <!--Menu Bar-->
             <div class="collapse navbar-collapse" id="mainNavBar">
-                <ul class="navbar-nav">
-                    <li class="nav-item" id="nav-bar-home"><a class="nav-link" href="index.php">Home</a></li>
+                <ul class="nav navbar-nav navbar-right ">
+                    <li class="nav-item" id="nav-bar-home"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item" id="nav-bar-announ"><a class="nav-link" href="announcements.php">Announcements</a></li>
                     <li class="nav-item" id="nav-bar-about"><a class="nav-link" href="about.php">About Us</a></li>
-                    <li class="nav-item" id="nav-bar-first"><a class="nav-link"href="first.php">About <i>FIRST</i></a></li>
+                    <li class="nav-item" id="nav-bar-first"><a class="nav-link"href="first.php"><i>FIRST</i></a></li>
                     <li class="nav-item" id="nav-bar-sponsor"><a class="nav-link"href="sponsors.php">Sponsors</a></li>
                     <!--<li class="nav-item" id="nav-bar-resources"><a class="nav-link"href="resources.php">Resources</a></li>-->
               <!--      <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="archive.php">Archive</a></li> -->
@@ -40,6 +40,8 @@
                           <a id="nav-bar-officers" class="dropdown-item" href="officers.php">Officers</a>
                         </div>
                     </li>
+
+                  <!--  <li class="nav-item" id="nav-bar-sponsor" ><a class="nav-link"href="login.php">Member Login</a></li> -->
                 </ul>
                 <!--Right aligned stuff
                 <ul class="nav navbar-nav navbar-right">

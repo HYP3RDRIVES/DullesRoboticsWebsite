@@ -25,9 +25,9 @@
 		include 'res/nav.php';
 	?>
 	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
-	<script type="text/javascript">
-		document.getElementById('nav-bar-Sponsors').setAttribute('class', 'active dropdown-item');
-	</script>
+  <script type="text/javascript">
+    document.getElementById('nav-bar-first').setAttribute('class', 'active nav-item');
+  </script>
 
 	<!-- Main Page -->
 	<div class="container" >
@@ -178,7 +178,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
          <h4 class="display-5">FRC: Infinite Recharge</h4>
  </div>
          <div class="row">
-           <p class="lead">First will release information about INFINITE RECHARGE during the kickoff in January, 2020. </p>
+           <p class="lead">First will release information about INFINITE RECHARGE during the kickoff on January 4th, 2020. </p>
   <a href="https://info.firstinspires.org/infinite-recharge" target="_blank" class="btn btn-primary">Learn more</a>
 
        </div>
@@ -194,7 +194,8 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 <h1 class="display-3">2018-2019 Season: LAUNCH</h1>
 
 </div>
-<p class="lead">Throughout history, great civilizations have risen, then fallen. Now it’s our turn to rise—building and bolstering our own planetary metropolis.
+<p class="lead">One Sunday night in July 1969, one billion people huddled around their radios and TV screens in awe as we walked on the moon for the first time.
+    In that moment, the world was united in celebration of human ingenuity and inspired by the possibility that by working together, we can quite literally reach the stars.
 
 This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change, is setting out to inspire citizens of the galaxy to work together, strengthening and protecting the Force that binds us and creating a place where collaboration and collective wisdom can elevate new ideas and foster growth.</p>
 <hr class="style14">

@@ -23,10 +23,9 @@
 		include 'res/nav.php';
 	?>
 	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
-	<script type="text/javascript">
-		document.getElementById('nav-bar-Sponsors').setAttribute('class', 'active dropdown-item');
-	</script>
-
+  <script type="text/javascript">
+    document.getElementById('nav-bar-sponsor').setAttribute('class', 'active nav-item');
+  </script>
 	<!-- Main Page -->
 	<div class="container">
 		<h1 class="display-3">Our Sponsors</h1>

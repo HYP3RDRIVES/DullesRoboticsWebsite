@@ -17,6 +17,9 @@
 	<?php
 		include 'res/nav.php';
 	?>
+  <script type="text/javascript">
+    document.getElementById('nav-bar-announ').setAttribute('class', 'active nav-item');
+  </script>
 	<!-- Main Page -->
 	<div class="container">
 		<div class="row" id="resources-title-row">
