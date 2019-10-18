@@ -81,7 +81,7 @@
         </div>
       </div>
 
-      
+
         	<hr class="style1" />
           <div class="container" style="display: table; width: 1170px;">
             <div class="col-md-12">
@@ -99,7 +99,7 @@
                   <p class="lead-text text-justify" style="text-justify:auto;" >The programming team is in charge of programming the instructions for what the robot is supposed to do. This includes programming the robot to respond with the intended results using a controller, as well as writing code for the robot to perform autonomously.</p>
               </div>
               <div class="col-md-4">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/design.png">
                   <h4 class="display-2" style="font-size:40px;">Design</h4>
                   <p class="lead-text text-justify" >The Design team is responsible for designing the robot chassis and to ensure our ideas are feasable.</p>
               </div>
