@@ -40,8 +40,6 @@
 
 
 
-
-
         <!-- Welcome Message -->
 
         <div class="row">
@@ -82,12 +80,14 @@
         </div>
         </div>
       </div>
+
+      
         	<hr class="style1" />
           <div class="container" style="display: table; width: 1170px;">
             <div class="col-md-12">
               <h3 class="display-3" style="text-align:center;">Departments</h3>
             </div>
-          <div class="row special-row">
+          <div class="row special-row" style="height:500px;">
               <div class="col-md-4">
                   <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">
                   <h4 class="display-2" style="font-size:40px;">Build</h4>

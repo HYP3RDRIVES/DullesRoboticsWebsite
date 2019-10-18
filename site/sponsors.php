@@ -27,97 +27,73 @@
     document.getElementById('nav-bar-sponsor').setAttribute('class', 'active nav-item');
   </script>
 	<!-- Main Page -->
-	<div class="container">
-		<h1 class="display-3">Our Sponsors</h1>
+
+
 		<hr class="style14">
-    <div class="container">
+    <div class="container" style="display: table; vertical-align:center;">
+      <div class="col-md-12">
+        <h3 class="display-3" style="text-align:center;">Sponsors</h3>
+      </div>
+      <hr class="style1" />
       <!-- Title -->
-
-
-
-
-  <!-- WM Sponsor Block -->
-  <div class="container">
-
-
-  <!-- Logo and Welcome -->
-    <div id="logo-and-welcome" class="row well border-0 border-secondary">
-       <!-- Logo -->
-      <div class="col">
-        <img src="/img/sponsor/wm.png" class="img-fluid img-center" alt="wm" width="530" height="900">
-       </div>
-       <!-- Welcome Message -->
-      <div class="col">
-        <div class="row">
-          <h4 class="display-3">​​Waste Management</h4>
-
-  </div>
-          <div class="row">
-  <p class="lead text-justify">Our title sponsor, WM, is our biggest supporter and strives to make us the best we could possibly be by providing mentors and financial assistance. This company works very effectively by supporting the young generations and helping our team members get the education needed in the real world. Team 7494 would be nothing without the gracious support of WM.</p>
-        </div>
-       </div>
-     </div>
-    <hr/>
-
-</div>
- <!-- WM Sponsor Block Ends -->
-<!-- TWC Sponsor Block -->
-<div class="container">
-
-  <hr class="style14" />
-
-  <!-- Logo and Welcome -->
-  <div id="logo-and-welcome" class="row well border-0 border-secondary">
-    <!-- Logo -->
-    <div class="col">
-      <img src="/img/sponsor/twc.png" class="img-fluid" alt="twc" width="250" height="250">
-     </div>
-    <!-- Welcome Message -->
-    <div class="col">
-      <div class="row">
-        <h4 class="display-3">Texas Workforce Commission</h4>
-</div>
-        <div class="row">
-<p class="lead text-justify">They are very nice people. We thank them for their support</p>
-
-
-      </div>
-     </div>
+<div class="row special-row block">
+    <!-- <div class="col-md-2 bot-sub"></div> -->
+  <div class="col-md-6" style="align-content:left; width:100%;">
+    <img src="/img/sponsor/wm.png" class="img-fluid img-center"  alt="wm" style="padding:30px; width:500px; align-self: right;">
    </div>
-  <hr/>
+   <div class="col-md-6">
+     <div class="row">
+       <h4 class="display-3" style="text-align:left;">​​Waste Management</h4>
 
 </div>
-<!-- TWC Sponsor Block Ends -->
+       <div class="row">
+<p class="lead text-justify">Our title sponsor, WM, is our biggest supporter and strives to make us the best we could possibly be by providing mentors and financial assistance. This company works very effectively by supporting the young generations and helping our team members get the education needed in the real world. Team 7494 would be nothing without the gracious support of WM.</p>
+     </div>
+</div>
+    <!-- <div class="col-md-2 bot-sub"></div> -->
+</div>
 
-<!-- NASA Sponsor Block -->
-<div class="container">
+<hr class="style1" />
 
-  <hr class="style14" />
+<div class="row special-row block">
+
+  <div class="col-md-6" style="align-content:center;">
+    <img src="/img/sponsor/twc.png" class="img-fluid img-center" alt="twc"  style="padding:20px; align-self:center; width:50%">
+   </div>
+     <div class="col-md-6">
+       <div class="row">
+         <h4 class="display-3" style="text-align:left;">Texas Workforce Commission</h4>
+ </div>
+         <div class="row">
+ <p class="lead text-justify">They are very nice people. We thank them for their support</p>
+</div>
+</div>
+
+</div>
+
+<hr class="style1" />
+
+<div class="row special-row block">
+
+  <div class="col-md-6">
+    <img src="/img/sponsor/nasa.png" class="img-fluid img-center" alt="nasa" width="250" height="250" style="padding:10px;">
+   </div>
+     <div class="col-md-6">
+       <div class="row">
+         <h4 class="display-3">NASA</h4>
+ </div>
+         <div class="row">
+ <p class="lead text-justify">NASA and their yearly grants have allowed us to continue to pay for registration and participate in FRC. Their continued support through grants is greatly appreciated.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+
 
   <!-- Logo and Welcome -->
-  <div id="logo-and-welcome" class="row well border-0 border-secondary">
-    <!-- Logo -->
-    <div class="col">
-      <img src="/img/sponsor/nasa.png" class="img-fluid" alt="twc" width="300" height="300">
-     </div>
-    <!-- Welcome Message -->
-    <div class="col">
-      <div class="row">
-        <h4 class="display-3">NASA</h4>
-</div>
-        <div class="row">
-<p class="lead text-justify">NASA and their yearly grants have allowed us to continue to pay for registration and participate in FRC. Their continued support through grants is greatly appreciated.</p>
 
-
-      </div>
-     </div>
-   </div>
-  <hr/>
-
-</div>
-<!-- NASA Sponsor Block Ends -->
-</div>
-</div>
 <!-- Footer -->
 <footer>
 <?php include 'res/footer.php'; ?>
