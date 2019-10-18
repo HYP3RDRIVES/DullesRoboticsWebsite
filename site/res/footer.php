@@ -16,11 +16,11 @@
 	  	<div class="footer-copyright text-muted text-center small">
 	  		This is a student built, operated, and hosted site. Opinions expressed on this site are not necessarily those held by Fort Bend ISD and shall not be attributed to Fort Bend ISD.
 
-				 <div class="text-center">
+				 <div class="text-center" style="padding-bottom:10px;">
 					 Special Thanks to our sponsors:
-						 <a href="https://wm.com" target="_blank"><img src="img/sponsor/wm.png" alt="wmlogo" width="70" height="40" left=(window.width-width/2)+"px"/></a>
-						 <a href="https://nasa.gov" target="_blank"><img src="img/sponsor/nasa.png" alt="wmlogo" width="60" height="50" left=(window.width-width/2)+"px"/></a>
-						 <a href="https://twc.texas.gov" target="_blank"><img src="img/sponsor/twc.png" alt="wmlogo" width="50" height="50" left=(window.width-width/2)+"px"/></a>
+						 <a href="https://wm.com" target="_blank"><img src="img/sponsor/wm.png" alt="wmlogo" width="90" height="40" left=(window.width-width/2)+"px"/></a>
+						 <a href="https://nasa.gov" target="_blank"><img src="img/sponsor/nasa.png" alt="wmlogo" width="55" height="45" left=(window.width-width/2)+"px"/></a>
+						 <a href="https://twc.texas.gov" target="_blank"><img src="img/sponsor/twc.png" alt="wmlogo" width="45" height="45" left=(window.width-width/2)+"px"/></a>
 					 </div>
 		</div>
 	</div>
