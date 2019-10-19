@@ -40,16 +40,15 @@
     <!-- <div class="col-md-2 bot-sub"></div> -->
   <div class="col-md-6" style=" height:300px; width:100%;">
     <img src="/img/sponsor/wm.png" class="img-fluid img-center"  alt="wm" style="padding:30px;  align-self: right;">
-   </div>
-   <div class="col-md-6" >
+  </div>
+  <div class="col-md-6" >
      <div class="row">
        <h4 class="display-3" style="text-align:left; font-size:85px;">​​Waste Management</h4>
-
-</div>
-       <div class="row">
+     </div>
+     <div class="row">
 <p class="lead text-justify">Our title sponsor, WM, is our biggest supporter and strives to make us the best we could possibly be by providing mentors and financial assistance. This company works very effectively by supporting the young generations and helping our team members get the education needed in the real world. With the gracious support of WM, Team 7494 has been and will be able to reach new heights and continue to succeed.</p>
      </div>
-</div>
+   </div>
     <!-- <div class="col-md-2 bot-sub"></div> -->
 </div>
 
