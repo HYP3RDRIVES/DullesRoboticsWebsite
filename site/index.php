@@ -125,7 +125,57 @@
 				</div>
 			 </div>
 		 </div>
-		<hr class="style14">
+
+    <!-- Sponsors -->
+       		<hr class="style14">
+      <!-- <div class="col">
+        <div class="row justify-content-center">
+          <h1 class="display-4">Our Sponsors</h1>
+        </div>
+        <div class="text-justify row justify-content-center lead">
+     			<p class="lead" style="margin: 0 0;">Dulles Robotics would not be possible without our <a class="badge badge-dark text-light" id="remind-link" href="sponsors.php">sponsors</a>‏‏‎.</p>
+     		</div>
+       </div>
+
+
+    <div class="bd-example">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <a class="carousel-control-prev" style="padding-bottom: 5%;" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div style="height: 200px;margin-top: 2%;background-color: #737373;">
+                <img src="/img/sponsor/wm.png" style="height: 180px;padding-top:2%;" class="rounded mx-auto d-block img-fluid"/>
+            </div>
+          <p class="text-center lead" style="padding-top:1%; padding-bottom:2.5%;">Waste Management</p>
+          </div>
+          <div class="carousel-item">
+            <div style="height: 200px;margin-top: 2%;background-color: #737373;">
+                <img src="/img/sponsor/nasa.png" style="height: 180px;padding-top:2%;" class="rounded mx-auto d-block img-fluid"/>
+            </div>
+          <p class="text-center lead" style="padding-top:1%; padding-bottom:2.5%;">NASA</p>
+          </div>
+          <div class="carousel-item">
+            <div style="height: 200px;margin-top: 2%;background-color: #737373;">
+                <img src="/img/sponsor/twc.png" style="height: 180px;padding-top:2%;" class="rounded mx-auto d-block img-fluid"/>
+            </div>
+          <p class="text-center lead" style="padding-top:1%; padding-bottom:2.5%;">Texas Workforce Commission</p>
+          </div>
+        </div>
+        <a class="carousel-control-next" style="padding-bottom: 5%;" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+<hr class="style14"> -->
 
 		<!-- Info -->
 		<div id="stay-in-touch-container">
