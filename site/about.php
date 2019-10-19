@@ -83,48 +83,43 @@
 
 
         	<hr class="style1" />
+          <div class="container">
 
-          <div class="container" style="display: inline-block; vertical-align:center; align-content:center; ">
-            <div class="col-sm-12">
-              <h3 class="display-3" style="text-align:center;">Departments</h3>
-            </div>
-          <div class="row special-row block" style="height:500px;">
-              <div class="col-sm-4" style="align-content:center;">
+            <div class="row">
+              <div class="col-sm-12">
+                <h3 class="display-3" style="text-align:center;">Departments</h3>
+              </div>
+                <div class="col">
                   <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">
-                  <h4 class="display-2" style="font-size:40px;">Build</h4>
-                  <p class="lead-text text-justify" >The build team is charge of the building of our robots, both for FTC and FRC. They work against deadlines to ensure that the robot is ready for debugging, while also remaining in close communication with the Programming team to ensure the robot is programed to its specific mechanisms.</p>
-              </div>
-              <div class="col-sm-4 " style="align-content:center;">
+                  <h4 class="display-2" style="font-size:40px;text-align:center;">Build</h4>
+                  <p class="lead-text text-justify lead" style="text-align:center;text-align:center;">The build team is charge of the building of our robots, both for FTC and FRC. They work against deadlines to ensure that the robot is ready for debugging, while also remaining in close communication with the Programming team to ensure the robot is programed to its specific mechanisms.</p>
+                </div>
+                <div class="col">
                   <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/program.png">
-                  <h4 class="display-2" style="font-size:40px;">Programming</h4>
-                  <p class="lead-text text-justify" style="text-justify:auto;" >The programming team is in charge of programming the instructions for what the robot is supposed to do. This includes programming the robot to respond with the intended results using a controller, as well as writing code for the robot to perform autonomously.</p>
-              </div>
-              <div class="col-sm-4" style="align-content:center;">
-                <div class="row">
+                  <h4 class="display-2" style="font-size:40px;text-align:center;">Programming</h4>
+                  <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;" >The programming team is in charge of programming the instructions for what the robot is supposed to do. This includes programming the robot to respond with the intended results using a controller, as well as writing code for the robot to perform autonomously.</p>
+                </div>
+                <div class="col">
                   <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/design.png">
+                  <h4 class="display-2" style="font-size:40px;text-align:center;">Design</h4>
+                  <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">The Design team is responsible for designing the robot chassis and to ensure our ideas are feasable.</p>
                 </div>
-                <div class="row">
-                  <h4 class="display-2" style="font-size:40px;">Design</h4>
-                  <p class="lead-text text-justify" >The Design team is responsible for designing the robot chassis and to ensure our ideas are feasable.</p>
-                </div>
-              </div>
-          </div>
-          <div class="row special-row block" style="height:500px;">
-            <div class="col-sm-2 bot-sub"></div>
-            <div class="col-sm-4" style="align-content:center;">
-              <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/pres.jpg">
-              <h4 class="display-2" style="font-size:40px;">Presentation</h4>
-                <p class="lead-text text-justify" >Presentation is responsible for the image of Dulles Robotics. They make the PIT displays, and other brand releated content including Graphics Design, and Maintaining this Website.</p>
             </div>
-            <div class="col-sm-4" style="align-content:center;">
-                <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/market.png">
-                <h4 class="display-2" style="font-size:40px;">Marketing</h4>
-                <p class="lead-text text-justify" >The marketing team flexes for us.</p>
+            <div class="row">
+                <div class="col">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/pres.jpg">
+                  <h4 class="display-2" style="font-size:40px;text-align:center;">Presentation</h4>
+                  <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">Presentation is responsible for the image of Dulles Robotics. They make the PIT displays, and other brand releated content including Graphics Design, and Maintaining this Website.</p>
+                </div>
+                <div class="col">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/market.png">
+                  <h4 class="display-2" style="font-size:40px;text-align:center;">Marketing</h4>
+                  <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">The marketing team flexes for us.</p>
+                </div>
             </div>
           </div>
 
           <div class="col-sm-2 bot-sub"></div>
-          </div>
 
           <hr class="style14" />
           <div class="row" style="padding-top:10px; margin-left:0%;">
