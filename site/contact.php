@@ -11,6 +11,7 @@
     <?php
     	include 'res/head.php';
      ?>
+      <meta name="viewport" content="width=640">
 </head>
 <body style="height:100%;">
 	<?php

@@ -17,7 +17,7 @@
      <meta property="og:image" content="/img/w.png">
      <meta name="description" content="This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456. ">
      <meta name="keywords" content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Roboti_cs Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red, Dulles Robot, Robot, FIRST, FRC, Fort Bend ISD, FBISD, FBISD FRC, FBISD VEX, VEX, VRC, FTC, FIRST TECH CHALLENGE, DULLES ROBOTS">
-
+     <meta name="viewport" content="width=640">
 </head>
 <body style="height:100%;">
 
@@ -33,7 +33,7 @@
 	<div class="container" >
 		<h1 class="display-3">About <i>FIRST</i></h1>
 		<hr class="style14">
-    <div class="container">
+
       <!-- Title -->
 
 
@@ -210,7 +210,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 
     <!-- Logo -->
     <div class="row special-row">
-    <div class="col">
+    <div class="col-md-6">
       <div class="row">
       <div class="text-center">
       <img src="/img/RRuckus.png" class="img-fluid img-center" alt="twc" width="350" height="400" style="align-self: center;">
@@ -218,7 +218,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
   </div>
      </div>
     <!-- Welcome Message -->
-    <div class="col">
+    <div class="col-md-6">
       <div class="row">
         <h4 class="display-5">FTC: Rover Ruckus presented by Qualcomm</h4>
 </div>
@@ -238,15 +238,15 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 
 <hr class="style10">
    <!-- Infinite Recharge -->
-   <div id="logo-and-welcome" class="row well border-0 border-secondary">
+  <div class="row special-row">
      <!-- Logo -->
-     <div class="col">
+     <div class="col-md-6">
        <div class="text-center">
        <img src="https://info.firstinspires.org/hubfs/campaigns/2019_launch/logo-deep-space.svg" class="img-fluid img-center" alt="twc" width="350" height="400">
       </div>
     </div>
      <!-- Welcome Message -->
-     <div class="col">
+     <div class="col-md-6">
        <div class="row">
          <h4 class="display-5">FRC: Destination Deep Space</h4>
  </div>
@@ -265,7 +265,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 </div>
 
 </div>
-</div>
+
 <!-- Footer -->
 <footer>
 <?php include 'res/footer.php'; ?>
