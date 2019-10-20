@@ -14,7 +14,7 @@
     <meta property="og:image" content="/img/w.png">
     <meta name="description" content="The Dulles High School Robotics Club. We are a robotics club based out of Dulles High School in Sugar Land, TX. We have FRC team #7494 and FTC teams #12456, and #13822">
     <meta name="keywords" content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
-    <meta name="viewport" content="height=device-height, initial-scale=1">
+
 </head>
 <body style="">
 
@@ -43,11 +43,11 @@ include 'res/nav.php';
 
         <!-- Welcome Message -->
 
-        <div class="row">
-            <div class="col" style="height: 315;">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; private; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="row special-row">
+            <div class="col-md-6" style="height: 315; align-content:center; text-align:center;">
+                  <iframe width="480" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <h1 class="display-5">Gallery:</h1>
                 <h2>General Public:</h2>
                 <h4>Feel free to view content on this page!</h4>
@@ -58,11 +58,11 @@ include 'res/nav.php';
             </div>
         </div>
         <hr class="style18"/>
-    <div id="logo-and-welcome" class="row well border-0 border-secondary" style="padding-left: 7%">
-        <div class="row justify-content-center"  style="padding-top:10px; padding-bottom: 20px; display: flex ">
-            <div class="col">
+
+        <div class="row special-row"  style="  display: flex ">
+            <div class="col-md-4" style="padding-bottom: 20px;">
                 <a href="#" style="color:inherit">
-                <div class="card text-center" style="width:300px; height: 350px;">
+                <div class="card text-center" style="width:300px; height: 350px; ">
                     <h4 class="display-3" style="font-size:40px">FIT Channelview</h4>
                     <div class="mediacrop">
                     <img src="https://drc.aspencdn.me/photos/txchadrive.jpg">
@@ -71,7 +71,7 @@ include 'res/nav.php';
                 </div>
                 </a>
             </div>
-            <div class="col">
+            <div class="col-md-4" style="padding-bottom: 20px;">
                 <a href="#" style="color:inherit">
                 <div class="card text-center" style="width:300px; height: 350px;">
                     <h4 class="display-3" style="font-size:40px">FIT Pasadena</h4>
@@ -81,7 +81,7 @@ include 'res/nav.php';
                 </div>
                 </a>
             </div>
-            <div class="col">
+            <div class="col-md-4" style="padding-bottom: 20px;">
                 <a href="#" style="color:inherit">
                 <div class="card text-center" style="width:300px; height: 350px;">
                     <h4 class="display-3" style="font-size:40px">FIT DCMP</h4>
@@ -120,7 +120,7 @@ include 'res/nav.php';
             </div>
         </div>
 
-    </div>
+
 
 </div>
 

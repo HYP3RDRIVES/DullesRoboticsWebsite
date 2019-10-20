@@ -86,7 +86,7 @@
 	<div class="container">
 		<!-- Title -->
             <div class="col-md-12">
-                <p class="display-3">Dulles Robotics</p> <br>
+                <p class="display-3 text-center">Dulles Robotics</p> <br>
          </div>
 		<hr class="style14" />
 

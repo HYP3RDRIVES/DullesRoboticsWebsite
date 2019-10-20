@@ -17,7 +17,7 @@
      <meta property="og:image" content="/img/w.png">
      <meta name="description" content="This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456. ">
      <meta name="keywords" content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Roboti_cs Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red, Dulles Robot, Robot, FIRST, FRC, Fort Bend ISD, FBISD, FBISD FRC, FBISD VEX, VEX, VRC, FTC, FIRST TECH CHALLENGE, DULLES ROBOTS">
-     <meta name="viewport" content="width=640">
+
 </head>
 <body style="height:100%;">
 
