@@ -25,15 +25,15 @@
 		include 'res/nav.php';
 	?>
 	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
-	<script type="text/javascript">
-		document.getElementById('nav-bar-Sponsors').setAttribute('class', 'active dropdown-item');
-	</script>
+  <script type="text/javascript">
+    document.getElementById('nav-bar-first').setAttribute('class', 'active nav-item');
+  </script>
 
 	<!-- Main Page -->
 	<div class="container" >
 		<h1 class="display-3">About <i>FIRST</i></h1>
 		<hr class="style14">
-    <div class="container">
+
       <!-- Title -->
 
 
@@ -45,15 +45,15 @@
 
 
     <!-- Logo and Welcome -->
-    <div id="logo-and-welcome" class="row well border-0 border-secondary">
+
       <!-- Logo -->
-        <div class="row">
-      <div class="col">
-        <img src="/img/FIRST.png" class="img-fluid" alt="wm" width="530" height="900">
+        <div class="row special-row">
+      <div class="col-md-6">
+        <img src="/img/FIRST.png" class="img-fluid img-center" alt="first">
        </div>
       <!-- Welcome Message -->
 
-          <div class="col">
+          <div class="col-md-6">
                 <h4 class="display-3"><i>FIRST</i></h4>
   <p class="lead"> FIRST (For Inspiration and Recognition of Science and Technology) was founded in 1989 to inspire young people's interest and participation in science and technology. Based in Manchester, NH, the 501(c)(3) not-for-profit public charity designs accessible, innovative programs that motivate young people to pursue education and career opportunities in science, technology, engineering, and math, while building self-confidence, knowledge, and life skills.</p>
     <h2>Mission of <i>FIRST</i></h2>
@@ -66,21 +66,22 @@
      </div>
     <hr/>
 
-</div>
+
 <!-- WM Sponsor Block Ends -->
 <!-- TWC Sponsor Block -->
 <div class="container">
 
   <hr class="style14" />
 
-  <!-- Logo and Welcome -->
-  <div id="logo-and-welcome" class="row well border-0 border-secondary">
+
     <!-- Logo -->
-    <div class="col">
-      <img src="/img/FTC.png" class="img-fluid" alt="ftc" width="450" height="450">
-     </div>
+    <div class="row special-row">
+    <div class="col-md-6">
+      <img src="/img/FTC.png" class="img-fluid img-center" alt="ftc">
+    </div>
+
     <!-- Welcome Message -->
-    <div class="col">
+    <div class="col-md-6">
       <div class="row">
         <h4 class="display-3"><i>FIRST</i> Tech Challenge</h4>
 </div>
@@ -89,26 +90,28 @@
   <a href="https://www.firstinspires.org/robotics/ftc" target="_blank" class="btn btn-primary">Learn more about FTC</a>
 
       </div>
-     </div>
-   </div>
+    </div>
+  </div>
+
   <hr/>
 
-</div>
+
 <!-- TWC Sponsor Block Ends -->
 
 <!-- NASA Sponsor Block -->
-<div class="container">
+
 
   <hr class="style14" />
 
   <!-- Logo and Welcome -->
-  <div id="logo-and-welcome" class="row well border-0 border-secondary">
+
     <!-- Logo -->
-    <div class="col">
+    <div class="row special-row">
+    <div class="col-md-6">
       <img src="/img/FRC.png" class="img-fluid" alt="twc" width="450" height="450" style="padding-top:30px;">
      </div>
     <!-- Welcome Message -->
-    <div class="col">
+    <div class="col-md-6">
       <div class="row">
         <h4 class="display-3"><i>FIRST</i> Robotics Competition</h4>
 </div>
@@ -117,8 +120,8 @@
  <a href="https://www.firstinspires.org/robotics/frc" target="_blank" class="btn btn-primary">Learn more about FRC</a>
 
       </div>
-     </div>
-   </div>
+</div>
+</div>
   <hr/>
 
 <hr class="style18">
@@ -178,7 +181,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
          <h4 class="display-5">FRC: Infinite Recharge</h4>
  </div>
          <div class="row">
-           <p class="lead">First will release information about INFINITE RECHARGE during the kickoff in January, 2020. </p>
+           <p class="lead">First will release information about INFINITE RECHARGE during the kickoff on January 4th, 2020. </p>
   <a href="https://info.firstinspires.org/infinite-recharge" target="_blank" class="btn btn-primary">Learn more</a>
 
        </div>
@@ -194,28 +197,30 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 <h1 class="display-3">2018-2019 Season: LAUNCH</h1>
 
 </div>
-<p class="lead">Throughout history, great civilizations have risen, then fallen. Now it’s our turn to rise—building and bolstering our own planetary metropolis.
+<p class="lead">One Sunday night in July 1969, one billion people huddled around their radios and TV screens in awe as we walked on the moon for the first time.
+    In that moment, the world was united in celebration of human ingenuity and inspired by the possibility that by working together, we can quite literally reach the stars.
 
-This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change, is setting out to inspire citizens of the galaxy to work together, strengthening and protecting the Force that binds us and creating a place where collaboration and collective wisdom can elevate new ideas and foster growth.</p>
+
 <hr class="style14">
 <div class="container">
 
 
 
   <!-- Logo and Welcome -->
-  <div id="logo-and-welcome" class="row well border-0 border-secondary">
+
     <!-- Logo -->
-    <div class="col">
+    <div class="row special-row">
+    <div class="col-md-6">
       <div class="row">
       <div class="text-center">
-      <img src="/img/RRuckus.png" class="img-fluid img-center" alt="twc" width="350" height="400">
+      <img src="/img/RRuckus.png" class="img-fluid img-center" alt="twc" width="350" height="400" style="align-self: center;">
     </div>
   </div>
      </div>
     <!-- Welcome Message -->
-    <div class="col">
+    <div class="col-md-6">
       <div class="row">
-        <h4 class="display-5">FTC: Skystone presented by Qualcomm</h4>
+        <h4 class="display-5">FTC: Rover Ruckus presented by Qualcomm</h4>
 </div>
         <div class="row">
           <p class="lead"></p>
@@ -228,19 +233,20 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
  <a href="https://info.firstinspires.org/skystone" target="_blank" class="btn btn-info">Learn more</a>  <a href="https://www.firstinspires.org/resource-library/ftc/game-and-season-infoe" target="_blank" class="btn btn-secondary">Game Manual & Materials</a>
 </hr>
       </div>
-     </div>
-   </div>
+    </div>
+
+
 <hr class="style10">
    <!-- Infinite Recharge -->
-   <div id="logo-and-welcome" class="row well border-0 border-secondary">
+  <div class="row special-row">
      <!-- Logo -->
-     <div class="col">
+     <div class="col-md-6">
        <div class="text-center">
-       <img src="https://info.firstinspires.org/hubfs/campaigns/2019_launch/logo-deep-space.svg" class="img-fluid" alt="twc" width="400" height="400">
+       <img src="https://info.firstinspires.org/hubfs/campaigns/2019_launch/logo-deep-space.svg" class="img-fluid img-center" alt="twc" width="350" height="400">
       </div>
     </div>
      <!-- Welcome Message -->
-     <div class="col">
+     <div class="col-md-6">
        <div class="row">
          <h4 class="display-5">FRC: Destination Deep Space</h4>
  </div>
@@ -259,7 +265,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 </div>
 
 </div>
-</div>
+
 <!-- Footer -->
 <footer>
 <?php include 'res/footer.php'; ?>

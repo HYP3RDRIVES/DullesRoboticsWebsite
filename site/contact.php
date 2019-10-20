@@ -11,6 +11,7 @@
     <?php
     	include 'res/head.php';
      ?>
+
 </head>
 <body style="height:100%;">
 	<?php

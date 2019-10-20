@@ -17,6 +17,9 @@
 	<?php
 		include 'res/nav.php';
 	?>
+  <script type="text/javascript">
+    document.getElementById('nav-bar-announ').setAttribute('class', 'active nav-item');
+  </script>
 	<!-- Main Page -->
 	<div class="container">
 		<div class="row" id="resources-title-row">
@@ -35,6 +38,23 @@
 				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">General Announcements & Blog</h4>
 					<br>
+          <h3>Upcoming Competitions</h3>
+            <hr class="style2">
+            <p class="small lead">18 Oct 2019</p>
+            <hr class="style12">
+            <p class="lead">
+
+              Oct 26 - FTC SW League Scrimmage <br/>
+              Nov 16 - FTC SW League Match<br/>
+              Dec 14 - FTC SW League Match<br/>
+            </p>
+            <p>
+              Also, new members, if you don't get your dues in, you will NOT be participating at the comp.
+              Veterans, get your dues in asap. Thank you!
+
+
+            </p>
+
           <h3>Forms need to be filled out!</h3>
             <hr class="style2">
             <p class="small lead">24 Sept 2019</p>
