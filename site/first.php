@@ -215,9 +215,6 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
      </div>
     <!-- Welcome Message -->
     <div class="col-md-6">
-      <div class="row">
-        <img src="/img/Infinite.png" class="img-fluid" alt="frcinf" width="400" height="400">
-      </div>
         <div class="row">
           <p class="lead"></p>
 
