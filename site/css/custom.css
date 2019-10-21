@@ -304,10 +304,22 @@ hr.style19 {
 
 .toast--blue .toast__icon {
   background-color: #1D72F3;
+  position: absolute;
 }
 
 .toast--blue:before {
   background-color: #1D72F3;
+  position: absolute;
+}
+
+.toast--info .toast__icon {
+  background-color: #33ccff;
+  position: absolute;
+}
+
+.toast--info:before {
+  background-color: #33ccff;
+  position: absolute;
 }
 
 .toast--red .toast__icon {
@@ -324,11 +336,11 @@ hr.style19 {
   display: inline;
   float: right;
   position: absolute;
-  z-index: 100;
+  z-index: 2;
   right: 5px;
 }
 
-.scard {
+.card {
   display: inline-block;
   background: Gray;
 }
