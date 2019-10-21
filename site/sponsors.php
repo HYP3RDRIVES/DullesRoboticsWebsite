@@ -64,7 +64,7 @@
          <h4 class="display-3" style="text-align:left; font-size:60px">Texas Workforce Commission</h4>
  </div>
          <div class="row">
- <p class="lead text-justify">They are very nice people. We thank them for their support</p>
+ <p class="lead text-justify">They are very nice people. We thank them for their support.</p>
 </div>
 </div>
 
