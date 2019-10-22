@@ -45,7 +45,7 @@ include 'res/nav.php';
     <div class="row special-row block">
         <!-- <div class="col-md-2 bot-sub"></div> -->
         <div class="col-md-6" style=" height:300px; width:100%;">
-            <img src="/img/w.png" class="img-fluid img-center"  alt="wm" style="padding:30px;  align-self: right;">
+            <img src="https://drc.aspencdn.me/photos/javelin.jpg" class="img-fluid img-center indxcrop"  alt="javelin" style="padding:30px;  align-self: right;">
         </div>
         <div class="col-md-6" >
             <div class="row">
@@ -94,25 +94,79 @@ include 'res/nav.php';
         <!-- <div class="col-md-2 bot-sub"></div> -->
     </div>
 
-    <hr class="style1" />
+    <hr class="style1"/>
 
     <div class="row special-row block">
 
         <div class="col-md-6 text-center" style="align-content:center;">
-            <img src="/img/mock3.jpg" style="width: 450px; height: 450px; opacity: 10%" class="img-fluid img-center" alt="twc"  style="padding:20px; align-self:center;  width:65%">
+            <img src="/img/rrbr.jpg" style="width: 450px; height: 450px; opacity: 10%; vertical-align:center; padding:20px; align-self:center;  " class="img-fluid img-center img-vert-center" alt="twc">
         </div>
         <div class="col-md-6" >
             <div class="row">
-                <h4 class="display-2" style="text-align:left; font-size:85px;">​​Mock 3</h4>
+                <h4 class="display-2" style="text-align:left; font-size:85px;">​​Elephant</h4>
             </div>
             <div class="row">
-                <p class="lead text-justify">Mock 3 was the robot used in FTC Rover Ruckus by team <strong>#12456 Big Red for the 2017-2018 season</strong></p>
+                <p class="lead text-justify">Elephant was the robot used in FTC Rover Ruckus by team <strong>#12456 Big Red for the 2018-2019 season</strong></p>
                 <div class="col-md-6 inner" style="padding:10px;">
 
 
                     <ul class="unstyled">
                         <h2>Specs</h2>
-                        <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light" >Name</span> Mock 3</li>
+                        <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light" >Name</span> Elephant</li>
+
+                        <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light">Weight</span> ~35 lbs</li>
+
+                        <li class="lead large rspec"> <span class="badge badge-primary text-light">Game</span>  Rover Ruckus</li>
+
+                        <li class="lead large rspec"> <span class="badge badge-primary text-light">Team</span>  12456</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 inner" style="padding:10px;">
+
+
+                    <ul class="unstyled">
+                        <h2>Comps</h2>
+                        <li class="lead large rspec"> <span class="badge badge-primary text-light" > Houston-Southwest League Qualifer</span></li>
+
+                        <li class="lead large rspec"> <span class="badge badge-primary text-light">Leauge Qualifer</span></li>
+
+                        <li class="lead large rspec"> <span class="badge badge-primary text-light">Leauge Qualifer</span></li>
+
+                        <li class="lead large rspec"> <span class="badge badge-primary text-light"> Last Chance Qualifier (San Jacinto College) </span></li>
+
+                        <li class="lead large rspec"> <span class="badge badge-primary text-light">Texas UIL State Championships</span></li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <ul>
+              <li class="lead text-justify">Extending intake for Gold and Silver</li>
+              <li class="lead text-justify">Mechanum Wheels allow for strafing</li>
+            </ul>
+        </div>
+        </div>
+
+
+    <hr class="style1" />
+
+    <div class="row special-row block">
+
+        <div class="col-md-6 text-center" style="align-content:center;">
+            <img src="/img/mock3.jpg" style="width: 450px; height: 450px; opacity: 10%" class="img-fluid img-center img-vert-center" alt="twc"  style="padding:20px; align-self:center;  width:65%">
+        </div>
+        <div class="col-md-6" >
+            <div class="row">
+                <h4 class="display-2" style="text-align:left; font-size:85px;">​​Blowtorch</h4>
+            </div>
+            <div class="row">
+                <p class="lead text-justify">Blowtorch was the robot used in FTC Relic Recovery by team <strong>#12456 Big Red for the 2017-2018 season</strong></p>
+                <div class="col-md-6 inner" style="padding:10px;">
+
+
+                    <ul class="unstyled">
+                        <h2>Specs</h2>
+                        <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light" >Name</span> Blowtorch</li>
 
                         <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light">Weight</span> ~35 lbs</li>
 
@@ -139,6 +193,9 @@ include 'res/nav.php';
 
                     </ul>
                 </div>
+                <ul>
+                  <li class="lead text-justfy">Mechanum wheels allow for strafing.</li>
+                  <li class="lead text-justfy">PID programming enables wheel fail tolerance</li>
             </div>
         </div>
         </div>
