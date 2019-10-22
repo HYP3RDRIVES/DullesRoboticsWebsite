@@ -99,7 +99,7 @@
 
  		<div class="col-sm-12" style="margin-bottom: 2%; text-align:center;">
  			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Dulles Robotics Club, contact us at our <a class="badge badge-dark text-light" id="remind-link" href="mailto:dullesrobotics@gmail.com" data-toggle="tooltip" data-placement="top" title="E-Mail us at dullesrobotics@gmail.com">E-Mail</a>‏‏‎. Any question or comments can also be addressed directly to any of the officers.</p>
- 		</div>
+    </div>
 	</div>
 
 

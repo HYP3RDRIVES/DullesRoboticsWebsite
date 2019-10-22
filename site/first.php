@@ -230,7 +230,7 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 
 <hr class="style14">
    <!-- Infinite Recharge -->
-  <div class="row special-row">
+  <div class="row special-row" style="padding-bottom:20px;">
      <!-- Logo -->
      <div class="col-md-6">
        <div class="text-center">
@@ -244,16 +244,16 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
        <div class="row">
          <h4 class="display-3">FRC: Destination Deep Space</h4>
  </div>
-         <div class="row">
+         <div class="row" >
            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mew6G_og-PI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
-        <hr class="style4">
+        <hr class="style4" >
            <p class="lead">Destination: Deep Space is the game for the 2019 FIRST Robotics Competition. The game involves two alliances of three teams each competing to place hatch covers and rubber balls or “cargo” on rockets and cargo ships before returning to their hab platform to climb at the end of the match</p>
            <a href="https://info.firstinspires.org/infinite-recharge" target="_blank" class="btn btn-primary">Learn more</a>
       </div>
     </div>
 </div>
-<hr class="style18">
+
 </div>
 
 </div>

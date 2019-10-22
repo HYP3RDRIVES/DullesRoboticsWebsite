@@ -26,7 +26,7 @@
      <div class="toast__content">
   <!--     <p class="toast__type">Due Payment is now Open!</p> -->
        <p class="toast__type">Competiton is coming up!</p>
-       <p class="toast__message">Save the event to your calendar! New members, remember to pay your dues!</p>
+       <p class="toast__message">FTC SW Leauge Scrimmage on Sat Oct 26! Save the event to your calendar! New members, remember to pay your dues!</p>
       <a class="btn btn-info" href="https://calendar.google.com/calendar/r/eventedit?text=Robotics+FTC+Region+Scrimmage&dates=20191026T070000/20191026T133000&location=Dulles+High+School+-+550+Dulles+Ave,+Sugar+Land,+TX+77478" target="_blank" onclick="toggle_visibility('toast');">Save to Google Cal</a>
       <a class="btn btn-info" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" onclick="toggle_visibility('toast');">Pay Dues</a>
      </div>
