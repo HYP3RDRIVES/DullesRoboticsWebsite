@@ -50,7 +50,7 @@
             <h1 class="display-4">An Introduction:</h1>
             <p class="lead">We are a robotics club based out of Dulles HS in Sugar Land, TX. Our FTC teams are #12456 - Big Red and #13822 - Robovikings. Our FRC team is #7494 - Circuit Bizurkers.
             We also participate in community outreach events and workshops.</p>
-            <a href="story.php" class="btn btn-primary">View our Story</a>
+            <!-- <a href="story.php" class="btn btn-primary">View our Story</a> -->
           </div>
         </div>
           <hr/>
