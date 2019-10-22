@@ -129,10 +129,9 @@
 <h1 class="display-3">2019-2020 Season: RISE</h1>
 <a href="https://info.firstinspires.org/first-rise-2020?utm_source=first-inspires&utm_medium=headline&utm_campaign=fir-registration-020&utm_referrer=https%3A%2F%2Fwww.firstinspires.org%2F" target="_blank">
 <img src="/img/Rise.jpg" class="img-fluid" alt="Rise Lockup" width="650" height="500"></a>
-</div>
-<p class="lead">Throughout history, great civilizations have risen, then fallen. Now it’s our turn to rise—building and bolstering our own planetary metropolis.
-
+<p class="lead" style="margin-top:20px;">Throughout history, great civilizations have risen, then fallen. Now it’s our turn to rise—building and bolstering our own planetary metropolis.
 This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change, is setting out to inspire citizens of the galaxy to work together, strengthening and protecting the Force that binds us and creating a place where collaboration and collective wisdom can elevate new ideas and foster growth.</p>
+</div>
 <hr class="style14">
 <div class="container">
 
@@ -151,11 +150,10 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
     <!-- Welcome Message -->
     <div class="col">
       <div class="row">
-        <h4 class="display-5">FTC: Skystone presented by Qualcomm</h4>
+        <h4 class="display-3">FTC: Skystone</h4>
 </div>
         <div class="row">
           <p class="lead"></p>
-          <h4>View Game Animation</h4>
 
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-_6h0NOeiI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -165,20 +163,21 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
 </hr>
       </div>
      </div>
-   </div>
-<hr class="style10">
+<hr class="style14">
    <!-- Infinite Recharge -->
    <div id="logo-and-welcome" class="row well border-0 border-secondary">
      <!-- Logo -->
      <div class="col">
        <div class="text-center">
-       <img src="/img/Infinite.png" class="img-fluid" alt="frcinf" width="400" height="400">
-      </div>
+         <div class="row">
+           <img src="/img/Infinite.png" class="img-fluid" alt="frcinf" width="400" height="400">
+         </div>
+       </div>
     </div>
      <!-- Welcome Message -->
      <div class="col">
        <div class="row">
-         <h4 class="display-5">FRC: Infinite Recharge</h4>
+         <h4 class="display-3">FRC: Infinite Recharge</h4>
  </div>
          <div class="row">
            <p class="lead">First will release information about INFINITE RECHARGE during the kickoff on January 4th, 2020. </p>
@@ -187,19 +186,16 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
        </div>
       </div>
     </div>
-<hr/>
-<hr class="styleSpace"/>
-
-</div>
-</div>
+       </div>
 <hr class="style18">
 <div class="text-center">
 <h1 class="display-3">2018-2019 Season: LAUNCH</h1>
+<img src="/img/first2019.jfif" class="img-fluid" alt="Launch" width="650" height="500"></a>
 
-</div>
-<p class="lead">One Sunday night in July 1969, one billion people huddled around their radios and TV screens in awe as we walked on the moon for the first time.
+
+<p class="lead" style="margin-top:20px;">One Sunday night in July 1969, one billion people huddled around their radios and TV screens in awe as we walked on the moon for the first time.
     In that moment, the world was united in celebration of human ingenuity and inspired by the possibility that by working together, we can quite literally reach the stars.
-
+</div>
 
 <hr class="style14">
 <div class="container">
@@ -213,18 +209,14 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
     <div class="col-md-6">
       <div class="row">
       <div class="text-center">
-      <img src="/img/RRuckus.png" class="img-fluid img-center" alt="twc" width="350" height="400" style="align-self: center;">
+      <img src="/img/RRuckus.png" class="img-fluid" alt="twc" width="350" height="400" style="align-self: center;">
     </div>
   </div>
      </div>
     <!-- Welcome Message -->
     <div class="col-md-6">
-      <div class="row">
-        <h4 class="display-5">FTC: Rover Ruckus presented by Qualcomm</h4>
-</div>
         <div class="row">
           <p class="lead"></p>
-          <h4>View Game Animation</h4>
 
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tCjur2-knp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -236,32 +228,32 @@ This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change
     </div>
 
 
-<hr class="style10">
+<hr class="style14">
    <!-- Infinite Recharge -->
-  <div class="row special-row">
+  <div class="row special-row" style="padding-bottom:20px;">
      <!-- Logo -->
      <div class="col-md-6">
        <div class="text-center">
-       <img src="https://info.firstinspires.org/hubfs/campaigns/2019_launch/logo-deep-space.svg" class="img-fluid img-center" alt="twc" width="350" height="400">
+         <div class="row">
+            <img src="/img/logo-deep-space.svg" class="img-fluid img-center" alt="twc" width="350" height="400">
+         </div>
       </div>
     </div>
      <!-- Welcome Message -->
      <div class="col-md-6">
        <div class="row">
-         <h4 class="display-5">FRC: Destination Deep Space</h4>
+         <h4 class="display-3">FRC: Destination Deep Space</h4>
  </div>
-         <div class="row">
+         <div class="row" >
            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mew6G_og-PI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+        <hr class="style4" >
            <p class="lead">Destination: Deep Space is the game for the 2019 FIRST Robotics Competition. The game involves two alliances of three teams each competing to place hatch covers and rubber balls or “cargo” on rockets and cargo ships before returning to their hab platform to climb at the end of the match</p>
-  <a href="https://info.firstinspires.org/infinite-recharge" target="_blank" class="btn btn-primary">Learn more</a>
-
-       </div>
+           <a href="https://info.firstinspires.org/infinite-recharge" target="_blank" class="btn btn-primary">Learn more</a>
       </div>
     </div>
-<hr/>
-<hr class="styleSpace"/>
-
 </div>
+
 </div>
 
 </div>

@@ -6,7 +6,7 @@
 -->
 
 <!--Top Navigation Bar-->
-    <nav class="navbar navbar-expand-md  navbar-dark" style="background-color: #555">
+    <nav class="navbar navbar-expand-md  navbar-dark" id="navigator" style="background-color: #555">
     <!-- <nav class="navbar navbar-expand-md" id="navbar" style="background-color: #555"> -->
       <div class="container-fluid">
           <!--Logo on the left-->
@@ -25,6 +25,7 @@
                     <li class="nav-item" id="nav-bar-about"><a class="nav-link" href="about.php">About Us</a></li>
                     <li class="nav-item" id="nav-bar-first"><a class="nav-link"href="first.php"><i>FIRST</i></a></li>
                     <li class="nav-item" id="nav-bar-sponsor"><a class="nav-link"href="sponsors.php">Sponsors</a></li>
+                    <li class="nav-item" id="nav-bar-robot"><a class="nav-link"href="robots.php">Robots</a></li>
                     <!--<li class="nav-item" id="nav-bar-resources"><a class="nav-link"href="resources.php">Resources</a></li>-->
               <!--      <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="archive.php">Archive</a></li> -->
               <!--      <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="https://media.dullesrobotics.com" target="_blank">Media Archive</a></li> -->
