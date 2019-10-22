@@ -449,3 +449,14 @@ hr.style19 {
   float: right;
   position: absolute;
 }
+.img-vert-center{
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+display: -webkit-flex;
+display: flex;
+}
+
+.unstyled li{
+  list-style-type: none;
+}
