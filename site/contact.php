@@ -117,7 +117,6 @@ Nav Box is currenly useless
     $('[data-toggle="tooltip"]').tooltip()
   })
 </script>
-<script src="https://aspencdn.me/bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
 <div id="fb-root"></div>
 
 </footer>

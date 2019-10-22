@@ -6,6 +6,5 @@
 -->
 <meta charset="utf-8">
        <meta name="viewport" content="width=640">
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
 <link rel="stylesheet" href="https://aspencdn.me/bootstrap/4.1.3/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/custom.css">

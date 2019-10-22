@@ -6,6 +6,7 @@
     }
 //-->
 </script>
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 <div id="notibox">
 
     <div id="toast" class="toast toast--blue add-margin">
@@ -26,10 +27,17 @@
      <div class="toast__content">
   <!--     <p class="toast__type">Due Payment is now Open!</p> -->
        <p class="toast__type">Competiton is coming up!</p>
-       <p class="toast__message">FTC SW Leauge Scrimmage on Sat Oct 26! Save the event to your calendar! New members, remember to pay your dues!</p>
-      <a class="btn btn-info" href="https://calendar.google.com/calendar/r/eventedit?text=Robotics+FTC+Region+Scrimmage&dates=20191026T070000/20191026T133000&location=Dulles+High+School+-+550+Dulles+Ave,+Sugar+Land,+TX+77478" target="_blank" onclick="toggle_visibility('toast');">Save to Google Cal</a>
+       <p class="toast__message">Save the event to your calendar! New members, remember to pay your dues!</p>
+       <a title="Add to Calendar" class="addeventatc">
+         Add to Calendar
+         <span class="start">10/26/2019 07:00 AM</span>
+         <span class="end">10/26/2019 1:30 PM</span>
+         <span class="timezone">America/Chicago</span>
+         <span class="title">FTC Robotics Scrimmage</span>
+         <span class="location">Dulles High School</span>
+      </a>
       <a class="btn btn-info" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" onclick="toggle_visibility('toast');">Pay Dues</a>
-     </div>
+    </div>
      <div class="toast__close">
        <a onclick="toggle_visibility('toast');" >
        <svg version="1.1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 15.642 15.642" xmlns:xlink="https://www.w3.org/1999/xlink" enable-background="new 0 0 15.642 15.642">
