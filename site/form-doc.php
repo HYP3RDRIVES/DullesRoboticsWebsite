@@ -42,7 +42,7 @@
     <div class="card card-body">
       <p class="lead">
           <a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit" target="_blank" class="btn btn-primary">View in Google Docs <i class="fas fa-external-link-alt"></i></a>
-          <a href="/files/Interest Meeting Application .docx" download="InterestMeetingApp" target="_blank" class="btn btn-primary">Open in Word <i class="fas fa-file-word"></i></a>
+          <a href="/files/Interest-Meeting-Application.docx" download="InterestMeetingApp.docx" target="_blank" class="btn btn-primary">Open in Word <i class="fas fa-file-word"></i></a>
       </p>
     </div>
   </div>
