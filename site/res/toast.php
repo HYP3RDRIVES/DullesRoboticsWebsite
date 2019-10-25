@@ -25,7 +25,7 @@
 
        </svg>
      </div>
-     <div class="toast__content">
+     <div class="toast__content" style="height:130px;">
   <!--     <p class="toast__type">Due Payment is now Open!</p> -->
        <p class="toast__type">Competiton is coming up!</p>
        <p class="toast__message">Save the event to your calendar! New members, remember to pay your dues!</p>

@@ -39,7 +39,7 @@
     </button>
   </p>
   <div class="collapse hover" id="downloadInterestCollapse">
-    <div class="card card-body">
+    <div class="doc-card card-body">
       <p class="lead">
           <a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit" target="_blank" class="btn btn-primary">View in Google Docs <i class="fas fa-external-link-alt"></i></a>
           <a href="/files/Interest-Meeting-Application.docx" download="InterestMeetingApp.docx" target="_blank" class="btn btn-primary">Open in Word <i class="fas fa-file-word"></i></a>
@@ -47,7 +47,7 @@
     </div>
   </div>
   <div class="collapse" id="docInterestCollapse">
-    <div class="card card-body">
+    <div class="doc-card card-body">
       <p class="lead">
         <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ9Qo8rktjxbVdwnaBY8w1MwlgUoexVAtLfbZiwlSyvpmDd4swsY_luhiLGs_1PE91iYeO7hwFBP4e_/pub?embedded=true" width="640" height="720"></iframe>
       </p>
@@ -55,14 +55,14 @@
   </div>
 <hr class="style1">
 <!-- robotics forms -->
-<h1 class="display-4">Robotics Forms</h1>
+<h1 class="display-4">Robotics Forms & Waivers</h1>
 <p>
 <a class="btn btn-primary" data-toggle="collapse" href="#docInterestCollapse2" role="button" aria-expanded="false" aria-controls="docInterestCollapse2">View</i></a>
 <a href="/files/roboforms.pdf" download="RoboForms" target="_blank" class="btn btn-info">Open in PDF Viewer <i class="fas fa-file-pdf"></i></a>
 </p>
 
 <div class="collapse" id="docInterestCollapse2">
-<div class="card card-body">
+<div class="doc-card card-body">
   <p class="lead">
     <object data="/files/roboforms.pdf" type="application/pdf" width="640" height="720">
       If you're seeing this, your browser doesn't have a PDF viewer. Try to download instead!
