@@ -35,9 +35,20 @@
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-8" id="scrollspy-info">
-				<div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
+
+
+        <div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
 					<h4 id="list-item-1" class="display-4">General Announcements & Blog</h4>
 					<br>
+          <h3>FTC Houston SW League Scrimmage</h3>
+            <hr class="style2">
+            <p class="small lead">18 Oct 2019</p>
+            <hr class="style12">
+            <p class="lead"> Don't forget to log this contest! <br/>Rookie members: what did you learn? What did you do? How did you feel? <br/>Members that taught the workshops: What did you teach, etc. Also reflect on the contest! What went well and what can be improved upon?
+<br/>Also, a BIG shoutout for <strong>Jacob, Erica, and Danielle</strong> for coming in and nailing us an outreach event as well as a good rep with the Missouri City Library!
+
+
+            </p>
           <h3>Upcoming Competitions</h3>
             <hr class="style2">
             <p class="small lead">18 Oct 2019</p>
