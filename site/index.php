@@ -14,7 +14,7 @@
     <meta property="og:image" content="/img/w.png">
     <meta name="description" content="This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456. ">
     <meta name="keywords" content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
-
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
     <?php
     	include 'res/head.php';
      ?>
@@ -37,18 +37,12 @@
 	<div class="container">
 
     <!-- noti box -->
-    <?php
-      include 'res/toast.php';
-     ?>
 
 		<!-- Title -->
-            <div class="col-md-12">
-                <p class="display-3 text-center">Dulles Robotics</p> <br>
-         </div>
-		<hr class="style14" />
-
+    <p class="display-3 text-center" style="font-size:80px;margin:0;">Dulles Robotics</p> <br>
+		<hr class="style14"/>
 		<!-- Logo and Welcome -->
-<div class="row special-row">
+<div class="row">
 			<!-- Logo -->
 			<div class="col-md-6">
 				<img src="img/w.png" width="480px" class="img-fluid" alt="Logo">
@@ -86,6 +80,50 @@
 		 </div>
     <hr class="style14">
 
+    <div class="col-sm-12">
+      <h3 class="display-4" style="text-align:center;">Calendar</h3>
+    </div>
+    <div class="row justify-content-center">
+    <div class="col-sm">
+      <div class="card-light card text-center">
+        <h5 class="card-header">FTC League Match <a class="badge badge-pill badge-dark">Upcoming</a></h5>
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-center">November 16th - 7am</h6>
+          <p class="card-text">You MUST pay your dues to take part in these competitions.</p>
+          <a title="Add to Calendar" class="addeventatc">
+            Add to Calendar
+            <span class="start">11/16/2019 07:00 AM</span>
+            <span class="end">11/16/2019 1:30 PM</span>
+            <span class="timezone">America/Chicago</span>
+            <span class="title">FTC Robotics Match</span>
+            <span class="location">Dulles High School</span>
+         </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card text-center">
+        <h5 class="card-header">FTC League Match</h5>
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2">December 14th - 7am</h6>
+          <p class="card-text">Right before winter break! Dues required to participate, as always.</p>
+          <a title="Add to Calendar" class="addeventatc">
+            Add to Calendar
+            <span class="start">12/14/2019 07:00 AM</span>
+            <span class="end">12/14/2019 1:30 PM</span>
+            <span class="timezone">America/Chicago</span>
+            <span class="title">FTC Robotics Match</span>
+            <span class="location">Dulles High School</span>
+         </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">More events will be added when we get more. Stay tuned!</h6>
+    </div>
+  </div>
+
+    <hr class="style14">
 		<!-- Info -->
     <div class="col-sm-12">
       <h3 class="display-4" style="text-align:center;">Stay in Touch</h3>

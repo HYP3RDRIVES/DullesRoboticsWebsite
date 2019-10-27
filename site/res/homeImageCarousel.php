@@ -2,22 +2,22 @@
 
 <div id="imagecarousel" class="carousel slide" data-ride="carousel" style="width: 480px; height: 299px;"  interval="600">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <li data-target="#imagecarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#imagecarousel" data-slide-to="1"></li>
+    <li data-target="#imagecarousel" data-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner" role="listbox" >
+  <div class="carousel-inner" role="listbox" id="slide1">
     <div class="carousel-item active" >
       <img class="d-block w-100" src="img/stateRAS.jpg" alt="First slide" style="width: 480px; height: 299px; display: inline-block; position: relative">
         <h2 class="carousel-caption display-3" style=" font-size: 20px; color: white; ">FIT DCMP  Rookie All Stars<br> FRC #7494</h2>
     </div>
-    <div class="carousel-item ">
+    <div class="carousel-item" id="slide2">
         <div class="indxcrop" style="width:580px; padding-right:40px;">
       <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txchadrive.jpg" alt="Second slide" style="width:580px; ">
         </div>
         <p class="carousel-caption display-3" style="padding-bottom: 200px; font-size: 20px;">Finalist Alliance - FRC #7494 #1477 #5261 <br/>FIT Channelview Event</p>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" id="slide3">
       <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" alt="Third slide" style="width: 480px; height: 299px;">
         <h2 class="carousel-caption display-3" style=" font-size: 20px; color: white; ">FIT Pasadena Event  Rookie All Stars<br> FRC #7494</h2>
     </div>

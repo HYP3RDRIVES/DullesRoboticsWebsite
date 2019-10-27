@@ -99,7 +99,7 @@ include 'res/nav.php';
     <div class="row special-row block">
 
         <div class="col-md-6 text-center" style="align-content:center;">
-            <img src="/img/rrbr.jpg" style="width: 450px; height: 450px; opacity: 10%; vertical-align:center; padding:20px; align-self:center;  " class="img-fluid img-center img-vert-center" alt="twc">
+            <img src="/img/rrbr.jpg" style="width: 450px; height: 450px; vertical-align:center; padding:20px; align-self:center;" class="img-fluid img-center img-vert-center" alt="twc">
         </div>
         <div class="col-md-6" >
             <div class="row">
@@ -153,7 +153,7 @@ include 'res/nav.php';
     <div class="row special-row block">
 
         <div class="col-md-6 text-center" style="align-content:center;">
-            <img src="/img/mock3.jpg" style="width: 450px; height: 450px; opacity: 10%" class="img-fluid img-center img-vert-center" alt="twc"  style="padding:20px; align-self:center;  width:65%">
+            <img src="/img/mock3.jpg" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc"  style="padding:20px; align-self:center;  width:65%">
         </div>
         <div class="col-md-6" >
             <div class="row">
@@ -221,7 +221,6 @@ include 'res/nav.php';
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
-    <script src="https://aspencdn.me/bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
 </footer>
 </body>
 </html>

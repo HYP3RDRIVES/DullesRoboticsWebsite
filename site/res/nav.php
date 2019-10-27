@@ -14,7 +14,7 @@
               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <a href="/" class="navbar-brand">Dulles Robotics</a>
+              <a href="/" class="navbar-brand" style="padding:0;"><img href="/" src="/img/dr.png" width="35" height="35" alt=""></img> Dulles Robotics</a>
           </div>
 
             <!--Menu Bar-->
