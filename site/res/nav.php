@@ -6,7 +6,7 @@
 -->
 
 <!--Top Navigation Bar-->
-    <nav class="navbar navbar-expand-md  navbar-dark" id="navigator" style="background-color: #555">
+    <nav class="navbar navbar-expand-md  navbar-dark bg-dark" id="navigator" >
     <!-- <nav class="navbar navbar-expand-md" id="navbar" style="background-color: #555"> -->
       <div class="container-fluid">
           <!--Logo on the left-->
@@ -14,31 +14,34 @@
               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <a href="/" class="navbar-brand" style="padding:0;"><img href="/" src="/img/dr.png" width="35" height="35" alt=""></img> Dulles Robotics</a>
+              <a href="/" class="navbar-brand">Dulles Robotics</a>
           </div>
 
             <!--Menu Bar-->
             <div class="collapse navbar-collapse" id="mainNavBar">
                 <ul class="nav navbar-nav navbar-right ">
                     <li class="nav-item" id="nav-bar-home"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item" id="nav-bar-announ"><a class="nav-link" href="announcements.php">Announcements</a></li>
+
                     <li class="nav-item" id="nav-bar-about"><a class="nav-link" href="about.php">About Us</a></li>
                     <li class="nav-item" id="nav-bar-first"><a class="nav-link"href="first.php"><i>FIRST</i></a></li>
                     <li class="nav-item" id="nav-bar-sponsor"><a class="nav-link"href="sponsors.php">Sponsors</a></li>
-                    <li class="nav-item" id="nav-bar-robot"><a class="nav-link"href="robots.php">Robots</a></li>
                     <!--<li class="nav-item" id="nav-bar-resources"><a class="nav-link"href="resources.php">Resources</a></li>-->
               <!--      <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="archive.php">Archive</a></li> -->
               <!--      <li class="nav-item" id="nav-bar-archive"><a class="nav-link"href="https://media.dullesrobotics.com" target="_blank">Media Archive</a></li> -->
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="nav-drop-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                            Club Info
+                            More
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                   <!--        <a id="nav-bar-ourstory" class="dropdown-item" href="story.php">Our Story</a> -->
-                          <a id="nav-bar-contact" class="dropdown-item" href="contact.php">Contact Us</a>
-                          <a id="nav-bar-forms" class="dropdown-item" href="form-doc.php">Forms and Documents</a>
+                          <a id="nav-bar-contact" class="dropdown-item" href="contact.php">Contact</a>
+                          <a id="nav-bar-robot" class="dropdown-item"href="robots.php">Robots</a>
+                          <a id="nav-bar-forms" class="dropdown-item" href="form-doc.php">Forms & Documents</a>
+                          <a class="dropdown-item" id="nav-bar-announ" href="announcements.php">Announcements & Blog</a>
                           <a id="nav-bar-officers" class="dropdown-item" href="officers.php">Officers</a>
+                          <a id="nav-bar-cal" class="dropdown-item" href="officers.php">Calendar</a>
                         </div>
                     </li>
 
