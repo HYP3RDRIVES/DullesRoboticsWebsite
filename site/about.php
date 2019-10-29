@@ -129,7 +129,7 @@
             <hr>
           </div>
           <div class="lead">
-            <p>Dullesrobotics.com is self-hosted at home, by a few of our members. Originally starting off as a site on weebly, we were able to accuire a domain, and eventually our own servers. In the summer of 2019, the site recived a major overhaul, after transitioning to PHP, and Bootstrap. Special thanks to <strong>Geoffrey Dolive</strong> for helping fund our domain for 2019-2020!</p>
+            <p>DullesRobotics.com is self-hosted at home, by a few of our members. Originally starting off as a site on Weebly, we were able to accuire a domain, and eventually our own servers. In the summer of 2019, the site recived a major overhaul by transitioning to PHP and Bootstrap. Special thanks to <strong>Geoffrey Dolive</strong> for helping fund our domain for 2019-2020!</p>
           </div>
 
 </div>

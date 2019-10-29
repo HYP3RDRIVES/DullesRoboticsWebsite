@@ -81,7 +81,7 @@
     <hr class="style14">
 
     <div class="col-sm-12">
-      <h3 class="display-4" style="text-align:center;">Calendar</h3>
+      <h3 class="display-4" style="text-align:center;">Events</h3>
     </div>
     <div class="row justify-content-center">
     <div class="col-sm">
@@ -119,7 +119,7 @@
       </div>
     </div>
     <div class="col-sm">
-      <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">More events will be added when we get more. Stay tuned!</h6>
+      <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">Events will be added when we get more. <br><b><a href="announcements.php" style="font-style:normal;color:#B0B0B0;">View announcements.</a></b></br></h6>
     </div>
   </div>
 
