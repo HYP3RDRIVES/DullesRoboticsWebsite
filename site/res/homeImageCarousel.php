@@ -1,25 +1,44 @@
+<div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" interval="600">
 
+  <div class="carousel-inner" role="listbox" >
+    <ol class="carousel-indicators">
+      <li data-target="#imagecarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#imagecarousel" data-slide-to="1"></li>
+      <li data-target="#imagecarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-item active" style=" height: 97vh;">
+    <!--  <img class="d-block w-100 indxcrop" src="https://drc.aspencdn.me/photos/txchadrive.jpg" alt="Third slide" > -->
+        <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txchadrive.jpg');"></div>
 
-<div id="imagecarousel" class="carousel slide" data-ride="carousel" style="width: 480px; height: 299px;"  interval="600">
-  <ol class="carousel-indicators">
-    <li data-target="#imagecarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#imagecarousel" data-slide-to="1"></li>
-    <li data-target="#imagecarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox" id="slide1">
-    <div class="carousel-item active" >
-      <img class="d-block w-100" src="img/stateRAS.jpg" alt="First slide" style="width: 480px; height: 299px; display: inline-block; position: relative">
-        <h2 class="carousel-caption display-3" style=" font-size: 20px; color: white; ">FIT DCMP  Rookie All Stars<br> FRC #7494</h2>
+        <div class="imgtxt-container">
+          <div class="carousel-caption">
+                <h2 class="c-header animated fadeInDown"> Dulles Robotics </h2>
+                <p class="p-carousel-caption animated fadeInUp hidden-xs">FIT Channelview  Finalist Alliance<br> FRC #7494</p>
+                <a class="btn btn-primary "href"https://www.signupgenius.com/go/30E0849AEAA23A0F85-robotics. " style="position:relative left:0px;">Workshop Signup</a>
+              </div>
+            </div>
     </div>
-    <div class="carousel-item" id="slide2">
-        <div class="indxcrop" style="width:580px; padding-right:40px;">
-      <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txchadrive.jpg" alt="Second slide" style="width:580px; ">
+    <div class="carousel-item"  style=" height: 97vh; ">
+
+      <div class="fill carousel-image" style="background-image: url('img/stateRAS.jpg');"></div>
+      <div class="imgtxt-container">
+        <div class="carousel-caption">
+							<h2 class="c-header animated fadeInDown"> Dulles Robotics</h2>
+							<p class="p-carousel-caption animated fadeInUp hidden-xs">FIT DCMP  Rookie All Stars<br> FRC #7494</p>
+						</div>
+          </div>
         </div>
-        <p class="carousel-caption display-3" style="padding-bottom: 200px; font-size: 20px;">Finalist Alliance - FRC #7494 #1477 #5261 <br/>FIT Channelview Event</p>
-    </div>
-    <div class="carousel-item" id="slide3">
-      <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" alt="Third slide" style="width: 480px; height: 299px;">
-        <h2 class="carousel-caption display-3" style=" font-size: 20px; color: white; ">FIT Pasadena Event  Rookie All Stars<br> FRC #7494</h2>
+
+    <div class="carousel-item" style=" height: 97vh;">
+      <!-- <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" alt="Third slide" > -->
+        <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txpasdrive.jpg');"></div>
+
+        <div class="imgtxt-container">
+          <div class="carousel-caption">
+                <h2 class="c-header animated fadeInDown"> Dulles Robotics </h2>
+                <p class="p-carousel-caption animated fadeInUp hidden-xs">FIT Pasadena Event  Rookie All Stars<br> FRC #7494</p>
+              </div>
+            </div>
     </div>
   </div>
 

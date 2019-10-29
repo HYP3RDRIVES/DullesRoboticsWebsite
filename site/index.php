@@ -21,27 +21,27 @@
        <meta name="viewport" content="width=640">
 </head>
 
-<body style="">
+<body style="overflow-x: hidden;">
 	<!-- Navigation Bar -->
-	<?php
-		include 'res/nav.php';
-	 ?>
+   <div class="fill">
+     <?php
+       include 'res/nav.php';
+      ?>
+     <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
+     <script type="text/javascript">
+       document.getElementById('nav-bar-home').setAttribute('class', 'active nav-item');
+      </script>
 
-
-	<!--Set Active Page to 'active' in navbar (imported from nav.php)-->
-	<script type="text/javascript">
-		document.getElementById('nav-bar-home').setAttribute('class', 'active nav-item');
-	 </script>
+             <div class="myCarousel" >
+       <!--  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQc5bzPiqXskOKwXqDc_P5Rcpp2_pvFrOptn8Ds6UvrybJMgZYmVPAVdKU7W3zLxureySLAlzICS4wq/embed?start=true&loop=true&delayms=3000&rm=minimal&loop=true&autoStart=true" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+                 <?php
+                 include 'res/homeImageCarousel.php';
+                 ?>
+             </div></div>
 
     <!-- Main Page -->
-	<div class="container">
+	<div class="container" style="height:100vh;">
 
-    <!-- noti box -->
-
-		<!-- Title -->
-    <p class="display-3 text-center" style="font-size:80px;margin:0;">Dulles Robotics</p> <br>
-		<hr class="style14"/>
-		<!-- Logo and Welcome -->
 <div class="row">
 			<!-- Logo -->
 			<div class="col-md-6">
@@ -63,13 +63,7 @@
 		<!-- Slide Show and Mission -->
 		<div  class="row row-special">
 			<!-- Slide Show -->
-			<div class="col-md-6">
-                <div class="fill">
-          <!--  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQc5bzPiqXskOKwXqDc_P5Rcpp2_pvFrOptn8Ds6UvrybJMgZYmVPAVdKU7W3zLxureySLAlzICS4wq/embed?start=true&loop=true&delayms=3000&rm=minimal&loop=true&autoStart=true" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
-                    <?php
-                    include 'res/homeImageCarousel.php';
-                    ?>
-                </div></div>
+
 			<!-- Mission Statement -->
 			<div class="col-md-6">
 				<div class="row">
@@ -85,7 +79,7 @@
     </div>
     <div class="row justify-content-center">
     <div class="col-sm">
-      <div class="card-light card text-center">
+      <div class="card-light card text-center" style="height:230px;">
         <h5 class="card-header">FTC League Match <a class="badge badge-pill badge-dark">Upcoming</a></h5>
         <div class="card-body">
           <h6 class="card-subtitle mb-2 text-center">November 16th - 7am</h6>
@@ -119,9 +113,29 @@
       </div>
     </div>
     <div class="col-sm">
-      <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">Events will be added when we get more. <br><b><a href="announcements.php" style="font-style:normal;color:#B0B0B0;">View announcements.</a></b></br></h6>
+      <div class="card text-center" >
+        <h5 class="card-header">FRC Kickoff</h5>
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2">January 4th 2020</h6>
+          <p class="card-text">Game reveal for FRC 2020 Infinite Recharge</p>
+        </div>
+          <a title="Add to Calendar" class="addeventatc" style="position:absolute bottom 100px;">
+            Add to Calendar
+            <span class="start">1/4/2019 07:00 AM</span>
+            <span class="end">1/4/2019 1:30 PM</span>
+            <span class="timezone">America/Chicago</span>
+            <span class="title">FRC Kickoff</span>
+            <span class="location">Dulles High School</span>
+         </a>
+        </div>
+      </div>
     </div>
   </div>
+<!--    <div class="col-sm">
+      <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">More events will be added when we get more. Stay tuned!</h6>
+    </div>
+  </div>
+-->
 
     <hr class="style14">
 		<!-- Info -->
@@ -133,12 +147,11 @@
 					View our current club <a href="officers.php" class="badge badge-dark">officers</a>. <button class="btn badge badge-info text-light" id="remind-link" data-toggle="tooltip" data-placement="top" title="Text @776d6f to 81010">Remind code</button>, newsletter signup and more contact info is provided <a href="contact.php" class="badge badge-dark">here</a>.
         </p>
 			</div>
- 		</div>
-
  		<div class="col-sm-12" style="margin-bottom: 2%; text-align:center;">
  			<p class="lead small" style="margin: 0 0;">If you have any questions or comments about the Dulles Robotics Club, contact us at our <a class="badge badge-dark text-light" id="remind-link" href="mailto:dullesrobotics@gmail.com" data-toggle="tooltip" data-placement="top" title="E-Mail us at dullesrobotics@gmail.com">E-Mail</a>‏‏‎. Any question or comments can also be addressed directly to any of the officers.</p>
  		</div>
 	</div>
+
 
 
 	<!-- Footer -->
@@ -152,6 +165,11 @@
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
+</script>
+<script>
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 </script>
 </footer>
 

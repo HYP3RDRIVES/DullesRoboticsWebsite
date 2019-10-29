@@ -29,7 +29,7 @@ include 'res/nav.php';
 <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
 <script type="text/javascript">
     document.getElementById('navigator').setAttribute('class', 'bg-dark navbar navbar-expand-md  navbar-dark');
-    document.getElementById('nav-bar-robot').setAttribute('class', 'active nav-item');
+    document.getElementById('nav-bar-robot').setAttribute('class', 'active dropdown-item');
 
 </script>
 <!-- Main Page -->

@@ -11,7 +11,7 @@
     <?php include 'res/head.php'; ?>
     <script src="https://kit.fontawesome.com/7c99d65b69.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body >
 	<?php
 		include 'res/nav.php';
 	?>
@@ -22,7 +22,7 @@
 	</script>
 
 	<!-- Main Page -->
-<div class="bodydiv">
+<div class="bodydiv" style="height:84.5vh;" style="overflow-y:hidden;">
 	<div class="container" style="height:85.6%;">
 		<h1 class="display-3">Forms and Documents</h1>
 		<hr class="style14">

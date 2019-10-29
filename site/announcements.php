@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Announcements - Dulles Robotics</title>
+    <title>Blog - Dulles Robotics</title>
     <?php
     	include 'res/head.php';
      ?>
@@ -18,12 +18,12 @@
 		include 'res/nav.php';
 	?>
   <script type="text/javascript">
-    document.getElementById('nav-bar-announ').setAttribute('class', 'active nav-item');
+    document.getElementById('nav-bar-announ').setAttribute('class', 'active dropdown-item');
   </script>
 	<!-- Main Page -->
 	<div class="container">
 		<div class="row" id="resources-title-row">
-			<h1 class="display-3">Announcements</h1>
+			<h1 class="display-3">Announcements & Blog</h1>
 		</div>
 		<hr class="style14">
 		<div class="row" id="all-sections-container">
@@ -49,6 +49,40 @@
 
 
             </p>
+
+<div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" style="width: 480px; height: 299px; overflow:hidden;"  interval="600">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox" >
+    <div class="carousel-item active" >
+      <div class="indxcrop" style="width:580px; padding-right:40px;">
+    <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/bigred.jpg" alt="Second slide" style="width:580px; ">
+      </div>
+    </div>
+    <div class="carousel-item ">
+        <div class="indxcrop" style="width:580px; padding-right:40px;">
+      <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/rohan.jpg" alt="Second slide" style="width:580px; ">
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="indxcrop" style="width:580px; padding-right:40px;">
+      <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/10581.jpg" alt="Third slide" style="width: 480px; height: 299px;">
+    </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#imagecarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#imagecarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<hr/>
           <h3>Upcoming Competitions</h3>
             <hr class="style2">
             <p class="small lead">18 Oct 2019</p>
