@@ -9,11 +9,7 @@
 
 <head>
   <title>Home - Dulles Robotics</title>
-  <meta name="description" content="This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456.">
   <meta property="og:image" content="/img/w.png">
-  <meta name="description" content="This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456. ">
-  <meta name="keywords"
-    content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
   <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
   <?php
     	include 'res/head.php';
@@ -40,8 +36,9 @@
     </div>
   </div>
 
+<div style="height:100vh;">
   <!-- Main Page -->
-  <div class="container" style="height:100vh;">
+  <div class="container" style="margin-top:10vh; margin-bottom:10vh;" >
 
     <div class="row">
       <!-- Logo -->
@@ -131,7 +128,7 @@
         </div>
       </div>
     </div>
-  </div>
+
   <!--    <div class="col-sm">
       <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">More events will be added when we get more. Stay tuned!</h6>
     </div>
@@ -162,6 +159,7 @@
     <?php include 'res/footer.php'; ?>
   </footer>
   <?php include 'res/cdn.php'; ?>
+
   <!-- Scripts -->
   <!-- activate tooltips -->
   <script type="text/javascript">
@@ -175,7 +173,7 @@
     }
   </script>
   </footer>
-
+</div>
 </body>
 
 </html>

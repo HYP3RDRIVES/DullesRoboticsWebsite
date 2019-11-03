@@ -41,7 +41,7 @@
             <a id="nav-bar-forms" class="dropdown-item" href="form-doc.php">Forms & Documents</a>
             <a class="dropdown-item" id="nav-bar-announ" href="announcements.php">Announcements & Blog</a>
             <a id="nav-bar-officers" class="dropdown-item" href="officers.php">Officers</a>
-            <a id="nav-bar-cal" class="dropdown-item" href="officers.php">Calendar</a>
+            <a id="nav-bar-cal" class="dropdown-item" href="calendar.php">Calendar</a>
           </div>
         </li>
 

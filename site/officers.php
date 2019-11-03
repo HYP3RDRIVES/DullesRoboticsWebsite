@@ -182,7 +182,7 @@
   <footer style="position: absolute: bottom;">
     <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
     <script type="text/javascript">
-      document.getElementById('nav-bar-officers').setAttribute('class', 'active dropdown-item');
+      document.getElementById('nav-bar-officers').setAttribute('class', 'active dropdown-item text-white');
     </script>
 
     <?php include 'res/footer.php'; ?>

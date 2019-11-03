@@ -14,7 +14,7 @@
         <div class="carousel-caption">
           <h2 class="c-header animated fadeInDown"> Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs">FIT Channelview Finalist Alliance<br> FRC #7494</p>
-          <a class="btn btn-primary " href"https://www.signupgenius.com/go/30E0849AEAA23A0F85-robotics. " style=" position:relative left:0px;">Workshop Signup</a>
+          <a class="btn btn-primary " href"https://www.thebluealliance.com/event/2019txcha" target="_blank" style=" position:fixed; left:380px;">View event stats</a>
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@
 
     <div class="carousel-item" style=" height: 97vh;">
       <!-- <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" alt="Third slide" > -->
-      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txpasdrive.jpg');"></div>
+        <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txpasdrive.jpg');"></div>
 
       <div class="imgtxt-container">
         <div class="carousel-caption">

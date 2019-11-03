@@ -42,15 +42,23 @@ body {
   font-size: 2rem;
 }
 
+.display-7 {
+  font-family: 'Bebas';
+  color: #7fadf2;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .page-footer {
   width: 100%;
-  position: inherit;
+  position: relative;
   bottom: 0px;
 }
 
 #footer-anchor {
   width: 100%;
-  position: fixed;
+  position: relative;
   bottom: 0px;
 }
 

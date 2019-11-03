@@ -20,7 +20,7 @@
 		include 'res/nav.php';
 	?>
   <script type="text/javascript">
-    document.getElementById('nav-bar-announ').setAttribute('class', 'active dropdown-item');
+    document.getElementById('nav-bar-announ').setAttribute('class', 'active dropdown-item text-white');
   </script>
   <!-- Main Page -->
   <div class="container">

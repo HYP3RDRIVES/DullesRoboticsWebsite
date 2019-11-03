@@ -21,7 +21,7 @@ Using Bootstrap
 ?>
   <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
   <script type="text/javascript">
-    document.getElementById('nav-bar-contact').setAttribute('class', 'active dropdown-item');
+    document.getElementById('nav-bar-contact').setAttribute('class', 'active dropdown-item text-white');
   </script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
 

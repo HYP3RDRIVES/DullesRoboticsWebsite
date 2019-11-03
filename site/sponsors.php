@@ -1,6 +1,6 @@
 <!--
-	Dulles High School Computer Science Club 2018-2019
-	Written By Adil Rasiyani, President
+	Dulles Robotics Club 2019-2020
+	Written By Zain Ahmed
 	Using Bootstrap
 -->
 
@@ -12,12 +12,8 @@
   <?php
     	include 'res/head.php';
      ?>
-  <meta property="og:title" content="Dulles Robotics Club">
-  <meta property="og:image" content="/img/w.png">
-  <meta name="description" content="The Dulles High School Robotics Club. We are a robotics club based out of Dulles High School in Sugar Land, TX. We have FRC team #7494 and FTC teams #12456, and #13822">
-  <meta name="keywords"
-    content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
-
+  <meta property="og:title" content="Dulles Robotics Club - Sponsors"/>
+  <meta property="og:image" content="/img/w.png"/>
 </head>
 
 <body>
