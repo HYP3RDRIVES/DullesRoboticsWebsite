@@ -22,7 +22,7 @@
   </div>
   <footer style="position: absolute: bottom;">
     <script type="text/javascript">
-      document.getElementById('nav-bar-officers').setAttribute('class', 'active dropdown-item text-white');
+      document.getElementById('nav-bar-cal').setAttribute('class', 'active dropdown-item text-white');
     </script>
 
     <?php

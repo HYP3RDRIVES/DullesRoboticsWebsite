@@ -31,8 +31,8 @@
     <div class="myCarousel">
       <!--  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQc5bzPiqXskOKwXqDc_P5Rcpp2_pvFrOptn8Ds6UvrybJMgZYmVPAVdKU7W3zLxureySLAlzICS4wq/embed?start=true&loop=true&delayms=3000&rm=minimal&loop=true&autoStart=true" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
       <?php
-                 include 'res/homeImageCarousel.php';
-                 ?>
+        include 'res/homeImageCarousel.php';
+      ?>
     </div>
   </div>
 
@@ -76,9 +76,9 @@
       <h3 class="display-4" style="text-align:center;">Calendar</h3>
     </div>
     <div class="row justify-content-center">
-      <div class="col-sm">
-        <div class="card-light card text-center" style="height:230px;">
-          <h5 class="card-header">FTC League Match <a class="badge badge-pill badge-dark">Upcoming</a></h5>
+      <div class="col-sm-4">
+        <div class="card-light card text-center" style="height:29vh;">
+          <h5 class="card-header">FTC League Match <a class="badge badge-pill badge-dark" style="padding:7px;">Upcoming</a></h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2 text-center">November 16th - 7am</h6>
             <p class="card-text">You MUST pay your dues to take part in these competitions.</p>
@@ -93,8 +93,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm">
-        <div class="card text-center">
+      <div class="col-sm-4">
+        <div class="card text-center" style="height:29vh;">
           <h5 class="card-header">FTC League Match</h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2">December 14th - 7am</h6>
@@ -110,14 +110,14 @@
           </div>
         </div>
       </div>
-      <div class="col-sm">
-        <div class="card text-center">
+      <div class="col-sm-4">
+        <div class="card text-center" style="height:29vh;">
           <h5 class="card-header">FRC Kickoff</h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2">January 4th 2020</h6>
             <p class="card-text">Game reveal for FRC 2020 Infinite Recharge</p>
-          </div>
-          <a title="Add to Calendar" class="addeventatc" style="position:absolute bottom 100px;">
+
+          <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px;">
             Add to Calendar
             <span class="start">1/4/2019 07:00 AM</span>
             <span class="end">1/4/2019 1:30 PM</span>
@@ -125,6 +125,7 @@
             <span class="title">FRC Kickoff</span>
             <span class="location">Dulles High School</span>
           </a>
+        </div>
         </div>
       </div>
     </div>
