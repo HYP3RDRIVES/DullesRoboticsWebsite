@@ -14,7 +14,7 @@
         <div class="carousel-caption" style="height:95%;">
           <h2 class="display-2 c-header animated fadeInDown text-center" style="font-size:100px;"> Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs text-center">FIT Channelview Finalist Alliance - FRC #7494</p>
-          <a class="btn btn-primary " href"https://www.thebluealliance.com/event/2019txcha" target="_blank" style=" position:fixed; left:380px;">View event stats</a>
+          <a class="btn btn-primary text-center" href="https://www.thebluealliance.com/event/2019txcha" target="_blank">View event stats</a>
         </div>
       </div>
     </div>
