@@ -19,6 +19,8 @@
     	include 'res/head.php';
      ?>
   <meta name="viewport" content="width=640">
+    <script src="https://kit.fontawesome.com/7c99d65b69.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body style="overflow-x: hidden;">
@@ -27,6 +29,9 @@
     <?php
        include 'res/nav.php';
       ?>
+      <?php
+         include 'res/toast.php';
+        ?>
     <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
     <script type="text/javascript">
       document.getElementById('nav-bar-home').setAttribute('class', 'active nav-item');
@@ -41,8 +46,7 @@
   </div>
 
   <!-- Main Page -->
-  <div class="container" style="height:100vh;">
-
+  <div class="container">
     <div class="row">
       <!-- Logo -->
       <div class="col-md-6">
@@ -53,7 +57,7 @@
         <div class="row">
           <h4 class="display-4">Welcome!</h4>
           <hr>
-          <p class="lead text-justify">We are a robotics club based out of Dulles HS in Sugar Land, TX. We have two FTC teams as well as one FRC Team.</p>
+          <p class="lead text-justify">We are a robotics club based out of Dulles High School in Sugar Land, Texas. We have two FTC teams and one FRC Team.</p>
           <a href="about.php" class="btn btn-primary">About Us</a>
 
         </div>
