@@ -608,19 +608,15 @@ hr.style19 {
 }
 .carousel-control-prev{
   background-image: linear-gradient(to left, rgba(100,100,100,0), rgba(100,100,100,0));
-  height:94.2%;
   transition: 0.3s;
 }
 .carousel-control-prev:hover{
   background-image: linear-gradient(to left, rgba(100,100,100,0), rgba(100,100,100,1));
-  height:94.2%;
 }
 .carousel-control-next{
   background-image: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,0));
-  height:94.2%;
   transition: 0.3s;
 }
 .carousel-control-next:hover{
   background-image: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,1));
-  height:94.2%;
 }

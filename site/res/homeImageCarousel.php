@@ -6,35 +6,35 @@
       <li data-target="#imagecarousel" data-slide-to="2" style="width:90%;"></li>
     </ol>
     <!-- <ol class="carousel-indicators" style="bottom:70px;"><i class="fas fa-arrow-circle-down" style="font-size:40px;"></i></ol> -->
-    <div class="carousel-item active" style=" height: 97vh;">
+    <div class="carousel-item active" style=" height: 100vh;">
       <!--  <img class="d-block w-100 indxcrop" src="https://drc.aspencdn.me/photos/txchadrive.jpg" alt="Third slide" > -->
       <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txchadrive.jpg');"></div>
 
       <div class="imgtxt-container">
-        <div class="carousel-caption" style="height:95%;">
+        <div class="carousel-caption" style="height: 100%;">
           <h2 class="display-2 c-header animated fadeInDown text-center" style="font-size:100px;"> Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs text-center">FIT Channelview Finalist Alliance - FRC #7494</p>
           <a class="btn btn-primary text-center" href="https://www.thebluealliance.com/event/2019txcha" target="_blank">View event stats</a>
         </div>
       </div>
     </div>
-    <div class="carousel-item" style=" height: 97vh; ">
+    <div class="carousel-item" style="height: 100vh;">
 
       <div class="fill carousel-image" style="background-image: url('img/stateRAS.jpg');"></div>
       <div class="imgtxt-container">
-        <div class="carousel-caption" style="height:95%;">
+        <div class="carousel-caption" style="height:100%;">
           <h2 class="display-2 c-header animated fadeInDown text-center" style="font-size:100px;"> Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs text-center">FIT DCMP Rookie All Stars - FRC #7494</p>
         </div>
       </div>
     </div>
 
-    <div class="carousel-item" style=" height: 97vh;">
+    <div class="carousel-item" style="height: 100vh;">
       <!-- <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" alt="Third slide" > -->
         <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txpasdrive.jpg');"></div>
 
       <div class="imgtxt-container">
-        <div class="carousel-caption" style="height:95%;">
+        <div class="carousel-caption" style="height:100%;">
           <h2 class="display-2 c-header animated fadeInDown text-center" style="font-size:100px;"> Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs text-center">FIT Pasadena Event Rookie All Stars - FRC #7494</p>
         </div>
