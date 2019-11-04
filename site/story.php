@@ -18,7 +18,7 @@
   <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
 
   <script type="text/javascript">
-    document.getElementById('nav-bar-ourstory').setAttribute('class', 'active dropdown-item');
+    document.getElementById('nav-bar-ourstory').setAttribute('class', 'active dropdown-item text-white');
   </script>
 
 </head>

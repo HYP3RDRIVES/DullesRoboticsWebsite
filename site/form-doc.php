@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
   <script type="text/javascript">
-    document.getElementById('nav-bar-forms').setAttribute('class', 'active dropdown-item');
+    document.getElementById('nav-bar-forms').setAttribute('class', 'active dropdown-item text-white');
   </script>
 
   <!-- Main Page -->

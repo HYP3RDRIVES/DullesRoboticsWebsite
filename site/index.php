@@ -9,11 +9,7 @@
 
 <head>
   <title>Home - Dulles Robotics</title>
-  <meta name="description" content="This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456.">
   <meta property="og:image" content="/img/w.png">
-  <meta name="description" content="This is the website for the Dulles Robotics Club, and FRC Team #7494, as well as FTC Teams #13822 and #12456. ">
-  <meta name="keywords"
-    content="Dulles Robotics, Dulles Robotics Club, Dulles High School, Dulles High School Robotics Club, FRC 7494, Circuit Bizurkers, Big Red, 12456, 13822, Robovikings, Robovikes, Circuit Bizurkers #7494, Circuit Beserkers, #7494, #12456, #13822, #13822 Robovikings, #12456 Big Red">
   <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
   <?php
     	include 'res/head.php';
@@ -40,13 +36,15 @@
     <div class="myCarousel">
       <!--  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQc5bzPiqXskOKwXqDc_P5Rcpp2_pvFrOptn8Ds6UvrybJMgZYmVPAVdKU7W3zLxureySLAlzICS4wq/embed?start=true&loop=true&delayms=3000&rm=minimal&loop=true&autoStart=true" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
       <?php
-                 include 'res/homeImageCarousel.php';
-                 ?>
+        include 'res/homeImageCarousel.php';
+      ?>
     </div>
   </div>
 
+<div style="height:100vh;">
   <!-- Main Page -->
-  <div class="container">
+  <div class="container" style="margin-top:10vh; margin-bottom:10vh;" >
+
     <div class="row">
       <!-- Logo -->
       <div class="col-md-6">
@@ -83,9 +81,9 @@
       <h3 class="display-4" style="text-align:center;">Events</h3>
     </div>
     <div class="row justify-content-center">
-      <div class="col-sm">
-        <div class="card-light card text-center" style="height:230px;">
-          <h5 class="card-header">FTC League Match <a class="badge badge-pill badge-dark">Upcoming</a></h5>
+      <div class="col-sm-4">
+        <div class="card-light card text-center" style="height:29vh;">
+          <h5 class="card-header">FTC League Match <a class="badge badge-pill badge-dark" style="padding:7px;">Upcoming</a></h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2 text-center">November 16th - 7am</h6>
             <p class="card-text">You MUST pay your dues to take part in these competitions.</p>
@@ -100,8 +98,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm">
-        <div class="card text-center">
+      <div class="col-sm-4">
+        <div class="card text-center" style="height:29vh;">
           <h5 class="card-header">FTC League Match</h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2">December 14th - 7am</h6>
@@ -117,14 +115,14 @@
           </div>
         </div>
       </div>
-      <div class="col-sm">
-        <div class="card text-center">
+      <div class="col-sm-4">
+        <div class="card text-center" style="height:29vh;">
           <h5 class="card-header">FRC Kickoff</h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2">January 4th 2020</h6>
             <p class="card-text">Game reveal for FRC 2020 Infinite Recharge</p>
-          </div>
-          <a title="Add to Calendar" class="addeventatc" style="position:absolute bottom 100px;">
+
+          <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px;">
             Add to Calendar
             <span class="start">1/4/2019 07:00 AM</span>
             <span class="end">1/4/2019 1:30 PM</span>
@@ -133,9 +131,10 @@
             <span class="location">Dulles High School</span>
           </a>
         </div>
+        </div>
       </div>
     </div>
-  </div>
+
   <!--    <div class="col-sm">
       <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">More events will be added when we get more. Stay tuned!</h6>
     </div>
@@ -166,6 +165,7 @@
     <?php include 'res/footer.php'; ?>
   </footer>
   <?php include 'res/cdn.php'; ?>
+
   <!-- Scripts -->
   <!-- activate tooltips -->
   <script type="text/javascript">
@@ -179,7 +179,7 @@
     }
   </script>
   </footer>
-
+</div>
 </body>
 
 </html>
