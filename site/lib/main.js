@@ -3,12 +3,15 @@
 var x = document.getElementById('#javelin');
 var y = document.getElementById('#elephant');
 var n = document.getElementById('#blowtorch');
+var l = document.getElementById('#javelin-btn');
+var m = document.getElementById('#elephant-btn');
+var c = document.getElementById('#blowtorch-btn');
 n.style = 'display:none';
 y.style = 'display:none;';
 x.style = 'display:flex;';
-document.getElementById('javelin-btn').setAttribute('class', 'btn btn-primary active');
-document.getElementById('elephant-btn').setAttribute('class', 'btn btn-primary');
-document.getElementById('blowtorch-btn').setAttribute('class', 'btn btn-primary');
+l.setAttribute('class', 'btn btn-primary active');
+m.setAttribute('class', 'btn btn-primary');
+c.setAttribute('class', 'btn btn-primary');
 
 function javelinShow() {
   var x = document.getElementById('#javelin');
@@ -17,9 +20,7 @@ function javelinShow() {
   n.style = 'display:none';
   y.style = 'display:none;';
   x.style = 'display:flex;';
-  document.getElementById('javelin-btn').setAttribute('class', 'btn btn-primary active');
-  document.getElementById('elephant-btn').setAttribute('class', 'btn btn-primary');
-  document.getElementById('blowtorch-btn').setAttribute('class', 'btn btn-primary');
+
 }
 
 function blowtorchShow() {
@@ -29,9 +30,9 @@ function blowtorchShow() {
   x.style = 'display:none';
   y.style = 'display:none;';
   n.style = 'display:flex;';
-  document.getElementById('javelin-btn').setAttribute('class', 'btn btn-primary');
-  document.getElementById('elephant-btn').setAttribute('class', 'btn btn-primary');
-  document.getElementById('blowtorch-btn').setAttribute('class', 'btn btn-primary active');
+l.setAttribute('class', 'btn btn-primary');
+m.setAttribute('class', 'btn btn-primary');
+c.setAttribute('class', 'btn btn-primary active');
 
 }
 
@@ -42,7 +43,7 @@ function elephantShow() {
   n.style = 'display:none';
   x.style = 'display:none;';
   y.style = 'display:flex;';
-  document.getElementById('javelin-btn').setAttribute('class', 'btn btn-primary');
-  document.getElementById('elephant-btn').setAttribute('class', 'btn btn-primary active');
-  document.getElementById('blowtorch-btn').setAttribute('class', 'btn btn-primary');
+l.setAttribute('class', 'btn btn-primary');
+m.setAttribute('class', 'btn btn-primary active');
+c.setAttribute('class', 'btn btn-primary');
 }
