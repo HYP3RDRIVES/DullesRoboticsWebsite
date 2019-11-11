@@ -1,12 +1,16 @@
+html{
+  scrollbar-color: #999 #606060;
+  scrollbar-width: thin;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #ffffff;
+  color: white;
   text-align: left;
-  background-color: #666;
+  background-color: #3b4040;
   display: grid;
   grid-gap: 10px;
 }
@@ -29,11 +33,12 @@ body {
 .display-3 {
   font-family: 'Bebas';
   text-shadow: 2px 2px 10px #141414;
+  color: #fefefefe;
 }
 
 .display-4 {
   font-family: 'Bebas';
-  color: #bec9f8;
+  color: #96a6eb;
 }
 
 .display-5 {
@@ -41,15 +46,23 @@ body {
   font-size: 2rem;
 }
 
+.display-7 {
+  font-family: 'Bebas';
+  color: #7fadf2;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .page-footer {
   width: 100%;
-  position: inherit;
+  position: relative;
   bottom: 0px;
 }
 
 #footer-anchor {
   width: 100%;
-  position: fixed;
+  position: relative;
   bottom: 0px;
 }
 
@@ -127,7 +140,7 @@ hr.style13 {
   box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 
-/* The black bar below the "Dulles Computer Science Club */
+
 hr.style14 {
   border: 0;
   height: 1px;
@@ -346,6 +359,12 @@ hr.style19 {
   right: 5px;
 }
 
+.scard {
+  display: inline-block;
+  background: Gray;
+  padding: 10px
+}
+
 .card {
   display: inline-block;
   background: Gray;
@@ -386,16 +405,19 @@ hr.style19 {
   height: 150px;
   overflow: hidden;
 }
+}
 
 .indxcrop {
-  width: 480px;
-  height: 299px;
+  width: 100vw;
+  height: 90vh;
   overflow: hidden;
 }
 
 .indxcrop img {
-  width: 700px;
-  height: 350px;
+  width: 200%;
+  height: 200%;
+  overflow-x: hidden;
+  overflow-y: hidden;
   /* margin: -40px 0 0 -50px; */
 }
 
@@ -405,14 +427,9 @@ hr.style19 {
   margin: -40px 0 0 -50px;
 }
 
-.carousel-caption {
-  padding-top: 30px;
-  display: inline-block;
-}
-
 .fill {
   width: 100%;
-  height: 100%;
+  height: 97%;
   background-position: center;
   background-size: cover;
 }
@@ -427,8 +444,8 @@ hr.style19 {
   width: 250px;
   height: 250px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
 }
-
 
 .img-circle {
   border-radius: 50%;
@@ -449,14 +466,213 @@ hr.style19 {
   float: right;
   position: absolute;
 }
-.img-vert-center{
--webkit-align-items: center;
--ms-flex-align: center;
-align-items: center;
-display: -webkit-flex;
-display: flex;
+
+.img-vert-center {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
 }
 
-.unstyled li{
+.unstyled li {
   list-style-type: none;
 }
+
+.doc-card {
+  display: inline-block;
+  background-color: #4e535c;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.doc-card:hover {
+  box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.myCarousel {
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+}
+
+#imagecarousel {
+  box-sizing: border-box;
+}
+
+.imgtxt-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.carousel {
+  position: relative;
+  height: 100%;
+}
+
+.carousel-image {
+  overflow: hidden;
+  filter: brightness(65%);
+  background-repeat: no-repeat;
+}
+
+.c-header {
+  color: white;
+  font-size: 50px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.carousel-caption {
+  height: 65%;
+  right: 40%;
+  left: 20%;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.p-carousel-caption {
+  font-size: 25px;
+  text-align: left;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  box-sizing: border-box;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+@@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.carousel-control-prev{
+  background-image: linear-gradient(to left, rgba(100,100,100,0), rgba(100,100,100,0));
+  transition: 0.3s;
+}
+.carousel-control-prev:hover{
+  background-image: linear-gradient(to left, rgba(100,100,100,0), rgba(100,100,100,0.2));
+}
+.carousel-control-next{
+  background-image: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,0));
+  transition: 0.3s;
+}
+.carousel-control-next:hover{
+  background-image: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,0.2));
+}
+/* Custom Scrollbar surprise for chromium users */
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #606060;
+  opacity: 0.5;
+  border-radius: 1px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  opacity: 0.1;
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Responsive iFrame begins*/
+
+.responsive-iframe-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+/*Responsive iFrame ends*/
