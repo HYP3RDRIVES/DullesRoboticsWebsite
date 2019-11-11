@@ -1,3 +1,7 @@
+html{
+  scrollbar-color: #999 #606060;
+  scrollbar-width: thin;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -136,7 +140,7 @@ hr.style13 {
   box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 
-/* The black bar below the "Dulles Computer Science Club */
+
 hr.style14 {
   border: 0;
   height: 1px;
@@ -353,6 +357,12 @@ hr.style19 {
   position: absolute;
   z-index: 2;
   right: 5px;
+}
+
+.scard {
+  display: inline-block;
+  background: Gray;
+  padding: 10px
 }
 
 .card {
@@ -610,12 +620,59 @@ hr.style19 {
   transition: 0.3s;
 }
 .carousel-control-prev:hover{
-  background-image: linear-gradient(to left, rgba(100,100,100,0), rgba(100,100,100,1));
+  background-image: linear-gradient(to left, rgba(100,100,100,0), rgba(100,100,100,0.2));
 }
 .carousel-control-next{
   background-image: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,0));
   transition: 0.3s;
 }
 .carousel-control-next:hover{
-  background-image: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,1));
+  background-image: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,0.2));
 }
+/* Custom Scrollbar surprise for chromium users */
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #606060;
+  opacity: 0.5;
+  border-radius: 1px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  opacity: 0.1;
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Responsive iFrame begins*/
+
+.responsive-iframe-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+/*Responsive iFrame ends*/

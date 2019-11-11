@@ -16,7 +16,7 @@
   <meta property="og:image" content="/img/mock3.png"/>
 </head>
 
-<body style="background-color:white; ">
+<body style="background-color:white; scrollbar-width:10px; ">
 
   <?php
 include 'res/nav.php';
@@ -34,13 +34,22 @@ include 'res/nav.php';
 
 
   <hr class="style14">
+
+    <div style="position:sticky">
+<a class="btn btn-primary active"  id="#javelin-btn" onclick="javelinShow()" style="margin-left:50px;"><strong>FRC 2019</strong></a>
+<br/>
+<a class="btn btn-primary" id="#elephant-btn" onclick="elephantShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2018-2019</strong></a>
+<br/>
+<a class="btn btn-primary" id="#blowtorch-btn" onclick="blowtorchShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2016-2018</strong></a>
+</div>
   <div class="container text-dark" style="display: table; vertical-align:center; align-content:center; display:table; ">
     <div class="col-md-12">
       <h3 class="display-2" style="text-align:center;">Robots</h3>
     </div>
     <hr class="style1" />
+
     <!-- Title -->
-    <div class="row special-row block">
+    <div class="row special-row block" id="#javelin">
       <!-- <div class="col-md-2 bot-sub"></div> -->
       <div class="col-md-6" style=" height:300px; width:100%;">
         <img src="https://drc.aspencdn.me/photos/javelin.jpg" class="img-fluid img-center indxcrop" alt="javelin" style="padding:30px;  align-self: right;">
@@ -92,9 +101,9 @@ include 'res/nav.php';
       <!-- <div class="col-md-2 bot-sub"></div> -->
     </div>
 
-    <hr class="style1" />
 
-    <div class="row special-row block">
+
+    <div class="row special-row block" id="#elephant">
 
       <div class="col-md-6 text-center" style="align-content:center;">
         <img src="/img/rrbr.jpg" style="width: 450px; height: 450px; vertical-align:center; padding:20px; align-self:center;" class="img-fluid img-center img-vert-center" alt="twc">
@@ -146,9 +155,9 @@ include 'res/nav.php';
     </div>
 
 
-    <hr class="style1" />
 
-    <div class="row special-row block">
+
+    <div class="row special-row block" id="#blowtorch">
 
       <div class="col-md-6 text-center" style="align-content:center;">
         <img src="/img/mock3.jpg" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
@@ -200,7 +209,7 @@ include 'res/nav.php';
 
 
 
-    <hr class="style1" />
+
 
   </div>
 

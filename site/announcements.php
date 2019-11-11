@@ -31,8 +31,6 @@
     <div class="row" id="all-sections-container">
       <div class="col-md-4 d-none d-md-block">
         <div class="sticky-div" style="position:sticky; top:20px;">
-
-
         </div>
       </div>
     </div>
@@ -44,13 +42,12 @@
         <br>
         <h3>FTC Houston SW League Scrimmage</h3>
         <hr class="style2">
-        <p class="small lead">18 Oct 2019</p>
+        <p class="small lead">26 Oct 2019</p>
         <hr class="style12">
-        <p class="lead"> Don't forget to log this contest! <br />Rookie members: what did you learn? What did you do? How did you feel? <br />Members that taught the workshops: What did you teach, etc. Also reflect on the contest! What went well and
-          what can be improved upon?
-          <br />Also, a BIG shoutout for <strong>Jacob, Erica, and Danielle</strong> for coming in and nailing us an outreach event as well as a good rep with the Missouri City Library!
-
-
+        <p class="lead"> Don't forget to log this contest!
+          <br/>Rookie members: what did you learn? What did you do? How did you feel?
+          <br/>Members that taught the workshops: What did you teach, etc. Also reflect on the contest! What went well and what can be improved upon?
+          <br/>Also, a BIG shoutout for <strong>Jacob, Erica, and Danielle</strong> for coming in and nailing us an outreach event as well as a good rep with the Missouri City Library!
         </p>
 
         <div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" style="width: 480px; height: 299px; overflow:hidden;" interval="600">
@@ -64,15 +61,30 @@
               <div class="indxcrop" style="width:580px; padding-right:40px;">
                 <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/bigred.jpg" alt="Second slide" style="width:580px; ">
               </div>
+              <div class="imgtxt-container">
+                <div class="carousel-caption">
+                  <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">New members practice competing in FTC</p>
+                </div>
+              </div>
             </div>
             <div class="carousel-item ">
               <div class="indxcrop" style="width:580px; padding-right:40px;">
                 <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/rohan.jpg" alt="Second slide" style="width:580px; ">
               </div>
+              <div class="imgtxt-container">
+                <div class="carousel-caption">
+                  <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">Rohan and Aaron teach students on other teams the basics of Autodesk Inventor</p>
+                </div>
+              </div>
             </div>
             <div class="carousel-item">
               <div class="indxcrop" style="width:580px; padding-right:40px;">
                 <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/10581.jpg" alt="Third slide" style="width: 480px; height: 299px;">
+              </div>
+              <div class="imgtxt-container">
+                <div class="carousel-caption">
+                  <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">Jaden helps other teams fix their robots during the scrimmage.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -99,8 +111,6 @@
         <p>
           Also, new members, if you don't get your dues in, you will NOT be participating at the comp.
           Veterans, get your dues in asap. Thank you!
-
-
         </p>
 
         <h3>Forms need to be filled out!</h3>
@@ -110,7 +120,6 @@
         <p class="lead">
           Everyone is required to fill out these forms; complete them and return them to Sonnier ASAP. Leave the team number blank.<br /> If you are unable to print them, Sonnier has plenty printed out already; all you have to do is ask.
           <a class="btn btn-primary" href="files/roboforms.pdf">View forms</a>
-
         </p>
         <h3>Workshops start</h3>
         <hr class="style2">
@@ -181,6 +190,12 @@
       </div>
     </div>
   </div>
+<!-- Preloads the images from the CDN for faster display on the carousel -->
+<div style="display:none; ">
+  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/rohan.jpg" >
+  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/10581.jpg" >
+</div>
+  <!-- preload ends -->
   <!-- Footer -->
   <footer>
     <?php include 'res/footer.php'; ?>

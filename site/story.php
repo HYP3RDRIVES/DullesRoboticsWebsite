@@ -53,21 +53,14 @@
             <hr>
 -->
 
-  <div class="container-fluid" style="overflow-y:hidden; overflow-x:scroll; display:inline-block; position:absolute; bottom: 1px;">
-    <script>
-      // Re-bind vertical mouse wheel scrolling to horizontal scrolling
-      $('container-fluid').mousewheel(function(event, delta, deltaX, deltaY) {
-        event.preventDefault();
-        var scrollPosition = $('container-fluid').scrollLeft() - deltaY * 2 + deltaX * 2;
-        $('container-fluid').scrollLeft(scrollPosition);
-      });
-    </script>
+  <div class="container-fluid" style="overflow-y:hidden; overflow-x:scroll; display:inline-block; position:absolute; bottom: 0px; margin-top:30vh;">
+
     <hr class="style14" style="display:inline-block;">
-    <div style="width:200%;">
+    <div style="width:400%;">
       <div class="row special-row">
         <div class="col-md-2" style=" padding: 30px;">
 
-          <div class="scard">
+          <div class="scard" style="width:900px;height:300px;">
             <p class="lead text-justify">The first ever official year of Robotics was when I was in 8th grade. There was a guy named Vishnu Iyer, and at this time he'd have been a junior at Dulles. He started "Robotics", and you'll see why I put this
               in quotations very soon.
               I dont know much about this year but I know Mrs. Coffman used to host the meetings, they were very far apart and they were basically Physics 1, Physics 2 and Physics C lessons, it was all very theoretical.
@@ -77,7 +70,7 @@
           </div>
         </div>
         <div class="col" style=" padding: 30px;">
-          <div class="scard">
+          <div class="scard" style="width:900px;height:300px;">
 
             <p class="lead text-justify">
               Mrs. Nguyen was our sponsor for that year. The "Robotics" club wasnt really active until second semester, I recall the meetings were on Fridays, but we only ended up having 2 meetings the entire year.<br /> The first meeting, I walked
@@ -87,7 +80,7 @@
           </div>
         </div>
         <div class="col" style=" padding: 30px;">
-          <div class="scard">
+          <div class="scard" style="width:900px;height:300px;">
             <p class="lead text-justify">
               I recall this line very clearly, "We are going to actually use Physics to make sure everything we want to design works before building any of it, that means finding the ideal CoG, ideal voltage for the motors, etc". It was basically
               going to be a club where you join, theorize about robots, and then build maybe 1 or 2 small robots controlled by Arduinos and do small projects within the club.<br /> Basically it was CS club + Hardware to a degree. Then the second
@@ -96,7 +89,7 @@
           </div>
         </div>
         <div class="col" style=" padding: 30px;">
-          <div class="scard">
+          <div class="scard" style="width:900px;height:300px;">
             <p class="lead text-justify">
               At the end of that year, I asked him if I could take over the club since he's graduating. He was basically like "Oh yeah, sure, just talk to this guy named Kenneth, he's going to be a Junior and I think you and him will work well
               together"<br /> I met kenneth that summer, and we formulated a plan for the club next year (again, we didn't have FTC nor FRC in mind yet) and somewhere along here Austin joined and the plan was to keep using Arduinos and have it in
@@ -105,7 +98,7 @@
           </div>
         </div>
         <div class="col" style=" padding: 30px;">
-          <div class="scard">
+          <div class="scard" style="width:900px;height:300px;">
             <p class="lead text-justify">
               At one point we received an email from a teacher named Brian Sonnier to ask us about the club. So one day afterschool we just met with him and then we started discussing FTC and how cool it would be to do that, and basically the entire
               plan for the club changed in an hour or two.<br /> I remember Mr. Sonnier was very scary at first and he was very strict and firm with us
@@ -118,7 +111,7 @@
           </div>
         </div>
         <div class="col" style=" padding: 30px;">
-          <div class="scard">
+          <div class="scard" style="width:900px;height:300px;">
             <p class="lead text-justify">
               7494 Double stuff oreo!!
 
@@ -126,7 +119,7 @@
           </div>
         </div>
         <div class="col" style=" padding: 30px">
-          <div class="scard" style="padding:0px; width:900px;">
+          <div class="scard" style="width:900px;height:300px;">
             <?php
         include 'res/footer.php';
        ?>

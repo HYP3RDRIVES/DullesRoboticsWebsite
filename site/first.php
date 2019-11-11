@@ -275,11 +275,6 @@
     <?php include 'res/cdn.php'; ?>
     <!-- Scripts -->
     <!-- activate tooltips -->
-    <script type="text/javascript">
-      $(function() {
-        $('[data-toggle="tooltip"]').tooltip()
-      })
-    </script>
   </footer>
 </body>
 

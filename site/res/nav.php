@@ -39,7 +39,7 @@
             <a id="nav-bar-contact" class="dropdown-item" href="contact.php">Contact</a>
             <a id="nav-bar-robot" class="dropdown-item" href="robots.php">Robots</a>
             <a id="nav-bar-forms" class="dropdown-item" href="form-doc.php">Forms & Documents</a>
-            <a class="dropdown-item" id="nav-bar-announ" href="announcements.php">Announcements & Blog</a>
+            <a class="dropdown-item" id="nav-bar-announ" href="announcements.php">Blog</a>
             <a id="nav-bar-officers" class="dropdown-item" href="officers.php">Officers</a>
             <a id="nav-bar-cal" class="dropdown-item" href="calendar.php">Calendar</a>
           </div>

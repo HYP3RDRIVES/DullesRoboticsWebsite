@@ -16,8 +16,8 @@
     <h1 class="display-3">Calendar</h1>
     <hr class="style14">
 
-    <div class="container">
-      <iframe src="https://calendar.google.com/calendar/embed?src=gc3570831acr65itavaos3qh5s%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div class="container-fluid text-center responsive-iframe-container">
+      <iframe src="https://calendar.google.com/calendar/embed?src=gc3570831acr65itavaos3qh5s%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0; min-width: 48vw;min-height:40vh; align-self:center;margin: 0;"frameborder="0" scrolling="no"></iframe>
     </div>
   </div>
   <footer style="position: absolute: bottom;">

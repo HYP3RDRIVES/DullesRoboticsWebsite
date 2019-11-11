@@ -12,7 +12,7 @@
 
       <div class="imgtxt-container">
         <div class="carousel-caption">
-          <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;"> Dulles Robotics </h2>
+          <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;">Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs">FIT Channelview Finalist Alliance - FRC #7494</p>
           <a class="btn btn-primary" href="https://www.thebluealliance.com/event/2019txcha" target="_blank">View event stats</a>
         </div>
@@ -20,10 +20,10 @@
     </div>
     <div class="carousel-item" style="height: 100vh;">
 
-      <div class="fill carousel-image" style="background-image: url('img/stateRAS.jpg');"></div>
+      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/stateRAS.jpg');"></div>
       <div class="imgtxt-container">
         <div class="carousel-caption">
-          <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;"> Dulles Robotics </h2>
+          <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;">Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs">FIT DCMP Rookie All Stars - FRC #7494</p>
         </div>
       </div>
@@ -35,7 +35,7 @@
 
       <div class="imgtxt-container">
         <div class="carousel-caption">
-          <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;"> Dulles Robotics </h2>
+          <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;">Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs">FIT Pasadena Event Rookie All Stars - FRC #7494</p>
         </div>
       </div>
@@ -50,4 +50,10 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
+
+<!-- Preloads the images from the CDN for faster display on the carousel -->
+<div style="display:none; ">
+  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" >
+  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/stateRAS.jpg" >
 </div>

@@ -43,7 +43,7 @@
 
 <div style="height:100vh;">
   <!-- Main Page -->
-  <div class="container" style="margin-top:10vh; margin-bottom:10vh;" >
+  <div class="container" style="margin-top:10vh; margin-bottom:1vh;" >
 
     <div class="row">
       <!-- Logo -->
@@ -74,6 +74,9 @@
           <p class="lead text-justify">Our Mission is to foster an interest in STEM to allow our students to become the leaders and problem solvers of tomorrow.</p>
         </div>
       </div>
+      <div class="col-md-6">
+        <img src="img/w.png" width="480px" class="img-fluid imgcrop" alt="Logo">
+      </div>
     </div>
     <hr class="style14">
 
@@ -82,12 +85,12 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-sm-4">
-        <div class="card-light card text-center" style="height:29vh;">
+        <div class="card-light card text-center" style="height:30vh;">
           <h5 class="card-header">FTC League Match <a class="badge badge-pill badge-dark" style="padding:7px;">Upcoming</a></h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2 text-center">November 16th - 7am</h6>
             <p class="card-text">You MUST pay your dues to take part in these competitions.</p>
-            <a title="Add to Calendar" class="addeventatc">
+            <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;margin:2px;" class="btn btn-cool">
               Add to Calendar
               <span class="start">11/16/2019 07:00 AM</span>
               <span class="end">11/16/2019 1:30 PM</span>
@@ -99,12 +102,12 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card text-center" style="height:29vh;">
+        <div class="card text-center" style="height:30vh;">
           <h5 class="card-header">FTC League Match</h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2">December 14th - 7am</h6>
             <p class="card-text">Right before winter break! Dues required to participate, as always.</p>
-            <a title="Add to Calendar" class="addeventatc">
+            <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;margin:2px;" class="btn btn-cool">
               Add to Calendar
               <span class="start">12/14/2019 07:00 AM</span>
               <span class="end">12/14/2019 1:30 PM</span>
@@ -116,13 +119,13 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card text-center" style="height:29vh;">
+        <div class="card text-center" style="height:30vh;">
           <h5 class="card-header">FRC Kickoff</h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2">January 4th 2020</h6>
             <p class="card-text">Game reveal for FRC 2020 Infinite Recharge</p>
-
-          <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px;">
+          <div style="align-self:center">
+          <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;margin:2px;" class="btn btn-cool">
             Add to Calendar
             <span class="start">1/4/2019 07:00 AM</span>
             <span class="end">1/4/2019 1:30 PM</span>
@@ -130,6 +133,7 @@
             <span class="title">FRC Kickoff</span>
             <span class="location">Dulles High School</span>
           </a>
+        </div>
         </div>
         </div>
       </div>
