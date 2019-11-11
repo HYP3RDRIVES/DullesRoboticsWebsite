@@ -55,7 +55,7 @@
         <div class="row">
           <h4 class="display-4">Welcome!</h4>
           <hr>
-          <p class="lead text-justify">We are a robotics club based out of Dulles High School in Sugar Land, Texas. We have two FTC teams and one FRC Team.</p>
+          <p class="lead text-justify">We are a robotics club based out of Dulles High School in Sugar Land, Texas. Dulles Robotics is home to two FTC Teams (13822, 12456) in addition to one FRC team (7494). These teams participate in the FIRST robotics programs.</p>
           <a href="about.php" class="btn btn-primary">About Us</a>
 
         </div>
@@ -68,17 +68,15 @@
       <!-- Slide Show -->
 
       <!-- Mission Statement -->
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="row">
           <h1 class="display-4">Our Mission</h1>
           <p class="lead text-justify">Our Mission is to foster an interest in STEM to allow our students to become the leaders and problem solvers of tomorrow.</p>
         </div>
       </div>
-      <div class="col-md-6">
-        <img src="img/w.png" width="480px" class="img-fluid imgcrop" alt="Logo">
-      </div>
+
     </div>
-    <hr class="style14">
+    <hr class="style10">
 
     <div class="col-sm-12">
       <h3 class="display-4" style="text-align:center;">Events</h3>
