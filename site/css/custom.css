@@ -14,6 +14,16 @@ body {
   display: grid;
   grid-gap: 10px;
 }
+.dropdown li:hover,
+.dropdown li:focus-within{
+
+}
+.nav-item li a:hover > div,
+.nav-item li a .dropdown:hover,
+.nav-item li a .dropdown:focus {
+  background: red;
+cursor: pointer;
+}
 
 @font-face {
   font-family: 'Bebas';
@@ -676,3 +686,10 @@ width: 100%;
 height: 100%;
 }
 /*Responsive iFrame ends*/
+::-moz-selection {
+    background: rgba(242,242,242,0.2);
+    font-style: italic;
+}
+::selection {
+    background: rgba(242,242,242,0.2);
+  }
