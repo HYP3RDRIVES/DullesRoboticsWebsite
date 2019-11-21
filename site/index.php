@@ -6,11 +6,20 @@
 <!-- Last Project Edit: 31 July 2018 by Adil Rasiyani -->
 <!DOCTYPE html>
 <html lang="en">
-
+<link rel="preload" href="https://drc.aspencdn.me/photos/txchadrive.webp" as="image">
+  <link rel="preload" href="https://drc.aspencdn.me/photos/stateRAS.webp" as="image">
+  <link rel="preload" href="https://drc.aspencdn.me/photos/txpasdrive.webp" as="image">
+  <script>
+  var user = detect.parse(navigator.userAgent);
+  if (user.browser.family === 'Firefox'){
+    document.getElementById("content").innerHTML=' <img src="https://drc.aspencdn.me/photos/txpasdrive.webp"> <img src="https://drc.aspencdn.me/photos/stateRAS.webp">';
+}
+  </script>
+<div id="#loader" style="display:none;"></div>
 <head>
   <title>Home - Dulles Robotics</title>
   <meta property="og:image" content="/img/w.png">
-  <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+  <script type="text/javascript" src="lib/atc.min.js" async defer></script>
   <?php
     	include 'res/head.php';
      ?>

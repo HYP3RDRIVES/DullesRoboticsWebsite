@@ -14,17 +14,6 @@ body {
   display: grid;
   grid-gap: 10px;
 }
-.dropdown li:hover,
-.dropdown li:focus-within{
-
-}
-.nav-item li a:hover > div,
-.nav-item li a .dropdown:hover,
-.nav-item li a .dropdown:focus {
-  background: red;
-cursor: pointer;
-}
-
 @font-face {
   font-family: 'Bebas';
   font-style: normal;
@@ -245,11 +234,12 @@ hr.style19 {
   border-radius: 20px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
+@import url('https://drc.aspencdn.me/web/fonts/fonts.css');
 
 .toast__container {
   display: table-cell;
   vertical-align: middle;
+  transition: 0.3s;
 }
 
 .toast__cell {
@@ -693,3 +683,11 @@ height: 100%;
 ::selection {
     background: rgba(242,242,242,0.2);
   }
+
+.carousel-item{
+  scroll-snap-type: x  mandatory;
+}
+
+.carousel-item .active {
+scroll-snap-align: start;
+}

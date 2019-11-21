@@ -8,7 +8,7 @@
     <!-- <ol class="carousel-indicators" style="bottom:70px;"><i class="fas fa-arrow-circle-down" style="font-size:40px;"></i></ol> -->
     <div class="carousel-item active" style=" height: 100vh;">
       <!--  <img class="d-block w-100 indxcrop" src="https://drc.aspencdn.me/photos/txchadrive.jpg" alt="Third slide" > -->
-      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txchadrive.jpg');"></div>
+      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txchadrive.webp');"></div>
 
       <div class="imgtxt-container">
         <div class="carousel-caption">
@@ -20,7 +20,7 @@
     </div>
     <div class="carousel-item" style="height: 100vh;">
 
-      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/stateRAS.jpg');"></div>
+      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/stateRAS.webp');"></div>
       <div class="imgtxt-container">
         <div class="carousel-caption">
           <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;">Dulles Robotics </h2>
@@ -31,7 +31,7 @@
 
     <div class="carousel-item" style="height: 100vh;">
       <!-- <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" alt="Third slide" > -->
-        <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txpasdrive.jpg');"></div>
+        <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txpasdrive.webp');"></div>
 
       <div class="imgtxt-container">
         <div class="carousel-caption">
@@ -53,7 +53,3 @@
 </div>
 
 <!-- Preloads the images from the CDN for faster display on the carousel -->
-<div style="display:none; ">
-  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" >
-  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/stateRAS.jpg" >
-</div>

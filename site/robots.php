@@ -49,7 +49,7 @@ include 'res/nav.php';
     <hr class="style1" />
 
     <!-- Title -->
-    <div class="row special-row block" id="#javelin">
+    <div class="row special-row block" id="#javelin" style="display:flex;">
       <!-- <div class="col-md-2 bot-sub"></div> -->
       <div class="col-md-6" style=" height:300px; width:100%;">
         <img src="https://drc.aspencdn.me/photos/javelin.jpg" class="img-fluid img-center indxcrop" alt="javelin" style="padding:30px;  align-self: right;">
@@ -67,7 +67,7 @@ include 'res/nav.php';
               <h2>Specs</h2>
               <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light">Name</span> Javelin</li>
 
-              <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light">Weight</span> 120 lbs</li>
+              <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light">Weight</span> 112 lbs</li>
 
               <li class="lead large rspec"> <span class="badge badge-primary text-light">Game</span> Deep Space</li>
 
@@ -103,7 +103,7 @@ include 'res/nav.php';
 
 
 
-    <div class="row special-row block" id="#elephant">
+    <div class="row special-row block" id="#elephant" style="display:none;">
 
       <div class="col-md-6 text-center" style="align-content:center;">
         <img src="/img/rrbr.jpg" style="width: 450px; height: 450px; vertical-align:center; padding:20px; align-self:center;" class="img-fluid img-center img-vert-center" alt="twc">
@@ -157,7 +157,7 @@ include 'res/nav.php';
 
 
 
-    <div class="row special-row block" id="#blowtorch">
+    <div class="row special-row block" id="#blowtorch" style="display:none;">
 
       <div class="col-md-6 text-center" style="align-content:center;">
         <img src="/img/mock3.jpg" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc" style="padding:20px; align-self:center;  width:65%">

@@ -19,9 +19,9 @@
 
 				  <div class="text-center" style="padding-bottom:10px;">
 					  Special Thanks to our sponsors:
-						  <a href="https://wm.com" target="_blank"><img src="img/sponsor/wm.png" alt="wmlogo" width="90" height="40" left=(window.width-width/2)+"px"/></a>
-						  <a href="https://nasa.gov" target="_blank"><img src="img/sponsor/nasa.png" alt="wmlogo" width="55" height="45" left=(window.width-width/2)+"px"/></a>
-					 	 <a href="https://twc.texas.gov" target="_blank"><img src="img/sponsor/twc.png" alt="wmlogo" width="45" height="45" left=(window.width-width/2)+"px"/></a>
+						  <a href="https://wm.com" target="_blank"><img src="img/sponsor/wm.png" alt="sponsor" width="90" height="40" left=(window.width-width/2)+"px"/></a>
+						  <a href="https://nasa.gov" target="_blank"><img src="img/sponsor/nasa.png" alt="sponsor" width="55" height="45" left=(window.width-width/2)+"px"/></a>
+					 	 <a href="https://twc.texas.gov" target="_blank"><img src="img/sponsor/twc.png" alt="sponsor" width="45" height="45" left=(window.width-width/2)+"px"/></a>
 				 	 </div>
 		   </div>
 	    </div>
