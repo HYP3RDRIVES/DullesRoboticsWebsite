@@ -52,7 +52,7 @@
     <!-- Logo -->
     <div class="row special-row">
       <div class="col-md-6">
-        <img src="/img/FIRST.png" class="img-fluid img-center" alt="first">
+        <img src="/img/FIRST.webp" class="img-fluid img-center" alt="first">
       </div>
       <!-- Welcome Message -->
 
@@ -82,7 +82,7 @@
       <!-- Logo -->
       <div class="row special-row">
         <div class="col-md-6">
-          <img src="/img/FTC.png" class="img-fluid img-center" alt="ftc">
+          <img src="/img/FTC.webp" class="img-fluid img-center" alt="ftc">
         </div>
 
         <!-- Welcome Message -->
@@ -114,7 +114,7 @@
       <!-- Logo -->
       <div class="row special-row">
         <div class="col-md-6">
-          <img src="/img/FRC.png" class="img-fluid" alt="twc" width="450" height="450" style="padding-top:30px;">
+          <img src="/img/FRC.webp" class="img-fluid" alt="twc" width="450" height="450" style="padding-top:30px;">
         </div>
         <!-- Welcome Message -->
         <div class="col-md-6">
@@ -135,7 +135,7 @@
       <div class="text-center">
         <h1 class="display-3">2019-2020 Season: RISE</h1>
         <a href="https://info.firstinspires.org/first-rise-2020?utm_source=first-inspires&utm_medium=headline&utm_campaign=fir-registration-020&utm_referrer=https%3A%2F%2Fwww.firstinspires.org%2F" target="_blank">
-          <img src="/img/Rise.jpg" class="img-fluid" alt="Rise Lockup" width="650" height="500"></a>
+          <img src="/img/Rise.webp" class="img-fluid" alt="Rise Lockup" width="650" height="500"></a>
         <p class="lead" style="margin-top:20px;">Throughout history, great civilizations have risen, then fallen. Now it’s our turn to rise—building and bolstering our own planetary metropolis.
           This 2019-2020 season, <i>FIRST</i> RISE, powered by Star Wars: Force for Change, is setting out to inspire citizens of the galaxy to work together, strengthening and protecting the Force that binds us and creating a place where
           collaboration and collective wisdom can elevate new ideas and foster growth.</p>
@@ -151,7 +151,7 @@
           <div class="col">
             <div class="row">
               <div class="text-center">
-                <img src="/img/Skystone.png" class="img-fluid" alt="ftcsky" width="350" height="400">
+                <img src="/img/Skystone.webp" class="img-fluid" alt="ftcsky" width="350" height="400">
               </div>
             </div>
           </div>
@@ -179,7 +179,7 @@
           <div class="col">
             <div class="text-center">
               <div class="row">
-                <img src="/img/Infinite.png" class="img-fluid" alt="frcinf" width="400" height="400">
+                <img src="/img/Infinite.webp" class="img-fluid" alt="frcinf" width="400" height="400">
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@
       <hr class="style18">
       <div class="text-center">
         <h1 class="display-3">2018-2019 Season: LAUNCH</h1>
-        <img src="/img/first2019.jfif" class="img-fluid" alt="Launch" width="650" height="500"></a>
+        <img src="/img/first2019.webp" class="img-fluid" alt="Launch" width="650" height="500"></a>
 
 
         <p class="lead" style="margin-top:20px;">One Sunday night in July 1969, one billion people huddled around their radios and TV screens in awe as we walked on the moon for the first time.
@@ -218,7 +218,7 @@
           <div class="col-md-6">
             <div class="row">
               <div class="text-center">
-                <img src="/img/RRuckus.png" class="img-fluid" alt="twc" width="350" height="400" style="align-self: center;">
+                <img src="/img/RRuckus.webp" class="img-fluid" alt="twc" width="350" height="400" style="align-self: center;">
               </div>
             </div>
           </div>

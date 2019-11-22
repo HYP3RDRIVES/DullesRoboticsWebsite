@@ -38,7 +38,7 @@
     <div class="row special-row block">
       <!-- <div class="col-md-2 bot-sub"></div> -->
       <div class="col-md-6" style=" height:300px; width:100%;">
-        <img src="/img/sponsor/wm.png" class="img-fluid img-center" alt="wm" style="padding:30px;  align-self: right;">
+        <img src="/img/sponsor/wm.webp" class="img-fluid img-center" alt="wm" style="padding:30px;  align-self: right;">
       </div>
       <div class="col-md-6">
         <div class="row">
@@ -57,7 +57,7 @@
     <div class="row special-row block">
 
       <div class="col-md-6 text-center" style="align-content:center;">
-        <img src="/img/sponsor/twc.png" class="img-fluid img-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
+        <img src="/img/sponsor/twc.webp" class="img-fluid img-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
       </div>
       <div class="col-md-6">
         <div class="row">
@@ -75,7 +75,7 @@
     <div class="row special-row block">
 
       <div class="col-md-6 text-center">
-        <img src="/img/sponsor/nasa.png" class="img-fluid img-center center-block" alt="nasa" style="padding:10px; height:100%; width: 75%;">
+        <img src="/img/sponsor/nasa.webp" class="img-fluid img-center center-block" alt="nasa" style="padding:10px; height:100%; width: 75%;">
       </div>
       <div class="col-md-6">
         <div class="row">

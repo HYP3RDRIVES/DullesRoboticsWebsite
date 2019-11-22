@@ -52,7 +52,7 @@ include 'res/nav.php';
     <div class="row special-row block" id="#javelin" style="display:flex;">
       <!-- <div class="col-md-2 bot-sub"></div> -->
       <div class="col-md-6" style=" height:300px; width:100%;">
-        <img src="https://drc.aspencdn.me/photos/javelin.jpg" class="img-fluid img-center indxcrop" alt="javelin" style="padding:30px;  align-self: right;">
+        <img src="/img/javelin.webp" class="img-fluid img-center indxcrop" alt="javelin" style="padding:30px;  align-self: right;">
       </div>
       <div class="col-md-6">
         <div class="row">
@@ -106,7 +106,7 @@ include 'res/nav.php';
     <div class="row special-row block" id="#elephant" style="display:none;">
 
       <div class="col-md-6 text-center" style="align-content:center;">
-        <img src="/img/rrbr.jpg" style="width: 450px; height: 450px; vertical-align:center; padding:20px; align-self:center;" class="img-fluid img-center img-vert-center" alt="twc">
+        <img src="/img/rrbr.webp" style="width: 450px; height: 450px; vertical-align:center; padding:20px; align-self:center;" class="img-fluid img-center img-vert-center" alt="twc">
       </div>
       <div class="col-md-6">
         <div class="row">
@@ -160,7 +160,7 @@ include 'res/nav.php';
     <div class="row special-row block" id="#blowtorch" style="display:none;">
 
       <div class="col-md-6 text-center" style="align-content:center;">
-        <img src="/img/mock3.jpg" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
+        <img src="/img/mock3.webp" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
       </div>
       <div class="col-md-6">
         <div class="row">
@@ -221,6 +221,7 @@ include 'res/nav.php';
   <footer>
     <?php include 'res/footer.php'; ?>
     <?php include 'res/cdn.php'; ?>
+    <script src="/lib/robots.js"></script>
     <!-- Scripts -->
     <!-- activate tooltips -->
     <script type="text/javascript">

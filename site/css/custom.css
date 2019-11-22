@@ -1,7 +1,8 @@
-html{
+html {
   scrollbar-color: #999 #606060;
   scrollbar-width: thin;
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -14,6 +15,7 @@ body {
   display: grid;
   grid-gap: 10px;
 }
+
 @font-face {
   font-family: 'Bebas';
   font-style: normal;
@@ -138,7 +140,6 @@ hr.style13 {
   border: 0;
   box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
-
 
 hr.style14 {
   border: 0;
@@ -615,25 +616,29 @@ hr.style19 {
     transform: none;
   }
 }
-.carousel-control-prev{
-  background-image: linear-gradient(to left, rgba(100,100,100,0), rgba(100,100,100,0));
+
+.carousel-control-prev {
+  background-image: linear-gradient(to left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0));
   transition: 0.3s;
 }
-.carousel-control-prev:hover{
-  background-image: linear-gradient(to left, rgba(100,100,100,0), rgba(100,100,100,0.2));
+
+.carousel-control-prev:hover {
+  background-image: linear-gradient(to left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.2));
 }
-.carousel-control-next{
-  background-image: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,0));
+
+.carousel-control-next {
+  background-image: linear-gradient(to right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0));
   transition: 0.3s;
 }
-.carousel-control-next:hover{
-  background-image: linear-gradient(to right, rgba(100,100,100,0), rgba(100,100,100,0.2));
+
+.carousel-control-next:hover {
+  background-image: linear-gradient(to right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.2));
 }
+
 /* Custom Scrollbar surprise for chromium users */
 /* width */
 ::-webkit-scrollbar {
   width: 9px;
-
 }
 
 /* Track */
@@ -641,7 +646,6 @@ hr.style19 {
   background: #606060;
   opacity: 0.5;
   border-radius: 1px;
-
 }
 
 /* Handle */
@@ -657,37 +661,96 @@ hr.style19 {
 }
 
 /* Responsive iFrame begins*/
-
 .responsive-iframe-container {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px;
-height: 0;
-overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 .responsive-iframe-container iframe,
 .vresponsive-iframe-container object,
 .vresponsive-iframe-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
+
 /*Responsive iFrame ends*/
 ::-moz-selection {
-    background: rgba(242,242,242,0.2);
-    font-style: italic;
+  background: rgba(242, 242, 242, 0.2);
+  font-style: italic;
 }
-::selection {
-    background: rgba(242,242,242,0.2);
-  }
 
-.carousel-item{
-  scroll-snap-type: x  mandatory;
+::selection {
+  background: rgba(242, 242, 242, 0.2);
+}
+
+.carousel-item {
+  scroll-snap-type: x mandatory;
 }
 
 .carousel-item .active {
-scroll-snap-align: start;
+  scroll-snap-align: start;
+}
+
+.youtube {
+  background-color: #000;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.youtube img {
+  width: 100%;
+  top: -16.84%;
+  left: 0;
+  opacity: 0.7;
+}
+
+.youtube .play-button {
+  width: 90px;
+  height: 60px;
+  background-color: #333;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+.youtube .play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 15px 0 15px 26.0px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.youtube img,
+.youtube .play-button {
+  cursor: pointer;
+}
+
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+  position: absolute;
+}
+
+.youtube .play-button,
+.youtube .play-button:before {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.youtube iframe {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
