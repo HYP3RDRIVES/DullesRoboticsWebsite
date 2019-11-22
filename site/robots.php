@@ -12,8 +12,8 @@
   <?php
     include 'res/head.php';
     ?>
-  <meta property="og:title" content="Dulles Robotics Club - Robots"/>
-  <meta property="og:image" content="/img/mock3.png"/>
+  <meta property="og:title" content="Dulles Robotics Club - Robots" />
+  <meta property="og:image" content="/img/mock3.png" />
 </head>
 
 <body style="background-color:white; scrollbar-width:10px; ">
@@ -35,13 +35,13 @@ include 'res/nav.php';
 
   <hr class="style14">
 
-    <div style="position:sticky">
-<a class="btn btn-primary active"  id="#javelin-btn" onclick="javelinShow()" style="margin-left:50px;"><strong>FRC 2019</strong></a>
-<br/>
-<a class="btn btn-primary" id="#elephant-btn" onclick="elephantShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2018-2019</strong></a>
-<br/>
-<a class="btn btn-primary" id="#blowtorch-btn" onclick="blowtorchShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2016-2018</strong></a>
-</div>
+  <div style="position:sticky">
+    <a class="btn btn-primary active" id="#javelin-btn" onclick="javelinShow()" style="margin-left:50px;"><strong>FRC 2019</strong></a>
+    <br />
+    <a class="btn btn-primary" id="#elephant-btn" onclick="elephantShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2018-2019</strong></a>
+    <br />
+    <a class="btn btn-primary" id="#blowtorch-btn" onclick="blowtorchShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2016-2018</strong></a>
+  </div>
   <div class="container text-dark" style="display: table; vertical-align:center; align-content:center; display:table; ">
     <div class="col-md-12">
       <h3 class="display-2" style="text-align:center;">Robots</h3>

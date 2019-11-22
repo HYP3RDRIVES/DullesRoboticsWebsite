@@ -2,13 +2,12 @@
 	Dulles High School Computer Science Club 2018-2019
 	Written By Adil Rasiyani, President
 	Using Bootstrap
+  Modified by Erica Miller, Zain Ahmed, Jacob Enerio, and Elliot Michlin for the Dulles Robotics Club 2019-2020.
 -->
-<!-- Last Project Edit: 31 July 2018 by Adil Rasiyani -->
+
 <!DOCTYPE html>
 <html lang="en">
-<link rel="preload" href="https://drc.aspencdn.me/photos/txchadrive.webp" as="image">
-  <link rel="preload" href="https://drc.aspencdn.me/photos/stateRAS.webp" as="image">
-  <link rel="preload" href="https://drc.aspencdn.me/photos/txpasdrive.webp" as="image">
+
   <script>
   var user = detect.parse(navigator.userAgent);
   if (user.browser.family === 'Firefox'){
@@ -42,17 +41,35 @@
       document.getElementById('nav-bar-home').setAttribute('class', 'active nav-item');
     </script>
 
-    <div class="myCarousel" style="height:97vh;">
+    <div class="myCarousel" id="#carouselHider" style="height:97vh;">
       <!--  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQc5bzPiqXskOKwXqDc_P5Rcpp2_pvFrOptn8Ds6UvrybJMgZYmVPAVdKU7W3zLxureySLAlzICS4wq/embed?start=true&loop=true&delayms=3000&rm=minimal&loop=true&autoStart=true" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
       <?php
         include 'res/homeImageCarousel.php';
       ?>
     </div>
+    <script>
+    var carousel = document.getElementById("#carouselHider");
+    var altTitle = document.getElementById("#altTitle");
+    var primCont = document.getElementById("#primCont");
+    if (removal){
+
+     carousel.remove();
+     altTitle.style = "display:flex";
+     primCont.style = "margin-top:1vh; margin-bottom:1vh;"
+   }
+   if (!removal){
+     altTitle.style = "display:none;";
+     primCont.style = "margin-top:10vh; margin-bottom:1vh;";
+   }
+     </script>
   </div>
 
 <div style="height:100vh;">
   <!-- Main Page -->
-  <div class="container" style="margin-top:10vh; margin-bottom:1vh;" >
+  <div class="container" style="margin-top:10vh; margin-bottom:1vh;" id="#primCont" >
+    <div class="text-center" id="#altTitle" >
+      <h1 class="display-3">Dulles Robotics</h1>
+    </div>
 
     <div class="row">
       <!-- Logo -->
@@ -90,6 +107,7 @@
     <div class="col-sm-12">
       <h3 class="display-4" style="text-align:center;">Events</h3>
     </div>
+  <!-- Calendar mini-view -->
     <div class="row justify-content-center">
       <div class="col-sm-4">
         <div class="card-light card text-center" style="height:30vh;">

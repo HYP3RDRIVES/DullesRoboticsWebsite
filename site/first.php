@@ -32,8 +32,10 @@
     document.getElementById('nav-bar-first').setAttribute('class', 'active nav-item');
   </script>
 
+
+<div id="#firstBody">
   <!-- Main Page -->
-  <div class="container">
+  <div class="container" id="#abtFirst">
     <h1 class="display-3">About <i>FIRST</i></h1>
     <hr class="style14">
 
@@ -130,7 +132,9 @@
         </div>
       </div>
       <hr />
-
+</div>
+</div>
+<div class="container" id="#2k20">
       <hr class="style18">
       <div class="text-center">
         <h1 class="display-3">2019-2020 Season: RISE</h1>
@@ -196,7 +200,10 @@
           </div>
         </div>
       </div>
+
       <hr class="style18">
+    </div>
+          <div class="container" id="#2k19">
       <div class="text-center">
         <h1 class="display-3">2018-2019 Season: LAUNCH</h1>
         <img src="/img/first2019.webp" class="img-fluid" alt="Launch" width="650" height="500"></a>
@@ -207,10 +214,6 @@
       </div>
 
       <hr class="style14">
-      <div class="container">
-
-
-
         <!-- Logo and Welcome -->
 
         <!-- Logo -->
@@ -265,9 +268,46 @@
         </div>
       </div>
 
-    </div>
-
+</div>
+<div class="container text-center"  style="margin-bottom:1vh;">
+  <div id="#riseBtn">
+  <hr class="style14">
+  <a class="btn btn-primary"  onclick="riseLoader()" style="cursor:pointer;">View more</a>
   </div>
+
+</div>
+<script>
+
+var rise = document.getElementById("#2k20");
+var launch = document.getElementById("#2k19");
+var lazyRise = document.getElementById("#riseBtn");
+if (removal){
+
+rise.parentNode.removeChild(rise);
+launch.parentNode.removeChild(launch);
+
+lazyRise.style = "display:inline";
+
+}
+else {
+  lazyRise.style = "display:none;";
+}
+</script>
+
+<script>
+var done = false;
+function riseLoader() {
+  var mainPage = document.getElementById("#firstBody");
+  if (!done){
+mainPage.appendChild(rise);
+done = true;
+}
+else{
+  mainPage.appendChild(launch);
+  lazyRise.style = "display:none;";
+}
+}
+</script>
 
   <!-- Footer -->
   <footer>

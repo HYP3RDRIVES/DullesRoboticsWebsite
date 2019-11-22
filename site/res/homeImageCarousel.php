@@ -1,3 +1,8 @@
+<link rel="preload" href="https://drc.aspencdn.me/photos/txchadrive.webp" as="image">
+  <link rel="preload" href="https://drc.aspencdn.me/photos/stateRAS.webp" as="image">
+  <link rel="preload" href="https://drc.aspencdn.me/photos/txpasdrive.webp" as="image">
+
+
 <div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" interval="600">
   <div class="carousel-inner" role="listbox">
     <ol class="carousel-indicators" style="bottom:50px;">
@@ -5,6 +10,16 @@
       <li data-target="#imagecarousel" data-slide-to="1" style="width:90%;"></li>
       <li data-target="#imagecarousel" data-slide-to="2" style="width:90%;"></li>
     </ol>
+  <!--  <script>
+    x = document.createElement('div');
+    if (largePayLoad){
+      x.setAttribute("class, fill carousel-image");
+      x.style = "background-image: url('https://drc.aspencdn.me/photos/txchadrive.webp');";
+    }
+    elseif (reduceLoad){
+      x.style = "background-image: url('https://drc.aspencdn.me/photos/txchadrive.webp');";
+    }
+  </script> -->
     <!-- <ol class="carousel-indicators" style="bottom:70px;"><i class="fas fa-arrow-circle-down" style="font-size:40px;"></i></ol> -->
     <div class="carousel-item active" style=" height: 100vh;">
       <!--  <img class="d-block w-100 indxcrop" src="https://drc.aspencdn.me/photos/txchadrive.jpg" alt="Third slide" > -->

@@ -1,9 +1,3 @@
-<!--
-	Dulles High School Computer Science Club 2018-2019
-	Written By Adil Rasiyani, President
-	Using Bootstrap
--->
-
 <!DOCTYPE html>
 <html style="height:100%;">
 
@@ -24,6 +18,7 @@
   </script>
 
   <!-- Main Page -->
+
   <div class="bodydiv" style="height:84.5vh;" style="overflow-y:hidden;">
     <div class="container" style="height:85.6%;">
       <h1 class="display-3">Forms and Documents</h1>
@@ -33,7 +28,7 @@
       <!-- interest meeting form -->
       <h1 class="display-4">Interest Meeting Form</h1>
       <p>
-        <a class="btn btn-primary" data-toggle="collapse" href="#docInterestCollapse" role="button" aria-expanded="false" aria-controls="docInterestCollapse">
+        <a class="btn btn-primary" data-toggle="collapse" id="#docInterest-btn" href="#docInterestCollapse" role="button" aria-expanded="false" aria-controls="docInterestCollapse">
           View</i>
         </a>
         <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#downloadInterestCollapse" aria-expanded="false" aria-controls="downloadInterestCollapse">
@@ -59,7 +54,7 @@
       <!-- robotics forms -->
       <h1 class="display-4">Robotics Forms & Waivers</h1>
       <p>
-        <a class="btn btn-primary" data-toggle="collapse" href="#docInterestCollapse2" role="button" aria-expanded="false" aria-controls="docInterestCollapse2">View</i></a>
+        <a class="btn btn-primary" data-toggle="collapse" id="#docInterest2-btn" href="#docInterestCollapse2" role="button" aria-expanded="false" aria-controls="docInterestCollapse2">View</i></a>
         <a href="/files/roboforms.pdf" download="RoboForms" target="_blank" class="btn btn-info">Open in PDF Viewer <i class="fas fa-file-pdf"></i></a>
       </p>
 
@@ -76,6 +71,18 @@
     </div>
   </div>
 
+  <script>
+    var pdf1 = document.getElementById('#docInterest-btn')
+    var pdf2 = document.getElementById('#docInterest2-btn')
+    if (networkType === '4g') {
+      pdf1.style.display = "flex-inline";
+      pdf2.style.display = "flex-inline";
+    } else {
+      pdf1.style = 'display:none;';
+      pdf2.style.display = "none";
+
+    }
+  </script>
 
 
   <!-- Footer -->
