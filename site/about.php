@@ -45,7 +45,7 @@
 
     <div class="row special-row">
       <div class="col-md-6">
-        <img src="img/w.png" class="img-fluid" alt="imagejqjij" width="500">
+        <img src="img/w.webp" class="img-fluid" alt="imagejqjij" width="500">
       </div>
       <div class="col-md-6">
         <h1 class="display-7" style="padding-top:10px">An Introduction:</h1>
@@ -69,7 +69,7 @@
     <hr />
     <div class="row special-row" style="padding-top:10px">
       <div class="col-md-6">
-        <img src="img/mentor.jpg" class="img-fluid" alt="sartartia" width="500" height="100">
+        <img src="img/mentor.webp" class="img-fluid" alt="sartartia" width="500" height="100">
       </div>
       <div class="col-md-6">
         <h1 class="display-7" style="padding-top:10px">Outreach</h1>
