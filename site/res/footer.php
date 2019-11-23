@@ -7,6 +7,7 @@
 	<!-- Empty space for our footer -->
 
 	<!-- Footer -->
+	<div id="#appender"></div>
 	<footer class="page-footer font-small bg-dark" id="main-footer">
 		<!-- Name and Year (year automatically updates itself) -->
 	  	<div class="footer-copyright text-center py-3 text-light">
@@ -38,18 +39,17 @@
 	var wm = document.getElementById("#wm");
 	var nasa = document.getElementById("#nasa");
 	var twc = document.getElementById("#twc");
+	var slowMsg = document.getElementById("lite-warn");
 	if(superSlow){
 		var footer = document.getElementById("main-footer");
-		var slowMsg = document.getElementById("lite-warn");
 		footer.parentNode.removeChild(footer);
 		slowMsg.style = "display:inline-block;"
 	}
-	else{
+	else if (!superSlow){
 		slowMsg.style = "display:none;"
-
-		wm.setAttribute("src", "/img/sponsor/sm-wm.webp ");
-		nasa.setAttribute("src", "/img/sponsor/sm-nasa.webp ");
-		twc.setAttribute("src", "/img/sponsor/sm-twc.webp ");
+		wm.setAttribute("src", "img/sponsor/sm-wm.webp ");
+		nasa.setAttribute("src", "img/sponsor/sm-nasa.webp ");
+		twc.setAttribute("src", "img/sponsor/sm-twc.webp ");
 	}
 	</script>
 	<!-- Footer -->
