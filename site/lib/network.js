@@ -25,7 +25,13 @@ switch (networkType) {
 */
 
 var removal;
-
+var superSlow = false;
+if (networkType === '2g'){
+  superSlow = true;
+}
+else{
+  superSlow = false;
+}
 if (networkType === '4g') { //4G and broadband internet
   console.log("normal loading");
   removal = false;
@@ -36,6 +42,7 @@ if (networkType === '4g') { //4G and broadband internet
   console.log("abnormal loading");
 //Removes carousel on the home page
   removal = true;
+
 /*
   var newStyle = document.createElement('style');
   newStyle.appendChild(document.createTextNode("\
@@ -49,4 +56,5 @@ if (networkType === '4g') { //4G and broadband internet
 
 
 }
+
 //FIRST PAGE LAZY LOAD LOADER

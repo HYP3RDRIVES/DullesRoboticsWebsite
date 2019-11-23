@@ -76,7 +76,7 @@
     <div class="row">
       <!-- Logo -->
       <div class="col-md-6">
-        <img src="img/w.png" width="480px" class="img-fluid" alt="Logo">
+        <img src="img/w.webp" width="480px" class="img-fluid" alt="Logo">
       </div>
       <!-- Welcome Message -->
       <div class="col-md-6">
