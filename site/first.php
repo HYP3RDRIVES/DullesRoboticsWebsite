@@ -300,13 +300,16 @@ function riseLoader() {
   var mainPage = document.getElementById("#firstBody");
   if (!done){
 mainPage.appendChild(rise);
+console.log("displayed rise");
 done = true;
 }
 else{
   mainPage.appendChild(launch);
+  console.log("displayed launch");
   lazyRise.style = "display:none;";
 }
 }
+
 </script>
 
   <!-- Footer -->

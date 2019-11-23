@@ -46,7 +46,7 @@
       <div class="collapse" id="docInterestCollapse">
         <div class="doc-card card-body">
           <p class="lead">
-            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ9Qo8rktjxbVdwnaBY8w1MwlgUoexVAtLfbZiwlSyvpmDd4swsY_luhiLGs_1PE91iYeO7hwFBP4e_/pub?embedded=true" width="640" height="720"></iframe>
+            <iframe id="#pdfframe" src="https://docs.google.com/document/d/e/2PACX-1vQ9Qo8rktjxbVdwnaBY8w1MwlgUoexVAtLfbZiwlSyvpmDd4swsY_luhiLGs_1PE91iYeO7hwFBP4e_/pub?embedded=true" width="640" height="720"></iframe>
           </p>
         </div>
       </div>
@@ -61,7 +61,7 @@
       <div class="collapse" id="docInterestCollapse2">
         <div class="doc-card card-body">
           <p class="lead">
-            <object data="/files/roboforms.pdf" type="application/pdf" width="640" height="720">
+            <object data="/files/roboforms.pdf" id="#pdfobj" type="application/pdf" width="640" height="720">
               If you're seeing this, your browser doesn't have a PDF viewer. Try to download instead!
             </object>
           </p>
@@ -72,14 +72,17 @@
   </div>
 
   <script>
-    var pdf1 = document.getElementById('#docInterest-btn')
-    var pdf2 = document.getElementById('#docInterest2-btn')
+    var pdf1 = document.getElementById('#docInterest-btn');
+    var pdf2 = document.getElementById('#docInterest2-btn');
+    var pdf3 = document.getElementById('#pdfobj');
+    var pdf4 = document.getElementById('#pdfframe');
     if (networkType === '4g') {
-      pdf1.style.display = "flex-inline";
-      pdf2.style.display = "flex-inline";
+      console.log("4g or faster connection");
     } else {
-      pdf1.style = 'display:none;';
-      pdf2.style.display = "none";
+      pdf1.remove()
+      pdf2.remove()
+      pdf3.remove()
+      pdf4.remove()
 
     }
   </script>

@@ -10,8 +10,10 @@
 
   <script>
   var user = detect.parse(navigator.userAgent);
+  var browserName  = navigator.appName;
+  console.log(browserName);
   if (user.browser.family === 'Firefox'){
-    document.getElementById("content").innerHTML=' <img src="https://drc.aspencdn.me/photos/txpasdrive.webp"> <img src="https://drc.aspencdn.me/photos/stateRAS.webp">';
+    document.getElementById("#loader").innerHTML=' <img src="https://drc.aspencdn.me/photos/txpasdrive.webp"> <img src="https://drc.aspencdn.me/photos/stateRAS.webp">';
 }
   </script>
 <div id="#loader" style="display:none;"></div>

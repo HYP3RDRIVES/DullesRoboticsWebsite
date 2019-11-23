@@ -1,10 +1,18 @@
 
 //Stuff for adaptive loading
 
+var isChrome = false;
+console.log("isChrome " + isChrome);
 const networkType = navigator.connection.effectiveType;
 const saveData = navigator.connection.saveData;
-console.log("Network type is " + networkType + " data saver status " + saveData);
 
+if (networkType === '2g' || networkType === '3g' || networkType === '4g'){
+  isChrome = true;
+console.log("Network type is " + networkType + " data saver status " + saveData);
+}
+else {
+  isChrome = false;
+}
 /* Network connection stuff
 switch (networkType) {
   case '4g':

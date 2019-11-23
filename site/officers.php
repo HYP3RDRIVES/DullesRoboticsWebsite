@@ -183,6 +183,7 @@
     <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
     <script type="text/javascript">
       document.getElementById('nav-bar-officers').setAttribute('class', 'active dropdown-item text-white');
+      document.getElementById('nav-bar-more').setAttribute('class', 'active dropdown-item text-white');
     </script>
 
     <?php include 'res/footer.php'; ?>
