@@ -7,14 +7,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
+<!--
   <script>
   var browserName  = navigator.userAgent.toLowerCase();
   console.log(browserName);
   if (browserName.indexOf('firefox') > -1){
     document.getElementById("#loader").innerHTML=' <img src="https://drc.aspencdn.me/photos/txpasdrive.webp"> <img src="https://drc.aspencdn.me/photos/stateRAS.webp">';
-  }
-  </script>
+}
+</script> -->
 <div id="#loader" style="display:none;"></div>
 <head>
   <title>Home - Dulles Robotics</title>
@@ -24,6 +24,8 @@
     	include 'res/head.php';
      ?>
   <meta name="viewport" content="width=640">
+
+
 </head>
 
 <body style="overflow-x: hidden;">
@@ -32,6 +34,7 @@
     <?php
        include 'res/nav.php';
       ?>
+      <div id="#toastremover"
       <?php
          include 'res/toast.php';
         ?>
@@ -45,22 +48,7 @@
       <?php
         include 'res/homeImageCarousel.php';
       ?>
-    </div>
-    <script>
-    var carousel = document.getElementById("#carouselHider");
-    var altTitle = document.getElementById("#altTitle");
-    var primCont = document.getElementById("#primCont");
-    if (removal){
 
-     carousel.remove();
-     altTitle.style = "display:flex";
-     primCont.style = "margin-top:1vh; margin-bottom:1vh;"
-   }
-   if (!removal){
-     altTitle.style = "display:none;";
-     primCont.style = "margin-top:10vh; margin-bottom:1vh;";
-   }
-     </script>
   </div>
 
 <div style="height:100vh;">
@@ -113,9 +101,9 @@
               <span class="title">FTC Robotics Match</span>
               <span class="location">Dulles High School</span>
             </a>
+            </div>
           </div>
         </div>
-      </div>
       <div class="col-sm">
         <div class="card text-center cal-card">
           <h5 class="card-header">FRC Kickoff</h5>
@@ -131,10 +119,10 @@
             <span class="title">FRC Kickoff</span>
             <span class="location">Dulles High School</span>
           </a>
+          </div>
         </div>
         </div>
         </div>
-      </div>
       <div class="col-sm">
         <div class="card text-center cal-card">
           <h5 class="card-header">FTC League Match 4</h5>
@@ -155,7 +143,11 @@
         </div>
       </div>
     </div>
-
+<script>
+if(removal){
+  addCal.remove();
+}
+</script>
   <!--    <div class="col-sm">
       <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">More events will be added when we get more. Stay tuned!</h6>
     </div>
