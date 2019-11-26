@@ -7,7 +7,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
+<!--
   <script>
   var user = detect.parse(navigator.userAgent);
   var browserName  = navigator.appName;
@@ -15,7 +15,7 @@
   if (user.browser.family === 'Firefox'){
     document.getElementById("#loader").innerHTML=' <img src="https://drc.aspencdn.me/photos/txpasdrive.webp"> <img src="https://drc.aspencdn.me/photos/stateRAS.webp">';
 }
-  </script>
+</script> -->
 <div id="#loader" style="display:none;"></div>
 <head>
   <title>Home - Dulles Robotics</title>
@@ -25,7 +25,7 @@
     	include 'res/head.php';
      ?>
   <meta name="viewport" content="width=640">
-    
+
 
 </head>
 
@@ -49,23 +49,7 @@
       <?php
         include 'res/homeImageCarousel.php';
       ?>
-    </div>
-    <script>
-    var carousel = document.getElementById("#carouselHider");
-    var altTitle = document.getElementById("#altTitle");
-    var primCont = document.getElementById("#primCont");
-    var addCal = document.getElementById("#eventAtc");
-    if (removal){
-     addCal.remove();
-     carousel.remove();
-     altTitle.style = "display:flex";
-     primCont.style = "margin-top:1vh; margin-bottom:1vh;"
-   }
-   if (!removal){
-     altTitle.style = "display:none;";
-     primCont.style = "margin-top:10vh; margin-bottom:1vh;";
-   }
-     </script>
+
   </div>
 
 <div style="height:100vh;">
@@ -74,6 +58,23 @@
     <div class="text-center" id="#altTitle" >
       <h1 class="display-3">Dulles Robotics</h1>
     </div>
+  </div>
+  <script>
+  var carousel = document.getElementById("#carouselHider");
+  var altTitle = document.getElementById("#altTitle");
+  var primCont = document.getElementById("#primCont");
+  var addCal = document.getElementById("#eventAtc");
+  if (removal){
+   addCal.remove();
+   carousel.remove();
+   altTitle.style = "display:flex";
+   primCont.style = "margin-top:1vh; margin-bottom:1vh;"
+ }
+ if (!removal){
+   altTitle.style = "display:none;";
+   primCont.style = "margin-top:10vh; margin-bottom:1vh;";
+ }
+   </script>
 
     <div class="row">
       <!-- Logo -->
