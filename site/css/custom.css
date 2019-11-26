@@ -358,7 +358,7 @@ hr.style19 {
   display: inline;
   float: right;
   position: absolute;
-  z-index: 2;
+  z-index: 10;
   right: 5px;
 }
 
@@ -370,7 +370,13 @@ hr.style19 {
 
 .card {
   display: inline-block;
-  background: Gray;
+  background: #3D3D3D;
+  margin-top: 0px;
+}
+
+.card:hover {
+  background: #6B6E80;
+  margin-top: 8px;
 }
 
 .container {
@@ -697,4 +703,8 @@ hr.style19 {
 
 .carousel-item .active {
   scroll-snap-align: start;
+ }
+
+ .cal-card{
+   height: 25vh;
  }

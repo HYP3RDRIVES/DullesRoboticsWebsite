@@ -46,7 +46,9 @@
       <div class="collapse" id="docInterestCollapse">
         <div class="doc-card card-body">
           <p class="lead">
-            <iframe id="#pdfframe" src="https://docs.google.com/document/d/e/2PACX-1vQ9Qo8rktjxbVdwnaBY8w1MwlgUoexVAtLfbZiwlSyvpmDd4swsY_luhiLGs_1PE91iYeO7hwFBP4e_/pub?embedded=true" width="640" height="720"></iframe>
+            <object data="/files/Interest Meeting Application.pdf" id="#pdfobj" type="application/pdf" width="640" height="720">
+              If you're seeing this, your browser doesn't have a PDF viewer. Try to download instead!
+            </object>
           </p>
         </div>
       </div>
