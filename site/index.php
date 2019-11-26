@@ -34,7 +34,6 @@
     <?php
        include 'res/nav.php';
       ?>
-      <div id="#toastremover"
       <?php
          include 'res/toast.php';
         ?>
