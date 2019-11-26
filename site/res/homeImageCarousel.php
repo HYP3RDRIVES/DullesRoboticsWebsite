@@ -1,8 +1,3 @@
-<link rel="preload" href="https://drc.aspencdn.me/photos/txchadrive.webp" as="image">
-  <link rel="preload" href="https://drc.aspencdn.me/photos/stateRAS.webp" as="image">
-  <link rel="preload" href="https://drc.aspencdn.me/photos/txpasdrive.webp" as="image">
-
-
 <div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" interval="600">
   <div class="carousel-inner" role="listbox">
     <ol class="carousel-indicators" style="bottom:50px;">
@@ -23,6 +18,7 @@
     <!-- <ol class="carousel-indicators" style="bottom:70px;"><i class="fas fa-arrow-circle-down" style="font-size:40px;"></i></ol> -->
     <div class="carousel-item active" style=" height: 100vh;">
       <!--  <img class="d-block w-100 indxcrop" src="https://drc.aspencdn.me/photos/txchadrive.jpg" alt="Third slide" > -->
+      
       <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txchadrive.webp');"></div>
 
       <div class="imgtxt-container">
@@ -34,7 +30,6 @@
       </div>
     </div>
     <div class="carousel-item" style="height: 100vh;">
-
       <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/stateRAS.webp');"></div>
       <div class="imgtxt-container">
         <div class="carousel-caption">

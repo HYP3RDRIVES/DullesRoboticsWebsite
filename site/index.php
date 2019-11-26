@@ -25,7 +25,7 @@
     	include 'res/head.php';
      ?>
   <meta name="viewport" content="width=640">
-    <script src="https://kit.fontawesome.com/7c99d65b69.js" crossorigin="anonymous"></script>
+    
 
 </head>
 
@@ -35,6 +35,7 @@
     <?php
        include 'res/nav.php';
       ?>
+      <div id="#toastremover"
       <?php
          include 'res/toast.php';
         ?>
@@ -53,8 +54,9 @@
     var carousel = document.getElementById("#carouselHider");
     var altTitle = document.getElementById("#altTitle");
     var primCont = document.getElementById("#primCont");
+    var addCal = document.getElementById("#eventAtc");
     if (removal){
-
+     addCal.remove();
      carousel.remove();
      altTitle.style = "display:flex";
      primCont.style = "margin-top:1vh; margin-bottom:1vh;"
@@ -117,6 +119,7 @@
           <div class="card-body">
             <h6 class="card-subtitle mb-2 text-center">November 16th - 7am</h6>
             <p class="card-text">You MUST pay your dues to take part in these competitions.</p>
+            <div id="#eventATC">
             <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;margin:2px;" class="btn btn-cool">
               Add to Calendar
               <span class="start">11/16/2019 07:00 AM</span>
@@ -125,6 +128,7 @@
               <span class="title">FTC Robotics Match</span>
               <span class="location">Dulles High School</span>
             </a>
+            </div>
           </div>
         </div>
       </div>
@@ -134,6 +138,7 @@
           <div class="card-body">
             <h6 class="card-subtitle mb-2">December 14th - 7am</h6>
             <p class="card-text">Right before winter break! Dues required to participate, as always.</p>
+            <div id="#eventATC">
             <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;margin:2px;" class="btn btn-cool">
               Add to Calendar
               <span class="start">12/14/2019 07:00 AM</span>
@@ -142,6 +147,7 @@
               <span class="title">FTC Robotics Match</span>
               <span class="location">Dulles High School</span>
             </a>
+            </div>
           </div>
         </div>
       </div>
@@ -152,6 +158,7 @@
             <h6 class="card-subtitle mb-2">January 4th 2020</h6>
             <p class="card-text">Game reveal for FRC 2020 Infinite Recharge</p>
           <div style="align-self:center">
+          <div id="#eventATC">
           <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;margin:2px;" class="btn btn-cool">
             Add to Calendar
             <span class="start">1/4/2019 07:00 AM</span>
@@ -160,12 +167,17 @@
             <span class="title">FRC Kickoff</span>
             <span class="location">Dulles High School</span>
           </a>
+          </div>
         </div>
         </div>
         </div>
       </div>
     </div>
-
+<script>
+if(removal){
+  addCal.remove();
+}
+</script>
   <!--    <div class="col-sm">
       <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">More events will be added when we get more. Stay tuned!</h6>
     </div>
