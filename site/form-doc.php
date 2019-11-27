@@ -72,15 +72,13 @@
     var pdf1 = document.getElementById('#docInterest-btn');
     var pdf2 = document.getElementById('#docInterest2-btn');
     var pdf3 = document.getElementById('#pdfobj');
-    var pdf4 = document.getElementById('#pdfframe');
+
     if (networkType === '4g') {
       console.log("4g or faster connection");
     } else {
-      pdf1.remove()
-      pdf2.remove()
-      pdf3.remove()
-      pdf4.remove()
-
+      pdf1.remove();
+      pdf2.remove();
+      pdf3.remove();
     }
   </script>
 

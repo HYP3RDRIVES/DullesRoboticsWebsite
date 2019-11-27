@@ -53,6 +53,29 @@
 <div style="height:100vh;">
   <!-- Main Page -->
   <div class="container" style="margin-top:5vh; margin-bottom:1vh;" id="#primCont" >
+
+    <div class="text-center row special-row" id="#altTitle" >
+      <div class="col-md-12">
+    <h1 class="display-3 text-center">Dulles Robotics</h1>
+  </div>
+  </div>
+
+
+    <script>
+  var carousel = document.getElementById("#carouselHider");
+  var altTitle = document.getElementById("#altTitle");
+  var primCont = document.getElementById("#primCont");
+  if (removal){
+   carousel.remove();
+   altTitle.style = "display:flex";
+   primCont.style = "margin-top:1vh; margin-bottom:1vh;"
+  }
+  if (!removal){
+   altTitle.remove();
+   primCont.style = "margin-top:10vh; margin-bottom:1vh;";
+  }
+   </script>
+
     <div class="row">
       <!-- Logo -->
       <div class="col-md-6">
@@ -108,11 +131,11 @@
           <div style="align-self:center">
           <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;" class="btn btn-cool">
             Add to Calendar
-            <span class="start">1/4/2019 07:00 AM</span>
+            <span class="start">1/4/2019 11:00 AM</span>
             <span class="end">1/4/2019 1:30 PM</span>
             <span class="timezone">America/Chicago</span>
             <span class="title">FRC Kickoff</span>
-            <span class="location">Dulles High School</span>
+            <span class="location">The Internet</span>
           </a>
           </div>
         </div>
@@ -137,12 +160,29 @@
         </div>
         </div>
       </div>
+<!-- Uncomment when removing FTC Match 3 as this is the next event after FTC match 4
+      <div class="col-sm">
+        <div class="card text-center cal-card">
+          <h5 class="card-header">FRC Channelview</h5>
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2">January 18th 2020</h6>
+            <p class="card-text">The 1st FRC match of the season. This is one of two district (FIT) events to qualify for District Champs</p>
+          <div style="align-self:center">
+          <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;" class="btn btn-cool">
+            Add to Calendar
+            <span class="start">3/7/2020 05:00 AM</span>
+            <span class="end">3/8/2020 6:00 PM</span>
+            <span class="timezone">America/Chicago</span>
+            <span class="title">FIT Channelview Event</span>
+            <span class="location">Channelview High School</span>
+          </a>
+          <a class="btn btn-primary" href="https://www.thebluealliance.com/event/2020txcha" target="_blank" style="position:absolute;bottom: 60px; left:5px;right:5px; margin-bottom:5px;">View on TBA</a>
+        </div>
+        </div>
+        </div>
+      </div>
+-->
     </div>
-<script>
-if(removal){
-  addCal.remove();
-}
-</script>
   <!--    <div class="col-sm">
       <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">More events will be added when we get more. Stay tuned!</h6>
     </div>

@@ -697,5 +697,15 @@ hr.style19 {
  }
 
  .cal-card{
-   height: 25vh;
+   min-height: 25vh;
+   margin-bottom: 10px;
  }
+ .cal-card:hover{
+   margin-bottom: 0px;
+ }
+.cal-card p{
+  margin-bottom: 50px;
+}
+.cal-card a{
+  margin-top: 20px;
+}
