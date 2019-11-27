@@ -60,10 +60,11 @@ Nav Box is currenly useless
       <div class="col-sm">
         <h1 class="display-7">E-Mail</h1>
           <a href="mailto:dullesrobotics@gmail.com" class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Email us at: dullesrobotics@gmail.com">Contact us via E-Mail</a>
-<hr/>
+          <hr/>
           <h1 class="display-7">Remind</h1>
           <a href="https://www.remind.com/?sign-up=true" class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Text @776d6f to 81010">Join our Remind group</a>
               <!-- <script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=200"></script> -->
+              <hr/>
         </div>
       </div>
     <hr class="style14">
@@ -80,9 +81,6 @@ Nav Box is currenly useless
               </div>
     </div>
     </div>
-
-        <hr class="style14">
-        <hr class="styleSpace">
     </div>
   </div>
 

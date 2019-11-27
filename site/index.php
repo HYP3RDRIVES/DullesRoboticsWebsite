@@ -100,14 +100,14 @@
     </div>
     <hr class="style14">
 
-    <div class="col-sm-12">
+    <div class="col-sm">
       <h3 class="display-4" style="text-align:center;">Events</h3>
     </div>
   <!-- Calendar mini-view -->
     <div class="row justify-content-center">
       <div class="col-sm">
         <div class="card text-center cal-card">
-          <h5 class="card-header">FTC League Match 3 <a class="badge badge-pill badge-dark" style="padding:7px;">Upcoming</a></h5>
+          <h5 class="card-header">FTC League Match 3 <div class="badge badge-pill badge-dark" style="padding:7px;">Upcoming</div></h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2">December 14th - 7am</h6>
             <p class="card-text">Right before winter break! Dues required to participate, as always.</p>
@@ -135,7 +135,6 @@
             <span class="end">1/4/2019 1:30 PM</span>
             <span class="timezone">America/Chicago</span>
             <span class="title">FRC Kickoff</span>
-            <span class="location">The Internet</span>
           </a>
           </div>
         </div>

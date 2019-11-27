@@ -84,7 +84,7 @@
 
 
   <!-- Footer -->
-<footer style="margin-top:500px;">
+<footer style="margin-top:1300px;">
   <div>
     <?php include 'res/footer.php'; ?>
   </div>
