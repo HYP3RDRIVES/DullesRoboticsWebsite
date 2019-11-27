@@ -26,9 +26,6 @@
     document.getElementById('nav-bar-sponsor').setAttribute('class', 'active nav-item');
   </script>
   <!-- Main Page -->
-
-
-  <hr class="style14">
   <div class="container" style="display: table; vertical-align:center; align-content:center; display:table; ">
     <div class="col-md-12">
       <h3 class="display-3" style="text-align:center;">Sponsors</h3>

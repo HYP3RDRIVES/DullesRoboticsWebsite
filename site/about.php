@@ -30,7 +30,7 @@
 
   <!-- Main Page -->
   <div class="container" style="height:100%;">
-    <h1 class="display-7">About Us</h1>
+    <h1 class="display-3" style="text-align:center;">About Us</h1>
     <hr class="style14">
     <!-- Title -->
 

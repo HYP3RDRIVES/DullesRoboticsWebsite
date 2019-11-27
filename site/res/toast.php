@@ -27,12 +27,12 @@
     </div>
     <div class="toast__content" style="height:130px;">
       <!--     <p class="toast__type">Due Payment is now Open!</p> -->
-      <p class="toast__type">Competiton is coming up!</p>
+      <p class="toast__type">Competition is coming up!</p>
       <p class="toast__message">The December 14th competition is coming up! Press the button below to save it to your calendar.</p>
       <a title="Add to Calendar" class="addeventatc bg-light" >
         Add to Calendar
-        <span class="start">12/14/2019 06:00 AM</span>
-        <span class="end">12/14/2019 1:30 PM</span>
+        <span class="start">12/14/2019 08:00 AM</span>
+        <span class="end">12/14/2019 1:00 PM</span>
         <span class="timezone">America/Chicago</span>
         <span class="title">FTC Robotics Match</span>
         <span class="location">Dulles High School</span>

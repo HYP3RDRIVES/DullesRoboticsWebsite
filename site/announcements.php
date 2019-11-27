@@ -24,9 +24,7 @@
   </script>
   <!-- Main Page -->
   <div class="container">
-    <div class="row" id="resources-title-row">
-      <h1 class="display-3">Announcements & Blog</h1>
-    </div>
+      <h1 class="display-3" style="text-align:center;">Announcements & Blog</h1>
     <hr class="style14">
     <div class="row" id="all-sections-container">
       <div class="col-md-4 d-none d-md-block">
@@ -38,8 +36,6 @@
 
 
       <div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
-        <h4 id="list-item-1" class="display-4">General Announcements & Blog</h4>
-        <br>
         <h3>FTC Houston SW League Scrimmage</h3>
         <hr class="style2">
         <p class="small lead">26 Oct 2019</p>

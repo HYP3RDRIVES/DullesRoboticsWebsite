@@ -22,7 +22,7 @@
 
 </head>
 
-<body style="height:100%;">
+<body>
 
   <?php
 		include 'res/nav.php';
@@ -36,7 +36,7 @@
 <div id="#firstBody">
   <!-- Main Page -->
   <div class="container" id="#abtFirst">
-    <h1 class="display-3">About <i>FIRST</i></h1>
+    <h1 class="display-3" style="text-align:center;">About <i>FIRST</i></h1>
     <hr class="style14">
 
     <!-- Title -->
@@ -59,7 +59,7 @@
       <!-- Welcome Message -->
 
       <div class="col-md-6">
-        <h4 class="display-3"><i>FIRST</i></h4>
+        <h2>Introduction</h2>
         <p class="lead"> FIRST (For Inspiration and Recognition of Science and Technology) was founded in 1989 to inspire young people's interest and participation in science and technology. Based in Manchester, NH, the 501(c)(3) not-for-profit
           public charity designs accessible, innovative programs that motivate young people to pursue education and career opportunities in science, technology, engineering, and math, while building self-confidence, knowledge, and life skills.</p>
         <h2>Mission of <i>FIRST</i></h2>
@@ -71,7 +71,6 @@
 
       </div>
     </div>
-    <hr />
 
 
     <!-- WM Sponsor Block Ends -->
@@ -89,19 +88,13 @@
 
         <!-- Welcome Message -->
         <div class="col-md-6">
-          <div class="row">
-            <h4 class="display-3"><i>FIRST</i> Tech Challenge</h4>
-          </div>
-          <div class="row">
+            <h1  class="display-3"><i>FIRST</i> Tech Challenge</h1>
             <p class="lead">Teams of middle and high school-aged students are challenged to design, build, and program a robot to play a floor game against other teams’ creations. Team <strong>12456</strong> and Team <strong>13822</strong> have been
               competing in the FIRST Tech Challenge since 2016 and 2017 respectively.</p>
             <a href="https://www.firstinspires.org/robotics/ftc" target="_blank" class="btn btn-primary">Learn more about FTC</a>
 
           </div>
-        </div>
       </div>
-
-      <hr />
 
 
       <!-- TWC Sponsor Block Ends -->
@@ -120,18 +113,12 @@
         </div>
         <!-- Welcome Message -->
         <div class="col-md-6">
-          <div class="row">
             <h4 class="display-3"><i>FIRST</i> Robotics Competition</h4>
-          </div>
-          <div class="row">
             <p class="lead">High school-aged teams compete head to head on a special playing field with robots they have designed, built, and programmed. Team 7494 has been competing in the First Robotics Competition since its rookie year in 2019.
             </p>
             <a href="https://www.firstinspires.org/robotics/frc" target="_blank" class="btn btn-primary">Learn more about FRC</a>
-
-          </div>
         </div>
       </div>
-      <hr />
 </div>
 </div>
 <div class="container" id="#2k20">
@@ -227,6 +214,9 @@
           </div>
           <!-- Welcome Message -->
           <div class="col-md-6">
+            <div class="row">
+              <h4 class="display-3">FTC: Rover Ruckus</h4>
+            </div>
             <div class="row">
               <p class="lead"></p>
 

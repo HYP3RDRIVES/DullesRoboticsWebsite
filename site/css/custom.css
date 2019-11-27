@@ -58,15 +58,7 @@ body {
 .page-footer {
   width: 100%;
   position: relative;
-  bottom: 0px;
 }
-
-#footer-anchor {
-  width: 100%;
-  position: relative;
-  bottom: 0px;
-}
-
 /* Nav Bar Begins Here*/
 nav .navbar-nav li a {
   color: white;
@@ -369,13 +361,12 @@ hr.style19 {
 }
 
 .card {
-  display: inline-block;
   background: #3D3D3D;
   margin-top: 0px;
 }
 
 .card:hover {
-  background: #6B6E80;
+  background: #5b5e61;
   margin-top: 8px;
 }
 

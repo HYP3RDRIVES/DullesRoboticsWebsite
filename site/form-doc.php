@@ -4,7 +4,6 @@
 <head>
   <title>Forms and Documents - Dulles Robotics</title>
   <?php include 'res/head.php'; ?>
-  <script src="https://kit.fontawesome.com/7c99d65b69.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,21 +25,17 @@
 
 
       <!-- interest meeting form -->
-      <h1 class="display-4">Interest Meeting Form</h1>
+      <h1 class="display-7">Interest Meeting Form</h1>
       <p>
-        <a class="btn btn-primary" data-toggle="collapse" id="#docInterest-btn" href="#docInterestCollapse" role="button" aria-expanded="false" aria-controls="docInterestCollapse">
-          View</i>
-        </a>
+        <a class="btn btn-primary" data-toggle="collapse" id="#docInterest-btn" href="#docInterestCollapse" role="button" aria-expanded="false" aria-controls="docInterestCollapse">View</a>
         <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#downloadInterestCollapse" aria-expanded="false" aria-controls="downloadInterestCollapse">
-          Download <i class="fas fa-chevron-down"></i>
+          Download <img height="10" width="15" src="/img/icon/chevron-down.svg"></img>
         </button>
       </p>
       <div class="collapse hover" id="downloadInterestCollapse">
         <div class="doc-card card-body">
-          <p class="lead">
-            <a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit" target="_blank" class="btn btn-primary">View in Google Docs <i class="fas fa-external-link-alt"></i></a>
-            <a href="/files/Interest-Meeting-Application.docx" download="InterestMeetingApp.docx" target="_blank" class="btn btn-primary">Open in Word <i class="fas fa-file-word"></i></a>
-          </p>
+            <a href="https://docs.google.com/document/d/1HG8JYLzTcvJNR0Aec5MTyM6wgr_obxvYEHm7LpjGf_c/edit" target="_blank" class="btn btn-primary">View in Google Docs <img height="15" width="15" src="/img/icon/external.svg"></img></a>
+            <a href="/files/Interest-Meeting-Application.docx" download="InterestMeetingApp.docx" target="_blank" class="btn btn-primary">Open in Word <img height="18" width="18" src="/img/icon/file.svg"></img></a>
         </div>
       </div>
       <div class="collapse" id="docInterestCollapse">
@@ -54,10 +49,10 @@
       </div>
       <hr class="style1">
       <!-- robotics forms -->
-      <h1 class="display-4">Robotics Forms & Waivers</h1>
+      <h1 class="display-7">Robotics Forms & Waivers</h1>
       <p>
         <a class="btn btn-primary" data-toggle="collapse" id="#docInterest2-btn" href="#docInterestCollapse2" role="button" aria-expanded="false" aria-controls="docInterestCollapse2">View</i></a>
-        <a href="/files/roboforms.pdf" download="RoboForms" target="_blank" class="btn btn-info">Open in PDF Viewer <i class="fas fa-file-pdf"></i></a>
+        <a href="/files/roboforms.pdf" download="RoboForms" target="_blank" class="btn btn-info">Open in PDF Viewer <img height="18" width="18" src="/img/icon/file.svg"></img></a>
       </p>
 
       <div class="collapse" id="docInterestCollapse2">
@@ -91,6 +86,7 @@
 
 
   <!-- Footer -->
+<footer style="margin-top:500px;">
   <div>
     <?php include 'res/footer.php'; ?>
   </div>

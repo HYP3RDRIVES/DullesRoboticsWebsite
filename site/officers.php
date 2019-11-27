@@ -21,7 +21,7 @@
   <!-- Main Page -->
   <div class="container">
     <div class="row"></div>
-    <h1 class="display-3">2019-2020 Officers</h1>
+      <h1 class="display-3" style="text-align:center;">2019-2020 Officers</h1>
     <hr class="style14">
     <!-- Officer BLock -->
     <div class="container">
