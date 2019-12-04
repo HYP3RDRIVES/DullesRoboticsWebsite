@@ -33,21 +33,20 @@ include 'res/nav.php';
   <!-- Main Page -->
 
 
-  <hr class="style14">
-
-  <div style="position:sticky">
-    <a class="btn btn-primary active" id="#javelin-btn" onclick="javelinShow()" style="margin-left:50px;"><strong>FRC 2019</strong></a>
-    <br />
-    <a class="btn btn-primary" id="#elephant-btn" onclick="elephantShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2018-2019</strong></a>
-    <br />
-    <a class="btn btn-primary" id="#blowtorch-btn" onclick="blowtorchShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2016-2018</strong></a>
-  </div>
-  <div class="container text-dark" style="display: table; vertical-align:center; align-content:center; display:table; ">
+<br/>
+  <div class="container" style="display: table; vertical-align:center; align-content:center; display:table; ">
     <div class="col-md-12">
-      <h3 class="display-2" style="text-align:center;">Robots</h3>
+      <h3 class="display-2 text-dark" style="text-align:center;">Robots</h3>
     </div>
-    <hr class="style1" />
+    <hr class="style14" />
 
+    <div style="position:sticky" class="justify-content-center row">
+      <a class="btn btn-primary active" id="#javelin-btn" onclick="javelinShow()" style="margin-left:50px;margin-top:5px;"><strong>FRC 2019</strong></a>
+      <a class="btn btn-primary" id="#elephant-btn" onclick="elephantShow()" style="margin-left:50px;margin-top:5px;"><strong>FTC 2018-2019</strong></a>
+      <a class="btn btn-primary" id="#blowtorch-btn" onclick="blowtorchShow()" style="margin-left:50px;margin-top:5px;"><strong>FTC 2017-2018</strong></a>
+    </div>
+      <hr class="style14">
+<div class="text-dark">
     <!-- Title -->
     <div class="row special-row block" id="#javelin" style="display:flex;">
       <!-- <div class="col-md-2 bot-sub"></div> -->
@@ -206,10 +205,8 @@ include 'res/nav.php';
         </div>
       </div>
     </div>
-
-
-
-
+</div>
+<br/>
 
   </div>
 
