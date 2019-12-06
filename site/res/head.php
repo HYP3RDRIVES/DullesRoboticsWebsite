@@ -9,3 +9,4 @@
 <link rel=canonical href="https://DullesRobotics.com">
 <script src="/lib/network.js"></script>
 <script type="text/javascript" src="/lib/atc.min.js" async defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">

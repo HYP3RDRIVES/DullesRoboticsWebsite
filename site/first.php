@@ -1,6 +1,6 @@
 <!--
-	Dulles High School Computer Science Club 2018-2019
-	Written By Adil Rasiyani, President
+	Dulles High School Robotics Club 2019-2020
+	Written By Zain Ahmed, Web Developer
 	Using Bootstrap
 -->
 

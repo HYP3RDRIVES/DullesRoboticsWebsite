@@ -60,12 +60,14 @@ body {
   position: relative;
 }
 /* Nav Bar Begins Here*/
+
 nav .navbar-nav li a {
   color: white;
-}
 
+}
 nav .navbar-nav .dropdown-menu a {
   color: black;
+
 }
 
 nav .navbar-header a {
@@ -494,6 +496,8 @@ hr.style19 {
   box-sizing: border-box;
   position: relative;
   height: 100%;
+  z-index: -1;
+
 }
 
 #imagecarousel {
@@ -510,6 +514,7 @@ hr.style19 {
 .carousel {
   position: relative;
   height: 100%;
+
 }
 
 .carousel-image {
