@@ -37,7 +37,7 @@
 <!-- TOAST HERE-->
     <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
     <script type="text/javascript">
-      document.getElementById('nav-bar-home').setAttribute('class', 'active nav-item');
+      document.getElementById('nav-bar-home').setAttribute('class', 'active nav-item  animated fadeInDown');
     </script>
 
     <div class="myCarousel" id="#carouselHider" style="height:97vh;">

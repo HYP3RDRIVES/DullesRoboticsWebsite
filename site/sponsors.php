@@ -14,6 +14,9 @@
      ?>
   <meta property="og:title" content="Dulles Robotics Club - Sponsors"/>
   <meta property="og:image" content="/img/w.png"/>
+  <?php
+		include 'res/nav.php';
+	?>
 </head>
 
 <body>
@@ -22,12 +25,10 @@
   padding-bottom: 50px;
 }
 </style>
-  <?php
-		include 'res/nav.php';
-	?>
+
   <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
   <script type="text/javascript">
-    document.getElementById('nav-bar-sponsor').setAttribute('class', 'active nav-item');
+    document.getElementById('nav-bar-sponsor').setAttribute('class', 'active nav-item  animated fadeInDown');
   </script>
   <!-- Main Page -->
   <div class="container" style="display: table; vertical-align:center; align-content:center; display:table; ">

@@ -25,7 +25,7 @@
 	?>
   <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
   <script type="text/javascript">
-    document.getElementById('nav-bar-about').setAttribute('class', 'active nav-item');
+    document.getElementById('nav-bar-about').setAttribute('class', 'active nav-item  animated fadeInDown');
   </script>
 
   <!-- Main Page -->
