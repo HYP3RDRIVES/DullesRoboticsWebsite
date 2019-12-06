@@ -54,7 +54,7 @@
                 <div class="navbar-collapse order-3 dual-collapse2">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="https://auth.dullesrobotics.com">Login</a>
+                                <!-- <a class="nav-link" href="https://auth.dullesrobotics.com">Login</a> -->
                             </li>
 
                         </ul>

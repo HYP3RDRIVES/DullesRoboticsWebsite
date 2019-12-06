@@ -64,10 +64,10 @@ Nav Box is currenly useless
           <h1 class="display-7">Remind</h1>
           <a href="https://www.remind.com/?sign-up=true" class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Text @776d6f to 81010">Join our Remind group</a>
               <!-- <script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=200"></script> -->
-              <hr/>
+              <!-- <hr/>
               <h4 class="display-7">Github</h4>
 <div class="github-card" data-user="DullesRobotics" theme="default" target="_blank"></div>
-<script src="https://lab.lepture.com/github-cards/widget.js"></script>
+<script src="https://lab.lepture.com/github-cards/widget.js"></script> -->
 
         </div>
       </div>

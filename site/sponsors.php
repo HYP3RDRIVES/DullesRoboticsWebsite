@@ -37,7 +37,6 @@
     <hr class="style1" />
     <!-- Title -->
     <h1 class="display-3">Title Sponsor</h1>
-    <hr/>
     <div class="row special-row block">
       <!-- <div class="col-md-2 bot-sub"></div> -->
       <div class="col-md-6" style=" height:300px; width:100%;">
@@ -45,7 +44,7 @@
       </div>
       <div class="col-md-6">
         <div class="row">
-          <h4 class="display-3" style="text-align:left; font-size:85px;">​​Waste Management</h4>
+          <h4 class="display-1" style="text-align:left; font-size:66px;">​​Waste Management</h4>
         </div>
 
         <div class="row">
@@ -63,7 +62,6 @@
 
 
     <h1 class="display-3">Primary Tier</h1>
-    <hr/>
     <div class="row special-row block">
 
             <div class="col-md-6 text-center">
@@ -71,7 +69,7 @@
             </div>
             <div class="col-md-6">
               <div class="row">
-                <h4 class="display-3" style="font-size:60px">TMiller Financial</h4>
+                <h4 class="display-1" style="font-size:60px">TMiller Financial</h4>
               </div>
               <div class="row">
                 <p class="lead text-justify">TMiller Financial has graciously supported us!</p>
@@ -85,7 +83,6 @@
 
 <hr class="style18" />
 <h1 class="display-3">Grants</h1>
-<hr/>
           <div class="row special-row block">
 
             <div class="col-md-6 text-center">
@@ -93,7 +90,7 @@
             </div>
             <div class="col-md-6">
               <div class="row">
-                <h4 class="display-3" style="font-size:60px">NASA</h4>
+                <h4 class="display-1" style="font-size:60px">NASA</h4>
               </div>
               <div class="row">
                 <p class="lead text-justify">NASA and their yearly grants have allowed us to continue to pay for registration and participate in FRC. Their continued support through grants is greatly appreciated.</p>
