@@ -48,9 +48,9 @@ Nav Box is currenly useless
       </div>
     -->
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm" style="margin-left:20px;">
           <h1 id="list-item-1" class="display-7">Youtube</h1>
-          <iframe width="450" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="500" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div>
             <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-danger button-contact" data-toggle="tooltip" data-placement="bottom" title="YT: Dulles Robotics">View our Youtube Channel</a>
             <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg/featured?sub_confirmation=1" class="btn btn-danger button-contact">Subscribe</a>
@@ -64,7 +64,11 @@ Nav Box is currenly useless
           <h1 class="display-7">Remind</h1>
           <a href="https://www.remind.com/?sign-up=true" class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Text @776d6f to 81010">Join our Remind group</a>
               <!-- <script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=200"></script> -->
-              <hr/>
+              <!-- <hr/>
+              <h4 class="display-7">Github</h4>
+<div class="github-card" data-user="DullesRobotics" theme="default" target="_blank"></div>
+<script src="https://lab.lepture.com/github-cards/widget.js"></script> -->
+
         </div>
       </div>
     <hr class="style14">

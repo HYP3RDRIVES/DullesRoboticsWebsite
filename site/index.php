@@ -34,9 +34,7 @@
     <?php
        include 'res/nav.php';
       ?>
-      <?php
-         include 'res/toast.php';
-        ?>
+<!-- TOAST HERE-->
     <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
     <script type="text/javascript">
       document.getElementById('nav-bar-home').setAttribute('class', 'active nav-item');

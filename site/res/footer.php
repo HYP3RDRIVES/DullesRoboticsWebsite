@@ -8,7 +8,7 @@
 
 	<!-- Footer -->
 	<div id="#appender"></div>
-	<footer class="page-footer font-small bg-dark" id="main-footer">
+	<footer class="page-footer font-small bg-dark" id="main-footer" style="margin-bottom:0px;">
 		<!-- Name and Year (year automatically updates itself) -->
 	  	<div class="footer-copyright text-center py-3 text-light">
 	    	Dulles Robotics <?php echo date("Y"); ?>-<?php echo (date("Y")+1) ?><br/>
@@ -22,7 +22,6 @@
 					  Special Thanks to our sponsors:
 						  <a href="https://wm.com" target="_blank"><img src="" id="#wm" alt="sponsor" width="90" height="40" left=(window.width-width/2)+"px"/></a>
 						  <a href="https://nasa.gov" target="_blank"><img src=""  id="#nasa" alt="sponsor" width="55" height="45" left=(window.width-width/2)+"px"/></a>
-					 	 <a href="https://twc.texas.gov" target="_blank"><img src=""  id="#twc" alt="sponsor" width="45" height="45" left=(window.width-width/2)+"px"/></a>
 				 	 </div>
 		   </div>
 	    </div>
@@ -38,7 +37,6 @@
 	<script>
 	var wm = document.getElementById("#wm");
 	var nasa = document.getElementById("#nasa");
-	var twc = document.getElementById("#twc");
 	var slowMsg = document.getElementById("lite-warn");
 	if(superSlow){
 		var footer = document.getElementById("main-footer");
@@ -49,7 +47,6 @@
 		slowMsg.style = "display:none;"
 		wm.setAttribute("src", "img/sponsor/sm-wm.webp ");
 		nasa.setAttribute("src", "img/sponsor/sm-nasa.webp ");
-		twc.setAttribute("src", "img/sponsor/sm-twc.webp ");
 	}
 	</script>
 	<!-- Footer -->

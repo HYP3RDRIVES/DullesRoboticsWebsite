@@ -64,7 +64,6 @@
           </p>
         </div>
       </div>
-      <hr class="style1" style="margin-bottom:350px;">
     </div>
   </div>
 
