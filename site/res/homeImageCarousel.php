@@ -1,3 +1,4 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" interval="600">
   <div class="carousel-inner" role="listbox">
     <ol class="carousel-indicators" style="bottom:50px;">
@@ -18,14 +19,14 @@
     <!-- <ol class="carousel-indicators" style="bottom:70px;"><i class="fas fa-arrow-circle-down" style="font-size:40px;"></i></ol> -->
     <div class="carousel-item active" style=" height: 100vh;">
       <!--  <img class="d-block w-100 indxcrop" src="https://drc.aspencdn.me/photos/txchadrive.jpg" alt="Third slide" > -->
-      
+
       <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txchadrive.webp');"></div>
 
       <div class="imgtxt-container">
         <div class="carousel-caption">
           <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;">Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs">FIT Channelview Finalist Alliance - FRC #7494</p>
-          <a class="btn btn-primary" href="https://www.thebluealliance.com/event/2019txcha" target="_blank">View event stats</a>
+          <a class="btn btn-primary animated fadeInUp hidden-xs" href="https://www.thebluealliance.com/event/2019txcha" target="_blank">View event stats</a>
         </div>
       </div>
     </div>

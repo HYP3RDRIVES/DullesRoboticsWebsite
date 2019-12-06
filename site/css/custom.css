@@ -548,73 +548,6 @@ hr.style19 {
   text-align: left;
 }
 
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  box-sizing: border-box;
-}
-
-.fadeInUp {
-  animation-name: fadeInUp;
-}
-
-.fadeInDown {
-  animation-name: fadeInDown;
-}
-
-@@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
 
 .carousel-control-prev {
   background-image: linear-gradient(to left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0));
@@ -703,3 +636,9 @@ hr.style19 {
  .cal-card:hover{
    margin-bottom: 0px;
  }
+.cal-card p{
+  margin-bottom: 50px;
+}
+.cal-card a{
+  margin-top: 20px;
+}
