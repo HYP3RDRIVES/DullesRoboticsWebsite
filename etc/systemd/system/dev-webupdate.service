@@ -1,10 +1,10 @@
 [Unit]
-Description=Dulles Robotics Website Server
+Description=Dulles Robotics Website Server [DEV]
 After=network.target
 
 [Service]
 ExecStart=/bin/bash ./website.sh
-WorkingDirectory=/var/www/dullesrobotics.com/
+WorkingDirectory=/var/www/dev.dullesrobotics.com/
 Restart=no
 User=administrator
 
