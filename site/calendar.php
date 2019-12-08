@@ -13,7 +13,7 @@
 
   <div class="container">
     <div class="row"></div>
-    <h1 class="display-3">Calendar</h1>
+    <h1 class="display-3" style="text-align:center;">Calendar</h1>
     <hr class="style14">
 
     <div class="container-fluid text-center responsive-iframe-container">

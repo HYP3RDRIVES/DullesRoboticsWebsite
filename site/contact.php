@@ -29,11 +29,8 @@ Using Bootstrap
 
 
   <div class="container">
-    <div class="row" id="resources-title-row">
-      <h1 class="display-3">Contact Us</h1>
-    </div>
+      <h1 class="display-3" style="text-align:center;">Contact Us</h1>
     <hr class="style14">
-    <div class="row" id="all-sections-container">
       <!--
 
 Nav Box is currenly useless
@@ -50,58 +47,44 @@ Nav Box is currenly useless
     <	</div>
       </div>
     -->
+    <div class="row">
+      <div class="col-sm" style="margin-left:20px;">
+          <h1 id="list-item-1" class="display-7">Youtube</h1>
+          <iframe width="500" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div>
+            <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-danger button-contact" data-toggle="tooltip" data-placement="bottom" title="YT: Dulles Robotics">View our Youtube Channel</a>
+            <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg/featured?sub_confirmation=1" class="btn btn-danger button-contact">Subscribe</a>
+        </div>
+      </div>
+    <hr class="style14">
+      <div class="col-sm">
+        <h1 class="display-7">E-Mail</h1>
+          <a href="mailto:dullesrobotics@gmail.com" class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Email us at: dullesrobotics@gmail.com">Contact us via E-Mail</a>
+          <hr/>
+          <h1 class="display-7">Remind</h1>
+          <a href="https://www.remind.com/?sign-up=true" class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Text @776d6f to 81010">Join our Remind group</a>
+              <!-- <script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=200"></script> -->
+              <!-- <hr/>
+              <h4 class="display-7">Github</h4>
+<div class="github-card" data-user="DullesRobotics" theme="default" target="_blank"></div>
+<script src="https://lab.lepture.com/github-cards/widget.js"></script> -->
 
-      <div class="col-sm-12 col-md-8" id="scrollspy-info">
-        <div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
-          <h4 id="list-item-1" class="display-5">Twitter</h4>
-          <a class="twitter-timeline" data-width="600" data-height="700" data-theme="light" href="https://twitter.com/dulles_robotics?ref_src=twsrc%5Etfw">Tweets by dulles_robotics</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-          <hr class="style3">
-          <hr class="style18">
-
-          <h4 id="list-item-2" class="display-5">Facebook</h4>
-          <div class="fb-page" data-href="https://www.facebook.com/dullesrobotics/" data-tabs="timeline" data-width="600" data-height="700" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
-            <blockquote cite="https://www.facebook.com/dullesrobotics/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dullesrobotics/">Dulles Robotics</a></blockquote>
+        </div>
+      </div>
+    <hr class="style14">
+    <div class="row">
+          <div class="col-sm">
+              <h1 id="list-item-1" class="display-7">Twitter</h1>
+              <a class="twitter-timeline" data-width="450" data-height="700" data-dnt="true" data-theme="dark" href="https://twitter.com/dulles_robotics?ref_src=twsrc%5Etfw">Tweets by dulles_robotics</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
 
-          <!--      <a href="https://www.facebook.com/dullesrobotics/" class="btn btn-primary button-contact">Follow</a>
-        <a href="https://m.me/dullesrobotics" class="btn btn-primary button-contact">Message Us</a> -->
-          <!-- <iframe id="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdullesrobotics%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> -->
-
-          <hr class="style3">
-          <hr class="style18">
-
-          <h4 id="list-item-3" class="display-5">
-            <!-- <img src="/img/ytube.png" class="img-fluid" style="height: 10%; width: 10%;"></img>--> Youtube</h4>
-          <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg" class="btn btn-danger button-contact" data-toggle="tooltip" data-placement="top" title="YT: Dulles Robotics">View our Youtube Channel</a>
-          <a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg/featured?sub_confirmation=1" class="btn btn-danger button-contact">Subscribe</a>
-
-          <!--	<a href="https://www.youtube.com/channel/UC2LGV0aJWqBB2dNQNPcwoEg">Go to our Youtube channel!</a> -->
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y6uAwig27LI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-          </hr>
-          <hr class="style3">
-          <hr class="style18">
-
-          <h4 id="list-item-6" class="display-5">Github</h4>
-          <div class="github-card" data-user="DullesRobotics" theme="default" target="_blank"></div>
-          <script src="https://lab.lepture.com/github-cards/widget.js"></script>
-          <!--	<a href="https://github.com/DullesRobotics">Go to our Github page!</a> -->
-
-          <hr class="style3">
-          <hr class="style18">
-
-          <h4 id="list-item-5" class="display-5">E-Mail</h4>
-          <a href="mailto:dullesrobotics@gmail.com" class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Email us at: dullesrobotics@gmail.com">Contact us via E-Mail</a>
-        </div>
-        <hr class="style3">
-        <hr class="styleSpace">
-
-        <!--				<h4 id="list-item-7" class="display-4">Remind Feed</h4>
-            <script src="https://widgets.remind.com/iframe.js?token=f6b921d0075701340fe10242ac110435&height=600&join=true"></script> -->
-      </div>
+          <div class="col-sm">
+              <h1 id="list-item-2" class="display-7">Facebook</h1>
+              <div class="fb-page" data-href="https://www.facebook.com/dullesrobotics/" data-tabs="timeline" data-width="450" data-height="700" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                <blockquote cite="https://www.facebook.com/dullesrobotics/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dullesrobotics/">Dulles Robotics</a></blockquote>
+              </div>
+    </div>
+    </div>
     </div>
   </div>
 

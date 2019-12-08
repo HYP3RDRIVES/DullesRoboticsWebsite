@@ -12,8 +12,8 @@
   <?php
     include 'res/head.php';
     ?>
-  <meta property="og:title" content="Dulles Robotics Club - Robots"/>
-  <meta property="og:image" content="/img/mock3.png"/>
+  <meta property="og:title" content="Dulles Robotics Club - Robots" />
+  <meta property="og:image" content="/img/mock3.png" />
 </head>
 
 <body style="background-color:white; scrollbar-width:10px; ">
@@ -33,26 +33,25 @@ include 'res/nav.php';
   <!-- Main Page -->
 
 
-  <hr class="style14">
-
-    <div style="position:sticky">
-<a class="btn btn-primary active"  id="#javelin-btn" onclick="javelinShow()" style="margin-left:50px;"><strong>FRC 2019</strong></a>
 <br/>
-<a class="btn btn-primary" id="#elephant-btn" onclick="elephantShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2018-2019</strong></a>
-<br/>
-<a class="btn btn-primary" id="#blowtorch-btn" onclick="blowtorchShow()" style="margin-left:50px;margin-top:10px;"><strong>FTC 2016-2018</strong></a>
-</div>
-  <div class="container text-dark" style="display: table; vertical-align:center; align-content:center; display:table; ">
+  <div class="container" style="display: table; vertical-align:center; align-content:center; display:table; ">
     <div class="col-md-12">
-      <h3 class="display-2" style="text-align:center;">Robots</h3>
+      <h3 class="display-2 text-dark" style="text-align:center;">Robots</h3>
     </div>
-    <hr class="style1" />
+    <hr class="style14" />
 
+    <div style="position:sticky" class="justify-content-center row">
+      <a class="btn btn-primary active" id="#javelin-btn" onclick="javelinShow()" style="margin-left:50px;margin-top:5px;"><strong>FRC 2019</strong></a>
+      <a class="btn btn-primary" id="#elephant-btn" onclick="elephantShow()" style="margin-left:50px;margin-top:5px;"><strong>FTC 2018-2019</strong></a>
+      <a class="btn btn-primary" id="#blowtorch-btn" onclick="blowtorchShow()" style="margin-left:50px;margin-top:5px;"><strong>FTC 2017-2018</strong></a>
+    </div>
+      <hr class="style14">
+<div class="text-dark">
     <!-- Title -->
-    <div class="row special-row block" id="#javelin">
+    <div class="row special-row block" id="#javelin" style="display:flex;">
       <!-- <div class="col-md-2 bot-sub"></div> -->
       <div class="col-md-6" style=" height:300px; width:100%;">
-        <img src="https://drc.aspencdn.me/photos/javelin.jpg" class="img-fluid img-center indxcrop" alt="javelin" style="padding:30px;  align-self: right;">
+        <img src="/img/javelin.webp" class="img-fluid img-center indxcrop" alt="javelin" style="padding:30px;  align-self: right;">
       </div>
       <div class="col-md-6">
         <div class="row">
@@ -67,7 +66,7 @@ include 'res/nav.php';
               <h2>Specs</h2>
               <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light">Name</span> Javelin</li>
 
-              <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light">Weight</span> 120 lbs</li>
+              <li class="lead large text-justify rspec"> <span class="badge badge-primary text-light">Weight</span> 112 lbs</li>
 
               <li class="lead large rspec"> <span class="badge badge-primary text-light">Game</span> Deep Space</li>
 
@@ -103,10 +102,10 @@ include 'res/nav.php';
 
 
 
-    <div class="row special-row block" id="#elephant">
+    <div class="row special-row block" id="#elephant" style="display:none;">
 
       <div class="col-md-6 text-center" style="align-content:center;">
-        <img src="/img/rrbr.jpg" style="width: 450px; height: 450px; vertical-align:center; padding:20px; align-self:center;" class="img-fluid img-center img-vert-center" alt="twc">
+        <img src="/img/rrbr.webp" style="width: 450px; height: 450px; vertical-align:center; padding:20px; align-self:center;" class="img-fluid img-center img-vert-center" alt="twc">
       </div>
       <div class="col-md-6">
         <div class="row">
@@ -157,10 +156,10 @@ include 'res/nav.php';
 
 
 
-    <div class="row special-row block" id="#blowtorch">
+    <div class="row special-row block" id="#blowtorch" style="display:none;">
 
       <div class="col-md-6 text-center" style="align-content:center;">
-        <img src="/img/mock3.jpg" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
+        <img src="/img/mock3.webp" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
       </div>
       <div class="col-md-6">
         <div class="row">
@@ -206,10 +205,8 @@ include 'res/nav.php';
         </div>
       </div>
     </div>
-
-
-
-
+</div>
+<br/>
 
   </div>
 
@@ -221,6 +218,7 @@ include 'res/nav.php';
   <footer>
     <?php include 'res/footer.php'; ?>
     <?php include 'res/cdn.php'; ?>
+    <script src="/lib/robots.js"></script>
     <!-- Scripts -->
     <!-- activate tooltips -->
     <script type="text/javascript">

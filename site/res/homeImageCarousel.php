@@ -1,3 +1,4 @@
+
 <div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" interval="600">
   <div class="carousel-inner" role="listbox">
     <ol class="carousel-indicators" style="bottom:50px;">
@@ -5,22 +6,32 @@
       <li data-target="#imagecarousel" data-slide-to="1" style="width:90%;"></li>
       <li data-target="#imagecarousel" data-slide-to="2" style="width:90%;"></li>
     </ol>
+  <!--  <script>
+    x = document.createElement('div');
+    if (largePayLoad){
+      x.setAttribute("class, fill carousel-image");
+      x.style = "background-image: url('https://drc.aspencdn.me/photos/txchadrive.webp');";
+    }
+    elseif (reduceLoad){
+      x.style = "background-image: url('https://drc.aspencdn.me/photos/txchadrive.webp');";
+    }
+  </script> -->
     <!-- <ol class="carousel-indicators" style="bottom:70px;"><i class="fas fa-arrow-circle-down" style="font-size:40px;"></i></ol> -->
     <div class="carousel-item active" style=" height: 100vh;">
       <!--  <img class="d-block w-100 indxcrop" src="https://drc.aspencdn.me/photos/txchadrive.jpg" alt="Third slide" > -->
-      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txchadrive.jpg');"></div>
+
+      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txchadrive.webp');"></div>
 
       <div class="imgtxt-container">
         <div class="carousel-caption">
           <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;">Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs">FIT Channelview Finalist Alliance - FRC #7494</p>
-          <a class="btn btn-primary" href="https://www.thebluealliance.com/event/2019txcha" target="_blank">View event stats</a>
+          <a class="btn btn-primary animated fadeInRight hidden-xs" href="https://www.thebluealliance.com/event/2019txcha" target="_blank">View event stats</a>
         </div>
       </div>
     </div>
     <div class="carousel-item" style="height: 100vh;">
-
-      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/stateRAS.jpg');"></div>
+      <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/stateRAS.webp');"></div>
       <div class="imgtxt-container">
         <div class="carousel-caption">
           <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;">Dulles Robotics </h2>
@@ -31,7 +42,7 @@
 
     <div class="carousel-item" style="height: 100vh;">
       <!-- <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" alt="Third slide" > -->
-        <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txpasdrive.jpg');"></div>
+        <div class="fill carousel-image" style="background-image: url('https://drc.aspencdn.me/photos/txpasdrive.webp');"></div>
 
       <div class="imgtxt-container">
         <div class="carousel-caption">
@@ -53,7 +64,3 @@
 </div>
 
 <!-- Preloads the images from the CDN for faster display on the carousel -->
-<div style="display:none; ">
-  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/txpasdrive.jpg" >
-  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/stateRAS.jpg" >
-</div>

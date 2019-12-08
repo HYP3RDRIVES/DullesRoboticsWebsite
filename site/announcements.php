@@ -24,9 +24,7 @@
   </script>
   <!-- Main Page -->
   <div class="container">
-    <div class="row" id="resources-title-row">
-      <h1 class="display-3">Announcements & Blog</h1>
-    </div>
+      <h1 class="display-3" style="text-align:center;">Announcements & Blog</h1>
     <hr class="style14">
     <div class="row" id="all-sections-container">
       <div class="col-md-4 d-none d-md-block">
@@ -38,8 +36,6 @@
 
 
       <div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
-        <h4 id="list-item-1" class="display-4">General Announcements & Blog</h4>
-        <br>
         <h3>FTC Houston SW League Scrimmage</h3>
         <hr class="style2">
         <p class="small lead">26 Oct 2019</p>
@@ -51,6 +47,13 @@
         </p>
 
         <div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" style="width: 480px; height: 299px; overflow:hidden;" interval="600">
+          <script>
+          var carousel = document.getElementById("imagecarousel");
+
+          if(networkType != '4g') {
+            carousel.remove();
+          }
+          </script>
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -59,7 +62,7 @@
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <div class="indxcrop" style="width:580px; padding-right:40px;">
-                <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/bigred.jpg" alt="Second slide" style="width:580px; ">
+                <img class="d-block w-100 " id="#slideOne" src="" alt="First slide" style="width:580px; ">
               </div>
               <div class="imgtxt-container">
                 <div class="carousel-caption">
@@ -69,7 +72,7 @@
             </div>
             <div class="carousel-item ">
               <div class="indxcrop" style="width:580px; padding-right:40px;">
-                <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/rohan.jpg" alt="Second slide" style="width:580px; ">
+                <img class="d-block w-100 " id="#slideTwo" src="" alt="Second slide" style="width:580px; ">
               </div>
               <div class="imgtxt-container">
                 <div class="carousel-caption">
@@ -79,7 +82,7 @@
             </div>
             <div class="carousel-item">
               <div class="indxcrop" style="width:580px; padding-right:40px;">
-                <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/10581.jpg" alt="Third slide" style="width: 480px; height: 299px;">
+                <img class="d-block w-100 " id="#slideThree" src="" alt="Third slide" style="width: 480px; height: 299px;">
               </div>
               <div class="imgtxt-container">
                 <div class="carousel-caption">
@@ -87,6 +90,16 @@
                 </div>
               </div>
             </div>
+            <script>
+            if ((isChrome == false) || networkType === '4g'){
+              var slideOne = document.getElementById("#slideOne");
+              var slideTwo = document.getElementById("#slideTwo");
+              var slideThree = document.getElementById("#slideThree");
+              slideOne.setAttribute("src", "https://drc.aspencdn.me/photos/bigred.jpg ")
+              slideTwo.setAttribute("src", "https://drc.aspencdn.me/photos/rohan.jpg ")
+              slideThree.setAttribute("src", "https://drc.aspencdn.me/photos/10581.jpg")
+            }
+            </script>
           </div>
           <a class="carousel-control-prev" href="#imagecarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="false"></span>
@@ -190,11 +203,8 @@
       </div>
     </div>
   </div>
-<!-- Preloads the images from the CDN for faster display on the carousel -->
-<div style="display:none; ">
-  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/rohan.jpg" >
-  <img class="d-block w-100 " src="https://drc.aspencdn.me/photos/10581.jpg" >
-</div>
+
+
   <!-- preload ends -->
   <!-- Footer -->
   <footer>
