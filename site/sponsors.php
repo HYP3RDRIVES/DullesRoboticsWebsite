@@ -19,7 +19,7 @@
 	?>
 </head>
 
-<body>
+<body style="max-width:100vw;overflow-x:hidden;">
 <style>
 .special-row{
   padding-bottom: 50px;
@@ -37,6 +37,7 @@
     </div>
     <hr class="style1 animated zoomIn" />
     <!-- Title -->
+    <div class="wm">
     <h1 class="display-3 animated fadeInLeft">Title Sponsor</h1>
     <div class="row special-row block">
       <!-- <div class="col-md-2 bot-sub"></div> -->
@@ -58,9 +59,10 @@
       </div>
       <!-- <div class="col-md-2 bot-sub"></div> -->
     </div>
+  </div>
 
     <hr class="style18 animated zoomIn" />
-
+<div class="primary">
 
     <h1 class="display-3 animated fadeInLeft">Primary Tier</h1>
     <div class="row special-row block">
@@ -81,8 +83,10 @@
             </div>
 
           </div>
+        </div>
 
 <hr class="style18 animated zoomIn" />
+<div class="grant">
 <h1 class="display-3 animated fadeInLeft">Grants</h1>
           <div class="row special-row block">
 
@@ -105,7 +109,7 @@
 
   </div>
 
-
+</div>
 
   <!-- Logo and Welcome -->
 

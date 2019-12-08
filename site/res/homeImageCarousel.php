@@ -6,6 +6,12 @@
       <li data-target="#imagecarousel" data-slide-to="1" style="width:90%;"></li>
       <li data-target="#imagecarousel" data-slide-to="2" style="width:90%;"></li>
     </ol>
+    <!-- FRC 2020 icon, put this wtih FRC 2020 pictures
+
+    <img class="animated fadeInDown" src="/img/frc-2020icon.svg">
+
+  -->
+
   <!--  <script>
     x = document.createElement('div');
     if (largePayLoad){
@@ -24,6 +30,7 @@
 
       <div class="imgtxt-container">
         <div class="carousel-caption">
+
           <h2 class="display-2 c-header animated fadeInDown" style="font-size:100px;">Dulles Robotics </h2>
           <p class="p-carousel-caption animated fadeInUp hidden-xs">FIT Channelview Finalist Alliance - FRC #7494</p>
           <a class="btn btn-primary animated fadeInRight hidden-xs" href="https://www.thebluealliance.com/event/2019txcha" target="_blank">View event stats</a>

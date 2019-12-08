@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body style="max-width:100vw;overflow-x:hidden;">
 
   <?php
 		include 'res/nav.php';
@@ -36,8 +36,8 @@
 <div id="#firstBody">
   <!-- Main Page -->
   <div class="container" id="#abtFirst">
-    <h1 class="display-3" style="text-align:center;">About <i>FIRST</i></h1>
-    <hr class="style14">
+    <h1 class="display-3 animated zoomIn" style="text-align:center;">About <i>FIRST</i></h1>
+    <hr class="style14 animated zoomIn  ">
 
     <!-- Title -->
 
@@ -54,11 +54,11 @@
     <!-- Logo -->
     <div class="row special-row">
       <div class="col-md-6">
-        <img src="/img/FIRST.webp" class="img-fluid img-center" alt="first">
+        <img src="/img/FIRST.webp" class="img-fluid img-center animated fadeInLeft" alt="first">
       </div>
       <!-- Welcome Message -->
 
-      <div class="col-md-6">
+      <div class="col-md-6 animated fadeInRight">
         <h2>Introduction</h2>
         <p class="lead"> FIRST (For Inspiration and Recognition of Science and Technology) was founded in 1989 to inspire young people's interest and participation in science and technology. Based in Manchester, NH, the 501(c)(3) not-for-profit
           public charity designs accessible, innovative programs that motivate young people to pursue education and career opportunities in science, technology, engineering, and math, while building self-confidence, knowledge, and life skills.</p>
@@ -77,17 +77,17 @@
     <!-- TWC Sponsor Block -->
     <div class="container">
 
-      <hr class="style14" />
+      <hr class="style14 animated zoomIn" />
 
 
       <!-- Logo -->
       <div class="row special-row">
         <div class="col-md-6">
-          <img src="/img/FTC.webp" class="img-fluid img-center" alt="ftc">
+          <img src="/img/FTC.webp" class="img-fluid img-center animated fadeInLeft ftcAnimate" alt="ftc">
         </div>
 
         <!-- Welcome Message -->
-        <div class="col-md-6">
+        <div class="col-md-6 animated fadeInRight ftcAnimate">
             <h1  class="display-3"><i>FIRST</i> Tech Challenge</h1>
             <p class="lead">Teams of middle and high school-aged students are challenged to design, build, and program a robot to play a floor game against other teams’ creations. Team <strong>12456</strong> and Team <strong>13822</strong> have been
               competing in the FIRST Tech Challenge since 2016 and 2017 respectively.</p>
@@ -102,17 +102,17 @@
       <!-- NASA Sponsor Block -->
 
 
-      <hr class="style14" />
+      <hr class="style14 animated zoomIn" />
 
       <!-- Logo and Welcome -->
 
       <!-- Logo -->
       <div class="row special-row">
         <div class="col-md-6">
-          <img src="/img/FRC.webp" class="img-fluid" alt="twc" width="450" height="450" style="padding-top:30px;">
+          <img src="/img/FRC.webp" class="img-fluid img-center animated fadeInLeft frcAnimate" alt="frc">
         </div>
         <!-- Welcome Message -->
-        <div class="col-md-6">
+        <div class="col-md-6 animated fadeInRight frcAnimate">
             <h4 class="display-3"><i>FIRST</i> Robotics Competition</h4>
             <p class="lead">High school-aged teams compete head to head on a special playing field with robots they have designed, built, and programmed. Team 7494 has been competing in the First Robotics Competition since its rookie year in 2019.
             </p>
@@ -121,7 +121,7 @@
       </div>
 </div>
 </div>
-<div class="container" id="#2k20">
+<div class="container animated fadeInUp" id="#2k20">
       <hr class="style18">
       <div class="text-center">
         <h1 class="display-3">2019-2020 Season: RISE</h1>
@@ -190,7 +190,7 @@
 
       <hr class="style18">
     </div>
-          <div class="container" id="#2k19">
+          <div class="container animated fadeInUp delay-1s" id="#2k19">
       <div class="text-center">
         <h1 class="display-3">2018-2019 Season: LAUNCH</h1>
         <img src="/img/first2019.webp" class="img-fluid" alt="Launch" width="650" height="500"></a>

@@ -109,7 +109,7 @@
           <div class="card-body">
             <h6 class="card-subtitle mb-2">December 14th - 7am</h6>
             <p class="card-text">Right before winter break! Dues required to participate, as always.</p>
-            <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;" class="btn btn-cool">
+            <a title="Add to Calendar" class="btn-cool btn addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;">
               Add to Calendar
               <span class="start">12/14/2019 08:00 AM</span>
               <span class="end">12/14/2019 1:00 PM</span>
@@ -127,7 +127,7 @@
             <h6 class="card-subtitle mb-2">January 4th 2020</h6>
             <p class="card-text">Game reveal for FRC 2020 Infinite Recharge</p>
           <div style="align-self:center">
-          <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;" class="btn btn-cool">
+          <a title="Add to Calendar" class="btn-cool btn addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;">
             Add to Calendar
             <span class="start">1/4/2019 11:00 AM</span>
             <span class="end">1/4/2019 1:30 PM</span>
@@ -145,7 +145,7 @@
             <h6 class="card-subtitle mb-2">January 18th 2020</h6>
             <p class="card-text">The 4th FTC match of the season. Every match the robots get better and more refined.</p>
           <div style="align-self:center">
-          <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;" class="btn btn-cool">
+          <a title="Add to Calendar" class="btn-cool btn addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;">
             Add to Calendar
             <span class="start">1/18/2020 08:00 AM</span>
             <span class="end">1/18/2020 1:00 PM</span>

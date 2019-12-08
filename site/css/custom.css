@@ -496,7 +496,6 @@ hr.style19 {
   box-sizing: border-box;
   position: relative;
   height: 100%;
-  z-index: -1;
 
 }
 
@@ -531,9 +530,15 @@ hr.style19 {
 }
 
 .carousel-caption {
-  height: 65%;
+  height: 55%;
   right: 40%;
   left: 20%;
+}
+.carousel-caption img{
+  height: 25%;
+  right: 40%;
+  left: 20%;
+  top:50%;
 }
 
 .carousel-caption {
@@ -552,8 +557,18 @@ hr.style19 {
   font-size: 25px;
   text-align: left;
 }
-
-
+.firstAnimate{
+  animation-delay: 0.1s;
+  animation-duration: 1.5s;
+}
+.ftcAnimate{
+    animation-delay: 0.4s;
+    animation-duration: 2s;
+}
+.frcAnimate{
+  animation-delay: 0.7s;
+  animation-duration: 2s;
+}
 .carousel-control-prev {
   background-image: linear-gradient(to left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0));
   transition: 0.3s;
@@ -572,6 +587,15 @@ hr.style19 {
   background-image: linear-gradient(to right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.2));
 }
 
+.wm{
+  animation-delay: 0.5s;
+}
+.primary{
+  animation-delay: 3s;
+}
+.grant{
+  animation-delay: 60s;
+}
 /* Custom Scrollbar surprise for chromium users */
 /* width */
 ::-webkit-scrollbar {
