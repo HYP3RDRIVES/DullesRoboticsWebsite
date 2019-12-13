@@ -789,7 +789,7 @@ td {
   padding-left: 7px;
   padding-right: 7px;
   color:white;
-  background-color: rgb(39, 49, 55);
+  background-color: rgb(23, 38, 41);
   margin-top:10px;
 }
 .code-block-dark-large{
@@ -803,4 +803,8 @@ td {
   width: inherit;
   min-width: 500px;
   height: inherit;
+}
+
+pre{
+  border-radius: 10px;
 }
