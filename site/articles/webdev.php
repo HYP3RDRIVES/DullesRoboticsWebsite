@@ -7,7 +7,7 @@
   <?php
     include '../res/nav.php';
   ?>
-
+<link rel="stylesheet" type="text/css" href="../css/custom.css">
 <link href="theme.css" rel="stylesheet" />
 </head>
 
