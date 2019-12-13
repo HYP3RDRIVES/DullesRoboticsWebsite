@@ -23,7 +23,7 @@
   <?php
     	include 'res/head.php';
      ?>
-  <meta name="viewport" content="width=640">
+
 
 
 </head>
@@ -50,45 +50,51 @@
 
 <div style="height:100vh;">
   <!-- Main Page -->
+  <div class="sect2" id=#indxone>
   <div class="container" style="margin-top:5vh; margin-bottom:1vh;" id="#primCont" >
 
     <div class="text-center row special-row" id="#altTitle" >
       <div class="col-md-12">
-    <h1 class="display-3 text-center">Dulles Robotics</h1>
+    <h1 class="display-3 text-center" style="color:white;">Dulles Robotics</h1>
   </div>
   </div>
 
 
-    <script>
+  <script>
   var carousel = document.getElementById("#carouselHider");
   var altTitle = document.getElementById("#altTitle");
   var primCont = document.getElementById("#primCont");
   if (removal){
-   carousel.remove();
-   altTitle.style = "display:flex";
-   primCont.style = "margin-top:1vh; margin-bottom:1vh;"
+    carousel.remove();
+    altTitle.style = "display:flex";
+    primCont.style = "margin-top:1vh; margin-bottom:1vh;"
   }
   if (!removal){
-   altTitle.remove();
-   primCont.style = "margin-top:10vh; margin-bottom:1vh;";
+    altTitle.remove();
+    primCont.style = "margin-top:5vh; margin-bottom:1vh;";
   }
-   </script>
+  </script>
+ </div>
 
+     <div class="container">
     <div class="row">
       <!-- Logo -->
       <div class="col-md-6">
-        <img src="img/w.webp" width="480px" class="img-fluid" alt="Logo">
+          <img src="img/w.png" class="img-fluid" width="480px" alt="Logo">
       </div>
       <!-- Welcome Message -->
       <div class="col-md-6">
           <h1 class="display-4">Welcome!</h1>
           <p class="lead text-justify">We are a robotics club based out of Dulles High School in Sugar Land, Texas. Dulles Robotics is home to two FTC Teams (13822, 12456) in addition to one FRC team (7494). These teams participate in the FIRST robotics programs.</p>
-          <a href="about.php" class="btn btn-primary">About Us</a>
+          <a href="about.php" class="btn btn-secondary">About Us</a>
       </div>
     </div>
-    <hr/>
 
-    <div class="row">
+</div></div>
+<div class="sect1">
+  <div class="container">
+    <div class="row animated fadeInLeft delay-1s ">
+
       <div class="col">
       <!-- Mission Statement -->
           <h1 class="display-4" style="text-align:left;">Our Mission</h1>
@@ -96,16 +102,62 @@
         </div>
 
     </div>
-    <hr class="style14">
+  </div>
+</div>
+<div class="sect3">
+  <div class="container">
 
-    <div class="col-sm">
-      <h3 class="display-4" style="text-align:center;">Events</h3>
-    </div>
+
+      <h1 class="display-4 text-center">Events</h1>
+
   <!-- Calendar mini-view -->
-    <div class="row justify-content-center">
+    <div class="row justify-content-center text-center">
       <div class="col-sm">
-        <div class="card text-center cal-card">
-          <h5 class="card-header">FTC League Match 3 <div class="badge badge-pill badge-dark" style="padding:7px;">Upcoming</div></h5>
+        <style>
+        .card{
+        background-color: rgb(114, 130, 140);
+      }
+      .card:hover{
+        background-color: rgb(97, 109, 116);"
+      }
+        </style>
+        <div class="card text-center cal-card" >
+          <style>
+          /* this whole part is for the background gradient thingy */
+          #badge-pill {
+            background: linear-gradient(to right, #7dd5f5, #7dd5f5, #7dd5f5, #a1e9f0, #e1f8fa, #a1e9f0, #7dd5f5, #7dd5f5, #7dd5f5, #a1e9f0, #e1f8fa, #a1e9f0, #7dd5f5, #7dd5f5, #7dd5f5);
+            background-position-x: 0%;
+            background-position-y: 0%;
+            background-size: auto;
+
+
+
+            color: white;
+            animation: rainbow_animation 4s ease-in-out infinite;
+            background-size: 400% 100%;
+            background-position: 100% 0;
+
+          }
+          .badge-pill {
+                background: linear-gradient(to right, #f52222,#f52222,#f52222,#f52222,#f52222,#ff6666, #f57d7d,  #f57d7d,  #f57d7d, #f57d7d, #f57d7d, #ff6666, #f52222, #f52222, #f52222, #f52222, #f52222);
+
+            color: transparent;
+            animation: rainbow_animation 6s ease-in-out infinite;
+            background-size: 400% 100%;
+            padding: 7px;
+          }
+
+          @keyframes rainbow_animation {
+            0%, 100% {
+              background-position: 0 0;
+            }
+
+            50% {
+              background-position: 100% 0;
+            }
+          }
+        </style>
+          <h5 class="card-header">FTC League Match 3 <div class="badge badge-pill badge-dark" id="#badge-pill"><div class="text-light">Upcoming</div></div></h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2">December 14th - 7am</h6>
             <p class="card-text">Right before winter break! Dues required to participate, as always.</p>
@@ -157,6 +209,7 @@
         </div>
         </div>
       </div>
+
 <!-- Uncomment when removing FTC Match 3 as this is the next event after FTC match 4
       <div class="col-sm">
         <div class="card text-center cal-card">
@@ -185,11 +238,13 @@
     </div>
   </div>
 -->
-
-  <hr class="style14">
+</div>
+</div>
+<div class="sect4">
+  <div class="container">
   <!-- Info -->
   <div class="col-sm-12">
-    <h3 class="display-4" style="text-align:center;">Stay in Touch</h3>
+    <h1 class="display-4" style="text-align:center;">Stay in Touch</h1>
   </div>
   <div class="col-sm-12" style="margin-bottom: 2%; margin-top: 2%;text-align:center">
     <p class="lead" style="padding-left: 0.5rem; text-align:center ;">
@@ -202,6 +257,7 @@
         data-toggle="tooltip" data-placement="top" title="E-Mail us at dullesrobotics@gmail.com">E-Mail</a>‏‏‎. Any question or comments can also be addressed directly to any of the officers.</p>
   </div>
   </div>
+</div>
 
 
   <!-- Footer -->
