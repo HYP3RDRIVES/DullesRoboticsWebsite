@@ -21,6 +21,12 @@ body {
   grid-gap: 10px;
 }
 
+.page-container {
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
 @font-face {
   font-family: 'Bebas';
   font-style: normal;
@@ -779,6 +785,7 @@ td {
 .code-block-dark{
   border-radius: 3px;
   padding:3px;
+  padding-top: 1px;
   padding-left: 7px;
   padding-right: 7px;
   color:white;
