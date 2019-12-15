@@ -157,24 +157,12 @@
             }
           }
         </style>
-          <h5 class="card-header">FTC League Match 3 <div class="badge badge-pill badge-dark" id="#badge-pill"><div class="text-light">Upcoming</div></div></h5>
-          <div class="card-body">
-            <h6 class="card-subtitle mb-2">December 14th - 7am</h6>
-            <p class="card-text">Right before winter break! Dues required to participate, as always.</p>
-            <a title="Add to Calendar" class="btn-cool btn addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;">
-              Add to Calendar
-              <span class="start">12/14/2019 08:00 AM</span>
-              <span class="end">12/14/2019 1:00 PM</span>
-              <span class="timezone">America/Chicago</span>
-              <span class="title">FTC Robotics Match</span>
-              <span class="location">Dulles High School</span>
-            </a>
-            </div>
-          </div>
-        </div>
-      <div class="col-sm">
-        <div class="card text-center cal-card">
-          <h5 class="card-header">FRC Kickoff</h5>
+
+
+
+
+
+          <h5 class="card-header">FRC Kickoff <div class="badge badge-pill badge-dark" id="#badge-pill"><div class="text-light">Upcoming</div></div></h5>
           <div class="card-body">
             <h6 class="card-subtitle mb-2">January 4th 2020</h6>
             <p class="card-text">Game reveal for FRC 2020 Infinite Recharge</p>
@@ -210,12 +198,12 @@
         </div>
       </div>
 
-<!-- Uncomment when removing FTC Match 3 as this is the next event after FTC match 4
+
       <div class="col-sm">
         <div class="card text-center cal-card">
           <h5 class="card-header">FRC Channelview</h5>
           <div class="card-body">
-            <h6 class="card-subtitle mb-2">January 18th 2020</h6>
+            <h6 class="card-subtitle mb-2">March 7th/8th 2020</h6>
             <p class="card-text">The 1st FRC match of the season. This is one of two district (FIT) events to qualify for District Champs</p>
           <div style="align-self:center">
           <a title="Add to Calendar" class="addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;" class="btn btn-cool">
@@ -231,7 +219,7 @@
         </div>
         </div>
       </div>
--->
+
     </div>
   <!--    <div class="col-sm">
       <h6 class="text-center" style="font-style:italic;color:#ABA7A7;margin-top:20%;">More events will be added when we get more. Stay tuned!</h6>
