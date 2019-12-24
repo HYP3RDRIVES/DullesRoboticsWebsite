@@ -6,7 +6,7 @@
 -->
 
 <!--Top Navigation Bar-->
-<nav class="navbar navbar-expand-md  navbar-dark bg-dark" id="navigator">
+<nav class="navbar navbar-expand-md  navbar-dark" id="navigator" style="background-color:#0f0e17;">
   <!-- <nav class="navbar navbar-expand-md" id="navbar" style="background-color: #555"> -->
   <div class="container-fluid">
     <!--Logo on the left-->

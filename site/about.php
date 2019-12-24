@@ -45,7 +45,7 @@
 
     <div class="row special-row">
       <div class="col-md-6">
-        <img src="img/w.webp" class="img-fluid" alt="imagejqjij" width="500">
+        <img src="img/w.png" class="img-fluid" alt="imagejqjij" width="500">
       </div>
       <div class="col-md-6">
         <h1 class="display-7" style="padding-top:10px">An Introduction:</h1>
@@ -57,7 +57,7 @@
     <hr />
     <div class="row special-row" style="padding-top:10px">
       <div class="col-md-6">
-        <img src="https://drc.aspencdn.me/photos/stateRAS.webp" class="img-fluid" alt="dcmpphoto" width="500" height="500">
+        <img src="https://drc.aspencdn.me/photos/stateRAS.jpg" class="img-fluid" alt="dcmpphoto" width="500" height="500">
       </div>
       <div class="col-md-6">
         <h1 class="display-7"style="padding-top:10px">The Team</h1>
@@ -69,13 +69,13 @@
     <hr />
     <div class="row special-row" style="padding-top:10px">
       <div class="col-md-6">
-        <img src="img/mentor.webp" class="img-fluid" alt="sartartia" width="500" height="100">
+        <img src="img/mentor.jpg" class="img-fluid" alt="sartartia" width="500" height="100">
       </div>
       <div class="col-md-6">
         <h1 class="display-7" style="padding-top:10px">Outreach</h1>
         <div class="lead">
           <p>Dulles Robotics participates in numerous outreach events, such as hosting teen camps at local libraries, as well as mentoring FTC teams from around our school district. We have also hosted FTC competitions at our school, and have
-            promoted FIRST on a local TV station.</p>
+            promoted <i>FIRST</i> on a local TV station.</p>
         </div>
       </div>
     </div>
@@ -90,34 +90,34 @@
 
           <div class="container">
 
-            <div class="row">
+            <div class="row" style="margin-bottom:50px;">
               <div class="col-sm-12">
                 <h3 class="display-3" style="text-align:center;">Departments</h3>
               </div>
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.webp">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Build</h4>
                   <p class="lead-text text-justify lead" style="text-align:center;text-align:center;">The build team is charge of the building of our robots, both for FTC and FRC. They work against deadlines to ensure that the robot is ready for debugging, while also remaining in close communication with the Programming and Design teams to ensure the robot functions correctly and meets the original concept.</p>
                 </div>
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/program.webp">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/program.png">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Programming</h4>
                   <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">The programming team is in charge of programming the instructions for what the robot is supposed to do. This includes programming the robot to respond with the intended results using a controller, as well as writing code for the robot to perform autonomously.  The programmers here at Dulles Robotics use Java.</p>
                 </div>
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/design.webp">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/design.png">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Design</h4>
                   <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">The Design team is responsible for designing the robot. They produce sketches and CAD renderings of the robot prototype.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/pres.webp">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/pres.jpg">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Presentation</h4>
                   <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">Presentation is responsible for the image of Dulles Robotics. They make the PIT displays, and other brand releated content including Graphics Design, and Maintaining this Website.</p>
                 </div>
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/market.webp">
+                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/market.png">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Marketing</h4>
                   <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">The marketing team handles the team's finances and sponsorship. Their focus is to raise money for the operations and competitions.</p>
                 </div>
@@ -126,9 +126,9 @@
 
           <div class="col-sm-2 bot-sub"></div>
 
-          <hr class="style14" />
+          <hr class="style20" />
           <div class="row" style="padding-top:10px; margin-left:0%;">
-            <h1 class="display-7">The website</h1>
+            <h1 class="display-3">The website</h1>
             <hr>
           </div>
           <div class="lead">

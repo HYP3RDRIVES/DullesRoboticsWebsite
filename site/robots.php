@@ -16,7 +16,7 @@
   <meta property="og:image" content="/img/mock3.png" />
 </head>
 
-<body style="background-color:white; scrollbar-width:10px; ">
+<body style="scrollbar-width:10px; ">
 
   <?php
 include 'res/nav.php';
@@ -27,7 +27,6 @@ include 'res/nav.php';
 
   <!--Set Active Page to 'active' in navbar (imported from nav.php)-->
   <script type="text/javascript">
-    document.getElementById('navigator').setAttribute('class', 'bg-dark navbar navbar-expand-md  navbar-dark');
     document.getElementById('nav-bar-robot').setAttribute('class', 'active dropdown-item text-white');
   </script>
   <!-- Main Page -->
@@ -36,29 +35,24 @@ include 'res/nav.php';
 <br/>
   <div class="container" style="display: table; vertical-align:center; align-content:center; display:table; ">
     <div class="col-md-12">
-      <h3 class="display-2 text-dark" style="text-align:center;">Robots</h3>
+      <h3 class="display-2" style="text-align:center;">Robots</h3>
     </div>
-    <hr class="style14" />
 
-    <div style="position:sticky" class="justify-content-center row">
-      <a class="btn btn-primary active" id="#javelin-btn" onclick="javelinShow()" style="margin-left:50px;margin-top:5px;"><strong>FRC 2019</strong></a>
-      <a class="btn btn-primary" id="#elephant-btn" onclick="elephantShow()" style="margin-left:50px;margin-top:5px;"><strong>FTC 2018-2019</strong></a>
-      <a class="btn btn-primary" id="#blowtorch-btn" onclick="blowtorchShow()" style="margin-left:50px;margin-top:5px;"><strong>FTC 2017-2018</strong></a>
-    </div>
+
       <hr class="style14">
 <div class="text-dark">
     <!-- Title -->
     <div class="row special-row block" id="#javelin" style="display:flex;">
       <!-- <div class="col-md-2 bot-sub"></div> -->
       <div class="col-md-6" style=" height:300px; width:100%;">
-        <img src="/img/javelin.webp" class="img-fluid img-center indxcrop" alt="javelin" style="padding:30px;  align-self: right;">
+        <img src="https://drc.aspencdn.me/photos/javelin.jpg" class="img-fluid img-center indxcrop" alt="javelin" style="padding:30px;  align-self: right;">
       </div>
       <div class="col-md-6">
         <div class="row">
           <h4 class="display-2" style="text-align:left; font-size:85px;">​​Javelin</h4>
         </div>
         <div class="row">
-          <p class="lead text-justify">Javelin is our first robot to compete in FRC, on <strong> team 7494. </strong></p>
+          <p class="lead text-justify" style="color:#5f6c7b;">Javelin is our first robot to compete in FRC, on <strong> team 7494. </strong></p>
           <div class="col-md-6 inner" style="padding:10px;">
 
 
@@ -79,9 +73,9 @@ include 'res/nav.php';
           <div class="col-md-6 inner" style="padding:10px;">
 
 
-            <ul class="unstyled">
+            <ul class="unstyled" style="color:color:#094067">
               <h2>Comps</h2>
-              <li class="lead large rspec"> <span class="badge badge-primary text-light">FIT Channelview</span> Finalist Alliance</li>
+              <li class="lead large rspec"> <span class="badge text-light" style="background-color:#ef4565">FIT Channelview</span> Finalist Alliance</li>
 
               <li class="lead large rspec"> <span class="badge badge-primary text-light">FIT Pasadena</span> Rookie All Stars</li>
 
@@ -91,7 +85,7 @@ include 'res/nav.php';
 
             </ul>
           </div>
-          <ul>
+          <ul style="color:#5f6c7b">
             <li class="lead text-justify">Rigid build allows for effective defense</li>
             <li class="lead text-justify">Fast Hatch Rate</li>
           </ul>
@@ -102,10 +96,10 @@ include 'res/nav.php';
 
 
 
-    <div class="row special-row block" id="#elephant" style="display:none;">
+    <div class="row special-row block" id="#elephant">
 
       <div class="col-md-6 text-center" style="align-content:center;">
-        <img src="/img/rrbr.webp" style="width: 450px; height: 450px; vertical-align:center; padding:20px; align-self:center;" class="img-fluid img-center img-vert-center" alt="twc">
+        <img src="/img/rrbr.jpg" style="width: 450px; height: 450px; vertical-align:center; padding:20px; align-self:center;" class="img-fluid img-center img-vert-center" alt="twc">
       </div>
       <div class="col-md-6">
         <div class="row">
@@ -156,10 +150,10 @@ include 'res/nav.php';
 
 
 
-    <div class="row special-row block" id="#blowtorch" style="display:none;">
+    <div class="row special-row block" id="#blowtorch" >
 
       <div class="col-md-6 text-center" style="align-content:center;">
-        <img src="/img/mock3.webp" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
+        <img src="/img/mock3.jpg" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
       </div>
       <div class="col-md-6">
         <div class="row">

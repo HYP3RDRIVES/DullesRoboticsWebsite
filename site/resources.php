@@ -18,10 +18,10 @@
   <!-- Main Page -->
 
   <div class="bodydiv" style="height:84.5vh;" style="overflow-y:hidden;">
-    <div class="container" style="height:85.6%;">
+    <div class="container" style="height:85.6%;" >
       <h1 class="display-3">Resources</h1>
       <hr class="style14">
-      <table class="table table-striped table-dark">
+      <table class="table " style="background:linear-gradient(to right, #0f0e17, #0f0e17, #1a192a, #1a192a,#21202e,#21202e,#21202e,#1a192a,#1a192a,#0f0e17,#0f0e17);  ">
   <thead>
     <tr>
       <th scope="col">Link</th>
@@ -38,7 +38,7 @@
       <td>Permission forms for Dulles Robotics</td>
     </tr>
     <tr>
-      <th scope="row"><a href="articles/webdev.php" target="_blank">Intro to Web Development</a></th>
+      <th scope="row"><a href="articles/webdev.php">Intro to Web Development</a></th>
       <td>Web Development Basics Article</td>
     </tr>
   </tbody>

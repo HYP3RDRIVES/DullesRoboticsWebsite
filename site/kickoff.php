@@ -14,7 +14,7 @@
   background-clip: padding-box;
    background-attachment: fixed;
 
-
+overflow-y:hidden;
   text-align: center;
 
   ">
@@ -31,7 +31,7 @@
 <div id="clockdiv" style="font-size:50px;">
 
         <p><span class="days" id="day"></span>   Days  <span class="hours" id="hour"></span> Hours  <span class="minutes" id="minute"></span>  Minutes  <span class="seconds" id="second"></span> Seconds  </p>
-        <p>CST UTC -6</p>
+        <p>CST / UTC -6</p>
 
 </div>
 

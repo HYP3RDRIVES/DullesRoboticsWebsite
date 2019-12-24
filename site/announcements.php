@@ -12,6 +12,47 @@
   <?php
     	include 'res/head.php';
      ?>
+     <script type="text/javascript">
+  initApp = function() {
+    firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        // User is signed in.
+        var displayName = user.displayName;
+        var email = user.email;
+        var emailVerified = user.emailVerified;
+        var photoURL = user.photoURL;
+        var uid = user.uid;
+        var phoneNumber = user.phoneNumber;
+        var providerData = user.providerData;
+        user.getIdToken().then(function(accessToken) {
+          document.getElementById('sign-in-status').textContent = 'Signed in';
+          document.getElementById('sign-in').textContent = 'Sign out';
+          document.getElementById('account-details').textContent = JSON.stringify({
+            displayName: displayName,
+            email: email,
+            emailVerified: emailVerified,
+            phoneNumber: phoneNumber,
+            photoURL: photoURL,
+            uid: uid,
+            accessToken: accessToken,
+            providerData: providerData
+          }, null, '  ');
+        });
+      } else {
+        // User is signed out.
+        document.getElementById('sign-in-status').textContent = 'Signed out';
+        document.getElementById('sign-in').textContent = 'Sign in';
+        document.getElementById('account-details').textContent = 'null';
+      }
+    }, function(error) {
+      console.log(error);
+    });
+  };
+
+  window.addEventListener('load', function() {
+    initApp();
+  });
+</script>
 </head>
 
 <body data-spy="scroll" data-target="#list-announ">
@@ -24,7 +65,7 @@
   </script>
   <!-- Main Page -->
   <div class="container">
-      <h1 class="display-3" style="text-align:center;">Announcements & Blog</h1>
+    <h1 class="display-3" style="text-align:center;">Announcements & Blog</h1>
     <hr class="style14">
     <div class="row" id="all-sections-container">
       <div class="col-md-4 d-none d-md-block">
@@ -36,80 +77,135 @@
 
 
       <div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
-        <h3>FTC Houston SW League Scrimmage</h3>
-        <hr class="style2">
-        <p class="small lead">26 Oct 2019</p>
-        <hr class="style12">
-        <p class="lead"> Don't forget to log this contest!
-          <br/>Rookie members: what did you learn? What did you do? How did you feel?
-          <br/>Members that taught the workshops: What did you teach, etc. Also reflect on the contest! What went well and what can be improved upon?
-          <br/>Also, a BIG shoutout for <strong>Jacob, Erica, and Danielle</strong> for coming in and nailing us an outreach event as well as a good rep with the Missouri City Library!
-        </p>
+        <div id="#one">
+          <h3>FTC Houston SW League Scrimmage</h3>
+          <hr class="style2">
+          <p class="small lead">26 Oct 2019</p>
+          <hr class="style12">
+          <p class="lead"> Don't forget to log this contest!
+            <br />Rookie members: what did you learn? What did you do? How did you feel?
+            <br />Members that taught the workshops: What did you teach, etc. Also reflect on the contest! What went well and what can be improved upon?
+            <br />Also, a BIG shoutout for <strong>Jacob, and Erica</strong> for coming in and nailing us an outreach event as well as a good rep with the Missouri City Library!
+          </p>
 
-        <div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" style="width: 480px; height: 299px; overflow:hidden;" interval="600">
-          <script>
-          var carousel = document.getElementById("imagecarousel");
-
-          if(networkType != '4g') {
-            carousel.remove();
-          }
-          </script>
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <div class="indxcrop" style="width:580px; padding-right:40px;">
-                <img class="d-block w-100 " id="#slideOne" src="" alt="First slide" style="width:580px; ">
-              </div>
-              <div class="imgtxt-container">
-                <div class="carousel-caption">
-                  <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">New members practice competing in FTC</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item ">
-              <div class="indxcrop" style="width:580px; padding-right:40px;">
-                <img class="d-block w-100 " id="#slideTwo" src="" alt="Second slide" style="width:580px; ">
-              </div>
-              <div class="imgtxt-container">
-                <div class="carousel-caption">
-                  <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">Rohan and Aaron teach students on other teams the basics of Autodesk Inventor</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="indxcrop" style="width:580px; padding-right:40px;">
-                <img class="d-block w-100 " id="#slideThree" src="" alt="Third slide" style="width: 480px; height: 299px;">
-              </div>
-              <div class="imgtxt-container">
-                <div class="carousel-caption">
-                  <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">Jaden helps other teams fix their robots during the scrimmage.</p>
-                </div>
-              </div>
-            </div>
+          <div id="imagecarousel" class="carousel slide carousel-fade" data-ride="carousel" style="width: 480px; height: 299px; overflow:hidden;" interval="600">
             <script>
-            if ((isChrome == false) || networkType === '4g'){
-              var slideOne = document.getElementById("#slideOne");
-              var slideTwo = document.getElementById("#slideTwo");
-              var slideThree = document.getElementById("#slideThree");
-              slideOne.setAttribute("src", "https://drc.aspencdn.me/photos/bigred.jpg ")
-              slideTwo.setAttribute("src", "https://drc.aspencdn.me/photos/rohan.jpg ")
-              slideThree.setAttribute("src", "https://drc.aspencdn.me/photos/10581.jpg")
-            }
+              var carousel = document.getElementById("imagecarousel");
+
+              if (networkType != '4g') {
+                carousel.remove();
+              }
             </script>
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="indxcrop" style="width:580px; padding-right:40px;">
+                  <img class="d-block w-100 " id="#slideOne" src="" alt="First slide" style="width:580px; ">
+                </div>
+                <div class="imgtxt-container">
+                  <div class="carousel-caption">
+                    <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">New members practice competing in FTC</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="indxcrop" style="width:580px; padding-right:40px;">
+                  <img class="d-block w-100 " id="#slideTwo" src="" alt="Second slide" style="width:580px; ">
+                </div>
+                <div class="imgtxt-container">
+                  <div class="carousel-caption">
+                    <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">Rohan and Aaron teach students on other teams the basics of Autodesk Inventor</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="indxcrop" style="width:580px; padding-right:40px;">
+                  <img class="d-block w-100 " id="#slideThree" src="" alt="Third slide" style="width: 480px; height: 299px;">
+                </div>
+                <div class="imgtxt-container">
+                  <div class="carousel-caption">
+                    <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">Jaden helps other teams fix their robots during the scrimmage.</p>
+                  </div>
+                </div>
+              </div>
+              <script>
+                if ((isChrome == false) || networkType === '4g') {
+                  var slideOne = document.getElementById("#slideOne");
+                  var slideTwo = document.getElementById("#slideTwo");
+                  var slideThree = document.getElementById("#slideThree");
+                  slideOne.setAttribute("src", "https://drc.aspencdn.me/photos/bigred.jpg ")
+                  slideTwo.setAttribute("src", "https://drc.aspencdn.me/photos/rohan.jpg ")
+                  slideThree.setAttribute("src", "https://drc.aspencdn.me/photos/10581.jpg")
+                }
+              </script>
+            </div>
+            <a class="carousel-control-prev" href="#imagecarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#imagecarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <a class="carousel-control-prev" href="#imagecarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#imagecarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
+        <a class="btn btn-primary" id="#oneBtn" onclick="oneEdit()">Edit</a>
+        <a class="btn btn-primary" id="#oneBtn" onclick="deauth()">deauth</a>
+        <script>
+          firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+              // User is signed in.
+            } else {
+              var btn = document.getElementById('#oneBtn');
+              btn.remove(btn);
+              console.log("removed");
+              btn.remove(btn);
+            }
+          });
+
+          var editing = false;
+
+          function deauth() {
+
+            var btn = document.getElementById('#oneBtn');
+            btn.remove(btn);
+            console.log("removed");
+            btn.remove(btn);
+          }
+
+
+          function oneEdit() {
+
+            if (editing === true) {
+              var btn = document.getElementById('#oneBtn');
+              console.log("save function triggered");
+              document.getElementById('#one').setAttribute('contenteditable', 'false');
+              btn.setAttribute('class', 'btn btn-primary');
+              btn.innerHTML = "Edit";
+              editing = false;
+              console.log(editing);
+              return;
+
+            }
+
+            var btn = document.getElementById('#oneBtn');
+            if (editing === false) {
+              console.log("edit function triggered");
+              document.getElementById('#one').setAttribute('contenteditable', 'true');
+              btn.setAttribute('class', 'btn btn-success');
+              btn.innerHTML = "Save";
+              editing = true;
+              console.log(editing);
+              return;
+
+            }
+
+          }
+        </script>
         <hr />
         <h3>Upcoming Competitions</h3>
         <hr class="style2">
