@@ -53,7 +53,8 @@
                 <div class="navbar-collapse order-3 dual-collapse2">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item" id="nav-bar-login">
-                                 <a class="btn btn-light text-dark" href="/login.php">Login</a>
+								<a class="btn btn-light text-dark" id="user-link" style="display:none"></a>
+                                 <a class="btn btn-light text-dark" id="login-link" href="/login.php">Login</a>
                             </li>
 
                         </ul>
@@ -61,3 +62,74 @@
     </div>
   </div>
 </nav>
+
+<!-- Script for login button -->
+<script>
+function getCookie(cname) {
+	  var name = cname + "=";
+	  //var decodedCookie = decodeURIComponent(document.cookie);
+	  var ca = document.cookie.split(';');
+	  for(var i = 0; i <ca.length; i++) {
+	    var c = ca[i];
+	    while (c.charAt(0) == ' ') {
+	      c = c.substring(1);
+	    }
+	    if (c.indexOf(name) == 0) {
+	      return c.substring(name.length, c.length);
+	    }
+	  }
+	  return "";
+	}
+	
+
+	var loginBtn = document.getElementById("login-link");
+
+	var openLogin = true;
+	$(document).ready(function() {
+		var loginstats = getCookie("loggedin");
+		console.log(loginstats);
+		if (loginstats == "true") {
+			$("#user-link").text(getCookie("username"));
+			$("#user-link").css("display","");
+			$("#chat-link").css("display","");
+			$("#login-link").text("Logout");
+		}
+	});
+	loginBtn.addEventListener("click", function(){
+			if ($("#login-link").text() == "Logout") {
+				var ajaxurl = 'res/logout_code.php';
+	            console.log("Logging Out");
+	            data =  {do_logout: "do_logout"};
+	            // Perform Login to Server
+	            $.ajax({type:'post',url:ajaxurl, data, success:function (response) {
+				
+	            	}
+				});
+	            $("#login-link").text("Login");
+                $("#user-link").text("");
+                $("#chat-link").css("display","none");
+                document.cookie = "loggedin = "+false;
+                <?php $_SESSION['loggedin']= 0;?>
+
+                //If we are in the profile page, send us to main page
+                var path = window.location.pathname;
+				var page = path.split("/").pop();
+				var origpath = path.substring(0,path.length-page.length);
+				
+				console.log("Logging out on "+page);
+				if (page == "profile.php" || page=="chat.php") {
+					window.location.href = origpath + "index.php";
+				}
+				
+				return;
+			}
+
+		  	else {
+			  	if (openLogin) {
+			  		$("#login-form").shakeLogin();
+			  		openLogin = false;
+			  	}
+			  	
+		  	}
+		});
+</script>
