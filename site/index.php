@@ -164,12 +164,12 @@
               </a>
             </div>
             <div class="col">
-              <div class="indxbox">
-                <h1>Hallo</h1>
-                <p>Brief Description</p>
+              <a class="indxbox" href="/announcements.php">
+                <h1>View our Blog</h1>
+                <p>Click to view recent posts</p>
 
                 <ion-icon style="font-size:50px;"name="arrow-forward"></ion-icon>
-              </div>
+              </a>
             </div>
           </div>
 
