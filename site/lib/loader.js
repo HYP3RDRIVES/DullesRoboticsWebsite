@@ -14,7 +14,7 @@ console.log("Network type is " + networkType + " data saver status " + saveData)
 else {
   isChrome = false;
 }
-
+var authstate;
 
 if (cores < 3){
 var slowHardware = true;

@@ -53,7 +53,7 @@
                 <div class="navbar-collapse order-3 dual-collapse2">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item" id="nav-bar-login">
-								<a class="btn btn-light text-dark" id="user-link" style="display:none"></a>
+								<a class="btn btn-light text-dark" id="user-link" href="edit.php" style="display:none"></a>
                                  <a class="btn btn-light text-dark" id="login-link" href="/login.php">Login</a>
                             </li>
 
@@ -80,7 +80,7 @@ function getCookie(cname) {
 	  }
 	  return "";
 	}
-	
+
 
 	var loginBtn = document.getElementById("login-link");
 
@@ -89,6 +89,9 @@ function getCookie(cname) {
 		var loginstats = getCookie("loggedin");
 		console.log(loginstats);
 		if (loginstats == "true") {
+
+      var authstate = true;
+      console.log("authstate "+ authstate);
 			$("#user-link").text(getCookie("username"));
 			$("#user-link").css("display","");
 			$("#chat-link").css("display","");
@@ -102,7 +105,7 @@ function getCookie(cname) {
 	            data =  {do_logout: "do_logout"};
 	            // Perform Login to Server
 	            $.ajax({type:'post',url:ajaxurl, data, success:function (response) {
-				
+
 	            	}
 				});
 	            $("#login-link").text("Login");
@@ -115,12 +118,12 @@ function getCookie(cname) {
                 var path = window.location.pathname;
 				var page = path.split("/").pop();
 				var origpath = path.substring(0,path.length-page.length);
-				
+
 				console.log("Logging out on "+page);
 				if (page == "profile.php" || page=="chat.php") {
 					window.location.href = origpath + "index.php";
 				}
-				
+
 				return;
 			}
 
@@ -129,7 +132,7 @@ function getCookie(cname) {
 			  		$("#login-form").shakeLogin();
 			  		openLogin = false;
 			  	}
-			  	
+
 		  	}
 		});
 </script>

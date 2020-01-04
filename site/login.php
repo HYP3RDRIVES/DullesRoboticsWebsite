@@ -4,7 +4,7 @@
 
 <head>
   <title>Login - Dulles Robotics</title>
-  
+
   <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
   <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
   <?php
@@ -40,25 +40,7 @@
       function valueGrab(){
       var email = document.getElementsByName("user")[0].value;
       var password = document.getElementsByName("pass")[0].value;
-      console.log(email);
-      console.log(password);
-      var ui = new firebaseui.auth.AuthUI(firebase.auth());
-      ui.start('#firebaseui-auth-container', {
-        signInOptions: [
-          firebase.auth.EmailAuthProvider.PROVIDER_ID
-  ],
-  // Other config options...
-});
-
-
-firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
-  // Handle Errors here.
-  var errorCode = error.code;
-  var errorMessage = error.message;
-  document.getElementById('#errorMsg').style.display = "block";
-  // ...
-});
-}
+    }
 </script>
     </div>
   </div>
@@ -81,7 +63,7 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
         $('[data-toggle="tooltip"]').tooltip()
       })
     </script>
-	
+
 	<script>
 
 	//Handle UI
@@ -151,6 +133,7 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
                     break;
                 case "Success (Regular)!":
 					console.log("Alert: Regular Login Successful!");
+          
 					// Remove invalid markers
 					$("#invalid-pass").css("display","none");
                     if ($("#pass-box").hasClass("is-invalid")) {
@@ -160,15 +143,16 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
                     if ($("#user-box").hasClass("is-invalid")) {
 						$("#user-box").removeClass("is-invalid");
                     }
-                    
+
                     // Prevent Login because we are already logged in
                     $("#pg-content").css("display","");
                     $("#login-form").css("display","none");
                     $("#chat-link").css("display","");
                     $("#login-link").text("Logout");
                     $("#user-link").text(username);
+
 					$("#user-link").css("display","");
-					
+
                     document.cookie = "username = "+username;
                     document.cookie = "password ="+password;
                     document.cookie = "loggedin ="+true;
@@ -180,6 +164,7 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
                     break;
                 case "Success (Admin)!":
                 	console.log("Alert: Admin Login Successful!");
+
 					// Remove invalid markers
 					$("#invalid-pass").css("display","none");
                     if ($("#pass-box").hasClass("is-invalid")) {
@@ -189,15 +174,16 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
                     if ($("#user-box").hasClass("is-invalid")) {
 						$("#user-box").removeClass("is-invalid");
                     }
-                    
+
                     // Prevent Login because we are already logged in
                     $("#pg-content").css("display","");
                     $("#login-form").css("display","none");
                     $("#chat-link").css("display","");
                     $("#login-link").text("Logout");
+
                     $("#user-link").text(username);
 					$("#user-link").css("display","");
-				
+
                     document.cookie = "username = "+username;
                     document.cookie = "password ="+password;
                     document.cookie = "loggedin ="+true;
@@ -211,7 +197,7 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
 					console.log("Unusual Response: "+response);
                     break;
                 }
-                
+
             }});
         });
 
@@ -259,7 +245,7 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
                     $("#login-link").text("Logout");
                     $("#user-link").text(username);
 					$("#user-link").css("display","");
-				
+
                     document.cookie = "username ="+username;
                     document.cookie = "password ="+password;
                     document.cookie = "loggedin ="+true;
@@ -270,7 +256,7 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
                     $_SESSION['admin']=$_COOKIE['admin'];?>
                     break;
                 }
-                
+
             }});
         });
 	});

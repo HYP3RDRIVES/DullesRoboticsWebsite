@@ -12,47 +12,6 @@
   <?php
     	include 'res/head.php';
      ?>
-     <script type="text/javascript">
-  initApp = function() {
-    firebase.auth().onAuthStateChanged(function(user) {
-      if (user) {
-        // User is signed in.
-        var displayName = user.displayName;
-        var email = user.email;
-        var emailVerified = user.emailVerified;
-        var photoURL = user.photoURL;
-        var uid = user.uid;
-        var phoneNumber = user.phoneNumber;
-        var providerData = user.providerData;
-        user.getIdToken().then(function(accessToken) {
-          document.getElementById('sign-in-status').textContent = 'Signed in';
-          document.getElementById('sign-in').textContent = 'Sign out';
-          document.getElementById('account-details').textContent = JSON.stringify({
-            displayName: displayName,
-            email: email,
-            emailVerified: emailVerified,
-            phoneNumber: phoneNumber,
-            photoURL: photoURL,
-            uid: uid,
-            accessToken: accessToken,
-            providerData: providerData
-          }, null, '  ');
-        });
-      } else {
-        // User is signed out.
-        document.getElementById('sign-in-status').textContent = 'Signed out';
-        document.getElementById('sign-in').textContent = 'Sign in';
-        document.getElementById('account-details').textContent = 'null';
-      }
-    }, function(error) {
-      console.log(error);
-    });
-  };
-
-  window.addEventListener('load', function() {
-    initApp();
-  });
-</script>
 </head>
 
 <body data-spy="scroll" data-target="#list-announ">
@@ -144,7 +103,7 @@
               </script>
             </div>
             <a class="carousel-control-prev" href="#imagecarousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
               <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#imagecarousel" role="button" data-slide="next">
@@ -154,28 +113,20 @@
           </div>
         </div>
         <a class="btn btn-primary" id="#oneBtn" onclick="oneEdit()">Edit</a>
-        <a class="btn btn-primary" id="#oneBtn" onclick="deauth()">deauth</a>
+
         <script>
-          firebase.auth().onAuthStateChanged(function(user) {
-            if (user) {
-              // User is signed in.
-            } else {
-              var btn = document.getElementById('#oneBtn');
-              btn.remove(btn);
-              console.log("removed");
-              btn.remove(btn);
+        var one = document.getElementById("#one");
+        var btn = document.getElementById('#oneBtn');
+        btn.parentNode.removeChild(btn);
+        console.log("authstate "+ authstate);
+
+            if (authstate == true) {
+              one.appendChild(btn);
+
             }
-          });
 
           var editing = false;
 
-          function deauth() {
-
-            var btn = document.getElementById('#oneBtn');
-            btn.remove(btn);
-            console.log("removed");
-            btn.remove(btn);
-          }
 
 
           function oneEdit() {
@@ -212,7 +163,6 @@
         <p class="small lead">18 Oct 2019</p>
         <hr class="style12">
         <p class="lead">
-
           Oct 26 - FTC SW League Scrimmage <br />
           Nov 16 - FTC SW League Match<br />
           Dec 14 - FTC SW League Match<br />

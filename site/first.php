@@ -171,33 +171,31 @@
         </div>
         <hr class="style14">
         <!-- Infinite Recharge -->
+
         <div id="logo-and-welcome" class="row well border-0 border-secondary">
           <!-- Logo -->
-          <div class="row special-row" id="#frc20">
-            <div class="col">
+          <div class="col">
+            <div class="row" id="#frc20">
               <div class="text-center">
-
-                <img src="/img/Infinite.png" class="img-fluid" alt="frcinf" width="400" height="400">
+                <img src="/img/Infinite.png" class=" frstImg img-fluid" alt="ftcsky" width="350" height="400">
               </div>
             </div>
-
-            <!-- Welcome Message -->
-            <div class="col">
-              <div class="row">
-                <h4 class="display-3">FRC: Infinite Recharge</h4>
-              </div>
-              <div class="row">
-                <p class="lead">First will release information about INFINITE RECHARGE during the kickoff on January 4th, 2020. </p>
-                <a href="https://info.firstinspires.org/infinite-recharge" target="_blank" class="btn btn-tertiary">Learn more</a>
-                <a title="Add to Calendar" class=" btn btn-cool addeventatc" style="margin-left:5px;">
-                  Add to Calendar
-                  <span class="start">1/4/2019 11:00 AM</span>
-                  <span class="end">1/4/2019 1:30 PM</span>
-                  <span class="timezone">America/Chicago</span>
-                  <span class="title">FRC Kickoff</span>
-                </a>
-              </div>
+          </div>
+          <!-- Welcome Message -->
+          <div class="col">
+            <div class="row">
+              <h4 class="display-3">FRC: Infinite Recharge</h4>
             </div>
+            <div class="row">
+              <p class="lead"></p>
+
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gmiYWTmFRVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            <hr class="style4">
+            <a href="https://info.firstinspires.org/infinite-recharge" target="_blank" class="btn btn-info">Learn more</a> <a href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system" target="_blank" class="btn btn-secondary">Game Manual
+              & Materials</a>
+            </hr>
           </div>
         </div>
 
