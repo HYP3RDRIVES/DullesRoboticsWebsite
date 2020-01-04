@@ -8,8 +8,8 @@
 
 	<!-- Footer -->
 	<div id="#appender"></div>
-	<footer class="page-footer font-small bg-dark" id="main-footer" style="margin-bottom:0px;">
-		<!-- Name and Year (year automatically updates itself) -->
+	<footer style="padding-top:20px;padding-bottom:10px;background-color:#0f0e17;">
+	<!-- 	<!- - Name and Year (year automatically updates itself)
 	  	<div class="footer-copyright text-center py-3 text-light">
 	    	Dulles Robotics <?php echo date("Y"); ?>-<?php echo (date("Y")+1) ?><br/>
 	  	</div>
@@ -20,8 +20,8 @@
 
 				  <div class="text-center" style="padding-bottom:10px;">
 					  Special Thanks to our sponsors:
-						  <a href="https://wm.com" target="_blank"><img src="" id="#wm" alt="sponsor" width="90" height="40" left=(window.width-width/2)+"px"/></a>
-						  <a href="https://nasa.gov" target="_blank"><img src=""  id="#nasa" alt="sponsor" width="55" height="45" left=(window.width-width/2)+"px"/></a>
+						  <a href="https://wm.com" target="_blank"><img src="/img/sponsor/wm.png" id="#wm" alt="sponsor" width="90" height="40" left=(window.width-width/2)+"px"/></a>
+						  <a href="https://nasa.gov" target="_blank"><img src="/img/sponsor/nasa.png"  id="#nasa" alt="sponsor" width="55" height="45" left=(window.width-width/2)+"px"/></a>
 				 	 </div>
 		   </div>
 	    </div>
@@ -33,7 +33,39 @@
 
 			</div>
 
+OLD FOOTER
+
+-->
+
+
+<div class="row special-row text-center">
+	<div class="col-md-2"></div>
+	<div class="col-md-4" style="display:inline;">
+
+		<h1><img src="/img/dr.png" width="50" height="50">Dulles Robotics<h1>
+			<p class="lead">550 Dulles Av, Sugar Land, Texas</p>
+	</div>
+	<div class="col-md-4 bogle">
+		<h1>Supported By:<h1>
+			<style>
+			.bogle img{
+				filter:grayscale(100%);
+				transition: 0.2s;
+			}
+			.bogle img:hover{
+				filter:grayscale(0%);
+			}
+			</style>
+			<img src="/img/sponsor/wm.png" width="125" height="55">
+			<img src="/img/sponsor/nasa.png" width="75" height="55">
+	</div>
+	<div class="col-md-2"></div>
+</div>
+
+
+
 	</footer>
+	<!--
 	<script>
 	var wm = document.getElementById("#wm");
 	var nasa = document.getElementById("#nasa");
@@ -42,17 +74,16 @@
 		var footer = document.getElementById("main-footer");
 		footer.parentNode.removeChild(footer);
 		slowMsg.style = "display:inline-block;"
+		wm.removeChild(wm);
+		nasa.removeChild(nasa);
 	}
 	else if (!superSlow){
 		slowMsg.style = "display:none;"
-		wm.setAttribute("src", "img/sponsor/sm-wm.webp ");
-		nasa.setAttribute("src", "img/sponsor/sm-nasa.webp ");
 	}
 	</script>
-	<!-- Footer -->
+	<!- - Footer -->
 
 	<!-- Footer Script -->
-
 <!--
 	<script>
 	$( document ).ready(function() {

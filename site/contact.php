@@ -80,7 +80,7 @@ Nav Box is currenly useless
 
           <div class="col-sm">
               <h1 id="list-item-2" class="display-7">Facebook</h1>
-              <div class="fb-page" data-href="https://www.facebook.com/dullesrobotics/" data-tabs="timeline" data-width="450" data-height="700" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+              <div class="fb-page" data-href="https://www.facebook.com/dullesrobotics/" data-tabs="timeline" data-width="450" data-height="700" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" style="border-radius:50px;">
                 <blockquote cite="https://www.facebook.com/dullesrobotics/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dullesrobotics/">Dulles Robotics</a></blockquote>
               </div>
     </div>

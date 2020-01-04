@@ -1,6 +1,7 @@
 
 //Stuff for adaptive loading
-
+const cores = window.navigator.hardwareConcurrency
+console.log("logical cores" + cores/2)
 var isChrome = false;
 console.log("isChrome " + isChrome);
 const networkType = navigator.connection.effectiveType;
@@ -12,6 +13,14 @@ console.log("Network type is " + networkType + " data saver status " + saveData)
 }
 else {
   isChrome = false;
+}
+var authstate;
+
+if (cores < 3){
+var slowHardware = true;
+}
+else{
+  var slowHardware = false;
 }
 /* Network connection stuff
 switch (networkType) {
