@@ -35,7 +35,7 @@ include 'res/nav.php';
 <br/>
   <div class="container" style="display: table; vertical-align:center; align-content:center; display:table; ">
     <div class="col-md-12">
-      <h3 class="display-2" style="text-align:center;">Robots</h3>
+      <h3 class="display-2" style="text-align:center; color:#fffffe;">Robots</h3>
     </div>
 
 
@@ -49,10 +49,10 @@ include 'res/nav.php';
       </div>
       <div class="col-md-6">
         <div class="row">
-          <h4 class="display-2" style="text-align:left; font-size:85px;">​​Javelin</h4>
+          <h4 class="display-2" style="text-align:left; font-size:85px;color:#fffffe;">​​Javelin</h4>
         </div>
-        <div class="row">
-          <p class="lead text-justify" style="color:#5f6c7b;">Javelin is our first robot to compete in FRC, on <strong> team 7494. </strong></p>
+        <div class="row" style="color:#a7a9be;">
+          <p class="lead text-justify" >Javelin is our first robot to compete in FRC, on <strong> team 7494. </strong></p>
           <div class="col-md-6 inner" style="padding:10px;">
 
 
@@ -73,9 +73,9 @@ include 'res/nav.php';
           <div class="col-md-6 inner" style="padding:10px;">
 
 
-            <ul class="unstyled" style="color:color:#094067">
+            <ul class="unstyled" style="color:color:#a7a9be">
               <h2>Comps</h2>
-              <li class="lead large rspec"> <span class="badge text-light" style="background-color:#ef4565">FIT Channelview</span> Finalist Alliance</li>
+              <li class="lead large rspec"> <span class="badge badge-primary text-light">FIT Channelview</span> Finalist Alliance</li>
 
               <li class="lead large rspec"> <span class="badge badge-primary text-light">FIT Pasadena</span> Rookie All Stars</li>
 
@@ -85,7 +85,7 @@ include 'res/nav.php';
 
             </ul>
           </div>
-          <ul style="color:#5f6c7b">
+          <ul >
             <li class="lead text-justify">Rigid build allows for effective defense</li>
             <li class="lead text-justify">Fast Hatch Rate</li>
           </ul>
@@ -103,9 +103,9 @@ include 'res/nav.php';
       </div>
       <div class="col-md-6">
         <div class="row">
-          <h4 class="display-2" style="text-align:left; font-size:85px;">​​Elephant</h4>
+          <h4 class="display-2" style="text-align:left; font-size:85px; color:#fffffe;">​​Elephant</h4>
         </div>
-        <div class="row">
+        <div class="row" style="color:#a7a9be;">
           <p class="lead text-justify">Elephant was the robot used in FTC Rover Ruckus by team <strong>#12456 Big Red for the 2018-2019 season</strong></p>
           <div class="col-md-6 inner" style="padding:10px;">
 
@@ -140,7 +140,7 @@ include 'res/nav.php';
             </ul>
           </div>
         </div>
-        <ul>
+        <ul style="color:#a7a9be;">
           <li class="lead text-justify">Extending intake for Gold and Silver</li>
           <li class="lead text-justify">Mechanum Wheels allow for strafing</li>
         </ul>
@@ -150,14 +150,14 @@ include 'res/nav.php';
 
 
 
-    <div class="row special-row block" id="#blowtorch" >
+    <div class="row special-row block" id="#blowtorch" style="color:#a7a9be;">
 
       <div class="col-md-6 text-center" style="align-content:center;">
         <img src="/img/mock3.jpg" style="width: 450px; height: 450px;" class="img-fluid img-center img-vert-center" alt="twc" style="padding:20px; align-self:center;  width:65%">
       </div>
       <div class="col-md-6">
         <div class="row">
-          <h4 class="display-2" style="text-align:left; font-size:85px;">​​Blowtorch</h4>
+          <h4 class="display-2" style="text-align:left; font-size:85px; color:#fffffe;">​​Blowtorch</h4>
         </div>
         <div class="row">
           <p class="lead text-justify">Blowtorch was the robot used in FTC Relic Recovery by team <strong>#12456 Big Red for the 2017-2018 season</strong></p>

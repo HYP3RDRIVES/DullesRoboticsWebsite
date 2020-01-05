@@ -658,6 +658,7 @@ hr.style19 {
 
 .img-circle {
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .special-row {

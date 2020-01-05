@@ -84,15 +84,15 @@
 
 
 
-    <hr class="style1" />
-    <div class="container">
+
+    <div class="container" style="margin-top:40px;">
 
 
           <div class="container">
 
             <div class="row" style="margin-bottom:50px;">
               <div class="col-sm-12">
-                <h3 class="display-3" style="text-align:center;">Departments</h3>
+                <h3 class="display-3" style="text-align:center; margin-bottom:20px;">Departments</h3>
               </div>
                 <div class="col">
                   <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">

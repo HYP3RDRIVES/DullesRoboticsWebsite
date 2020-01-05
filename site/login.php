@@ -21,18 +21,19 @@
 
   <div class="container">
     <div class="row"></div>
-    <h1 class="display-3" style="text-align:center;">Admin Portal</h1>
+    <h1 class="display-3" style="text-align:center;">Member Portal</h1>
+    <p class="text-center lead">This portal is only for the use of registered members</p>
     <hr class="style14">
 
     <div class="container-fluid text-center">
 
-      <p class="text-danger" style="display:none;" id="#errorMsg">Your username or password is invalid! Try again!</p>
+      <p class="text-danger" style="display:none;" id="#invalid-user">Your username or password is invalid! Try again!</p>
       <form onsubmit="return false" method="post">
-      <label for="teamno">Email</label>
+      <label for="user">Username</label>
       <input id = "user-box" type=" text-center" class="form-control text-center" name="user">
-	          <div class="invalid-feedback" id = "invalid-user" style="display:none">Invalid Username!</div>
+	          <div class="invalid-feedback" id = "#invalid-user" style="display:none">Invalid Username!</div>
         <div class="invalid-feedback" id = "user-taken" style="display:none">Username is already in use!</div>
-      <label for="teamno">Password</label>
+      <label for="pass">Password</label>
       <input id = "pass-box" type="password"  class="form-control text-center" name="pass">
       <button id="login-send" class="btn btn-primary" onclick="">Submit</button>
     </form>
@@ -90,33 +91,39 @@
             data =  {do_login: "do_login",
                     username:username,
                     password:password};
-            console.log(data);
+    //        console.log(data);
             // Perform Login to Server
+
+            //Dont tell user if login or password is incorrect - security risk if you do
+
             $.ajax({type:'post',url:ajaxurl, data, success:function (response) {
-                console.log("Login Response: "+response);
+                // console.log("Login Response: "+response);
                 switch (response) {
                 case "Invalid Username!":
-                    console.log("Alert: Invalid Username!");
-                    $("#invalid-user").css("display","");
-                    $("#invalid-user").text("Invalid Username!");
+                    console.log("Alert: Invalid Login!");
+                    $("#invalid-user").css("display","flex");
+                    // $("#invalid-user").text("Invalid Username!");
                     if (!$("#user-box").hasClass("is-invalid")) {
-						$("#user-box").addClass("is-invalid");
+						                $("#user-box").addClass("is-invalid");
+                            $("#pass-box").addClass("is-invalid");
                     }
-                    $("#user-taken").css("display","none");
-                    $("#invalid-pass").css("display","none");
-                    if ($("#pass-box").hasClass("is-invalid")) {
-						$("#pass-box").removeClass("is-invalid");
+                      $("#user-taken").css("display","none");
+                      $("#invalid-pass").css("display","none");
+                      if ($("#pass-box").hasClass("is-invalid")) {
+						            $("#pass-box").removeClass("is-invalid");
                     }
                     break;
                 case "Invalid Password!":
-                    console.log("Alert: Invalid Password!");
+                    console.log("Alert: Invalid Login!");
                     $("#invalid-pass").css("display","");
                     if (!$("#pass-box").hasClass("is-invalid")) {
-						$("#pass-box").addClass("is-invalid");
+                        $("#user-box").addClass("is-invalid");
+						            $("#pass-box").addClass("is-invalid");
                     }
                     $("#invalid-user").css("display","none");
                     if ($("#user-box").hasClass("is-invalid")) {
-						$("#user-box").removeClass("is-invalid");
+						                $("#user-box").removeClass("is-invalid");
+
                     }
                     break;
                 case "User is banned!":
@@ -133,15 +140,15 @@
                     break;
                 case "Success (Regular)!":
 					console.log("Alert: Regular Login Successful!");
-          
+
 					// Remove invalid markers
 					$("#invalid-pass").css("display","none");
                     if ($("#pass-box").hasClass("is-invalid")) {
-						$("#pass-box").removeClass("is-invalid");
+						                $("#pass-box").removeClass("is-invalid");
                     }
                     $("#invalid-user").css("display","none");
                     if ($("#user-box").hasClass("is-invalid")) {
-						$("#user-box").removeClass("is-invalid");
+						                $("#user-box").removeClass("is-invalid");
                     }
 
                     // Prevent Login because we are already logged in
@@ -164,6 +171,7 @@
                     break;
                 case "Success (Admin)!":
                 	console.log("Alert: Admin Login Successful!");
+                  window.location.replace("/edit.php");
 
 					// Remove invalid markers
 					$("#invalid-pass").css("display","none");
