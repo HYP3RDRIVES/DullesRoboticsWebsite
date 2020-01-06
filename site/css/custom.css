@@ -78,13 +78,54 @@ padding-bottom: 1.5rem;
   color: white;
 }
 
+.btn-green{
+  background-color: green;
+  color: white;
+  border-radius: 0px;
+  font-weight: normal;
+}
+.btn-green:hover{
+  color:black;
+  background-color: white;
+}
+.btn-lblue{
+  background-color: #3da9fc;
+  color: white;
+  border-radius: 0px;
+  font-weight: normal;
+}
+.btn-lblue:hover{
+  color:black;
+  background-color: white;
+}
+
+.rotated-block {
+  position: absolute;
+  zi-index: 1;
+  width: 100%;
+  min-height: 150%;
+  background: #FFFFFF;
+  transform: rotate(-20deg);
+  left: -40%;
+  top: -7%;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  top: 35%;
+  left: 10%;
+}
+
 .btn{
   transition: 0.1s;
   filter: brightness(100%);
+
 }
 
 .btn:hover{
  filter: brightness(90%);
+
 }
 
 @font-face {
@@ -877,10 +918,19 @@ hr.style19 {
   min-height: 25vh;
   margin-bottom: 10px;
   width: 350px;
+
+
 }
 
 .cal-card:hover {
   margin-bottom: 0px;
+}
+
+@media only screen and (max-width : 768px) {
+
+.cal-card p {
+  margin-bottom: 90px;
+}
 }
 
 .cal-card p {

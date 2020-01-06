@@ -95,7 +95,7 @@
               <h1 class="display-4">Welcome!</h1>
               <p class="lead text-justify">We are a robotics club based out of Dulles High School in Sugar Land, Texas. Dulles Robotics is home to two FTC Teams (13822, 12456) in addition to one FRC team (7494). These teams participate in the FIRST
                 robotics programs.</p>
-              <a href="about.php" class="btn">About Us</a>
+              <a href="about.php" class="btn btn-lblue">About Us</a>
             </div>
           </div>
 
@@ -188,11 +188,18 @@
           <div class="row justify-content-center text-center">
             <div class="col-sm">
               <style>
-                .card {
+                .cal-card {
                   background-color: #232946;
+                  min-height: 30vh;
 
                 }
+                .card-header{
+                  margin-bottom: 20px;
+                }
+                .card-text{
 
+                  padding-bottom: 80px;
+                }
                 .card:hover {
                   background-color: #131c4b;
                   color: #ecf0ff;
@@ -294,7 +301,7 @@
                       <span class="title">FIT Pasadena Event</span>
                       <span class="location">San Jacinto College Central</span>
                     </a>
-                    <a class="btn btn-primary" href="https://www.thebluealliance.com/event/2020txpas" target="_blank" style="position:absolute;bottom: 60px; left:5px;right:5px; margin-bottom:5px;background-color:#3da9fc;color:white;">View on TBA</a>
+                    <a class="btn btn-primary" href="https://www.thebluealliance.com/event/2020txpas" target="_blank" style="position:absolute;bottom: 60px; left:5px;right:5px; margin-bottom:5px;margin: top:40px;background-color:#3da9fc;color:white;">View on TBA</a>
                   </div>
                 </div>
               </div>

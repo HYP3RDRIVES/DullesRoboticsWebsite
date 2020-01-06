@@ -39,7 +39,7 @@
         <div id="#one">
           <h3>FTC Houston SW League Scrimmage</h3>
           <hr class="style2">
-          <p class="small lead">26 Oct 2019</p>
+          <p class="small lead">26 Oct BLAAH2019</p>
           <hr class="style12">
           <p class="lead"> Don't forget to log this contest!
             <br />Rookie members: what did you learn? What did you do? How did you feel?
@@ -63,31 +63,31 @@
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                 <div class="indxcrop" style="width:580px; padding-right:40px;">
-                  <img class="d-block w-100 " id="#slideOne" src="" alt="First slide" style="width:580px; ">
+                  <img class="d-block w-100 " id="#slideOne" src="" alt="First slide" style="width:580px;filter: brightness(70%);">
                 </div>
                 <div class="imgtxt-container">
                   <div class="carousel-caption">
-                    <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">New members practice competing in FTC</p>
+                    <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:20px;">New members practice competing in FTC</p>
                   </div>
                 </div>
               </div>
               <div class="carousel-item ">
                 <div class="indxcrop" style="width:580px; padding-right:40px;">
-                  <img class="d-block w-100 " id="#slideTwo" src="" alt="Second slide" style="width:580px; ">
+                  <img class="d-block w-100 " id="#slideTwo" src="" alt="Second slide" style="width:580px;filter: brightness(70%); ">
                 </div>
                 <div class="imgtxt-container">
                   <div class="carousel-caption">
-                    <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">Rohan and Aaron teach students on other teams the basics of Autodesk Inventor</p>
+                    <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:20px;">Rohan and Aaron teach students on other teams the basics of Autodesk Inventor</p>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="indxcrop" style="width:580px; padding-right:40px;">
-                  <img class="d-block w-100 " id="#slideThree" src="" alt="Third slide" style="width: 480px; height: 299px;">
+                  <img class="d-block w-100 " id="#slideThree" src="" alt="Third slide" style="width: 480px; height: 299px;filter: brightness(70%);">
                 </div>
                 <div class="imgtxt-container">
                   <div class="carousel-caption">
-                    <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:50px;">Jaden helps other teams fix their robots during the scrimmage.</p>
+                    <p class="p-carousel-caption animated fadeInUp hidden-xs lead" style="font-size:20px;margin-top:20px;">Jaden helps other teams fix their robots during the scrimmage.</p>
                   </div>
                 </div>
               </div>
@@ -115,14 +115,37 @@
         <a class="btn btn-primary" id="#oneBtn" onclick="oneEdit()">Edit</a>
 
         <script>
+
+
+        function getCookie(cname) {
+              var name = cname + "=";
+              //var decodedCookie = decodeURIComponent(document.cookie);
+              var ca = document.cookie.split(';');
+              for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                  c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                  return c.substring(name.length, c.length);
+                }
+              }
+              return "";
+            }
+            getCookie("loggedin");
+
         var one = document.getElementById("#one");
         var btn = document.getElementById('#oneBtn');
         btn.parentNode.removeChild(btn);
-        console.log("authstate "+ authstate);
 
-            if (authstate == true) {
+
+
+            if (getCookie("loggedin")=="true"){
               one.appendChild(btn);
 
+            }
+            else{
+              console.log("not logged in")
             }
 
           var editing = false;

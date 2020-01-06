@@ -100,9 +100,9 @@
                 // console.log("Login Response: "+response);
                 switch (response) {
                 case "Invalid Username!":
-                    console.log("Alert: Invalid Login!");
+                    console.log("Alert: Invalid Username!");
                     $("#invalid-user").css("display","flex");
-                    // $("#invalid-user").text("Invalid Username!");
+                    $("#invalid-user").text("Invalid Username!");
                     if (!$("#user-box").hasClass("is-invalid")) {
 						                $("#user-box").addClass("is-invalid");
                             $("#pass-box").addClass("is-invalid");
@@ -114,7 +114,7 @@
                     }
                     break;
                 case "Invalid Password!":
-                    console.log("Alert: Invalid Login!");
+                    console.log("Alert: Invalid Password");
                     $("#invalid-pass").css("display","");
                     if (!$("#pass-box").hasClass("is-invalid")) {
                         $("#user-box").addClass("is-invalid");

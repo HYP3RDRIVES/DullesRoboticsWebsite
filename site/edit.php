@@ -19,6 +19,31 @@
   <?php
 		include 'res/nav.php';
 	?>
+<script>
+function getCookie(cname) {
+      var name = cname + "=";
+      //var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = document.cookie.split(';');
+      for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+    getCookie("loggedin");
+    if (getCookie("loggedin")=="true"){
+      console.log("logged in");
+
+    }
+    else{
+      window.location.replace("/");
+    }
+    </script>
 
   <div class="container" style="min-height:50vh">
     <div class="row"></div>
@@ -27,7 +52,7 @@
 
     <div class="container-fluid text-center">
 
-      <a class="btn btn-primary" onclick="valueGrab()">Blog</a>
+      <a class="btn btn-primary" href="announcements.php">Blog</a>
       <a class="btn btn-primary active" href="#" >Robots</a>
 
 

@@ -29,9 +29,18 @@
   </script>
 
   <!-- Main Page -->
-  <div class="container" style="height:100%;">
-    <h1 class="display-3" style="text-align:center;">About Us</h1>
+  <div class="container-fluid" style="height:100%;">
+    <h1 class="display-3" style="text-align:center;">Support Us</h1>
     <hr class="style14">
+
+    <div class="sect4" style="height: 300px; overflow: hidden;
+  position: relative;">
+    <div class="content">
+        <p>Purly made with HTML & CSS</p>
+     </div>
+  <div class="rotated-block"></div>
+
+</div>
     <!-- Title -->
 
 
