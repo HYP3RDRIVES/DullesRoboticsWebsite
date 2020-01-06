@@ -36,7 +36,7 @@
 
 
       <div data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
-        <div id="#one">
+        <div id="b7" class="BlogPost">
           <h3>FTC Houston SW League Scrimmage</h3>
           <hr class="style2">
           <p class="small lead">26 Oct BLAAH2019</p>
@@ -134,7 +134,7 @@
             }
             getCookie("loggedin");
 
-        var one = document.getElementById("#one");
+        var one = document.getElementById("b7");
         var btn = document.getElementById('#oneBtn');
         btn.parentNode.removeChild(btn);
 
@@ -157,7 +157,7 @@
             if (editing === true) {
               var btn = document.getElementById('#oneBtn');
               console.log("save function triggered");
-              document.getElementById('#one').setAttribute('contenteditable', 'false');
+              document.getElementById('b7').setAttribute('contenteditable', 'false');
               btn.setAttribute('class', 'btn btn-primary');
               btn.innerHTML = "Edit";
               editing = false;
@@ -169,7 +169,7 @@
             var btn = document.getElementById('#oneBtn');
             if (editing === false) {
               console.log("edit function triggered");
-              document.getElementById('#one').setAttribute('contenteditable', 'true');
+              document.getElementById('b7').setAttribute('contenteditable', 'true');
               btn.setAttribute('class', 'btn btn-success');
               btn.innerHTML = "Save";
               editing = true;
@@ -181,93 +181,109 @@
           }
         </script>
         <hr />
-        <h3>Upcoming Competitions</h3>
-        <hr class="style2">
-        <p class="small lead">18 Oct 2019</p>
-        <hr class="style12">
-        <p class="lead">
-          Oct 26 - FTC SW League Scrimmage <br />
-          Nov 16 - FTC SW League Match<br />
-          Dec 14 - FTC SW League Match<br />
-        </p>
-        <p>
-          Also, new members, if you don't get your dues in, you will NOT be participating at the comp.
-          Veterans, get your dues in asap. Thank you!
-        </p>
+		<div id="b6" class="BlogPost">
+			<h3>Upcoming Competitions</h3>
+			<hr class="style2">
+			<p class="small lead">18 Oct 2019</p>
+			<hr class="style12">
+			<p class="lead">
+			  Oct 26 - FTC SW League Scrimmage <br />
+			  Nov 16 - FTC SW League Match<br />
+			  Dec 14 - FTC SW League Match<br />
+			</p>
+			<p>
+			  Also, new members, if you don't get your dues in, you will NOT be participating at the comp.
+			  Veterans, get your dues in asap. Thank you!
+			</p>
+		</div>
+		
+		<div id="b5" class="BlogPost">
+			<h3>Forms need to be filled out!</h3>
+			<hr class="style2">
+			<p class="small lead">24 Sept 2019</p>
+			<hr class="style12">
+			<p class="lead">
+			  Everyone is required to fill out these forms; complete them and return them to Sonnier ASAP. Leave the team number blank.<br /> If you are unable to print them, Sonnier has plenty printed out already; all you have to do is ask.
+			  <a class="btn btn-primary" href="files/roboforms.pdf">View forms</a>
+			</p>
+			<h3>Workshops start</h3>
+			<hr class="style2">
+			<p class="small lead">16 Sept 2019</p>
+			<hr class="style12">
+			<p class="lead">
+			  Workshops start tommorow, Sept 16. Signup here: <a class="btn btn-primary" href"https://www.signupgenius.com/go/30E0849AEAA23A0F85-robotics. ">Workshop Signup</a>
+				  <br/>
+				  P.S. Pay your dues!  <a class=" btn btn-dark" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" id="noticont">Pay Dues</a>
+			</p>
+		</div>
+		
+		<div id="b4" class="BlogPost">
+			<h3>Robotics is now an SNHS approved club!</h3>
+			<hr class="style2">
+			<p class="small lead">15 Sept 2019</p>
+			<hr class="style12">
+			<p class="lead">
+			  Good news! Robotics is now a SNHS-approved Science club! What that means is:
+			  <br />a. We won't be short of volunteers for any events!
+			  <br />b. We will be able to earn SNHS points for running our contests and doing community outreach!
+			  <br />(Excess SNHS points can be transfered to YES hours)
+			</p>
+			<h3>General meeting</h3>
+			<hr class="style2">
+			<p class="small lead">23 Aug 2019</p>
+			<hr class="style12">
+			<p class="lead">
+			  General meeting on 3rd Sept.
+			</p>
+		</div>	
 
-        <h3>Forms need to be filled out!</h3>
-        <hr class="style2">
-        <p class="small lead">24 Sept 2019</p>
-        <hr class="style12">
-        <p class="lead">
-          Everyone is required to fill out these forms; complete them and return them to Sonnier ASAP. Leave the team number blank.<br /> If you are unable to print them, Sonnier has plenty printed out already; all you have to do is ask.
-          <a class="btn btn-primary" href="files/roboforms.pdf">View forms</a>
-        </p>
-        <h3>Workshops start</h3>
-        <hr class="style2">
-        <p class="small lead">16 Sept 2019</p>
-        <hr class="style12">
-        <p class="lead">
-          Workshops start tommorow, Sept 16. Signup here: <a class="btn btn-primary" href"https://www.signupgenius.com/go/30E0849AEAA23A0F85-robotics. ">Workshop Signup</a>
-              <br/>
-              P.S. Pay your dues!  <a class=" btn btn-dark" href="https://fortbendisd.revtrak.net/FBISD-Schools-1082/High-School/DHS/dhs-robotics/#/list" target="_blank" id="noticont">Pay Dues</a>
-        </p>
-        <h3>Robotics is now an SNHS approved club!</h3>
-        <hr class="style2">
-        <p class="small lead">15 Sept 2019</p>
-        <hr class="style12">
-        <p class="lead">
-          Good news! Robotics is now a SNHS-approved Science club! What that means is:
-          <br />a. We won't be short of volunteers for any events!
-          <br />b. We will be able to earn SNHS points for running our contests and doing community outreach!
-          <br />(Excess SNHS points can be transfered to YES hours)
-        </p>
-        <h3>General meeting</h3>
-        <hr class="style2">
-        <p class="small lead">23 Aug 2019</p>
-        <hr class="style12">
-        <p class="lead">
-          General meeting on 3rd Sept.
-        </p>
+		<div id="b3" class="BlogPost">
+			<h3>Parent Meeting</h3>
+			<hr class="style2">
+			<p class="small lead">23 Aug 2019</p>
+			<hr class="style12">
+			<p class="lead">
+			  Parent meeting on the <strong>4th of September</strong> at 5:30 PM, before open house.
+			</p>
+		</div>	
+		
+		<div id="b2" class="BlogPost">
+			<h3>General meeting</h3>
+			<hr class="style2">
+			<p class="small lead">23 Aug 2019</p>
+			<hr class="style12">
+			<p class="lead">
+			  General meeting on 3rd Sept.
+			</p>
+		</div>
+			
+		<div id="b1" class="BlogPost">
+			<h3>Interest Meetings</h3>
+			<hr class="style2">
+			<p class="small lead">19 Aug 2019</p>
+			<hr class="style12">
+			<p class="lead">
+			  Interest meetings are on Aug 23rd, and Aug 27th in Room G102 (behind the cafeteria) at 3 P.M.
+			</p>
+			<hr class="style3">
+			<br>
+		</div>	
+			
+		<div id="b0" class="BlogPost">
+			<h3>New Website!</h3>
+			<hr class="style2">
+			<p class="small lead">9 Aug 2019</p>
+			<hr class="style12">
+			<p class="lead">
+			  As you can probably tell, we have completely overhauled our site, including switching from HTML & Javascript/CoffeeScript to PHP, as well as changing the look and feel to a more modern one. This should allow for a better user experience,
+			  and is also more efficient.
+			  <ul class="list-group-flush">
 
-        <h3>Parent Meeting</h3>
-        <hr class="style2">
-        <p class="small lead">23 Aug 2019</p>
-        <hr class="style12">
-        <p class="lead">
-          Parent meeting on the <strong>4th of September</strong> at 5:30 PM, before open house.
-        </p>
-        <h3>General meeting</h3>
-        <hr class="style2">
-        <p class="small lead">23 Aug 2019</p>
-        <hr class="style12">
-        <p class="lead">
-          General meeting on 3rd Sept.
-        </p>
-
-        <h3>Interest Meetings</h3>
-        <hr class="style2">
-        <p class="small lead">19 Aug 2019</p>
-        <hr class="style12">
-        <p class="lead">
-          Interest meetings are on Aug 23rd, and Aug 27th in Room G102 (behind the cafeteria) at 3 P.M.
-        </p>
-        <hr class="style3">
-        <br>
-        <h3>New Website!</h3>
-        <hr class="style2">
-        <p class="small lead">9 Aug 2019</p>
-        <hr class="style12">
-        <p class="lead">
-          As you can probably tell, we have completely overhauled our site, including switching from HTML & Javascript/CoffeeScript to PHP, as well as changing the look and feel to a more modern one. This should allow for a better user experience,
-          and is also more efficient.
-          <ul class="list-group-flush">
-
-          </ul>
-        </p>
-        <hr class="style3">
-        <hr class="style18">
-
+			  </ul>
+			</p>
+			<hr class="style3">
+			<hr class="style18">
+		</div>
 
       </div>
     </div>
