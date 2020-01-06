@@ -85,8 +85,9 @@ function getCookie(cname) {
 	var loginBtn = document.getElementById("login-link");
 
 	var openLogin = true;
+	var loginstats = false;
 	$(document).ready(function() {
-		var loginstats = getCookie("loggedin");
+		loginstats = getCookie("loggedin");
 		console.log(loginstats);
 		if (loginstats == "true") {
 
