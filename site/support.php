@@ -29,18 +29,58 @@
   </script>
 
   <!-- Main Page -->
-  <div class="container-fluid" style="height:100%;">
-    <h1 class="display-3" style="text-align:center;">Support Us</h1>
-    <hr class="style14">
+  <div class="sect4" style="height: 30vh; overflow-y: hidden;position: relative;">
+    <style>
 
-    <div class="sect4" style="height: 300px; overflow: hidden;
-  position: relative;">
-    <div class="content">
-        <p>Purly made with HTML & CSS</p>
-     </div>
-  <div class="rotated-block"></div>
+.skewed-bg{
+background: rgb(66, 180, 76);
+padding: 200px 0;
+
+transform:skewX(10deg) skewY(0deg);
+margin-top: -200px;
+margin-left: -200px;
+width: 50vw;
+height:40vh;
+
+
+.content{
+
+
+  text-align: center;
+
+  .title{
+    padding-top: 100px;
+    font-weight: normal;
+
+  }
+
+  .text{
+
+    width:40vw;
+    margin: 25px auto;
+    color: lighten($main-color, 55);
+
+  }
+}
+}
+
+</style>
+<div class="skewed-bg">
+  <div class="content"style="padding-right: 10vw;padding-left: 7vw;" >
+    <h1 class="text" style="transform:skewX(-10deg);">Support The Future</h1>
+    <p class="text" style="transform:skewX(-10deg);">By supporting Dulles Robotics, you help fulfill the mission of inspiring the Next Generation of innovators and thinkers.</p>
+   </div>
 
 </div>
+<div class="content" style="background-image:url('https://drc.aspencdn.me/photos/stateRAS.jpg');">
+</div>
+</div>
+
+  <div class="container-fluid" style="height:100%; max-width:100vw;overflow-x:hidden;">
+
+    <h1 class="display-3" style="text-align:center;">About Us</h1>
+    <hr class="style14">
+
     <!-- Title -->
 
 

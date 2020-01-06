@@ -59,7 +59,7 @@ OLD FOOTER
 
 			<img src="/img/sponsor/wm.png" width="125" height="55">
 			<img src="/img/sponsor/nasa.png" width="75" height="55">
-<a class="btn btn-green" href="/support.php">Support US!</a>
+<!-- <a class="btn btn-green" href="/support.php">Support US!</a> -->
 	</div>
 
 	<div class="col-md-2"></div>
