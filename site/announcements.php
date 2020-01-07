@@ -34,9 +34,10 @@
     </div>
     <div class="col-sm-12 col-md-8" id="scrollspy-info">
 
-
+<!-- <a class="btn btn-primary" id="#clickNew">New Post<a> -->
       <div id = "blogContainer" data-spy="scroll" data-target="#list-announ" data-offset="0" class="scrollspy-example">
-        
+
+
         <!--<a class="btn btn-primary" id="#oneBtn" onclick="oneEdit()">Edit</a>-->
 
         <script>
@@ -106,7 +107,7 @@
           }*/
         </script>
         <hr />
-		
+
 
       </div>
     </div>
@@ -130,14 +131,16 @@
               }
               return "";
             }
-			
+
   //Do not run this function if there are already blogs in the database!
+
+
   var initSaveBlogs = function(){
 	var blogs = document.getElementsByClassName("BlogPost");
 	var blogDates = document.getElementsByClassName("BlogDate");
 	for (var i = blogs.length-1; i >= 0; i--) {
 		var blogDate = blogDates[i].innerHTML;
-		var blogParts = blogDate.split("/"); 
+		var blogParts = blogDate.split("/");
 		var dateComp = blogParts[2]+"-"+blogParts[1]+"-"+blogParts[0]+" 00:00:01";
 		var ajaxurl = 'blog_code.php';
         var username = getCookie("username");
@@ -149,7 +152,7 @@
                     password:password,
 					blog:blogs[i].innerHTML,
 					date:dateComp};
-    
+
             // Perform  to Server
 
             //Dont tell user if login or password is incorrect - security risk if you do
@@ -160,7 +163,8 @@
 		})
 	}
   }
-  
+
+
   //Load blogs when page is ready
   $(document).ready(function(){
 		var ajaxurl = 'blog_code.php';
@@ -186,7 +190,7 @@
 						document.getElementById("blogContainer").insertBefore(newDiv,oldDiv);
 					}
 					var oldDiv = newDiv;
-					
+
 					//Add the edit button if we are allowed to
 					if (getCookie("loggedin")=="true") {
 						var editBlogBtn = document.createElement("a");
@@ -206,12 +210,12 @@
 								blogPost.setAttribute('contenteditable', 'false');
 								this.setAttribute('class', 'btn btn-primary');
 								this.innerHTML = "Edit";
-								
+
 								//Send updated blog to database
 								ajaxurl = 'blog_code.php';
 								var username = getCookie("username");
 								var password = getCookie("password");
-								
+
 								console.log("Gathering Login Data");
 								data =  {edit_blog_post: "edit_blog_post",
 									username:username,
@@ -227,12 +231,12 @@
 						document.getElementById("blogContainer").insertBefore(editBlogBtn,newDiv.nextSibling);
 					}
 				}
-				
+
 			}
        });
   });
-  
-  
+
+
   </script>
 
   <!-- preload ends -->
@@ -246,7 +250,25 @@
       $(function() {
         $('[data-toggle="tooltip"]').tooltip()
       })
-    </script>
+          </script>
+<!--          <script>
+          var blogNewPost = document.getElementById("#clickNew");
+
+          blogNewPost.addEventListener("click",function() {
+            data = {add_blog_post, add_blog_post: "add_blog_post",
+                    username:username,
+                    password:password,
+                    blog:blogs[i].innerHTML,
+                    date:<?php echo time(); ?> }
+
+            $.ajax({type:'post',url:ajaxurl, data, success:function (response) {
+                          console.log(response);
+                      }
+                    ]})});
+
+
+    </script> -->
+
   </footer>
 </body>
 
