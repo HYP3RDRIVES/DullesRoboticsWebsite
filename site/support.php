@@ -29,7 +29,7 @@
   </script>
 
   <!-- Main Page -->
-  <div class="sect4" style="height: 30vh; overflow-y: hidden;position: relative;">
+  <div class="sect4" style="height: 40vh; overflow: hidden;position: relative;" id="#sheader">
     <style>
 
 .skewed-bg{
@@ -40,8 +40,8 @@ transform:skewX(10deg) skewY(0deg);
 margin-top: -200px;
 margin-left: -200px;
 width: 50vw;
-height:40vh;
-
+height:50vh;
+z-index: 1;
 
 .content{
 
@@ -63,72 +63,36 @@ height:40vh;
   }
 }
 }
-
+@media only screen and (max-width : 768px) {
+  .skewed-bg{
+    display: none;
+  }
+  .cover{
+    display: none;
+  }
+}
 </style>
-<div class="skewed-bg">
+<div class="skewed-bg" style="position:absolute;">
   <div class="content"style="padding-right: 10vw;padding-left: 7vw;" >
     <h1 class="text" style="transform:skewX(-10deg);">Support The Future</h1>
     <p class="text" style="transform:skewX(-10deg);">By supporting Dulles Robotics, you help fulfill the mission of inspiring the Next Generation of innovators and thinkers.</p>
    </div>
 
 </div>
-<div class="content" style="background-image:url('https://drc.aspencdn.me/photos/stateRAS.jpg');">
+<div class="cover"  id="#cover-img" style="display: flex;background-image: url('https://drc.aspencdn.me/photos/stateRAS.jpg'); background-repeat: no-repeat; background-position: center right;width:80vw; margin-left:20vw;position:absolute; top:0; height:38vh;z-index:0;"></div>
+
 </div>
 </div>
-
-  <div class="container-fluid" style="height:100%; max-width:100vw;overflow-x:hidden;">
-
-    <h1 class="display-3" style="text-align:center;">About Us</h1>
-    <hr class="style14">
-
-    <!-- Title -->
-
-
-    <!-- Logo and Welcome -->
-
-    <!-- Logo -->
-
-
-
-    <!-- Welcome Message -->
-
-    <div class="row special-row">
-      <div class="col-md-6">
-        <img src="img/w.png" class="img-fluid" alt="imagejqjij" width="500">
-      </div>
-      <div class="col-md-6">
-        <h1 class="display-7" style="padding-top:10px">An Introduction:</h1>
-        <p class="lead">We are a robotics club based out of Dulles HS in Sugar Land, TX. Our FTC teams are #12456 - Big Red and #13822 - Robovikings. Our FRC team is #7494 - Circuit Bizurkers.
-          We also participate in community outreach events and workshops, and come together to promote STEM within our community.</p>
-        <!-- <a href="story.php" class="btn btn-primary">View our Story</a> -->
-      </div>
-    </div>
-    <hr />
-    <div class="row special-row" style="padding-top:10px">
-      <div class="col-md-6">
-        <img src="https://drc.aspencdn.me/photos/stateRAS.jpg" class="img-fluid" alt="dcmpphoto" width="500" height="500">
-      </div>
-      <div class="col-md-6">
-        <h1 class="display-7"style="padding-top:10px">The Team</h1>
-        <div class="lead">
-          <p>Dulles Robotics is comprised of an extremly diverse group of people, from different backgrounds. Each member posses a unique skillset crucial to the functioning of our teams.</p>
-        </div>
-      </div>
-    </div>
-    <hr />
-    <div class="row special-row" style="padding-top:10px">
-      <div class="col-md-6">
-        <img src="img/mentor.jpg" class="img-fluid" alt="sartartia" width="500" height="100">
-      </div>
-      <div class="col-md-6">
-        <h1 class="display-7" style="padding-top:10px">Community Impact</h1>
-        <div class="lead">
-          <p>A huge part of FIRST is the impact a team makes on their community. We have reached out in several ways hosting library camps, demoing our robots at large STEM events, and teaching at orphanages. Beyond that, we host the FTC matches for our league and mentor other teams. We continue to promote FIRST in our school and have been featured on local television channels. </p>
-        </div>
-      </div>
-    </div>
-
-
+<script>
+const width  = window.innerWidth || document.documentElement.clientWidth ||
+document.body.clientWidth;
+var coverImg = document.getElementById("#cover-img");
+if (width < 768){
+  console.log("smol display");
+  var sheader = document.getElementById("#sheader");
+  sheader.parentNode.removeChild(sheader);
+}
+</script>
 
 
 
@@ -138,10 +102,13 @@ height:40vh;
 
           <div class="container">
 
-            <div class="row" style="margin-bottom:50px;">
+            <div class="row text-center" style="margin-bottom:50px;">
               <div class="col-sm-12">
-                <h3 class="display-3" style="text-align:center; margin-bottom:20px;">Departments</h3>
+                <h3 class="display-3" style="text-align:center; margin-bottom:20px;">Tiers</h3>
+                <div  style="background-image: url('/img/tiers.png'); background-repeat: no-repeat; background-position: center;width:80vw;"></div>
               </div>
+
+              <!--
                 <div class="col">
                   <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Build</h4>
@@ -169,6 +136,7 @@ height:40vh;
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Marketing</h4>
                   <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">The marketing team handles the team's finances and sponsorship. Their focus is to raise money for the operations and competitions.</p>
                 </div>
+              -->
             </div>
           </div>
 
@@ -176,11 +144,11 @@ height:40vh;
 
           <hr class="style20" />
           <div class="row" style="padding-top:10px; margin-left:0%;">
-            <h1 class="display-3">The website</h1>
+            <h4 class="display-3" style="font-size:40px; margin-left:-2px;">Tax Deductible</h4>
             <hr>
           </div>
           <div class="lead">
-            <p>Dullesrobotics.com is self-hosted at home, by a few of our members. Originally starting off as a site on Weebly, we were able to accuire a domain (FQDN), and eventually our own servers. In the summer of 2019, the site recived a major overhaul by transitioning to PHP and Bootstrap. Special thanks to <strong>Geoffrey Dolive</strong> for helping fund our domain for 2019-2020!</p>
+            <p>Dulles Robotics is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of U.S. law. To claim a donation as a deduction on your U.S. taxes, please keep your email donation receipt as your official record. We'll send it to you upon successful completion of your donation. Donations are also eligible for employer matching. Please contact your employer for more information!</p>
           </div>
 
 </div>
