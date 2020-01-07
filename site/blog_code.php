@@ -12,11 +12,11 @@ define('DB_PASSWORD', 'Du1135R0b0t1cZx');
 define('DB_NAME', 'RoboBlogDB');
 
 // Attempt to connect to MySQL database
-$connect = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$connect = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Check connection
-if($connect === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
+if($connect->connect_error){
+    die("ERROR: Could not connect. " . $connect->connect_error);
 }
 
 if(isset($_POST['add_blog_post']))
@@ -24,18 +24,40 @@ if(isset($_POST['add_blog_post']))
     $username=$_POST['username'];
     $password=$_POST['password'];
 	$blog=$_POST['blog'];
-    $select_data=mysqli_query($connect,"select * from users where username='$username' and password='$password'");
-    $has_user = mysqli_query($connect,"select * from users where username='$username'");
-    if ($row = mysqli_fetch_assoc($has_user)) {
-        if($row = mysqli_fetch_assoc($select_data)) {
+	$date=$_POST['date'];
+	//Prepare and execute binding statements
 
+	
+    $has_user = $connect->prepare("select * from users where username=?");
+	$has_user->bind_param("s",$username);
+	$has_user->execute();
+
+	
+    if ($row = $has_user->get_result()->fetch_assoc()) {
+		$has_user->close();
+		$select_data = $connect->prepare("select * from users where username=? and pass=?");
+		$select_data->bind_param("ss",$username,$password);
+		$select_data->execute();
+	
+        if($row = $select_data->get_result()->fetch_assoc()) {
+			$select_data->close();
 
 			try {
-			$result = mysqli_query($connect,"SELECT MAX(id) AS 'ID' FROM blogs");
-			if ($rowres = mysqli_fetch_assoc($result)) {
-				$max_id =  $rowres['ID'] + 1;
+			$result = $connect->prepare("SELECT MAX(id) AS 'ID' FROM blogs");
+			$result->execute();
+			
+			//$rowres = null;
+			if ($rowres = $result->get_result()-> fetch_assoc()) {
+				$result->close();
+				$max_id = 0;
+				//echo "max id is " . $rowres['ID'];
+				$max_id =  $rowres["ID"] + 1;
+				//echo "calculated max id is " . $max_id;
 				// Add new blog post
-				mysqli_query($connect,"INSERT INTO blogs(id,blogDate,blog) VALUES ('{$max_id}' , CURRENT_TIMESTAMP(),'$blog')");
+				$add_blog = $connect->prepare("INSERT INTO blogs(id,blogDate,blog) VALUES (? , ?, ?)");
+				$add_blog->bind_param("iss",$max_id,$date,$blog);
+				$add_blog->execute();
+				$add_blog->close();
 				echo "Success!";
 				}
 			}
@@ -52,7 +74,7 @@ if(isset($_POST['add_blog_post']))
 	else {
 	echo "Invalid Username!";
 	}
-    mysqli_close($connect);
+    $connect->close();
     exit();
 }
 
@@ -61,17 +83,29 @@ if(isset($_POST['edit_blog_post']))
     $username=$_POST['username'];
     $password=$_POST['password'];
 	$blog=$_POST['blog'];
-	$id = $_POST['id']
-    $select_data=mysqli_query($connect,"select * from users where username='$username' and password='$password'");
-    $has_user = mysqli_query($connect,"select * from users where username='$username'");
-    if ($row = mysqli_fetch_assoc($has_user)) {
-        if($row = mysqli_fetch_assoc($select_data)) {
+	$id = $_POST['id'];
+	
+    $has_user = $connect->prepare("select * from users where username=?");
+	$has_user->bind_param("s",$username);
+	$has_user->execute();
 
+	
+    if ($row = $has_user->get_result()->fetch_assoc()) {
+		$has_user->close();
+		$select_data = $connect->prepare("select * from users where username=? and pass=?");
+		$select_data->bind_param("ss",$username,$password);
+		$select_data->execute();
+	
+        if($row = $select_data->get_result()->fetch_assoc()) {
+			$select_data->close();
 
 			try {
 
 				// Edit blog post
-				mysqli_query($connect,"UPDATE SET blog = '$blog' WHERE id = '$id'";
+				$edit_blog = $connect->prepare("UPDATE blogs SET blog = ? WHERE id = ?");
+				$edit_blog->bind_param("si",$blog,$id);
+				$edit_blog->execute();
+				$edit_blog->close();
 				echo "Success!";
 				}
 			catch(Exception $e) {
@@ -87,20 +121,15 @@ if(isset($_POST['edit_blog_post']))
 	else {
 	echo "Invalid Username!";
 	}
-    mysqli_close($connect);
+    $connect->close();
     exit();
 }
 
 if(isset($_POST['get_blogs']))
 {
-    $username=$_POST['username'];
-    $password=$_POST['password'];
-    $select_data=mysqli_query($connect,"select * from users where username='$username' and password='$password'");
-    $has_user = mysqli_query($connect,"select * from users where username='$username'");
-    if ($row = mysqli_fetch_assoc($has_user)) {
-        if($row = mysqli_fetch_assoc($select_data)) {
-            
-            $result = mysqli_query($connect,"SELECT * FROM blogs");
+            $blogs = $connect->prepare("SELECT * FROM blogs");
+			$blogs->execute();
+            $result = $blogs->get_result();
             //$histories[] = array();
             //Store all histories in an array to send to js
             while($row = $result->fetch_array(MYSQLI_ASSOC)) {
@@ -108,17 +137,10 @@ if(isset($_POST['get_blogs']))
             }
             echo json_encode($data);
             //echo "Success!";
-        }
+
         
-        else {
-            echo "Invalid Password!";
-        }
-    }
-    else
-    {
-        echo "Invalid Username!";
-    }
-    
+
+    $connect->close();
     exit();
     
 }
