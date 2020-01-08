@@ -115,6 +115,23 @@
           </div>
 
   </div>
+  <div class="row" style="padding-top:10px; display: inline; ">
+    <h4 class="display-3" style="font-size:40px; margin-left:-2px;">Support Us</h4>
+        <div class="lead justify-content-center;" style="justify:center; align-items: center;">
+          <p>Click to view our Sponsorship Packet, for additional information, contact us at <a class="badge badge-secondary" style="font-weight:0.5px;" href="marilto:DullesRobotics@gmail.com">dullesrobotics@gmail.com</a>. </p>
+    <a class="btn btn-green" href="/files/sponsorship.pdf">Sponsorship Packet!</a>
+  </div>
+
+
+
+ </div>
+  <div class="row" style="padding-top:10px; margin-left:0%;">
+    <h4 class="display-3" style="font-size:40px; margin-left:-2px;">Tax Deductible</h4>
+    <hr>
+  </div>
+  <div class="lead">
+    <p>Dulles Robotics is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of U.S. law. To claim a donation as a deduction on your U.S. taxes, please keep your email donation receipt as your official record. We'll send it to you upon successful completion of your donation. Donations are also eligible for employer matching. Please contact your employer for more information!</p>
+  </div>
 
 </div>
 
