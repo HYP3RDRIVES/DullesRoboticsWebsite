@@ -186,7 +186,7 @@
 
           <!-- Calendar mini-view -->
           <div class="row justify-content-center text-center">
-            <div class="col-sm">
+            
               <style>
                 .cal-card {
                   background-color: #232946;
@@ -205,6 +205,11 @@
                   color: #ecf0ff;
                 }
               </style>
+
+
+
+
+            <div class="col-sm">
               <div class="card text-center cal-card">
                 <style>
                   /* this whole part is for the background gradient thingy */
@@ -244,31 +249,9 @@
                     }
                   }
                 </style>
-                <h5 class="card-header">FTC League Match 4</h5><div class="badge badge-pill badge-dark" style="border-radius:25px;" id="#badge-pill">
+                <h5 class="card-header">FRC Channelview</h5><div class="badge badge-pill badge-dark" style="border-radius:25px;" id="#badge-pill">
                     <div class="text-light">Upcoming</div>
                   </div>
-                <div class="card-body">
-                  <h6 class="card-subtitle mb-2">January 18th 2020</h6>
-                  <p class="card-text">The 4th FTC match of the season. Every match the robots get better and more refined.</p>
-                  <div style="align-self:center">
-                    <a title="Add to Calendar" class="btn-cool btn addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;">
-                      Add to Calendar
-                      <span class="start">1/18/2020 08:00 AM</span>
-                      <span class="end">1/18/2020 1:00 PM</span>
-                      <span class="timezone">America/Chicago</span>
-                      <span class="title">FTC Robotics Match</span>
-                      <span class="location">Dulles High School</span>
-                    </a>
-                    <a class="btn btn-primary" href="/kickoff.php" target="_blank" style="position:absolute;bottom: 60px; left:5px;right:5px; margin-bottom:5px;background-color:#3da9fc;color:white;">View on FTC Event Info</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-sm">
-              <div class="card text-center cal-card">
-                <h5 class="card-header">FRC Channelview</h5>
                 <div class="card-body">
                   <h6 class="card-subtitle mb-2">March 7th/8th 2020</h6>
                   <p class="card-text">The 1st FRC match of the season. This is one of two district (FIT) events to qualify for District Champs</p>
@@ -292,6 +275,26 @@
                 <div class="card-body">
                   <h6 class="card-subtitle mb-2">March 7th/8th 2020</h6>
                   <p class="card-text">The 1st FRC match of the season. This is one of two district (FIT) events to qualify for District Champs</p>
+                  <div style="align-self:center">
+                    <a title="Add to Calendar" class="btn-coo btn addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;">
+                      Add to Calendar
+                      <span class="start">3/27/2020 05:00 AM</span>
+                      <span class="end">3/28/2020 6:00 PM</span>
+                      <span class="timezone">America/Chicago</span>
+                      <span class="title">FIT Pasadena Event</span>
+                      <span class="location">San Jacinto College Central</span>
+                    </a>
+                    <a class="btn btn-primary" href="https://www.thebluealliance.com/event/2020txpas" target="_blank" style="position:absolute;bottom: 60px; left:5px;right:5px; margin-bottom:5px;margin: top:40px;background-color:#3da9fc;color:white;">View on TBA</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card text-center cal-card">
+                <h5 class="card-header">FIT DCMP</h5>
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2">March 7th/8th 2020</h6>
+                  <p class="card-text">District Championships. This event requires advancement in the First In Texas District</p>
                   <div style="align-self:center">
                     <a title="Add to Calendar" class="btn-coo btn addeventatc" style="position:absolute;bottom: 10px; left:5px;right:5px;">
                       Add to Calendar
