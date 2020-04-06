@@ -57,7 +57,7 @@
     <hr />
     <div class="row special-row" style="padding-top:10px">
       <div class="col-md-6">
-        <img src="https://drc.aspencdn.me/photos/stateRAS.jpg" class="img-fluid" alt="dcmpphoto" width="500" height="500">
+        <img src="/img/stateRAS.jpg" class="img-fluid" alt="dcmpphoto" width="500" height="500">
       </div>
       <div class="col-md-6">
         <h1 class="display-7"style="padding-top:10px">The Team</h1>
@@ -94,29 +94,29 @@
                 <h3 class="display-3" style="text-align:center; margin-bottom:20px;">Departments</h3>
               </div>
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/build.jpg">
+                  <img class="img-circle block-center dept-image"  src="/img/build.jpg">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Build</h4>
                   <p class="lead-text text-justify lead" style="text-align:center;text-align:center;">The build team is charge of the building of our robots, both for FTC and FRC. They work against deadlines to ensure that the robot is ready for debugging, while also remaining in close communication with the Programming and Design teams to ensure the robot functions correctly and meets the original concept.</p>
                 </div>
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/program.png">
+                  <img class="img-circle block-center dept-image"  src="/img/program.png">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Programming</h4>
                   <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">The programming team is in charge of programming the instructions for what the robot is supposed to do. This includes programming the robot to respond with the intended results using a controller, as well as writing code for the robot to perform autonomously.  The programmers here at Dulles Robotics use Java.</p>
                 </div>
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/design.png">
+                  <img class="img-circle block-center dept-image"  src="/img/design.png">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Design</h4>
                   <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">The Design team is responsible for designing the robot. They produce sketches and CAD renderings of the robot prototype.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/pres.jpg">
+                  <img class="img-circle block-center dept-image"  src="/img/pres.jpg">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Presentation</h4>
                   <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">Presentation is responsible for the image of Dulles Robotics. They make the PIT displays, and other brand releated content including Graphics Design, and Maintaining this Website.</p>
                 </div>
                 <div class="col">
-                  <img class="img-circle block-center dept-image"  src="https://drc.aspencdn.me/photos/market.png">
+                  <img class="img-circle block-center dept-image"  src="/img/market.png">
                   <h4 class="display-2" style="font-size:40px;text-align:center;">Marketing</h4>
                   <p class="lead-text text-justify lead" style="text-justify:auto;text-align:center;">The marketing team handles the team's finances and sponsorship. Their focus is to raise money for the operations and competitions.</p>
                 </div>
