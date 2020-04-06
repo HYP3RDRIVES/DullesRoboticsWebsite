@@ -1,8 +1,8 @@
 <?php
 
-define('DB_SERVER', '98.199.75.141:3306');
+define('DB_SERVER', '127.0.0.1:3306');
 define('DB_USERNAME', 'robo');
-define('DB_PASSWORD', 'Du1135R0b0t1cZx');
+define('DB_PASSWORD', 'haha sucker this password changed because we have 9999 iq');
 define('DB_NAME', 'RoboBlogDB');
 
 // Attempt to connect to MySQL database 
