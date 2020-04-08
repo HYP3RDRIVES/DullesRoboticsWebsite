@@ -1,6 +1,5 @@
 # DullesRoboticsWebsite
-The Website for https://dullesrobotics.com. Note: Files on this repo may not be live.
-
+The Old Website for https://dullesrobotics.com. The current website operates on wordpress.
 remind loonatic#1337 sometime to update the readme
 
 **Main Webpage**
