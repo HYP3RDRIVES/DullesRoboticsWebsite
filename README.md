@@ -1,6 +1,6 @@
 # DullesRoboticsWebsite
 The Old Website for https://dullesrobotics.com. The current website operates on wordpress.
-remind loonatic#1337 sometime to update the readme
+
 
 **Main Webpage**
 This repository contains most of the files for the Dulles Robotics Website. Some images and other content such as Bootstrap CSS and JS are provided through a different site.
